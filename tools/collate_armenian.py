@@ -32,7 +32,7 @@ def normalize_witness(wit, base, milestone=None):
     witnesses.append({'id': 'BASE', 'tokens': tokens})
 
     # Now do the collation. Use the Java version for this.
-    result = _collate(witnesses)
+    result = json.loads(_collate(witnesses))
 
     # And now, figure out the likely expansion of any abbreviations in the original, based
     # on the collation.
@@ -70,10 +70,7 @@ def _collate(witnesses, output='json'):
         cxret = subprocess.check_output(["collatex", "-f", output, "-t", jinput.name])
     finally:
         os.unlink(jinput.name)
-    if output == 'json':
-        return json.loads(str(cxret, encoding='utf-8'))
-    else:
-        return str(cxret, encoding='utf-8')
+    return str(cxret, encoding='utf-8')
 
 
 def normalize_spelling(tokens):
@@ -88,19 +85,16 @@ def normalize_spelling(tokens):
             tokens.remove(t)
 
 
-def get_collation_graph(witnesses):
-    return _collate(witnesses, output='graphml')
-
-
 if __name__ == '__main__':
     argp = argparse.ArgumentParser(description="Collate the chosen transcriptions.")
-    argp.add_argument('--milestone')
-    argp.add_argument('--base', required=True)
     argp.add_argument('file', nargs='+')
+    argp.add_argument('--base', required=True)
+    argp.add_argument('--milestone')
+    argp.add_argument('--format', choices=['json', 'graphml', 'csv', 'dot'], default='json')
     options = argp.parse_args()
 
     normal_witnesses = []
     for fn in options.file:
         normal_witnesses.append(normalize_witness(fn, options.base, options.milestone))
 
-    print(get_collation_graph(normal_witnesses))
+    print(_collate(normal_witnesses, output=options.format))
