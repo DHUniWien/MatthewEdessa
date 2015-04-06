@@ -32,16 +32,7 @@ def normalize_witness(wit, base, milestone=None):
     witnesses.append({'id': 'BASE', 'tokens': tokens})
 
     # Now do the collation. Use the Java version for this.
-    jinput = tempfile.NamedTemporaryFile(delete=False)
-    jinput.write(bytes(json.dumps({'witnesses': witnesses}), encoding='utf-8'))
-    jinput.close()
-    try:
-        jhome = subprocess.check_output(['/usr/libexec/java_home']).decode(encoding='utf-8').rstrip()
-        os.environ['JAVA_HOME'] = jhome
-        cxret = subprocess.check_output(["collatex", "-f", "json", "-t", jinput.name])
-    finally:
-        os.unlink(jinput.name)
-    result = json.loads(str(cxret, encoding='utf-8'))
+    result = _collate(witnesses)
 
     # And now, figure out the likely expansion of any abbreviations in the original, based
     # on the collation.
@@ -67,6 +58,24 @@ def normalize_witness(wit, base, milestone=None):
     return {'id': result['witnesses'][1-base_idx], 'tokens': witness_tokens}
 
 
+def _collate(witnesses, output='json'):
+    """Call out to the Java version of CollateX. Requires that you have it installed
+     and are running on a Mac."""
+    jinput = tempfile.NamedTemporaryFile(delete=False)
+    jinput.write(bytes(json.dumps({'witnesses': witnesses}), encoding='utf-8'))
+    jinput.close()
+    try:
+        jhome = subprocess.check_output(['/usr/libexec/java_home']).decode(encoding='utf-8').rstrip()
+        os.environ['JAVA_HOME'] = jhome
+        cxret = subprocess.check_output(["collatex", "-f", output, "-t", jinput.name])
+    finally:
+        os.unlink(jinput.name)
+    if output == 'json':
+        return json.loads(str(cxret, encoding='utf-8'))
+    else:
+        return str(cxret, encoding='utf-8')
+
+
 def normalize_spelling(tokens):
     for t in tokens:
         if t['t'] == t['n']:
@@ -79,11 +88,19 @@ def normalize_spelling(tokens):
             tokens.remove(t)
 
 
+def get_collation_graph(witnesses):
+    return _collate(witnesses, output='graphml')
+
+
 if __name__ == '__main__':
     argp = argparse.ArgumentParser(description="Collate the chosen transcriptions.")
     argp.add_argument('--milestone')
     argp.add_argument('--base', required=True)
-    argp.add_argument('file')
-
+    argp.add_argument('file', nargs='+')
     options = argp.parse_args()
-    print(json.dumps(normalize_witness(options.file, options.base, options.milestone), ensure_ascii=False))
+
+    normal_witnesses = []
+    for fn in options.file:
+        normal_witnesses.append(normalize_witness(fn, options.base, options.milestone))
+
+    print(get_collation_graph(normal_witnesses))
