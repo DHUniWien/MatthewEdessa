@@ -8,28 +8,29 @@ import re
 import subprocess
 import sys
 import tempfile
+from io import BytesIO
 from lxml import etree
 from os.path import basename
 from tpen2tei.parse import from_sc
 from tpen2tei.wordtokenize import from_etree
 
 
-def normalize_witness(wit, base, milestone=None):
+def normalize_witness(wit, base, milestone=None, first_layer=False):
     witnesses = []
     # Convert the selected transcriptions, first to XML and then to tokenized JSON.
     sigil = re.sub('\.json$', '', basename(wit))
+    if first_layer:
+        sigil += ' (a.c.)'
     with open(wit, encoding='utf-8') as fh:
         msdata = json.load(fh)
     xmlobj = from_sc(msdata)
-    tokens = from_etree(xmlobj, milestone=milestone)
-    normalize_spelling(tokens)
-    witnesses.append({'id': sigil, 'tokens': tokens})
+    tokens = from_etree(xmlobj, milestone=milestone, first_layer=first_layer)
+    witnesses.append({'id': sigil, 'tokens': normalize_spelling(tokens)})
 
     # Add in the base XML file.
     xmlobj = etree.parse(base)
-    tokens = from_etree(xmlobj, milestone=milestone)
-    normalize_spelling(tokens)
-    witnesses.append({'id': 'BASE', 'tokens': tokens})
+    tokens = from_etree(xmlobj, milestone=milestone, first_layer=first_layer)
+    witnesses.append({'id': 'BASE', 'tokens': normalize_spelling(tokens)})
 
     # Now do the collation. Use the Java version for this.
     result = json.loads(_collate(witnesses))
@@ -47,7 +48,7 @@ def normalize_witness(wit, base, milestone=None):
             if len(corresp[base_idx]):
                 # Use what is in the base as a priority.
                 base_token = corresp[base_idx][0]
-                print("Normalizing %s to %s" % (collated_token['t'], base_token['n']), file=sys.stderr)
+                # print("Normalizing %s to %s" % (collated_token['t'], base_token['n']), file=sys.stderr)
                 seen_expansions[collated_token['n']] = base_token['n']
                 collated_token['n'] = base_token['n']
             elif collated_token['n'] in seen_expansions:
@@ -55,7 +56,7 @@ def normalize_witness(wit, base, milestone=None):
                 collated_token['n'] = seen_expansions[collated_token['n']]
         witness_tokens.append(collated_token)
 
-    return {'id': result['witnesses'][1-base_idx], 'tokens': witness_tokens}
+    return {'id': sigil, 'tokens': witness_tokens}
 
 
 def _collate(witnesses, output='json'):
@@ -74,15 +75,34 @@ def _collate(witnesses, output='json'):
 
 
 def normalize_spelling(tokens):
+    ntokens = []
     for t in tokens:
         if t['t'] == t['n']:
             # Do some extra normalization.
             token = t['t'].lower()
             token = re.sub('\W', '', token)
             token = re.sub('աւ', 'օ', token)
+            token = re.sub('և', 'եւ', token)
             t['n'] = token
-        if t['n'] == '':
-            tokens.remove(t)
+        if t['lit'].find('<abbr') > -1:
+            # Add the Armenian abbreviation marks.
+            abbrtoken = ''
+            tfrag = BytesIO(bytes('<word>%s</word>' % t['lit'], encoding='utf-8'))
+            abbreviate = False
+            for event, element in etree.iterparse(tfrag, events=("start", "end")):
+                if element.tag == '{http://www.tei-c.org/ns/1.0}abbr':
+                    abbreviate = event == 'start'
+                if event == 'start':
+                    wfrag = element.text or ''
+                    if abbreviate:
+                        wfrag = '՟'.join(wfrag)
+                    if len(wfrag) == 1:
+                        wfrag += '՟'
+                    abbrtoken += wfrag
+            t['t'] = abbrtoken
+        if t['n'] != '':
+            ntokens.append(t)
+    return ntokens
 
 
 if __name__ == '__main__':
@@ -96,5 +116,6 @@ if __name__ == '__main__':
     normal_witnesses = []
     for fn in options.file:
         normal_witnesses.append(normalize_witness(fn, options.base, options.milestone))
+        normal_witnesses.append(normalize_witness(fn, options.base, options.milestone, True))
 
     print(_collate(normal_witnesses, output=options.format))
