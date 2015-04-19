@@ -119,13 +119,16 @@ def normalize_spelling(tokens):
             for event, element in etree.iterparse(tfrag, events=("start", "end")):
                 if element.tag == '{http://www.tei-c.org/ns/1.0}abbr':
                     abbreviate = event == 'start'
+                wfrag = ''
                 if event == 'start':
                     wfrag = element.text or ''
-                    if abbreviate:
-                        wfrag = '՟'.join(wfrag)
+                else:
+                    wfrag = element.tail or ''
+                if abbreviate:
+                    wfrag = '՟'.join(wfrag)
                     if len(wfrag) == 1:
                         wfrag += '՟'
-                    abbrtoken += wfrag
+                abbrtoken += wfrag
             t['t'] = abbrtoken
         if t['n'] != '':
             ntokens.append(t)
