@@ -3,16 +3,19 @@
 use strict;
 use warnings;
 use feature 'say';
+use File::Basename;
+use JSON qw/decode_json to_json/;
 use Text::Tradition;
 use Text::Tradition::Directory;
 use Text::WagnerFischer::Armenian qw/distance/;
 use TryCatch;
-use JSON qw/decode_json to_json/;
 
 binmode STDOUT, ':utf8';
 binmode STDERR, ':utf8';
 
 my( $cfile, $db ) = @ARGV;
+# Get the name of the tradition from the filename.
+my( $base, $path, $suf ) = fileparse( $cfile, qr/\.[^.]*$/ );
 # Read in the JSON structure
 open(FH, $cfile) or die "Could not open file $cfile: $@";
 my $jdata = <FH>;
@@ -36,7 +39,7 @@ foreach my $row ( @{$cdata->{table}} ) {
 my $trad = Text::Tradition->new(
 	input => 'JSON',
 	string => to_json( { alignment => $alignment } ),
-	name => 'Matthew 421letter',
+	name => "Matthew $base",
 	language => 'Armenian'
 	);
 
