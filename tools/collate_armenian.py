@@ -14,6 +14,30 @@ from os.path import basename
 from tpen2tei.parse import from_sc
 from tpen2tei.wordtokenize import from_etree
 
+# Our list of special characters that might occur as glyph (<g/>) elements.
+# The key is the normalized form; the tuple is (xml:id, description).
+_armenian_glyphs = {
+    'աշխարհ': ('asxarh', 'ARMENIAN ASHXARH SYMBOL'),
+    'ամենայն': ('amenayn', 'ARMENIAN AMENAYN SYMBOL'),
+    'որպէս': ('orpes', 'ARMENIAN ORPES SYMBOL'),
+    'երկիր': ('erkir', 'ARMENIAN ERKIR SYMBOL'),
+    'երկին': ('erkin', 'ARMENIAN ERKIN SYMBOL'),
+    'ընդ': ('und', 'ARMENIAN END SYMBOL'),
+    'ըստ': ('ust', 'ARMENIAN EST SYMBOL'),
+    'պտ': ('ptlig', 'ARMENIAN PEH-TIWN LIGATURE'),
+    'թե': ('techlig', 'ARMENIAN TO-ECH LIGATURE'),
+    'թի': ('tinilig', 'ARMENIAN TO-INI LIGATURE'),
+    'թէ': ('tehlig', 'ARMENIAN TO-EH LIGATURE'),
+    'էս': ('eslig', 'ARMENIAN EH-SEH LIGATURE'),
+    'ես': ('echslig', 'ARMENIAN ECH-SEH LIGATURE'),
+    'յր': ('yrlig', 'ARMENIAN YI-REH LIGATURE'),
+    'զմ': ('zmlig', 'ARMENIAN ZA-MEN LIGATURE'),
+    'թգ': ('tglig', 'ARMENIAN TO-GIM LIGATURE'),
+    'ա': ('avar', 'ARMENIAN AYB VARIANT'),
+    'հ': ('hvar', 'ARMENIAN HO VARIANT'),
+    'յ': ('yabove', 'ARMENIAN YI SUPERSCRIPT VARIANT')
+}
+
 
 def normalize_witness(wit, base, milestone=None, first_layer=False):
     witnesses = []
@@ -23,8 +47,11 @@ def normalize_witness(wit, base, milestone=None, first_layer=False):
         sigil += ' (a.c.)'
     with open(wit, encoding='utf-8') as fh:
         msdata = json.load(fh)
-    xmlobj = from_sc(msdata)
+    xmlobj = from_sc(msdata, special_chars=_armenian_glyphs)
     tokens = from_etree(xmlobj, milestone=milestone, first_layer=first_layer)
+    if not len(tokens):
+        # The witness doesn't have anything for the given milestone. Skip it.
+        return None
     witnesses.append({'id': sigil, 'tokens': normalize_spelling(tokens)})
 
     # Add in the base XML file.
@@ -115,7 +142,11 @@ if __name__ == '__main__':
 
     normal_witnesses = []
     for fn in options.file:
-        normal_witnesses.append(normalize_witness(fn, options.base, options.milestone))
-        normal_witnesses.append(normalize_witness(fn, options.base, options.milestone, True))
-
-    print(_collate(normal_witnesses, output=options.format))
+        main_layer = normalize_witness(fn, options.base, options.milestone)
+        if main_layer is not None:
+            normal_witnesses.append(main_layer)
+        corr_layer = normalize_witness(fn, options.base, options.milestone, True)
+        if corr_layer is not None:
+            normal_witnesses.append(corr_layer)
+    result = _collate(normal_witnesses, output=options.format)
+    sys.stdout.buffer.write(result.encode('utf-8'))
