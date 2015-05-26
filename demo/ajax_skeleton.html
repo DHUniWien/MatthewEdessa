@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js" type="application/javascript" charset="UTF-8"></script>
+    <script>
+        // define constants
+        var CONTENT_TYPE = "application/json; charset=UTF-8";
+        var BEFORE_SEND = function(xhr) {xhr.setRequestHeader("Authorization", "Basic bmVvNGo6Y3lLLUplay1WYQ==");};
+            // or {xhr.setRequestHeader("Authorization", "Basic " + btoa(username + ":" + password)); };
+
+        var get_node_text = function(url) {
+            ret_value = "";
+            jQuery.ajax({
+                async: false,
+                type: "GET",
+                url: url,
+                contentType: CONTENT_TYPE,
+                beforeSend: BEFORE_SEND,
+                success: function (result, status, xhr) {
+                    ret_value = result.data['text'];
+                },
+                error: function (xhr, status, error) {
+                    // an error occurred!
+                    var a = 0;
+                }
+            });
+            return ret_value;
+        }
+
+        var request_data = {query: "match (n)<-[:TRANS_BEGIN]-(t)-[:TRANS_END]->(m) return t, n, m;", params: {}};
+        request_json_data = JSON.stringify(request_data);
+        jQuery.ajax({
+            type: "POST",
+            url: "http://storage.stemmaweb.net:7474/db/data/cypher",
+            contentType: CONTENT_TYPE,
+            dataType: "json",
+            data: request_json_data,
+            beforeSend: BEFORE_SEND,
+
+            success: function(result,status,xhr) {
+                // do something with the result
+                var a = 0;
+                data = result.data[0];
+                translation = data[0];
+                trans_begin = data[1];
+                trans_end = data[2];
+                $('#translation').append(translation.data['text']);
+
+                // get one shortest path between then ":TRANS_BEGIN" and ":TRANS_END" nodes
+                var sub_request_data = {};
+                sub_request_data['to'] = trans_end['self'];
+                sub_request_data['max_depth'] = 1000;
+                sub_request_data['relationships'] = {type: "SEQUENCE", direction: "out"};
+                sub_request_data['algorithm'] = "shortestPath";
+
+                sub_request_json_data = JSON.stringify(sub_request_data);
+                jQuery.ajax({
+                    type: "POST",
+                    url: trans_begin['self'] + "/path",
+                    contentType: CONTENT_TYPE,
+                    dataType: "json",
+                    data: sub_request_json_data,
+                    beforeSend: BEFORE_SEND,
+
+                    success: function(sub_result,sub_status,sub_xhr) {
+                        // print the 'text'-property for each node in '#reading'
+                        var reading = "";
+                        for (i in sub_result['nodes']) {
+                            node_text = get_node_text(sub_result['nodes'][i]);
+                            if (node_text != "") {
+                                if (reading != "") {
+                                    reading += " ";
+                                }
+                                reading += node_text;
+                            }
+                        }
+                        $('#reading').append(reading);
+                    },
+                    error: function(xhr,status,error) {
+                        // an error occurred!
+                        var a = 0;
+                    }
+                });
+            },
+            error: function(xhr,status,error) {
+                // an error occurred!
+                var a = 0;
+            }
+        });
+    </script>
+</head>
+    <div id="reading"></div><br/><br/>
+    <div id="translation"></div>
+</body>
+</html>
