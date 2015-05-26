@@ -40,49 +40,50 @@
             beforeSend: BEFORE_SEND,
 
             success: function(result,status,xhr) {
-                // do something with the result
-                var a = 0;
-                data = result.data[0];
-                translation = data[0];
-                trans_begin = data[1];
-                trans_end = data[2];
-                $('#translation').append(translation.data['text']);
+                // get each translation and print it
+                for (i in result.data) {
+                    data = result.data[i];
+                    translation = data[0];
+                    trans_begin = data[1];
+                    trans_end = data[2];
+                    $('#translation').append(translation.data['text'] + ' ');
 
-                // get one shortest path between then ":TRANS_BEGIN" and ":TRANS_END" nodes
-                var sub_request_data = {};
-                sub_request_data['to'] = trans_end['self'];
-                sub_request_data['max_depth'] = 1000;
-                sub_request_data['relationships'] = {type: "SEQUENCE", direction: "out"};
-                sub_request_data['algorithm'] = "shortestPath";
+                    // get one shortest path between then ":TRANS_BEGIN" and ":TRANS_END" nodes
+                    var sub_request_data = {};
+                    sub_request_data['to'] = trans_end['self'];
+                    sub_request_data['max_depth'] = 1000;
+                    sub_request_data['relationships'] = {type: "SEQUENCE", direction: "out"};
+                    sub_request_data['algorithm'] = "shortestPath";
 
-                sub_request_json_data = JSON.stringify(sub_request_data);
-                jQuery.ajax({
-                    type: "POST",
-                    url: trans_begin['self'] + "/path",
-                    contentType: CONTENT_TYPE,
-                    dataType: "json",
-                    data: sub_request_json_data,
-                    beforeSend: BEFORE_SEND,
+                    sub_request_json_data = JSON.stringify(sub_request_data);
+                    jQuery.ajax({
+                        type: "POST",
+                        url: trans_begin['self'] + "/path",
+                        contentType: CONTENT_TYPE,
+                        dataType: "json",
+                        data: sub_request_json_data,
+                        beforeSend: BEFORE_SEND,
 
-                    success: function(sub_result,sub_status,sub_xhr) {
-                        // print the 'text'-property for each node in '#reading'
-                        var reading = "";
-                        for (i in sub_result['nodes']) {
-                            node_text = get_node_text(sub_result['nodes'][i]);
-                            if (node_text != "") {
-                                if (reading != "") {
-                                    reading += " ";
+                        success: function (sub_result, sub_status, sub_xhr) {
+                            // print the 'text'-property for each node in '#reading'
+                            var reading = "";
+                            for (i in sub_result['nodes']) {
+                                node_text = get_node_text(sub_result['nodes'][i]);
+                                if (node_text != "") {
+                                    if (reading != "") {
+                                        reading += " ";
+                                    }
+                                    reading += node_text;
                                 }
-                                reading += node_text;
                             }
+                            $('#reading').append(reading + ' ');
+                        },
+                        error: function (xhr, status, error) {
+                            // an error occurred!
+                            var a = 0;
                         }
-                        $('#reading').append(reading);
-                    },
-                    error: function(xhr,status,error) {
-                        // an error occurred!
-                        var a = 0;
-                    }
-                });
+                    });
+                }
             },
             error: function(xhr,status,error) {
                 // an error occurred!
