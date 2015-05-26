@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js" type="application/javascript" charset="UTF-8"></script>
+    <script>
+        var request_data = {};
+        request_data['query'] = "match (n)<-[:TRANS_BEGIN]-(t)-[:TRANS_END]->(m) return t, n, m;";
+        request_data['params'] = {};
+        request_json_data = JSON.stringify(request_data);
+        jQuery.ajax({
+            type: "POST",
+            url: "http://storage.stemmaweb.net:7474/db/data/cypher",
+            contentType: "application/json; charset=UTF-8",
+            dataType: "json",
+            data: request_json_data,
+            beforeSend: function(xhr) {xhr.setRequestHeader("Authorization", "Basic bmVvNGo6Y3lLLUplay1WYQ==");},
+            // or beforeSend: function(xhr) {xhr.setRequestHeader("Authorization", "Basic " + btoa(username + ":" + password)); };
+
+            success: function(result,status,xhr) {
+                // do something with the result
+                var a = 0;
+            },
+            error: function(xhr,status,error) {
+                // an error occurred!
+                var a = 0;
+            }
+        });
+
+    </script>
+</head>
+<body>
+    Hello World!
+</body>
+</html>
