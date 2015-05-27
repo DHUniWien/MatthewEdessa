@@ -11,8 +11,8 @@ class TraditionImport:
     tradition = None
 
     def __init__(self, n4user, n4pass):
-        authenticate('localhost:7474', n4user, n4pass)
-        self.db = Graph()
+        authenticate('storage.stemmaweb.net:7474', n4user, n4pass)
+        self.db = Graph('http://storage.stemmaweb.net:7474/db/data/')
 
     def from_graphml(self, filename, name=None):
         """Import a Stemmaweb GraphML file into Neo4J."""
@@ -85,7 +85,7 @@ class TraditionImport:
 
     def _make_node(self, el, element_type, property_keys):
         element_labels = {
-            'graph': 'TRADITION',
+            'graph': 'SECTION',
             'node': 'READING',
         }
         element_properties = self._get_properties(el, element_type, property_keys)
@@ -112,10 +112,6 @@ class TraditionImport:
                     sequence_list[source][target] = [props['witness']]
             else:
                 sequence_list[source] = {target: [props['witness']]}
-        # Make a node for each witness
-        for w in sigla_seen.keys():
-            witness, = self.db.create(Node('WITNESS', sigil=w))
-            self.db.create(Relationship(self.tradition, 'HAS_WITNESS', witness))
         # Now make a single relationship for each source/target pair
         for source in sequence_list:
             for target in sequence_list[source]:
@@ -182,7 +178,7 @@ if __name__ == '__main__':
     argp.add_argument('-n', default=None)
     options = argp.parse_args()
 
-    importer = TraditionImport('neo4j', 'Nothing')
+    importer = TraditionImport('neo4j', 'cyK-Jek-Va')
     method = 'from_%s' % options.f
     parsed_tradition = getattr(importer, method)(options.file, options.n)
     print("Made tradition %s" % parsed_tradition.properties['name'])
