@@ -8157,7 +8157,7 @@
         "motivation" : "sc:painting",
         "resource" : {
           "@type" : "cnt:ContentAsText",
-          "cnt:chars" : "ետին և եղև յայնմ ա<abbr><del type=\"scribble\">շ</del>ո</abbr>ւր մեձ ուրախու"
+          "cnt:chars" : "ետին և եղև յայնմ ա<subst><del type=\"scribble\">շ</del><add place=\"overwrite\"><abbr>ւ</abbr></add></subst>ուր մեձ ուրախու"
         },
         "on" : "http://t-pen.org/V917+%28Z%29/canvas/page_064.jpg#xywh=669,143,449,29"
       }, {
