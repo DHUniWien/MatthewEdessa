@@ -1,0 +1,125 @@
+ .movie {
+  background-color: #e67e22; }
+
+.health {
+  background-color: #2ecc71; }
+
+.pirate {
+  background-color: #2c3e50; }
+
+.sass {
+  background-color: #e74c3c; }
+
+.code {
+  background-color: #8e44ad; }
+
+.button.ghost {
+  margin-bottom: 0;
+  background-color: #34495e;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3 ease-out;
+  color: #fff; }
+  .button.ghost:hover {
+    background-color: #fff;
+    color: #34495e;
+    transition: 0.2 ease; }
+
+.row.full {
+  max-width: 100%; }
+
+.sidebar {
+  display: inline-block;
+  background-color: #34495e; }
+  .sidebar h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800; }
+  .sidebar h2 {
+    font-weight: 300;
+    color: #B0CADB; }
+
+.middle-header {
+  text-align: center; }
+
+@media only screen and (min-width: 64.063em) {
+  .sidebar {
+    position: fixed;
+    background-color: #34495e;
+    top: 0;
+    bottom: 0; }
+    .sidebar h1 {
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 800; }
+    .sidebar h2 {
+      font-weight: 300;
+      color: #B0CADB; }
+
+  .middle-header {
+    text-align: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(85%); } }
+.content img {
+  width: 400px; }
+.content img.author {
+  float: right;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px; }
+.content h2 {
+  margin-top: 1.25rem;
+  font-weight: 800; }
+.content h4 {
+  border-bottom: 1px solid #34495e;
+  text-transform: uppercase;
+  color: #aaa;
+  padding: 0.4em 0;
+  font-size: 80%;
+  font-weight: 500;
+  letter-spacing: 0.1em; }
+
+.person {
+  color: red;
+}
+.place {
+  color: blue;
+}
+.date {
+  color: orange;
+}
+
+.f-dropdown.drop-top {
+  width: 500px;
+  background: #333;
+  color: #fff;
+}
+.f-dropdown.drop-top a {
+  color: #fff;
+}
+.f-dropdown.drop-top a:hover {
+  background: #333;
+}
+.f-dropdown.drop-top:before {
+  border-color: #333 transparent transparent transparent;
+}
+
+.f-dropdown  {
+  width: 500px;
+  background: #333;
+  color: #fff;
+}
+.f-dropdown a {
+  color: #fff;
+}
+.f-dropdown li a {
+  color: #fff;
+}
+.f-dropdown a:hover {
+  background: #333;
+}
+.f-dropdown:before {
+  border-color: #333 transparent transparent transparent;
+}

@@ -1,0 +1,336 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Excerpts from the Chronicle of Matthew of Edessa (Test) | Welcome</title>
+		<link rel="stylesheet" href="css/foundation.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/main.css" />
+		<script src="js/vendor/modernizr.js"></script>
+		<script src="js/vendor/jquery-2.1.4.min.js" type="application/javascript" charset="UTF-8"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=geometry,places&ext=.js"></script>
+
+		<script>
+			// define constants
+			var NEO4J_SERVER = "http://storage.stemmaweb.net:7474";
+			var CYPHER_URL = NEO4J_SERVER + "/db/data/cypher";
+			var SELF_URL = NEO4J_SERVER + "/db/data/node/";
+
+			var CONTENT_TYPE = "application/json; charset=UTF-8";
+			var BEFORE_SEND = function(xhr) {xhr.setRequestHeader("Authorization", "Basic bmVvNGo6Y3lLLUplay1WYQ==");};
+			var GOOGLE_MAPS = {zoom: 10}
+
+			// functions
+
+			var _name_refs = function(reading_ids) {
+				query_data = JSON.stringify({query: 'MATCH (bn:READING)<-[:BEGIN]-(ref:PERSONREF)-[:END]->(en:READING), (ref)-[:REFERS_TO]->(p:PERSON) WHERE id(bn) IN {reading_ids} AND id(en) IN {reading_ids} RETURN id(bn), id(en), id(ref), p;', params: {reading_ids: reading_ids}});
+				return _refs(query_data, 'n')
+			}
+
+			var _place_refs = function(reading_ids) {
+				query_data = JSON.stringify({query: 'MATCH (bp:READING)<-[:BEGIN]-(ref:PLACEREF)-[:END]->(ep:READING), (ref)-[:REFERS_TO]->(p:PLACE) WHERE id(bp) IN {reading_ids} AND id(ep) IN {reading_ids} RETURN id(bp), id(ep), id(ref), p;', params: {reading_ids: reading_ids}});
+				return _refs(query_data, 'p');
+			}
+
+			var _date_refs = function(reading_ids) {
+				query_data = JSON.stringify({query: 'MATCH (bd:READING)<-[:BEGIN]-(ref:DATEREF)-[:END]->(ed:READING), (ref)-[:REFERS_TO]->(d:DATE) WHERE id(bd) IN {reading_ids} AND id(ed) IN {reading_ids} RETURN id(bd), id(ed), id(ref), d;', params: {reading_ids: reading_ids}});
+				return _refs(query_data, 'd');
+			}
+
+			var _refs = function(query, type) {
+				var result_data = [];
+				jQuery.ajax({
+					async: false,
+					type: "POST",
+					url: CYPHER_URL,
+					contentType: CONTENT_TYPE,
+					dataType: "json",
+					data: query,
+					beforeSend: BEFORE_SEND,
+
+					success: function(result,status,xhr) {
+						// get each translation and print it
+						for (i in result.data) {
+							if (result.data[i] != undefined) {
+								result_data[result.data[i][0]] = {end_node: result.data[i][1], ref_id: result.data[i][2], data: result.data[i][3].data, type: type};
+							}
+						}
+					},
+					error: function (xhr, status, error) {
+						// an error occurred!
+						var a = 0;
+					}
+				});
+				return result_data;
+			}
+
+			var _get_translation = function(first_reading_id) {
+				var ret_value = undefined;
+				query_data = {query: 'match (tb)<-[:TRANS_BEGIN]-(t)-[:TRANS_END]->(te)-[:LEMMA_TEXT]->(nr) WHERE id(tb)={first_reading_id} return t.text, id(te), id(nr);', params: {first_reading_id: first_reading_id}};
+					jQuery.ajax({
+						async: false,
+						type: "POST",
+						url: CYPHER_URL,
+						contentType: CONTENT_TYPE,
+						dataType: "json",
+						data: JSON.stringify(query_data),
+						beforeSend: BEFORE_SEND,
+
+						success: function(result,status,xhr) {
+							// get each translation and print it
+							for (i in result.data) {
+								ret_value = {text: result.data[i][0], end_node: result.data[i][1], next_node: result.data[i][2]}
+							}
+						},
+						error: function (xhr, status, error) {
+							// an error occurred!
+							var a = 0;
+						}
+					});
+
+					return ret_value;
+			}
+
+			var _get_content = function(start_node_id, end_node_id) {
+				// get all (reading)nodes between start_node and end_node
+	            request_data = {};
+	            request_data['order'] = 'depth_first';
+	            request_data['return_filter'] = {name: "all", language: "builtin"};
+	            request_data['prune_evaluator'] = {body: "position.endNode().getId() == " + end_node_id, language: "javascript"};
+	            request_data['uniqueness'] = 'node_global';
+	            request_data['relationships'] = {type: "LEMMA_TEXT", direction: "out"};
+	
+	            sub_request_json_data = 
+	            jQuery.ajax({
+					async: false,
+	                type: "POST",
+	                url: SELF_URL + start_node_id + "/traverse/node",
+	                contentType: CONTENT_TYPE,
+	                dataType: "json",
+	                data: JSON.stringify(request_data),
+	                beforeSend: BEFORE_SEND,
+	
+					success: function (result, status, xhr) {
+						var _get_reading_ids = function(nodes) {
+							ret_value = [];
+							if (nodes != undefined) {
+								for (i in nodes) {
+									ret_value.push(nodes[i].metadata['id']);
+								}
+							}
+							return ret_value;
+						}
+						// print the 'text'-property for each node in '#reading'
+						var reading_ids = _get_reading_ids(result);
+						var name_refs = _name_refs(reading_ids);
+						var place_refs = _place_refs(reading_ids);
+						var date_refs = _date_refs(reading_ids);
+						var reading = "";
+						var translation = "";
+						var i = 0;
+						var stack = [];
+						var dd_info = "";
+						var map_ids = [];
+			            person_id = undefined;
+						while (i < result.length){
+							reading_id = result[i].metadata['id'];
+							translation_data = _get_translation(reading_id);
+							if (translation_data != undefined) {
+								translation += translation_data['text'] + ' ';
+								while(reading_id != translation_data['next_node']) {
+									node_text = result[i].data['text']; // with node
+									if (node_text != "") {
+										if (reading != "") {
+											reading += " ";
+										}
+										if (name_refs[reading_id] != undefined) {
+											data = name_refs[reading_id].data;
+											dd_ref_id = "dd_" + name_refs[reading_id].ref_id;
+											if (data.id != undefined && data.id.length > 0) {
+												dd_content = '<li><a>'+data.id+'</a></li>';
+											}
+											if (data.description != undefined && data.description.length > 0) {
+												dd_content += ('<li><a>('+data.description+')</a></li>');
+											}
+											external_links = "";
+											if (data.pbw != undefined && data.pbw.length > 0) {
+												external_links = "<li><a href='"+data.pbw+"' target='_'>PBW <i class='fa fa-external-link'></i></a></li>";
+											}
+											if (data.wikipedia != undefined && data.wikipedia.length > 0) {
+												external_links += "<li><a href='"+data.wikipedia+"' target='_'>Wikipedia <i class='fa fa-external-link'></i></a></li>";
+											}
+											if (external_links.length > 0) {
+												dd_content += ("<hr/>"+external_links);
+											}
+											if (dd_content.length > 0) {
+												dd_info += '<ul id="'+dd_ref_id+'" class="small f-dropdown" data-dropdown-content><li>'+dd_content+'</li></ul>';
+											}
+											node_text = '<span class="person" data-dropdown="'+dd_ref_id+'" data-options="is_hover:true; align:top; hover_timeout:500">' + node_text; // + dd_content;
+											stack.push({id: name_refs[reading_id].end_node, closing_tag:'</span>'});
+										}
+										if (place_refs[reading_id] != undefined) {
+											dd_content = "";
+											dd_ref_id = 'dd_'+place_refs[reading_id].ref_id;
+											place_id = place_refs[reading_id].data.id;
+											place_name = place_refs[reading_id].data.canonical_name;
+											place_place = place_refs[reading_id].data.place_id;
+
+											if (place_id != undefined && place_id.length > 0) {
+												dd_content = '<li><a>'+place_id+'</a></li>';
+											}
+											if (place_name != undefined && place_name.length > 0) {
+												dd_content += '<li><a>'+place_name+'</a></li>';
+											}
+											if (place_place != undefined && place_place.length > 0) {
+												dd_map_id = 'dd_map_'+place_refs[reading_id].ref_id;
+												dd_content += '<li><a><div id="'+dd_map_id+'" style="width:none; height:350px; border: 2px solid #3872ac;"></div></a></li>';
+												map_ids.push({id: dd_ref_id, map_id: dd_map_id, place_id: place_place});
+											}
+											dd_info += '<ul id="'+dd_ref_id+'" class="small f-dropdown" data-dropdown-content><li>'+dd_content+'</li></ul>';
+											node_text = '<span class="place" data-dropdown="'+dd_ref_id+'" data-options="is_hover:true; align:top; hover_timeout:500">' + node_text;
+											stack.push({id: place_refs[reading_id].end_node, closing_tag: '</span>'});
+										}
+										if (date_refs[reading_id] != undefined) {
+											dd_content = '<a>'+date_refs[reading_id].data.id+'</a>';
+											dd_ref_id = 'dd_'+date_refs[reading_id].ref_id;
+											dd_info += '<ul id="'+dd_ref_id+'" class="small f-dropdown" data-dropdown-content><li>'+dd_content+'</li></ul>';
+											node_text = '<span class="date" data-dropdown="'+dd_ref_id+'" data-options="is_hover:true; align:top; hover_timeout:500">' + node_text;
+											stack.push({id: date_refs[reading_id].end_node, closing_tag: '</span>'})
+										}
+										while(stack.length > 0 && stack[stack.length-1]['id'] == reading_id) {
+											data = stack.pop();
+											node_text += data.closing_tag;
+										}
+
+										reading += node_text;
+									}
+									i += 1;
+									reading_id = result[i].metadata['id'];
+								}
+							} else {
+								i += 1;
+							}
+						}
+						$('#reading').append(reading + ' '+dd_info + ' ');
+						$('#translation').append(translation);
+						for (i in map_ids) {
+							data = map_ids[i];
+							$('#'+data.id).on('opened.fndtn.dropdown', { map_id: data.map_id, place_id: data.place_id }, function(ev) {
+									var data = ev.data;
+									initialize(data.map_id, data.place_id);
+								});
+							}
+			        },
+			        error: function (xhr, status, error) {
+			            // an error occurred!
+			            var a = 0;
+			        }
+			    });
+			}
+
+			var clear_content = function() {
+				$('#headline').empty();
+				$('#reading').empty();
+				$('#translation').empty();
+			}
+	
+			var display_content = function(section_nr) {
+				clear_content();
+
+				query_data = {query: "MATCH (first_reading)<-[:LEMMA_TEXT]-(start)<-[:COLLATION]-(n)-[:HAS_END]->(end)<-[:LEMMA_TEXT]-(last_reading) WHERE n:SECTION and n.name =~ '" + section_nr + ".*' RETURN n.name, id(first_reading), id(end);", pararms: {}};
+	
+		        jQuery.ajax({
+		            type: "POST",
+		            url: CYPHER_URL,
+		            contentType: CONTENT_TYPE,
+		            dataType: "json",
+		            data: JSON.stringify(query_data),
+		            beforeSend: BEFORE_SEND,
+		
+		            success: function(result, status, xhr) {
+			            $('#headline').append("<h1>"+result.data[0][0]+"</h1>");
+			            _get_content(result.data[0][1], result.data[0][2]);    // (first_reading, last_reading)
+			            $(document).foundation('dropdown', 'reflow');
+					},
+		            error: function(xhr,status,error) {
+		                // an error occurred!
+		                var a = 0;
+		            }
+		        });
+			}
+
+			var map;
+
+			function initialize(map_canvas_id, place_id) {
+			    var map = new google.maps.Map(
+			    document.getElementById(map_canvas_id), {
+			        center: new google.maps.LatLng(0, -0),
+			        zoom: GOOGLE_MAPS.zoom,
+			        mapTypeId: google.maps.MapTypeId.ROADMAP
+			    });
+			    var request = {
+			        placeId: place_id
+			    };
+
+			  var infowindow = new google.maps.InfoWindow();
+			  var service = new google.maps.places.PlacesService(map);
+
+			  service.getDetails(request, function(place, status) {
+			    if (status == google.maps.places.PlacesServiceStatus.OK) {
+			      var marker = new google.maps.Marker({
+			        map: map,
+			        position: place.geometry.location
+			      });
+			      google.maps.event.addListener(marker, 'click', function() {
+			        infowindow.setContent(place.name);
+			        infowindow.open(map, this);
+			      });
+			      if (place.geometry.viewport) {
+			      	map.fitBounds(place.geometry.viewport);
+			      } else {
+			      	map.setCenter(place.geometry.location);
+			      	map.setZoom(GOOGLE_MAPS.zoom);
+			      }
+			    }
+			  });
+
+			}
+		</script>
+    </head>
+    <body>
+        <div class="row full">
+            <div class="sidebar medium-12 large-3 columns">
+                <div class="middle-header"> 
+                    <h1>I am a Sidebar</h1>
+                    <h2>Click my Links<br/>and Read the<br/>Right Side<br/>Or I'll Be Sad</h2>
+                    <br />
+                    <ul style="list-style-type: none;">
+	                    <li><a id="section_418" href="#">Section 418</a></li>
+	                    <li><a id="section_485" href="#">Section 485</a></li>
+	                    <li><a id="section_493" href="#">Section 493</a></li>
+	                    <li><a id="section_500" href="#">Section 500</a></li>
+                    </ul>
+                </div>                 
+            </div>
+            <div class="content medium-12 large-9 columns">
+	            <div class="row full">
+		            <div class="small-12 columns" id="headline"></div>
+	            </div>
+	            <div class="row full">
+		            <div class="small-12 medium-6 columns" id="reading"></div>
+					<div class="small-12 medium-6 columns" id="translation"></div>
+	            </div>
+            </div>
+        </div>
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script>
+			$(document).foundation();
+			$('#section_418').click(function(){ display_content(418); return false; });
+			$('#section_485').click(function(){ display_content(485); return false; });
+			$('#section_493').click(function(){ display_content(493); return false; });
+			$('#section_500').click(function(){ display_content(500); return false; });
+    	</script>
+    </body>
+</html>
