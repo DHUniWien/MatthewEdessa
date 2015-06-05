@@ -132,6 +132,7 @@
 						var stack = [];
 						var dd_info = "";
 						var map_ids = [];
+						var place_ids = [];
 			            person_id = undefined;
 						while (i < result.length){
 							reading_id = result[i].metadata['id'];
@@ -186,6 +187,9 @@
 												dd_map_id = 'dd_map_'+place_refs[reading_id].ref_id;
 												dd_content += '<li><a><div id="'+dd_map_id+'" style="width:none; height:350px; border: 2px solid #3872ac;"></div></a></li>';
 												map_ids.push({id: dd_ref_id, map_id: dd_map_id, place_id: place_place});
+												if (-1 == $.inArray(place_place, place_ids)) {
+													place_ids.push(place_place);
+												}
 											}
 											dd_info += '<ul id="'+dd_ref_id+'" class="small f-dropdown" data-dropdown-content><li>'+dd_content+'</li></ul>';
 											node_text = '<span class="place" data-dropdown="'+dd_ref_id+'" data-options="is_hover:true; align:top; hover_timeout:500">' + node_text;
@@ -217,10 +221,14 @@
 						for (i in map_ids) {
 							data = map_ids[i];
 							$('#'+data.id).on('opened.fndtn.dropdown', { map_id: data.map_id, place_id: data.place_id }, function(ev) {
-									var data = ev.data;
-									initialize(data.map_id, data.place_id);
-								});
-							}
+								var data = ev.data;
+								initialize(data.map_id, data.place_id);
+							});
+						}
+						if (place_ids.length>0) {
+							$('#general_map').append('<br/><h3>Locations mentioned in this section:</h3><div id="g_map" style="width:none; height:350px; border: 2px solid #3872ac;"></div><br/>');
+							initialize_multipe_places('g_map', place_ids);
+						}
 			        },
 			        error: function (xhr, status, error) {
 			            // an error occurred!
@@ -233,6 +241,7 @@
 				$('#headline').empty();
 				$('#reading').empty();
 				$('#translation').empty();
+				$('#general_map').empty();
 			}
 	
 			var display_content = function(section_nr) {
@@ -294,8 +303,49 @@
 			      }
 			    }
 			  });
-
 			}
+
+			function initialize_multipe_places(map_canvas_id, place_ids) {
+			    var map = new google.maps.Map(
+			    document.getElementById(map_canvas_id), {
+			        center: new google.maps.LatLng(0, -0),
+			        zoom: GOOGLE_MAPS.zoom,
+			        mapTypeId: google.maps.MapTypeId.ROADMAP
+			    });
+			    var request = {
+			        placeId: place_id
+			    };
+
+				var infowindow = new google.maps.InfoWindow();
+				var service = new google.maps.places.PlacesService(map);
+
+				var counter = 0;
+				for (i in place_ids) {
+					var request = {
+				    	placeId: place_ids[i]
+					};
+					service.getDetails(request, function(place, status) {
+					if (status == google.maps.places.PlacesServiceStatus.OK) {
+						var marker = new google.maps.Marker({
+							map: map,
+							position: place.geometry.location
+						});
+						google.maps.event.addListener(marker, 'click', function() {
+						infowindow.setContent(place.name);
+						infowindow.open(map, this);
+						});
+						if (place.geometry.viewport) {
+							map.fitBounds(place.geometry.viewport);
+						} else {
+							map.setCenter(place.geometry.location);
+						}
+						map.setZoom(5);
+					}
+				});
+				}
+			}
+
+
 		</script>
     </head>
     <body>
@@ -320,6 +370,9 @@
 	            <div class="row full">
 		            <div class="small-12 medium-6 columns" id="reading"></div>
 					<div class="small-12 medium-6 columns" id="translation"></div>
+	            </div>
+	            <div class="row full">
+		            <div class="small-12 columns" id="general_map"></div>
 	            </div>
             </div>
         </div>
