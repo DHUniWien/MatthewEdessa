@@ -244,7 +244,7 @@ var _get_content = function(start_node_id, end_node_id) {
 				var stack = [];
 				var dd_info = "";
 				var map_ids = [];
-				var place_ids = [];
+				var gmap_places = []; // place_ids
 				var name_sections = [];
 				person_id = undefined;
 				for (sc in available_sections) {
@@ -313,10 +313,11 @@ var _get_content = function(start_node_id, end_node_id) {
 									}
 									if (place_place != undefined && place_place.length > 0) {
 										dd_map_id = 'dd_map_'+place_refs[reading_id].ref_id;
-										dd_content += '<li><a><div id="'+dd_map_id+'" style="width:none; height:350px; border: 2px solid #3872ac;"></div></a></li>';
-										map_ids.push({id: dd_ref_id, map_id: dd_map_id, place_id: place_place});
-										if (-1 == $.inArray(place_place, place_ids)) {
-											place_ids.push(place_place);
+										dd_content += '<li><div id="'+dd_map_id+'" style="width:none; height:350px; border: 2px solid #3872ac;"></div></li>';
+										map_ids.push({id: dd_ref_id, map_id: dd_map_id, place_id: place_place, title: place_id});
+										gmap_place = {place_id: place_place, title: place_id};
+										if (-1 == $.inArray(gmap_place, gmap_places)) { // place_ids
+											gmap_places.push(gmap_place); // place_ids
 										}
 									}
 									dd_info += '<ul id="'+dd_ref_id+'" class="small f-dropdown" data-dropdown-content><li>'+dd_content+'</li></ul>';
@@ -349,7 +350,7 @@ var _get_content = function(start_node_id, end_node_id) {
 				c_slot.reading = reading + ' '+dd_info;
 				c_slot.translation = translation;
 				c_slot.map_ids = map_ids;
-				c_slot.gmap_places = place_ids;
+				c_slot.gmap_places = gmap_places; //place_ids
 				c_slot.name_sections = name_sections;
 			},
 			error: function (xhr, status, error) {
@@ -377,9 +378,9 @@ var _get_content = function(start_node_id, end_node_id) {
 	// initialize maps inside text
 	for (i in c_slot.map_ids) {
 		data = c_slot.map_ids[i];
-		$('#'+data.id).on('opened.fndtn.dropdown', {map_id: data.map_id, place_ids: data.place_id}, function(ev) {
+		$('#'+data.id).on('opened.fndtn.dropdown', {map_id: data.map_id, place_id: data.place_id, title: data.title}, function(ev) {
 			var data = ev.data;
-			initialize_map(data.map_id, [data.place_ids], 10);
+			initialize_map(data.map_id, [{place_id: data.place_id, title: data.title}], 10);
 		});
 	}
 
@@ -434,42 +435,45 @@ var display_content = function(section_nr) {
 	}
 }
 
-function initialize_map(map_canvas_id, place_ids, zoom) {
+function initialize_map(map_canvas_id, places, zoom) {
     var map = new google.maps.Map(
-    document.getElementById(map_canvas_id), {
-        center: new google.maps.LatLng(0, -0),
-        zoom: zoom,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-    });
-    var request = {
-        placeId: place_id
-    };
+    	document.getElementById(map_canvas_id), {
+        	center: new google.maps.LatLng(0, -0),
+        	zoom: zoom,
+        	mapTypeId: google.maps.MapTypeId.ROADMAP
+    	});
 
 	var infowindow = new google.maps.InfoWindow();
 	var service = new google.maps.places.PlacesService(map);
 
 	var counter = 0;
-	for (i in place_ids) {
-		var request = {
-	    	placeId: place_ids[i]
-		};
-		service.getDetails(request, function(place, status) {
-			if (status == google.maps.places.PlacesServiceStatus.OK) {
-				var marker = new google.maps.Marker({
-					map: map,
-					position: place.geometry.location
-				});
-				google.maps.event.addListener(marker, 'click', function() {
-				infowindow.setContent(place.name);
-				infowindow.open(map, this);
-				});
-				if (place.geometry.viewport) {
-					map.fitBounds(place.geometry.viewport);
-				} else {
-					map.setCenter(place.geometry.location);
+	for (i=0; i < places.length; i++) {
+		(function (i) {
+			var request = {
+		    	placeId: places[i].place_id
+			};
+			service.getDetails(request, function(place, status) {
+				if (status == google.maps.places.PlacesServiceStatus.OK) {
+					var marker = new google.maps.Marker({
+						map: map,
+						position: place.geometry.location,
+						title: places[i].title
+					});
+					google.maps.event.addListener(marker, 'click', (function(marker, i) {
+						return function() {
+							infowindow.setContent(places[i].title);
+							infowindow.open(map, marker);
+						}
+					})(marker, i));
+
+					if (place.geometry.viewport) {
+						map.fitBounds(place.geometry.viewport);
+					} else {
+						map.setCenter(place.geometry.location);
+					}
+					map.setZoom(zoom);
 				}
-				map.setZoom(zoom);
-			}
-		});
+			});
+		})(i);
 	}
 }
