@@ -11,42 +11,47 @@
 		<script src="js/vendor/jquery-2.1.4.min.js" type="application/javascript" charset="UTF-8"></script>
 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=geometry,places&ext=.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
-    </head>
-    <body onload="warm_up_cache();">
-        <div class="row full">
-            <div class="sidebar medium-12 large-3 columns">
-                <div class="middle-header"> 
-                    <h2>Excerpts from the Chronicle of Matthew of Edessa</h2>
-                    <br />
-                    <ul style="list-style-type: none;">
-	                    <li><a id="section_418" href="#">Section 418</a></li>
-	                    <li><a id="section_485" href="#">Section 485</a></li>
-	                    <li><a id="section_493" href="#">Section 493</a></li>
-	                    <li><a id="section_500" href="#">Section 500</a></li>
-                    </ul>
-                </div>                 
-            </div>
-            <div class="content medium-12 large-9 columns">
-	            <div class="row full">
-		            <div class="small-12 columns" id="headline"></div>
-	            </div>
-	            <div class="row full">
-		            <div class="small-12 medium-6 columns" id="reading"></div>
+	</head>
+	<body onload="warm_up_cache();">
+		<div class="row full">
+			<div class="sidebar medium-12 large-3 columns">
+				<div class="middle-header"> 
+					<h2>Excerpts from the Chronicle of Matthew of Edessa</h2>
+					<br />
+					<ul style="list-style-type: none;">
+						<li><a id="section_418" href="#">Section 418</a></li>
+						<li><a id="section_485" href="#">Section 485</a></li>
+						<li><a id="section_493" href="#">Section 493</a></li>
+						<li><a id="section_500" href="#">Section 500</a></li>
+						<br/>
+						<li><a id="location_idx" href="#">Location Index</a></li>
+						<li><a id="person_idx" href="#">Person Index</a></li>
+					</ul>
+				</div>                 
+			</div>
+			<div class="content medium-12 large-9 columns">
+				<div class="row full">
+					<div class="small-12 columns" id="headline"></div>
+				</div>
+				<div class="row full">
+					<div class="small-12 medium-6 columns" id="reading"></div>
 					<div class="small-12 medium-6 columns" id="translation"></div>
-	            </div>
-	            <div class="row full">
-		            <div class="small-12 columns" id="general_map"></div>
-	            </div>
-            </div>
-        </div>
-        <script src="js/vendor/jquery.js"></script>
-        <script src="js/foundation.min.js"></script>
-        <script>
+				</div>
+				<div class="row full">
+					<div class="small-12 columns" id="general"></div>
+				</div>
+			</div>
+		</div>
+		<script src="js/vendor/jquery.js"></script>
+		<script src="js/foundation.min.js"></script>
+		<script>
 			$(document).foundation();
 			$('#section_418').click(function(){ display_content(418); return false; });
 			$('#section_485').click(function(){ display_content(485); return false; });
 			$('#section_493').click(function(){ display_content(493); return false; });
 			$('#section_500').click(function(){ display_content(500); return false; });
-    	</script>
-    </body>
+			$('#location_idx').click(function(){ display_index('location'); return false; });
+			$('#person_idx').click(function(){ display_index('person'); return false; });
+		</script>
+	</body>
 </html>

@@ -9,6 +9,8 @@ var available_sections = [418, 485, 493, 500];
 var current_section = undefined;
 var section_cache = [];
 var use_cache = true;
+var person_idx = {};
+var place_idx = {};
 
 for (i in available_sections) {
 	section_cache[available_sections[i]] = {title: undefined, reading: undefined, translation: undefined, readings: [], reading_ids: [], min_reading_id: undefined, max_reading_id: undefined, name_ids: []}
@@ -18,7 +20,8 @@ for (i in available_sections) {
 
 var warm_up_cache = function() {
 
-	var person_info = [];
+	var person_data = [];
+	var place_data = [];
 
 	// cache names' sections
 	jQuery.ajax({
@@ -27,14 +30,16 @@ var warm_up_cache = function() {
 		url: CYPHER_URL,
 		contentType: CONTENT_TYPE,
 		dataType: "json",
-		data: JSON.stringify({query: 'MATCH (bn:READING)<-[:BEGIN]-(pref:PERSONREF)-[:REFERS_TO]->(p:PERSON) RETURN id(p), id(pref), id(bn);', params: {}}),
+		data: JSON.stringify({query: 'MATCH (bn:READING)<-[:BEGIN]-(pref:PERSONREF)-[:REFERS_TO]->(p:PERSON) RETURN id(p), p.id, p.description, id(pref), id(bn);', params: {}}),
 		beforeSend: BEFORE_SEND,
 
 		success: function(result,status,xhr) {
 			// get each translation and print it
 			for (i in result.data) {
 				if (result.data[i] != undefined) {
-					person_info.push({person_id: result.data[i][0], reading_id: result.data[i][2]});
+					var name = (result.data[i][2] == undefined ? result.data[i][1] : result.data[i][2]);
+					person_data.push({id: result.data[i][0], name: name, ref_id: result.data[i][3], reading_id: result.data[i][4]});
+					person_idx[name] = [];
 				}
 			}
 		},
@@ -44,6 +49,34 @@ var warm_up_cache = function() {
 		}
 	});
 
+	// cache places' sections
+	jQuery.ajax({
+		async: false,
+		type: "POST",
+		url: CYPHER_URL,
+		contentType: CONTENT_TYPE,
+		dataType: "json",
+		data: JSON.stringify({query: 'MATCH (bn:READING)<-[:BEGIN]-(pref:PLACEREF)-[:REFERS_TO]->(p:PLACE) RETURN id(p),  p.id, p.canonical_name, id(pref), id(bn);', params: {}}),
+		beforeSend: BEFORE_SEND,
+
+		success: function(result,status,xhr) {
+			// get each translation and print it
+			for (i in result.data) {
+				if (result.data[i] != undefined) {
+					name = result.data[i][1];
+					if (result.data[i][2] != undefined && result.data[i][1] != result.data[i][2]) {
+						name +=  (result.data[i][2].lastIndexOf('(', 0) === 0) ?  ' '+result.data[i][2] : ' ('+result.data[i][2]+')';
+					}
+					place_data.push({id: result.data[i][0], name: name, ref_id: result.data[i][3], reading_id: result.data[i][4]});
+					place_idx[name] = [];
+				}
+			}
+		},
+		error: function (xhr, status, error) {
+			// an error occurred!
+			var a = 0;
+		}
+	});
 
 	for (i in available_sections) {
 		section = available_sections[i]
@@ -92,6 +125,8 @@ var warm_up_cache = function() {
 
 			success: function (result, status, xhr) {
 				reading_ids = [];
+				section_places = [];
+
 				if (result != undefined) {
 					for (i in result) {
 						reading_ids.push(result[i].metadata['id']);
@@ -100,13 +135,25 @@ var warm_up_cache = function() {
 				min_reading_id = Math.min.apply(null, reading_ids);
 				max_reading_id = Math.max.apply(null, reading_ids);
 
-				for (p in person_info) {
-					reading_id = person_info[p].reading_id;
-					person_id = person_info[p].person_id;
-					if ((reading_id >= min_reading_id) && (reading_id <= max_reading_id)) {
-						if ((-1 == $.inArray(person_id, c_slot.name_ids)) && (0 <= $.inArray(reading_id, reading_ids))) {
-							c_slot.name_ids.push(person_id);
+				for (var p = person_data.length-1; p >=0; p--) {
+					reading_id = person_data[p].reading_id;
+					if ((reading_id >= min_reading_id) && (reading_id <= max_reading_id) && (0 <= $.inArray(reading_id, reading_ids))) {
+						if (-1 == $.inArray(person_data[p].id, c_slot.name_ids)) {
+							c_slot.name_ids.push(person_data[p].id);
+							person_idx[person_data[p].name].push({section:section, ref_id: person_data[p].ref_id})
 						}
+						person_data.splice(p, 1);	// remove data
+					}
+				}
+
+				for (var p = place_data.length-1; p >=0; p--) {
+					reading_id = place_data[p].reading_id;
+					if ((reading_id >= min_reading_id) && (reading_id <= max_reading_id) && (0 <= $.inArray(reading_id, reading_ids))) {
+						if (-1 == $.inArray(place_data[p].id, section_places)) {
+							place_idx[place_data[p].name].push({section:section, ref_id: place_data[p].ref_id})
+							section_places.push(place_data[p].id);
+						}
+						place_data.splice(p, 1);	// remove data
 					}
 				}
 			},
@@ -115,20 +162,6 @@ var warm_up_cache = function() {
 				var a = 0;
 			}
 		});
-
-		/*
-										person_id = result.data[i][0];
-					reading_id = result.data[i][2];
-					for (s in available_sections) {
-						c_slot = section_cache[available_sections[s]];
-						if ((reading_id >= c_slot.min_reading_id) && (reading_id <= c_slot.max_reading_id)) {
-							if ((-1 == $.inArray(person_id, c_slot.name_ids)) && (0 <= $.inArray(reading_id, c_slot.reading_ids))) {
-								c_slot.name_ids.push(person_id);
-							}
-							break;
-						}
-					}
-		*/
 	}
 }
 
@@ -386,7 +419,7 @@ var _get_content = function(start_node_id, end_node_id) {
 
 	// initialize general map at the bottom
 	if (c_slot.gmap_places.length>0) {
-		$('#general_map').append('<br/><h3>Locations mentioned in this section:</h3><div id="g_map" style="width:none; height:350px; border: 2px solid #3872ac;"></div><br/>');
+		$('#general').append('<br/><h3>Locations mentioned in this section:</h3><div id="g_map" style="width:none; height:350px; border: 2px solid #3872ac;"></div><br/>');
 		initialize_map('g_map', c_slot.gmap_places, 5);
 	}
 }
@@ -395,7 +428,7 @@ var clear_content = function() {
 	$('#headline').empty();
 	$('#reading').empty();
 	$('#translation').empty();
-	$('#general_map').empty();
+	$('#general').empty();
 }
 
 var display_content = function(section_nr) {
@@ -435,6 +468,57 @@ var display_content = function(section_nr) {
 	}
 }
 
+var display_index = function(kind_of_index) {
+
+	if (current_section != kind_of_index) {
+		current_section = kind_of_index;
+
+		clear_content();
+		var current_idx = undefined;
+		if (kind_of_index == 'location' || kind_of_index == 'person') {
+			if (kind_of_index=='location') {
+				title = 'Location';
+				current_idx = place_idx;
+			} else {
+				title = 'Person';
+				current_idx = person_idx;				
+			}
+
+//			_get_index(kind_of_index);
+			content = "<table width='100%'><tr><th></th><th></th></tr>";
+			entries = Object.keys(current_idx).sort();
+			for (i in entries) {
+				sections = "";
+				name = entries[i];
+				for (r in current_idx[name]) {
+					if (sections != "") {
+						sections += ", "
+					}
+					sections += '<a href="#" id="idx_'+current_idx[name][r].ref_id+'">'+current_idx[name][r].section+'</a>';
+				}
+				content += '<tr><td>'+name+'</td><td>'+sections+'</td></tr>';
+			}
+			content += "</table>";
+			$('#headline').append("<h1>"+title+" Index</h1>");
+			$('#general').append(content);
+
+			// initialize links to sections
+			for (i in entries) {
+				name = entries[i];
+				for (r in current_idx[name]) {
+					$('#idx_'+ current_idx[name][r].ref_id).on('click', {section: current_idx[name][r].section}, function(ev) {
+						display_content(ev.data.section);
+						return false;
+					});
+				}
+			}
+
+			$(document).foundation('dropdown', 'reflow');					
+		}
+	}
+
+}
+
 function initialize_map(map_canvas_id, places, zoom) {
     var map = new google.maps.Map(
     	document.getElementById(map_canvas_id), {
@@ -459,6 +543,18 @@ function initialize_map(map_canvas_id, places, zoom) {
 						position: place.geometry.location,
 						title: places[i].title
 					});
+	/*
+ 					var circle = new google.maps.Circle({
+ 						center: place.geometry.location,
+ 						map:map,
+ 						radius:50000,
+ 						strokeColor: "red",
+ 						strokeOpacity:0.8,
+ 						strokeWeight: 2,
+ 						fillColor: "red"
+ 					});
+ 					circle.bindTo('center',marker,'position');
+	*/
 					google.maps.event.addListener(marker, 'click', (function(marker, i) {
 						return function() {
 							infowindow.setContent(places[i].title);
