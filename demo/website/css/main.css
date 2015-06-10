@@ -123,3 +123,8 @@
 .f-dropdown:before {
   border-color: #333 transparent transparent transparent;
 }
+
+.current_translation {
+  font-style: italic;
+  font-weight: bold;
+}

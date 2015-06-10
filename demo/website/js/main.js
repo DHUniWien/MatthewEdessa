@@ -209,7 +209,7 @@ var _refs = function(query, type) {
 
 var _get_translation = function(first_reading_id) {
 	var ret_value = undefined;
-	query_data = {query: 'match (tb)<-[:TRANS_BEGIN]-(t)-[:TRANS_END]->(te)-[:LEMMA_TEXT]->(nr) WHERE id(tb)={first_reading_id} return t.text, id(te), id(nr);', params: {first_reading_id: first_reading_id}};
+	query_data = {query: 'match (tb)<-[:TRANS_BEGIN]-(t)-[:TRANS_END]->(te)-[:LEMMA_TEXT]->(nr) WHERE id(tb)={first_reading_id} return id(t), t.text, id(te), id(nr);', params: {first_reading_id: first_reading_id}};
 		jQuery.ajax({
 			async: false,
 			type: "POST",
@@ -222,7 +222,7 @@ var _get_translation = function(first_reading_id) {
 			success: function(result,status,xhr) {
 				// get each translation and print it
 				for (i in result.data) {
-					ret_value = {text: result.data[i][0], end_node: result.data[i][1], next_node: result.data[i][2]}
+					ret_value = {ref_id: result.data[i][0], text: result.data[i][1], end_node: result.data[i][2], next_node: result.data[i][3]}
 				}
 			},
 			error: function (xhr, status, error) {
@@ -279,6 +279,7 @@ var _get_content = function(start_node_id, end_node_id) {
 				var map_ids = [];
 				var gmap_places = []; // place_ids
 				var name_sections = [];
+				var translation_ids = [];
 				person_id = undefined;
 				for (sc in available_sections) {
 					name_sections[available_sections[sc]] = [];
@@ -287,7 +288,9 @@ var _get_content = function(start_node_id, end_node_id) {
 					reading_id = result[i].metadata['id'];
 					translation_data = _get_translation(reading_id);
 					if (translation_data != undefined) {
-						translation += translation_data['text'] + ' ';
+						translation += '<span class="t_'+translation_data.ref_id+'">' + translation_data['text'] + '</span> ';
+						translation_ids.push(translation_data.ref_id);
+						reading += '<span class="t_'+translation_data.ref_id+'">';
 						while(reading_id != translation_data['next_node']) {
 							node_text = result[i].data['text']; // with node
 							if (node_text != "") {
@@ -374,6 +377,7 @@ var _get_content = function(start_node_id, end_node_id) {
 							i += 1;
 							reading_id = result[i].metadata['id'];
 						}
+						reading += '</span>';
 					} else {
 						i += 1;
 					}
@@ -385,6 +389,7 @@ var _get_content = function(start_node_id, end_node_id) {
 				c_slot.map_ids = map_ids;
 				c_slot.gmap_places = gmap_places; //place_ids
 				c_slot.name_sections = name_sections;
+				c_slot.translation_ids = translation_ids;
 			},
 			error: function (xhr, status, error) {
 			 	// an error occurred!
@@ -397,6 +402,17 @@ var _get_content = function(start_node_id, end_node_id) {
 	// display reading and translation
 	$('#reading').append(c_slot.reading);
 	$('#translation').append(c_slot.translation);
+
+	// initialize effects on translations
+	for (sc in c_slot.translation_ids) {
+		ref_id = c_slot.translation_ids[sc];
+		$('.t_'+ ref_id).on('mouseenter', {ref_id: ref_id}, function(ev) {
+			$( '.t_'+ ev.data.ref_id ).addClass( "current_translation" );
+		});
+		$('.t_'+ ref_id).on('mouseleave', {ref_id: ref_id}, function(ev) {
+			$( '.t_'+ ev.data.ref_id ).removeClass( "current_translation" );
+		});
+	}
 
 	// initialize persons' jumps to other sections
 	for (sc in c_slot.name_sections) {
