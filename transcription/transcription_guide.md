@@ -22,9 +22,9 @@ Special characters
 * Mark ideograms and ligatures that form a single glyph. In T-PEN, in the normal case, this is done simply by marking a `<g>` tag around the characters that the glyph would normalize to.
 * If an ideogram is followed by seemingly redundant characters (e.g. [erkir]իր), or if a ligature appears to stand for a different set of characters than usual (e.g. the պտ ligature in place of պետ), we mark it like so:
 
-    <g ref="երկիր">երկ</g>իր
+    	<g ref="երկիր">երկ</g>իր
 	
-* If the glyph has not been seen in any other manuscript so far, it needs to go into __some list__.
+* If the glyph has not been seen in any other manuscript so far, it needs to go into the `config.yaml` file in this directory.
 
 Punctuation
 -----------
