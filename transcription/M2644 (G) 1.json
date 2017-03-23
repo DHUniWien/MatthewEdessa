@@ -1,0 +1,2236 @@
+{
+  "@context" : "http://iiif.io/api/presentation/1/context.json",
+  "@id" : "http://t-pen.org/TPEN/project/5481",
+  "@type" : "sc:Manifest",
+  "label" : "M2644 (G) 1:  ",
+  "description" : " ",
+  "sequences" : [ {
+    "@id" : "http://t-pen.org/TPEN/project/5481/sequence/normal",
+    "@type" : "sc:Sequence",
+    "label" : "Current Page Order",
+    "canvases" : [ {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_004.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_004.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_004.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220301&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_004.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_005.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_005.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_005.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220385&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_005.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_006.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_006.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_006.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220395&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_006.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_007.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_007.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_007.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220305&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_007.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_008.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_008.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_008.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220311&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_008.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_009.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_009.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_009.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220316&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_009.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_010.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_010.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_010.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220296&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_010.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_011.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_011.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_011.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220392&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_011.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_012.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_012.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_012.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220375&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_012.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_013.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_013.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_013.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220289&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_013.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_014.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_014.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_014.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220387&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_014.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_015.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_015.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_015.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220377&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_015.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_016.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_016.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_016.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220345&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_016.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_017.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_017.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_017.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220313&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_017.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_018.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_018.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_018.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220298&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_018.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_019.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_019.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_019.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220335&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_019.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_020.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_020.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_020.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220337&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_020.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_021.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_021.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_021.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220346&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_021.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_022.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_022.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_022.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220339&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_022.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_023.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_023.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_023.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220283&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_023.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_024.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_024.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_024.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220394&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_024.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_025.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_025.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_025.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220396&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_025.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_026.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_026.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_026.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220329&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_026.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_027.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_027.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_027.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220327&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_027.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_028.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_028.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_028.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220330&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_028.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_029.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_029.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_029.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220297&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_029.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_030.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_030.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_030.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220328&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_030.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_031.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_031.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_031.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220324&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_031.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_032.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_032.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_032.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220318&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_032.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_033.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_033.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_033.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220370&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_033.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_034.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_034.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_034.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220378&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_034.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_035.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_035.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_035.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220389&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_035.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_036.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_036.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_036.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220386&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_036.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_037.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_037.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_037.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220322&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_037.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_038.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_038.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_038.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220319&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_038.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_039.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_039.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_039.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220342&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_039.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_040.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_040.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_040.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220302&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_040.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_041.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_041.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_041.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220323&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_041.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_042.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_042.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_042.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220372&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_042.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_043.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_043.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_043.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220315&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_043.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_044.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_044.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_044.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220300&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_044.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_045.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_045.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_045.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220383&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_045.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_046.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_046.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_046.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220287&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_046.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_047.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_047.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_047.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220310&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_047.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_048.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_048.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_048.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220333&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_048.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_049.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_049.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_049.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220306&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_049.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_050.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_050.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_050.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220390&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_050.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_051.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_051.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_051.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220344&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_051.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_052.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_052.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_052.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220281&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_052.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_053.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_053.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_053.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220307&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_053.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_054.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_054.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_054.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220291&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_054.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_055.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_055.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_055.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220393&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_055.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_056.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_056.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_056.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220355&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_056.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_057.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_057.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_057.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220286&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_057.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_058.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_058.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_058.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220312&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_058.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_059.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_059.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_059.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220357&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_059.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_060.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_060.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_060.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220299&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_060.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_061.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_061.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_061.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220381&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_061.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_062.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_062.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_062.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220326&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_062.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_063.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_063.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_063.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220336&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_063.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_064.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_064.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_064.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220379&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_064.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_065.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_065.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_065.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220356&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_065.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_066.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_066.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_066.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220295&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_066.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_067.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_067.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_067.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220284&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_067.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_068.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_068.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_068.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220317&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_068.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_069.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_069.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_069.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220363&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_069.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_070.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_070.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_070.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220382&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_070.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_071.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_071.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_071.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220293&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_071.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_072.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_072.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_072.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220341&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_072.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_073.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_073.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_073.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220362&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_073.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_074.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_074.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_074.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220360&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_074.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_075.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_075.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_075.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220347&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_075.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_076.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_076.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_076.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220384&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_076.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_077.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_077.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_077.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220343&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_077.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_078.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_078.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_078.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220351&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_078.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_079.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_079.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_079.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220303&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_079.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_080.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_080.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_080.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220325&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_080.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_081.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_081.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_081.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220369&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_081.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_082.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_082.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_082.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220391&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_082.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_083.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_083.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_083.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220349&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_083.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_084.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_084.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_084.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220308&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_084.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_085.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_085.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_085.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220321&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_085.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_086.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_086.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_086.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220288&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_086.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_087.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_087.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_087.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220348&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_087.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_088.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_088.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_088.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220332&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_088.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_089.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_089.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_089.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220373&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_089.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_090.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_090.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_090.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220285&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_090.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_091.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_091.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_091.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220350&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_091.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_092.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_092.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_092.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220331&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_092.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_093.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_093.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_093.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220361&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_093.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_094.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_094.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_094.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220353&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_094.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_095.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_095.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_095.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220282&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_095.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_096.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_096.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_096.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220376&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_096.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_097.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_097.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_097.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220388&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_097.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_098.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_098.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_098.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220364&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_098.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_099.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_099.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_099.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220374&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_099.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_100.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_100.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_100.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220368&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_100.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_101.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_101.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_101.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220314&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_101.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_102.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_102.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_102.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220359&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_102.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_103.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_103.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_103.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220365&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_103.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_104.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_104.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_104.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220354&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_104.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_105.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_105.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_105.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220304&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_105.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_106.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_106.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_106.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220292&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_106.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_107.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_107.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_107.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220366&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_107.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_108.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_108.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_108.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220290&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_108.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_109.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_109.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_109.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220397&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_109.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_110.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_110.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_110.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220358&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_110.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_111.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_111.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_111.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220334&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_111.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_112.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_112.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_112.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220340&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_112.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_113.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_113.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_113.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220338&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_113.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_114.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_114.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_114.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220294&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_114.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_115.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_115.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_115.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220309&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_115.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_116.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_116.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_116.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220367&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_116.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_117.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_117.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_117.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220352&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_117.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_118.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_118.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_118.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220380&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_118.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_119.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_119.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_119.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220320&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_119.jpg"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_120.jpg",
+      "@type" : "sc:Canvas",
+      "label" : "page_120.jpg",
+      "height" : 1000,
+      "width" : 666,
+      "images" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+1/image/page_120.jpg",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13220371&height=1000&user=tara.andrews@univie.ac.at",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1333
+        },
+        "on" : "http://t-pen.org/M2644+%28G%29+1/canvas/page_120.jpg"
+      } ]
+    } ]
+  } ]
+}
