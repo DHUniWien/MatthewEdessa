@@ -19,7 +19,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202253&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202253&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -36,7 +36,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "անից աշխարհին և բերեալ զ<abbr>տր</abbr> ստեփանոս "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,140,666,44"
         }, {
@@ -45,7 +45,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "զկաթ<abbr>ղս</abbr>ն աղուանից ի վանքն որ կոչի հաղ"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,184,666,35"
         }, {
@@ -54,7 +54,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "բատ. ձեռնա՛դրեցին զ<abbr>տր</abbr> բարսեղ կաթ<abbr>ղս</abbr> "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,219,666,32"
         }, {
@@ -63,7 +63,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "յաթոռ սրբոյն գրիգորի ի վ<abbr>ր</abbr> <abbr>ա</abbr>մ աշխար_"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,251,666,33"
         }, {
@@ -72,7 +72,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "հին հայոց հրամանաւ կորիկէ թ<abbr>գր</abbr>ին. և՛ "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,284,666,35"
         }, {
@@ -81,7 +81,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<abbr>տ</abbr>ն ստեփանոսի որ ունէր զաթոռ սրբոյ ա_"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,319,666,33"
         }, {
@@ -90,7 +90,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ռաքելոյն թադէոսի։ Յայսմ ժ<abbr>մկ</abbr>իս նորո_"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,352,666,30"
         }, {
@@ -99,7 +99,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "գեալ եղև յաթոռ սրբոյն գրիգորի ի ք<abbr>ղք</abbr>ն "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,382,666,35"
         }, {
@@ -108,7 +108,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "յանի զոր ի վաղուց ժամանակաց հետէ, "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,417,666,33"
         }, {
@@ -117,7 +117,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "խափանեալ էր մախանօք. նենգաւորու<abbr><g ref=\"\">թբ</g></abbr> "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,450,666,29"
         }, {
@@ -126,7 +126,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "չար և <subst><del type=\"cancel\">դ</del><add place=\"above\">դ</add></subst>առնացեալ ազգ<subst rend=\"overwrite\"><del>ի</del><add>է</add></subst>ն հոռոմոց. և ել"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,479,666,30"
         }, {
@@ -135,7 +135,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "եալ գայր բարսեղ կաթ<abbr>ղ</abbr>սն հայ հայոց ի "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,509,666,35"
         }, {
@@ -144,7 +144,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "թ<abbr>գր</abbr>ա՛բնակ ք<abbr>ղք</abbr>ն յանի. զոր ի վաղուց ժ<abbr>մկ</abbr>ց "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,544,666,30"
         }, {
@@ -153,7 +153,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "հետէ ոչէ՛ր նստեալ կ<abbr>ղկ</abbr>ս յաթոռոյն սըր"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,574,666,29"
         }, {
@@ -162,7 +162,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "բոյն գրիգորի: և ելեալ <abbr>ա</abbr>մ տունն շիրակայ "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,603,666,32"
         }, {
@@ -171,7 +171,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<add place=\"margin\">գ</add> գալ ընդ յառաջ ն<abbr>ր</abbr>. և ահայ գայր բազում "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,635,666,33"
         }, {
@@ -180,7 +180,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "արամբք վասակ հայրն <abbr>տր</abbr> բարսեղի. և եղ"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,668,666,32"
         }, {
@@ -189,7 +189,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "բարք ն<abbr>ր</abbr> հասան և գրիգոր և ապլջապակ "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,700,666,29"
         }, {
@@ -198,7 +198,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "արք քաջք և հզօրք հանդերձ ե<abbr>պս</abbr>իւք, և նըս"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,729,666,32"
         }, {
@@ -207,7 +207,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "տուցին զ<abbr>տր</abbr> բարսեղ յաթոռ <abbr>տ</abbr>ն պետրո_"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,761,666,26"
         }, {
@@ -216,7 +216,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "սի. և եղև օրն այն օր մեծ. և ուրախու<abbr>թի</abbr>ն "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,787,666,30"
         }, {
@@ -225,7 +225,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<abbr>ա</abbr>մ տանն հայոց, վ<abbr>ս</abbr> զի տեսին նորոգեալ զա"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,817,666,38"
         }, {
@@ -234,7 +234,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "թոռ հայրա՛պետու<abbr><g ref=\"\">թե</g></abbr>ն ի ք<abbr>ղք</abbr>ն յանի։ Յայսմ "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,855,666,30"
         }, {
@@ -243,7 +243,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ժ<abbr>մկ</abbr>իս ամիրայ ոմն անուն խոսրով գայր բա_"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,885,666,30"
         }, {
@@ -252,7 +252,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "զում զօրօք ի պարսից աշխարհէն. և հա_"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380r.jpg#xywh=98,915,666,40"
         } ]
@@ -268,7 +268,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202264&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202264&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -285,7 +285,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "սանէր ի գաւառն յուռհայու և ա<abbr>րր</abbr>լ "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,72,685,53"
         }, {
@@ -294,7 +294,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "աւերս ի տեղիս տեղիս և յայսմ աւուրքս "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,125,685,30"
         }, {
@@ -303,7 +303,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "եղև պ<abbr>տզ</abbr>մ ի վ<abbr>ր</abbr> եփրատ գետոյ ի տեղին, "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,155,685,35"
         }, {
@@ -312,7 +312,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "որ ասի մեկնիկ. մերձ ի բերդն որ ասի լտար. "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,190,685,27"
         }, {
@@ -321,7 +321,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "վ<abbr>ս</abbr> զի ժողովեցան բերդացիք գաւառին, "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,217,685,27"
         }, {
@@ -330,16 +330,25 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ընդ յառաջ ն<abbr>ր</abbr> ի պ<abbr>տ</abbr>զմ. և յայնմ աւուր յ<g ref=\"\">ա</g>ղ"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,244,685,32"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/note/102238313",
+          "@type" : "oa:Annotation",
+          "motivation" : "oa:commenting",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : "/"
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/line/102238313"
         }, {
           "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238314",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<g ref=\"\">թե</g>աց թուրքն և արար բազում կոտորածս "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,276,685,29"
         }, {
@@ -348,7 +357,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "քրիստոնէիցն. և յետ աւուրց ինչ յարուցե<abbr>լ</abbr> "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,305,685,33"
         }, {
@@ -357,7 +366,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<add place=\"margin\">ասպատ</add> ամիրայն խոսրով և արա<add place=\"above\">ս</add>ր <del type=\"cancel\">ասպատակ</del> երկիրն "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,338,685,27"
         }, {
@@ -366,7 +375,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<add place=\"margin\">ակ</add> տաճկաց. ի խառանայ մինչև ի մուտեպէրն "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,365,685,32"
         }, {
@@ -375,7 +384,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և զաւուրս <num value=\"\">.բ՟.</num> կացին ի վ<abbr>ր</abbr> ձիոյ և բազում "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,397,685,32"
         }, {
@@ -384,7 +393,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "աւարաւ գայր ի դուռն ք<abbr>ղք</abbr>ին խառա_"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,429,685,26"
         }, {
@@ -393,7 +402,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "նայ. և էր ի քաղաքն ամիրայն արապկաց. "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,455,685,30"
         }, {
@@ -402,7 +411,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "որ ասի շուրէհհէճմ. կուրիշայ որդոյն որ "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,485,685,30"
         }, {
@@ -411,7 +420,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "կոչի շերէփն տաւլ։ և յայսմ աւուրս էր ա_"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,515,685,33"
         }, {
@@ -420,7 +429,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "միրայն շո<add place=\"above\">ւ</add>րէհ ի խառան զօրօք արապկաց. "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,548,685,27"
         }, {
@@ -429,7 +438,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և <num value=\"\">.բ՟ռ՟.</num> ձիաւորով ելեալ ի պ<abbr>տ</abbr>զմ ի վ<abbr>ր</abbr> պարսից "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,575,685,29"
         }, {
@@ -438,7 +447,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "զօրացն. և էր թուրքն արս <num value=\"\">.ժ՟.ռ՟.</num> և ի հան"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,604,685,26"
         }, {
@@ -447,7 +456,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "դիպեալ միմեանց. արարին զթուրքն փախ"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,630,685,33"
         }, {
@@ -456,7 +465,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ըստական և սաստիկ կոտորածս վարեցան "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,663,685,24"
         }, {
@@ -465,16 +474,25 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "զհետ զօրացն պարսից և թափեցին զը"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,687,685,29"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/note/102238328",
+          "@type" : "oa:Annotation",
+          "motivation" : "oa:commenting",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : "/"
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/line/102238328"
         }, {
           "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238329",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<abbr>ա</abbr>մ առն և զգերու<abbr>թի</abbr>ն և լցաւ <abbr>ա</abbr>մ գաւ"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,716,685,27"
         }, {
@@ -483,7 +501,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "առն յուռհայու ծառայօք ի թուրքէն. "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,743,685,30"
         }, {
@@ -492,7 +510,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<abbr>ա</abbr>մ թուփ և ի քարատակ գտանէին անգեալ "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,773,685,30"
         }, {
@@ -501,7 +519,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "զօրսն թուրքաց. և ուր ուրեք զե<del type=\"cancel\">ր</del>ծան։ "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_380v.jpg#xywh=28,803,685,46"
         } ]
@@ -517,7 +535,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202270&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202270&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -534,7 +552,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<milestone unit=\"section\" n=\"532\"/><hi rend=\"red\">Ի</hi>սկ ի թուականու<abbr><g ref=\"\">թե</g></abbr>ն հայոց <num value=\"\">.շ՟. և լ՟բ՟.</num> "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,119,625,92"
         }, {
@@ -543,7 +561,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "մեռաւ վասիլն ապուքապայ որդին. "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,211,625,33"
         }, {
@@ -552,7 +570,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<abbr>տր</abbr> յուռհայոյ. և թաղեցին զնայ ի գօտ"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,244,625,35"
         }, {
@@ -561,7 +579,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ևոր <abbr>սբ</abbr> գորգն։ սայ էր այր բարի և <abbr>ա</abbr>ծա_"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,279,625,32"
         }, {
@@ -570,7 +588,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "սէր քաղցր ի վ<abbr>ր</abbr> <abbr>ա</abbr>մ աշխարհի. ողորմած որբոց "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,311,625,33"
         }, {
@@ -579,7 +597,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և այրեաց շինող և խաղաղարար աշխարհի. "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,344,625,35"
         }, {
@@ -588,7 +606,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և եղև սուգ մեծ ի վ<abbr>ր</abbr> աշխարհին յուռհայ"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,379,625,30"
         }, {
@@ -597,7 +615,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ոյ. և յ<abbr>ա</abbr>մ գաւառսն ն<abbr>ր</abbr>. զի եղեն զրկեալք յայն "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,409,625,32"
         }, {
@@ -606,7 +624,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "քաղցր և բարի աւագէն. վ<abbr>ս</abbr> զի որ<abbr>պ</abbr> զհայր "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,441,625,35"
         }, {
@@ -615,7 +633,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և ծնօղ էր ի վ<abbr>ր</abbr> մեծի և փոքու. և ելեալ բարի "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,476,625,29"
         }, {
@@ -624,7 +642,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "յիշատակաւ յաշխարհէս. գնաց առ <abbr>քս</abbr>. "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,505,625,32"
         }, {
@@ -633,7 +651,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և արարին ժողով <abbr>ա</abbr>մ ք<abbr>ղք</abbr>ն ի <abbr>ս</abbr>բ սոփի և "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,537,625,29"
         }, {
@@ -642,7 +660,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "տան զք<abbr>ղ</abbr>քն յուռհայ ի ձեռն սըմբատայ, "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,566,625,32"
         }, {
@@ -651,7 +669,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "առն քաջի. և արիականի պ<abbr>տ</abbr>զ<abbr>մ</abbr>ղ ընդ պարսից "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,598,625,33"
         }, {
@@ -660,7 +678,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և կացեալ սմբատ ի յաթոռ տուկու<abbr>թե</abbr>ն "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,631,625,27"
         }, {
@@ -669,7 +687,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "յուռհայոյ <num value=\"\">.զ՟.</num> ամիս. և ոմն ի մեծամեծաց, "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,658,625,32"
         }, {
@@ -678,7 +696,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "քաղաքին ջանայր առնուլ զաթոռ տու"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,690,625,39"
         }, {
@@ -687,7 +705,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "կու<abbr><g ref=\"\">թե</g></abbr>ն ի յազգէ հայոց. որոյ անուն ա_"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,729,625,30"
         }, {
@@ -696,7 +714,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "սէին իշխան ի ցեղէն որ ասէին արջքթոյնք։ "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,759,625,26"
         }, {
@@ -705,7 +723,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "սայ ապստամբե<del type=\"cancel\">unclear</del>ցաւ և գնաց առ փի"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,785,625,24"
         }, {
@@ -714,7 +732,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "լառտոսն. վ<abbr>ս</abbr> զի ունէր բազում ցեղս "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,809,625,33"
         }, {
@@ -723,7 +741,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և ազգս մեծա՛մեծս ի քաղաքն յուռ"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,842,625,29"
         }, {
@@ -732,7 +750,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "հայ. և շարժեալ իշխանին զփիլառ_"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,871,625,35"
         }, {
@@ -741,7 +759,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "տոսն և բերէր ի յուռհայ. և ետուն զը"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,906,625,35"
         }, {
@@ -750,7 +768,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "քաղաքն ի ձեռս փիլառտոսին. և զկնի սա"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381r.jpg#xywh=148,941,625,42"
         } ]
@@ -766,7 +784,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202266&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202266&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -783,7 +801,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "աւուրց փիլառտո<add place=\"below\">ս</add>ն ձեռբակալ ա<abbr>րր</abbr>ե<abbr>լ</abbr> "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,101,571,44"
         }, {
@@ -792,7 +810,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "զիշխանն և զ<abbr>ա</abbr>մ ազգն ն<abbr>ր</abbr> և զսմբատ և ա_"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,145,571,27"
         }, {
@@ -801,7 +819,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "րար հիմն ի վե՛ր զ<abbr>ա</abbr>մ բնակու<abbr>թի</abbr>ս ն<abbr>ց</abbr> և հա_"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,172,571,36"
         }, {
@@ -810,7 +828,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "տոյց զ<abbr>ա</abbr>մ մեծա՛մեծ իշխանսն հայոց. որք "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,208,571,30"
         }, {
@@ -819,7 +837,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "էին ի քաղաքն յուռհայ. և զարջուկ իշխա_"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,238,571,33"
         }, {
@@ -828,7 +846,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "նըն եսպան չարչարանօք. և զայլսն տարաւ "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,271,571,29"
         }, {
@@ -837,7 +855,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ի մարաշ քաղաք. և եհան զաչս սմբատայ "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,300,571,32"
         }, {
@@ -846,7 +864,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "զառն քաջի. և զաչս իշխանին և զեղբօ"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,332,571,32"
         }, {
@@ -855,7 +873,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "րըն իւրոյ զթօտաւռկայ. և զայլ իշխան"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,364,571,26"
         }, {
@@ -864,7 +882,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "սըն պահէր ի շխթայսն ի մարաշ ք<abbr>ղք</abbr>ին "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,390,571,26"
         }, {
@@ -873,7 +891,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "վ<abbr>ս</abbr> չար բարուց իւրոց։ "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,416,571,33"
         }, {
@@ -882,7 +900,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<milestone unit=\"section\" n=\"533\"/><hi rend=\"red\">Դ<abbr>ձլ</abbr></hi> ի թուականու<abbr><g ref=\"\">թե</g></abbr>ն հայոց <num value=\"\">.շ՟. լ՟գ՟.</num> "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,449,571,30"
         }, {
@@ -891,7 +909,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "առաւ անտիոք ք<abbr>ղ</abbr>քն ի քրիստոնէից վ<abbr>ս</abbr> զի "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,479,571,27"
         }, {
@@ -900,7 +918,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "սուլիման ոմն ամիրայ որդի գդըլմշոյ որ "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,506,571,30"
         }, {
@@ -909,7 +927,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "բնակեալ էր ի ք<abbr>ղք</abbr>ն նիկիայ. յաշխարհն "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,536,571,26"
         }, {
@@ -918,7 +936,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "բիւթանացւոց. որ էր սահմանակից ովկի"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,562,571,32"
         }, {
@@ -927,7 +945,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "անոս ծովուն. սորայ յարուցեալ գայր, "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,594,571,30"
         }, {
@@ -936,7 +954,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "գաղտաբար ընդ հեռաձիգ ճ<abbr>պ</abbr>հ. և հա_"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,624,571,26"
         }, {
@@ -945,7 +963,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "սանէր ծածկաբար. մինչև ի ք<abbr>ղք</abbr>ն յանտի"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,650,571,26"
         }, {
@@ -954,7 +972,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ոք և գտեալ զք<abbr>ղ</abbr>քն անպատրաստ և յան_"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,676,571,29"
         }, {
@@ -963,7 +981,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "պահապանս և ի հալպա՛ դիհէն ի գիշերի "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,705,571,29"
         }, {
@@ -972,7 +990,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "գողացաւ զք<abbr>ղ</abbr>քն անտիոք. և փիլառտոս"
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,734,571,32"
         }, {
@@ -981,7 +999,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "նէր ի քաղաքն յուռհայ. և յայնմ ժ<abbr>մ</abbr>ու "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,766,571,33"
         }, {
@@ -990,7 +1008,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "զօրս հեծելոցն ոչ գոյր ի ք<abbr>ղ</abbr>քն. և սուլիման "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,799,571,29"
         }, {
@@ -999,7 +1017,7 @@
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<num value=\"\">գ՟ճ՟.</num> արամբք. մտաւ ի ք<abbr>ղք</abbr>ն անտիոք. և ի  "
           },
           "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_381v.jpg#xywh=145,828,571,47"
         } ]
@@ -1015,7 +1033,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202247&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202247&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -1027,230 +1045,230 @@
         "@id" : "http://t-pen.org/M5587+%28J%29+4/transcription/page_382r.jpg",
         "@type" : "sc:AnnotationList",
         "resources" : [ {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238208",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247554",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "վաղիւն տեսեալ ք<abbr>ղ</abbr>քացեացն ահ՛աբեկ<abbr>լ</abbr>ք "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,123,626,50"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,129,623,45"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238209",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247555",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "եղեն. վ<abbr>ս</abbr> զի ոչ ունէին արք պ<abbr>տ</abbr>զմողք. այլ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,173,626,38"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,174,623,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238210",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247556",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "էին <abbr>ոպ</abbr> կանայք տկարք. և վատ ի պ<abbr>տզ</abbr>մ և "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,211,626,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,206,623,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238211",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247557",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "առհ<abbr>սր</abbr>կ ժ<abbr>ղ</abbr>վեցան ք<abbr>ղ</abbr>քն ի կլայն. և օր քան "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,241,626,36"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,239,623,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238212",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247558",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "զօր բազմանայր զօրք թուրքացն. և էառ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,277,626,33"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,274,623,36"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238213",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247559",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "զք<abbr>ղ</abbr>քն և <abbr>մդյ</abbr> չարար վնաս. և նեղեաց զկը"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,310,626,29"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,310,623,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238214",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247560",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "լայն զբ<abbr>զ</abbr>մ աւուրս սովով և ծարաւով. "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,339,626,36"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,340,623,38"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238215",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247561",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և յետ այսր <abbr>ա</abbr>մի խնդրեցին երդումն ի յամի"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,375,626,32"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,378,623,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238216",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247562",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "րայէն և արար սուլիման զ<abbr>ա</abbr>մ և եղև խա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,407,626,32"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,408,623,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238217",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247563",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ղաղութիւն և դարձաւ <abbr>ա</abbr>մ մարդ ան"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,439,626,32"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,440,623,26"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238218",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247564",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "վընաս ի տուն իւր. և լուեալ զայս <abbr>ա</abbr>մ փի"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,471,626,26"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,466,623,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238219",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247565",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "լառտոսն ոչինչ կարաց առնել. լայր ի յո_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,497,626,33"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,501,623,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238220",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247566",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "գւոց հանեալ և դառնապէս. ապաշաւ"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,530,626,36"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,533,623,36"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238221",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247567",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "էր. և սուլիման տիրեաց անտիոքայ. և "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,566,626,26"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,569,623,24"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238222",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247568",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<abbr>ա</abbr>մ աշխարհին կիլիկեցւոց։ Արդ՝ այս_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,592,626,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,593,623,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238223",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247569",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "պիսի օրինակաւս առաւ բազմամբոխ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,622,626,32"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,622,623,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238224",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247570",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "քաղաքն անտիոք, ի վատ, և ի թուլամորթ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,654,626,39"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,655,623,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238225",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247571",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և ի պիղծ ազգէն որ կոչին պելիտիկք. որ, "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,693,626,29"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,688,623,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238226",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247572",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "հաւատովն հոռոմք ասեն իւրեանց "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,722,626,27"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,717,623,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238227",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247573",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "այլ, լեզուովն և գործովք սոսկ տան_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,749,626,27"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,747,623,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238228",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247574",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ճիկք և հայհոյիչք, ուղղափառ հաւա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,776,626,33"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,774,623,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238229",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247575",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "տոց և ատեցողք վարուց սրբու<g ref=\"\">թե</g>անց. "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,809,626,38"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,809,623,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238230",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247576",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "թշնամիք պահոց և կատարիչք չարեաց, "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,847,626,29"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,839,623,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238231",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247577",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "հալաչիչք հաւատյ հայաստանեաց և "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,876,626,24"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,872,623,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238232",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247578",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ինքնեանք նմանեալ հիւանդ և տկար կա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=146,900,626,49"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382r.jpg#xywh=151,899,623,45"
         } ]
       } ]
     }, {
@@ -1264,7 +1282,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202272&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202272&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -1276,248 +1294,239 @@
         "@id" : "http://t-pen.org/M5587+%28J%29+4/transcription/page_382v.jpg",
         "@type" : "sc:AnnotationList",
         "resources" : [ {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238067",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247579",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "նանց որք նստէին ի փողոցի և բաղբանջէ"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=1,0,127,38"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,57,602,47"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238068",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247580",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ին իւրեանց լեզուաւ. և այլ իմն զարմա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,0,558,94"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,104,602,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238069",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247581",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "նալի ասացից ձեզ. զոր ինչ եղև յանտիոք "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,94,558,8"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,136,602,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238070",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247582",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "յառաջ քան զ<num value=\"\">:ի՟.</num> ա՛մ: զոր և <del type=\"cancel\">զոր</del> մեք իսկ լու"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,102,558,27"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,168,602,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238071",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247583",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "աք զայս ի ք<abbr>ղք</abbr>ացեացն. ե<g ref=\"\">թէ</g> անչափ չա՛ր "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,129,558,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,201,602,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238072",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247584",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և ատեցողք էին հայոց ազգին անտիոքա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,159,558,33"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,231,602,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238073",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247585",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ցիքն. զի յորժամ ի ք<abbr>ղք</abbr>ն աւտարական բըռ"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,192,558,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,266,602,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238074",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247586",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "նէին զմորուքն կտրէին և հանէին ընդ դու"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,222,558,8"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,293,602,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238075",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247587",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ռըն քաղաքին. և յաւուր միում բռնե<abbr>լ</abbr> "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,230,558,23"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,323,602,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238076",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247588",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "զոմն յանեցի այր փառաւոր և կտրեալ զը"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,253,558,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,355,602,23"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238077",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247589",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "մորուսն ն<abbr>ր</abbr>. առին զ<abbr>ա</abbr>մ ինչս ն<abbr>ր</abbr> և հանին "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,283,558,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,378,602,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238078",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247590",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "զ<subst rend=\"overwrite\"><del>ս</del><add>ն</add></subst>այ ի ք<abbr>ղ</abbr>քէն, և նայ վիրաւորեալ գնաց "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,313,558,31"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,410,602,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238079",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247591",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և առեալ զօրս թուրքաց <num value=\"\">.ե՟ճ՟.</num> այր և եկե<abbr>լ</abbr> "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,344,558,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,445,602,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238080",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247592",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "գերեաց զ<abbr>ա</abbr>մ գաւառն անտիոքայ. և ըզ"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,374,558,27"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,475,602,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238081",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/note/102247592",
           "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "motivation" : "oa:commenting",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "/"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,401,558,31"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/line/102247592"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238082",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247593",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "տուկիծն <num value=\"\">:ժ՟բ՟.</num> գեղն այրեաց հրով, և բեր"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,432,558,35"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,504,602,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238083",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247594",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "եալ ի դուռն ք<abbr>ղք</abbr>ին բազում գերու<abbr>թի</abbr>. "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,467,558,27"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,531,602,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238084",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247595",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "կոտորեաց և ելից զն<abbr>ս</abbr> ի գետն, և ձայն "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,494,558,27"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,558,602,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238085",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247596",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "տուեալ ի ք<abbr>ղք</abbr>ն և ասէր. ես եմ գորգ շի"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,521,558,16"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,587,602,36"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238086",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247597",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "րակացին. որ զմուրուքն կտրեցիք. <g ref=\"\">թէ</g> ապայ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,537,558,19"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,623,602,24"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238087",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247598",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "աժէ այս մուրուք մի <g ref=\"\">թէ</g> ոչ և գնաց անհա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,556,558,27"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,647,602,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238088",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247599",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "մար աւարաւ նոյնպէս յաւուրսն բար"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,583,558,64"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,677,602,24"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238089",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247600",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "եկենդանին. ի նոյն ամին՝ եկեալ կարու"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,647,558,19"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,701,602,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238090",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247601",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ան ի յարևելից. ի ք<abbr>ղ</abbr>քն անտիոքայ. բար"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,666,558,10"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,733,602,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238091",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247602",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ձեալ բերէին տարեխ ձուկն. և կային ի "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,676,558,21"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,760,602,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238092",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247603",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "մէջ շուկային ի գինարբու<abbr><g ref=\"\">թե</g></abbr>. և ի լսել քա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,697,558,35"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238093",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=162,732,558,86"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_382v.jpg#xywh=139,789,602,42"
         } ]
       } ]
     }, {
@@ -1531,7 +1540,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202252&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202252&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -1543,275 +1552,230 @@
         "@id" : "http://t-pen.org/M5587+%28J%29+4/transcription/page_383r.jpg",
         "@type" : "sc:AnnotationList",
         "resources" : [ {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238094",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247604",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ղաքացեացն. զձայն պարուց ն<abbr>ց</abbr> <abbr>ա</abbr>մ արք, "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,0,613,33"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,163,627,38"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238095",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247605",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ք<abbr>ղք</abbr>ին հասանէին ի վ<abbr>ր</abbr> ն<abbr>ց</abbr> և ծեծելով գան"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,33,613,144"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,201,627,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238096",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247606",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ա՛լից արարին զն<abbr>ս</abbr>. սկսան հանել զն<abbr>ս</abbr> ի քա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,177,613,15"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,234,627,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238097",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247607",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ղաքէն. է<add place=\"above\">ի</add>ն արքն իբրև <num value=\"\">.ձ՟.</num> բրէզածք և ըն"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,192,613,35"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,267,627,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238098",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247608",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "դրեալք քաջու<abbr>բ</abbr>. և յայնժամ ձայն տու"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,227,613,32"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,302,627,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238099",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247609",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "եալ մանկտաւագն ն<abbr>ց</abbr>. և ն<abbr>ց</abbr> միաբան գինէ"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,259,613,14"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,331,627,36"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238100",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247610",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "խմեալք էին յարձակեցան ի վ<abbr>ր</abbr> քաղաքաց"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,273,613,21"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,367,627,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238101",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247611",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "եացն. և ի սևոտոյն դրանէն մինչև ի <abbr>տր</abbr> "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,294,613,39"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,400,627,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238102",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247612",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "պետրոս զ<abbr>ա</abbr>մ արք ք<abbr>ղ</abbr>քին փախստական ա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,333,613,24"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,432,627,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238103",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247613",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "րարին. և կառափնաբե<del type=\"cancel\">կ</del>կ և ոտնակոտորս "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,357,613,36"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,467,627,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238104",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247614",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "արարին արս բազումս. և ապայ խաչով. "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,393,613,28"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,497,627,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238105",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247615",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և աւետարանով երդուեալ ն<abbr>ց</abbr> բնաւ այլ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,421,613,33"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,524,627,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238106",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247616",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ոչ մեղանչել ն<abbr>ց</abbr>. և յայնժամ արարին խա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,454,613,31"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,554,627,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238107",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247617",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ղաղու<abbr>թի</abbr> և դարձա<del type=\"scribble\">ն</del>ն ի տեղիս իւրեանց։ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,485,613,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,586,627,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238108",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247618",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<milestone unit=\"section\" n=\"534\"/><hi rend=\"red\">Դ<abbr>րձլ</abbr>.</hi> ի թուականու<abbr><g ref=\"\">թե</g></abbr>ն հայոց ի յամի "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,515,613,32"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,616,627,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238109",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247619",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<num value=\"\">շ՟. և լ՟դ՟.</num> մեռաւ հայոց վ<abbr>դպ</abbr>ն յակոբոս "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,547,613,31"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,649,627,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238110",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247620",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "քարաբնեցին որ յորջորջեալ կոչէր սա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,578,613,8"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,682,627,36"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238111",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247621",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "նահնէից այր հզօր և կորովի. սորայ հասե<abbr>լ</abbr> "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,586,613,23"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,718,627,26"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238112",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247622",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ի վ<abbr>ր</abbr> հին և նոր կտակարանացն <abbr>ա</abbr>յ. ուսե<abbr>լ</abbr> "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,609,613,8"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,744,627,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238113",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247623",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և հասեալ սորայ ի վ<abbr>ր</abbr> հեռետորական ի"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,617,613,26"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,773,627,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238114",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247624",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "մաստու<abbr>ե</abbr>ցն և տեղեկացեալ <abbr>ա</abbr>մ փիլիսո_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,643,613,15"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,800,627,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238115",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247625",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "փական խորին գիտու<abbr>եց</abbr>. սայ էր ի յաշա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,658,613,13"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,835,627,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238116",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247626",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "կերտաց մեծին դէոսկորոսի հօրն սանահ"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,671,613,34"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,864,627,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238117",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247627",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "նին. և այս յակոբոս է<del type=\"cancel\">կ</del>ր որ խօսեցաւ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,705,613,61"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,894,627,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238118",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247628",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ի կոստանդնուպօլիս ընդ իմաստնասէրն "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,766,613,28"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238119",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,794,613,29"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238120",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,823,613,33"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238121",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,856,613,36"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238122",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,892,613,26"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238123",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=158,918,613,32"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383r.jpg#xywh=152,929,627,40"
         } ]
       } ]
     }, {
@@ -1825,7 +1789,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202271&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202271&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -1837,275 +1801,230 @@
         "@id" : "http://t-pen.org/M5587+%28J%29+4/transcription/page_383v.jpg",
         "@type" : "sc:AnnotationList",
         "resources" : [ {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238124",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247629",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "հոռոմոց. ի յաւուրսն թ<abbr>գր</abbr>ին տուկծին "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,0,561,136"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,97,574,48"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238125",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247630",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "յորժամ գնաց զհետ սինաքերեմայ որդը"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,136,561,29"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,145,574,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238126",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247631",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ւոցն. սորայ խօսեալ վ<abbr>ս</abbr> հաւատոցս հ<g ref=\"\">ա</g>յ"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,165,561,28"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,174,574,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238127",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247632",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "աստանեացս և հաճեալ ի բանս ն<abbr>ր</abbr> <abbr>ա</abbr>մ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,193,561,32"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,201,574,36"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238128",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247633",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "տունն յունաց. և յայսմ ժ<abbr>մկ</abbr>իս ե՛ր ի քա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,225,561,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,237,574,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238129",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247634",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ղաքն յուռհայ. և ծերու<abbr>թբ</abbr> քաղաքա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,255,561,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,264,574,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238130",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247635",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "վարեալ, զկեանս իւր. և դաւով նենգու"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,285,561,29"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,293,574,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238131",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247636",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<abbr>թբ</abbr> լուծեալ ի մահիճս իւր. և եղև ի կե"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,314,561,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,323,574,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238132",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247637",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "նացըն: վ<abbr>ս</abbr> զի գտանեն զնայ մեռեալ ի մա"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,344,561,32"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,350,574,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238133",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247638",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "հիճս. առանց հեծու<abbr><g ref=\"\">թե</g></abbr> և ցաւոց. լա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,376,561,12"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,382,574,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238134",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247639",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ցին զնայ <abbr>ա</abbr>մ սիրելի մերձաւո<del type=\"cancel\">ր</del>իւր. և արա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,388,561,18"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,417,574,21"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238135",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247640",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "րին ժողով զ<abbr>ա</abbr>մ ք<abbr>ղ</abbr>քն յուռհայ ի վ<abbr>ր</abbr> ն<abbr>ր</abbr> "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,406,561,14"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,438,574,26"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238136",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247641",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և մեծաւ հանդիսիւ թաղեցին զնայ ի "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,420,561,14"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,464,574,36"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238137",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247642",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "դուռն <abbr>սբ</abbr> եկեղեցոյ իւրոյ. ի հիւսիոյ, "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,434,561,27"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,500,574,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238138",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247643",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "կողմ ք<abbr>ղ</abbr>քին իբրև նետ ընգէց մի հեռի "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,461,561,12"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,527,574,26"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238139",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247644",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ի պարսպէն։ Յայսմ ամի թ<abbr>գր</abbr>ն արապը"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,473,561,18"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,553,574,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238140",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247645",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "կաց կուրիշա՛ որդին շիրիփն տօլ. այր բարի "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,491,561,13"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,580,574,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238141",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247646",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և քաղցր ի վ<abbr>ր</abbr> հաւատ<abbr>ցլ</abbr>ոց <abbr>քս</abbr>ի. որ ոչ <g ref=\"\">ընդ</g> "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,504,561,14"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,615,574,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238142",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247647",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "գրով փակի գործ բարու<abbr>ե</abbr>ն ն<abbr>ր</abbr>. ի վ<abbr>ր</abbr> խաչ"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,518,561,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,642,574,26"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238143",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247648",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ապաշտ ազգաց և կամ քանի խրատս և "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,548,561,7"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,668,574,24"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238144",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247649",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "չարչարանս. և կամ քանի սպանումն ան"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,555,561,23"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,692,574,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238145",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247650",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ցուցանէր ընդ ազգն իւր. վ<abbr>ս</abbr> հաւ<abbr>տցլ</abbr>"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,578,561,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,721,574,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238146",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247651",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ոց <abbr>քս</abbr>ի. սորայ արարեա՛լ ժողովս արապ"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,608,561,53"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,750,574,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238147",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247652",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "կաց զօրաց. իբրև <num value=\"\">.ժ՟.բիւր</num>ս. և գնաց է"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,661,561,26"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,777,574,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238148",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247653",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "առ զհալպ ք<abbr>ղ</abbr>ք և արար կին զդուստըր  "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,687,561,9"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238149",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,696,561,18"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238150",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,714,561,37"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238151",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,751,561,23"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238152",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,774,561,33"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238153",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=127,807,561,32"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_383v.jpg#xywh=132,807,574,43"
         } ]
       } ]
     }, {
@@ -2119,7 +2038,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202242&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202242&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -2131,266 +2050,230 @@
         "@id" : "http://t-pen.org/M5587+%28J%29+4/transcription/page_384r.jpg",
         "@type" : "sc:AnnotationList",
         "resources" : [ {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238154",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247654",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<abbr>տ</abbr>ն ք<abbr>ղք</abbr>ին. և յարձակեցաւ պ<abbr>տզ</abbr>մ ի վ<abbr>ր</abbr>, "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,0,617,36"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,138,653,44"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238155",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247655",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "անդիոքայ քաղաքին մեծաւ սրտմտու<abbr>բ</abbr> "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,36,617,132"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,182,653,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238156",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247656",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և յայնժամ սուլիման ամիրայն անտիոքայ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,168,617,32"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,212,653,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238157",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247657",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "գայր ընդդէմ ն<abbr>ր</abbr> բազում զօրօք. ի տեղին "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,200,617,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,244,653,38"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238158",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247658",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "որ կոչի պշահ. և յայնմ տեղոջ արարին սաս"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,230,617,38"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,282,653,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238159",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247659",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "տիկ պ<abbr>տզ</abbr>մ. երկոցունց կողմանցն. իսկ ա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,268,617,34"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,315,653,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238160",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247660",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "րապիկ զօրքն սկսան նենգաւորել իւ<abbr>ր</abbr>նց. "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,302,617,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,347,653,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238161",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247661",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "թ<abbr>գր</abbr>ին. և առ հ<abbr>սր</abbr>կ ի փախուստ դարձ<g ref=\"\">ա</g>ն "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,332,617,33"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,376,653,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238162",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247662",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և յորժամ երթային սպանաւ թ<abbr>գր</abbr>ն յարապ"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,365,617,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,411,653,36"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238163",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247663",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "կաց ի իւր զօրացն. և այս<abbr>պ</abbr> մե<del type=\"cancel\">ղ</del>ռնէր բա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,395,617,35"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,447,653,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238164",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247664",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "րի թ<abbr>գ</abbr>ն կուրշիայ որդին. շիրիփն տաւլ. և "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,430,617,31"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,479,653,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238165",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247665",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "զկնի <num value=\"\">.գ՟.</num> աւուր գտանէին զնայ մեռած. և "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,461,617,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,511,653,26"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238166",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247666",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ի վ<abbr>ր</abbr> ճ<abbr>պ</abbr>հին թաղեցին զնայ. և սուլիմանն. "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,491,617,31"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,537,653,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238167",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247667",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "մեծաւ յաղթու<abbr>թբ</abbr> դարձաւ յանդիոք. և "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,522,617,33"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,567,653,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238168",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247668",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "յայսմ ժամու ծնաւ որդի իւր. և կոչե<abbr>ց</abbr> "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,555,617,31"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,600,653,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238169",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247669",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "զանուն որդոյ իւրոյ խլիճ ասլան։ Յայսմ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,586,617,31"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,632,653,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238170",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247670",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ամի ա՛միրայ ոմն պոլտա՛ճի անուն. սորայ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,617,617,35"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,664,653,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238171",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247671",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "առեալ զջահան գաւառն ի փիլառտո_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,652,617,8"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,699,653,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238172",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247672",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "սէն. և կաթ<abbr>ղս</abbr>ն <abbr>տր</abbr> <g ref=\"\">թէ</g>ոդորոս եղև ընդ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,660,617,22"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,728,653,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238173",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247673",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "իշխանու<abbr>թբ</abbr> ն<abbr>ր</abbr>. յայնժամ կոչեաց փի"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,682,617,29"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,757,653,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238174",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247674",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "լառտոսն ընդ <abbr>տր</abbr> <g ref=\"\">թէ</g>ոդոսի. առ ինքն ի "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,711,617,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,786,653,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238175",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247675",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "մարաշ քաղաքն. և նայ ոչ կարաց գնալ. "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,741,617,8"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,816,653,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238176",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247676",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "վ<abbr>ս</abbr> զի թուրքի էր իշխանու<abbr>թի</abbr>ն. և եղև "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,749,617,20"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,849,653,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238177",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247677",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ոխացեալ փիլառտոսն ըն<add place=\"above\">դ</add> <abbr>տր</abbr> <g ref=\"\">թէ</g>ոդորոսի "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,769,617,37"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,884,653,26"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238178",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247678",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և խորհեցաւ այլ կ<abbr>թղ</abbr>սն դնել յ<abbr>ղգ</abbr>ս անիրօ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,806,617,28"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238179",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,834,617,10"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238180",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,844,617,25"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238181",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,869,617,30"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238182",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=154,899,617,33"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384r.jpg#xywh=145,910,653,37"
         } ]
       } ]
     }, {
@@ -2404,7 +2287,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202276&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202276&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -2416,221 +2299,230 @@
         "@id" : "http://t-pen.org/M5587+%28J%29+4/transcription/page_384v.jpg",
         "@type" : "sc:AnnotationList",
         "resources" : [ {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238383",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247679",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և չար բարուց իւրոց. և յայնժամ մեծ"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,0,543,119"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,80,580,50"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238384",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247680",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "արեալ կոչե<abbr>ց</abbr> զ<abbr>տր</abbr> յովանէս զա՛րքե<abbr>պս</abbr>ն "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,119,543,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,130,580,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238385",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247681",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "սրբոյ <abbr>ա</abbr>ծածնին պատկերին. և նայ ոչ <add place=\"above\">է</add>առ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,149,543,27"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,162,580,24"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238386",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247682",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "յանձն. վ<abbr>ս</abbr> զի էր այր ահարկու և փառաւ"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,176,543,34"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,186,580,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238387",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247683",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "որ և ընդիր առաքինի. դարձ<abbr>լ</abbr> փիլառտո_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,210,543,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,219,580,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238388",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247684",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "սըն կոչեաց զ<abbr>տր</abbr> պօղոս զհայր սրբոյ նը"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,240,543,31"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,249,580,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238389",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247685",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "շանին վարագայ. և արար ժողով ե<abbr>պս</abbr>աց "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,271,543,29"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,282,580,23"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238390",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247686",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և հարանց և ետուն ձեռնադրութիւն "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,300,543,29"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,305,580,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238391",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247687",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "կաթ<abbr>ղս</abbr>ու<abbr><g ref=\"\">թե</g></abbr> պօղոսի. ի մարաշ ք<abbr>ղք</abbr>ի հըր"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,329,543,32"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,340,580,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238392",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247688",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ամանաւ և կամօք փիլառտոսին և ոչ յ<abbr>ա</abbr>յ. "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,361,543,27"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,367,580,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238393",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247689",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "և այս <abbr>ա</abbr>մ ոչ լինէր ընդունելի, յ<abbr>ա</abbr>յ. և ոչ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,388,543,27"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,396,580,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238394",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247690",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "առ հաւ<abbr>տց</abbr>լ<del type=\"cancel\">ո</del>ցն <abbr>քս</abbr>ի. զորս տեսեալ պօ"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,415,543,18"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,423,580,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238395",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247691",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ղոսի զկնի սակաւ ինչ աւուրց ի բաց թո_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,433,543,12"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,452,580,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238396",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247692",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ղեալ զաթոռն վ<abbr>ս</abbr> զի էր այր <abbr>սբ</abbr> և ա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,445,543,29"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,479,580,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238397",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247693",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ռաքինի. և գիտացեալ զի ընդ հակա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,474,543,28"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,511,580,26"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238398",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247694",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ռակ էր և ոչ յուղղապէս։ Յայսըմ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,502,543,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,537,580,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238399",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247695",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ժամանակիս էր աղմուկ և խռովու<abbr>թի</abbr> "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,532,543,31"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,566,580,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238400",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247696",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "մեծ ի վ<abbr>ր</abbr> աթոռոյն <abbr>սբ</abbr> լուսաւորչին, "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,563,543,28"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,599,580,24"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238401",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247697",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "գրիգորի. վ<abbr>ս</abbr> զի յաւուրս յայսոսիկ ոչ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,591,543,27"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,623,580,24"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238402",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247698",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "հրամանաւն <abbr>ա</abbr>յ. և կամ արժանաւորու"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,618,543,34"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,647,580,26"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238403",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247699",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "<abbr>թբ</abbr>. կամ ընդրու<abbr>բ</abbr> էր կարգադրութիւն "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,652,543,18"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,673,580,33"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238404",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247700",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "սրբոյն յաթոռոյն այլ զօրու<abbr>բ</abbr> և բարձր ա_"
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,670,543,32"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,706,580,26"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238405",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247701",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "գահ իշխանու<abbr>թբ</abbr> և կարողու<abbr>թբ</abbr> և այլ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,702,543,56"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,732,580,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102238406",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247702",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "chars" : ""
+            "chars" : "ոչ լինէր յայտնու<abbr>թբ</abbr> հոգոյն սրբոյ. այլ "
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=157,758,543,60"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,761,580,32"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247703",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : "լինէր ի ձեռն պատահմանց և յա<subst rend=\"overwrite\"><del>չ</del><add>ջ</add></subst>ողու<abbr>եց</abbr> "
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_384v.jpg#xywh=132,793,580,45"
         } ]
       } ]
     }, {
@@ -2644,7 +2536,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202286&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202286&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -2902,7 +2794,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202268&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202268&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -3133,7 +3025,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202261&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202261&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -3418,7 +3310,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202281&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202281&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -3676,7 +3568,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202249&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202249&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -3943,7 +3835,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202243&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202243&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -4201,7 +4093,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202254&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202254&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -4477,7 +4369,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202282&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202282&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -4735,7 +4627,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202237&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202237&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -5038,7 +4930,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202251&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202251&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -5278,7 +5170,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202273&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202273&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -5572,7 +5464,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202260&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202260&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -5830,7 +5722,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202265&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202265&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -6106,7 +5998,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202283&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202283&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -6364,7 +6256,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202248&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202248&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -6649,7 +6541,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202250&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202250&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -6661,248 +6553,230 @@
         "@id" : "http://t-pen.org/M5587+%28J%29+4/transcription/page_392v.jpg",
         "@type" : "sc:AnnotationList",
         "resources" : [ {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240841",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247448",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,0,624,143"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,101,587,53"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240842",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247449",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,143,624,33"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,154,587,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240843",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247450",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,176,624,27"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,184,587,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240844",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247451",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,203,624,33"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,213,587,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240845",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247452",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,236,624,29"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,248,587,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240846",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247453",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,265,624,31"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,277,587,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240847",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247454",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,296,624,29"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,306,587,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240848",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247455",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,325,624,29"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,333,587,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240849",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247456",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,354,624,6"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,365,587,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240850",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247457",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,360,624,13"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,395,587,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240851",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247458",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,373,624,13"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,424,587,26"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240852",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247459",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,386,624,34"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,450,587,27"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240853",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247460",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,420,624,21"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,477,587,32"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240854",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247461",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,441,624,35"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,509,587,26"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240855",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247462",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,476,624,22"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,535,587,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240856",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247463",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,498,624,27"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,565,587,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240857",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247464",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,525,624,8"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,594,587,26"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240858",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247465",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,533,624,18"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,620,587,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240859",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247466",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,551,624,30"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,650,587,26"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240860",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247467",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,581,624,32"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,676,587,24"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240861",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247468",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,613,624,33"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,700,587,35"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240862",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247469",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,646,624,19"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,735,587,30"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240863",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247470",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,665,624,27"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,765,587,29"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240864",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247471",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,692,624,29"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,794,587,26"
         }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240865",
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247472",
           "@type" : "oa:Annotation",
           "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "chars" : ""
           },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,721,624,26"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240866",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,747,624,41"
-        }, {
-          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102240867",
-          "@type" : "oa:Annotation",
-          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "chars" : ""
-          },
-          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=80,788,624,54"
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_392v.jpg#xywh=119,820,587,46"
         } ]
       } ]
     }, {
@@ -6916,13 +6790,279 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202278&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202278&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
           "width" : 1560
         },
         "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg"
+      } ],
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/M5587+%28J%29+4/transcription/page_393r.jpg",
+        "@type" : "sc:AnnotationList",
+        "resources" : [ {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247419",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,0,617,29"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247420",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,29,617,163"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247421",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,192,617,34"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247422",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,226,617,34"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247423",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,260,617,38"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247424",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,298,617,30"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247425",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,328,617,33"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247426",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,361,617,32"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247427",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,393,617,30"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247428",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,423,617,31"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247429",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,454,617,32"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247430",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,486,617,31"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247431",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,517,617,30"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247432",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,547,617,32"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247433",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,579,617,33"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247434",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,612,617,29"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247435",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,641,617,32"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247436",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,673,617,10"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247437",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,683,617,21"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247438",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,704,617,31"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247439",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,735,617,9"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247440",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,744,617,20"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247441",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,764,617,27"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247442",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,791,617,11"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247443",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,802,617,20"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247444",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,822,617,34"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247445",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,856,617,30"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247446",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,886,617,31"
+        }, {
+          "@id" : "http://t-pen.org/M5587+%28J%29+4/line/102247447",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393r.jpg#xywh=162,917,617,35"
+        } ]
       } ]
     }, {
       "@id" : "http://t-pen.org/M5587+%28J%29+4/canvas/page_393v.jpg",
@@ -6935,7 +7075,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202263&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202263&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -6954,7 +7094,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202239&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202239&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -6973,7 +7113,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202285&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202285&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -6992,7 +7132,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202262&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202262&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7011,7 +7151,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202241&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202241&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7030,7 +7170,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202256&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202256&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7049,7 +7189,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202277&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202277&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7068,7 +7208,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202255&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202255&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7087,7 +7227,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202245&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202245&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7106,7 +7246,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202284&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202284&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7125,7 +7265,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202269&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202269&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7144,7 +7284,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202240&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202240&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7163,7 +7303,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202259&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202259&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7182,7 +7322,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202280&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202280&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7201,7 +7341,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202246&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202246&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7220,7 +7360,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202279&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202279&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7239,7 +7379,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202244&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202244&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7258,7 +7398,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202274&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202274&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7277,7 +7417,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202267&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202267&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7296,7 +7436,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202238&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202238&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7315,7 +7455,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202258&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202258&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7334,7 +7474,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202257&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202257&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
@@ -7353,7 +7493,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://localhost:8080/T-PEN/imageResize?folioNum=13202275&height=1000&user=tara.andrews@univie.ac.at",
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13202275&height=1000&user=tara.andrews@univie.ac.at",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "height" : 2000,
