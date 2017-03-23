@@ -25549,12 +25549,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "որ թուրքն զհետ մեր յարձակի. զի յորժ<abbr>մ</abbr> "
+            "cnt:chars" : "որ թուրքն զհետ մեր յարձակի. զ<del  type=\"cancel\">ի</del>յորժ<abbr>մ</abbr> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202163#xywh=135,397,623,36",
           "_tpen_note" : "",
           "_tpen_creator" : 1932,
-          "modified" : "2017-02-22 07:50:57.0"
+          "modified" : "2017-03-12 04:08:12.0"
         }, {
           "tpen_line_id" : "line/102228099",
           "@type" : "oa:Annotation",
@@ -25597,24 +25597,24 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "գեացն, և եղև նօրին ացն մեծ և սոս կալի և "
+            "cnt:chars" : "գեացն, և եղև նօրին ացն մեծ և սոսկալի և "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202163#xywh=135,525,623,32",
           "_tpen_note" : "",
           "_tpen_creator" : 1932,
-          "modified" : "2017-02-22 07:54:03.0"
+          "modified" : "2017-03-12 04:09:42.0"
         }, {
           "tpen_line_id" : "line/102228103",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ահաւոր կորուստ քրիստոնէիցն. "
+            "cnt:chars" : "ահաւոր կորուստ <del  type=\"scribble\">քրինացն</del> քրիստոնէիցն. "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202163#xywh=135,557,623,29",
           "_tpen_note" : "",
           "_tpen_creator" : 1932,
-          "modified" : "2017-02-22 07:54:53.0"
+          "modified" : "2017-03-12 04:11:44.0"
         }, {
           "tpen_line_id" : "line/102228104",
           "@type" : "oa:Annotation",
@@ -25681,12 +25681,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "յաւուր, յայնմիկ կո<abbr>տրց</abbr>ան արք իբրև "
+            "cnt:chars" : "յա<subst rend=\"overwrite\"><del>յ</del><add>ւ</add></subst>ուր, յայնմիկ կո<abbr>տրց</abbr>ան արք իբրև "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202163#xywh=135,750,623,33",
           "_tpen_note" : "",
           "_tpen_creator" : 1932,
-          "modified" : "2017-02-22 07:58:00.0"
+          "modified" : "2017-03-12 04:13:53.0"
         }, {
           "tpen_line_id" : "line/102228110",
           "@type" : "oa:Annotation",
@@ -25708,9 +25708,9 @@
             "cnt:chars" : "արուանդանինոսին լուծ եզանց. և այ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202163#xywh=135,812,623,27",
-          "_tpen_note" : "",
+          "_tpen_note" : "in",
           "_tpen_creator" : 1932,
-          "modified" : "2017-02-22 08:00:23.0"
+          "modified" : "2017-03-12 04:16:10.0"
         }, {
           "tpen_line_id" : "line/102228112",
           "@type" : "oa:Annotation",
@@ -25741,24 +25741,24 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "խեաց զնայ <num value=\"\">:խ՟ռ՟.</num> դահեկան, <num value=\"\">ի՟ռ՟:</num> դահե_"
+            "cnt:chars" : "խ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202163#xywh=135,903,623,33",
           "_tpen_note" : "",
           "_tpen_creator" : 1932,
-          "modified" : "2017-02-22 08:02:49.0"
+          "modified" : "2017-03-12 05:15:28.0"
         }, {
           "tpen_line_id" : "line/102228115",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "կանի եդեալ զորդի<add place=\"above\">ն</add> իւր գրաւական. որ մը"
+            "cnt:chars" : "եաց զնայ <num value=\"\">:խ՟ռ՟.</num> դահեկան, <num value=\"\">ի՟ռ՟:</num> դահե_կանի եդեալ զորդի<add place=\"above\">ն</add> իւր գրաւական. որ մը"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202163#xywh=135,936,623,27",
           "_tpen_note" : "",
           "_tpen_creator" : 1932,
-          "modified" : "2017-02-22 08:04:03.0"
+          "modified" : "2017-03-12 05:15:30.0"
         } ]
       } ],
       "images" : [ {
