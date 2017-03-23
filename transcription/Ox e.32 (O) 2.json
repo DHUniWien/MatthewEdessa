@@ -38558,17 +38558,269 @@
         "on" : "http://t-pen.org/TPEN/canvas/13221227",
         "@context" : "http://iiif.io/api/presentation/2/context.json",
         "resources" : [ {
-          "tpen_line_id" : "line/102535403",
+          "tpen_line_id" : "line/102537461",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "որու<abbr>բ</abbr> յաղթեաց թ<abbr>գո</abbr>րն ալէքսն զաւրացն պածին "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=39,22,510,895",
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,27,567,65",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-03-15 01:54:40.0"
+          "modified" : "2017-03-15 11:25:24.0"
+        }, {
+          "tpen_line_id" : "line/102537462",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "կացն և արարին զ<abbr>ա</abbr>մ զաւրսն փախստական և սրով"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,92,567,33",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:26:09.0"
+        }, {
+          "tpen_line_id" : "line/102537463",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "և սաստիկ կոտորածով և <add place=\"above\">է</add>սպան զթ<abbr>գ</abbr>որն պածինկ<abbr>ց</abbr>"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,125,567,33",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:27:06.0"
+        }, {
+          "tpen_line_id" : "line/102537464",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "և ջնջեաց զ<abbr>ա</abbr>մ զզաւրսն ն<abbr>որ</abbr> և զորդիս ն<abbr>ոց</abbr> և զկանայս"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,158,567,45",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:28:01.0"
+        }, {
+          "tpen_line_id" : "line/102537465",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "ն<abbr>ոց</abbr> կոտորեաց սրով և բ<abbr>զ</abbr>մ աւարաւ և գերութ<abbr>բ</abbr> դա"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,203,567,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:28:43.0"
+        }, {
+          "tpen_line_id" : "line/102537466",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "րձաւ ի կ<abbr>դ</abbr>ն<abbr>ու</abbr><abbr>պլ</abbr>իս։ Յայսմ ժամանակի երևեցաւ "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,232,567,41",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:29:22.0"
+        }, {
+          "tpen_line_id" : "line/102537467",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "ոմն չար և պեղծ հերետիկոս ի կո<abbr>դու</abbr>պ<abbr>լ</abbr>իս աբեղայ "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,273,567,42",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:30:07.0"
+        }, {
+          "tpen_line_id" : "line/102537468",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "մի ի հոռոմոց ազգէն որ զսատանայ իւր <abbr>ա</abbr>ծ պա"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,315,567,42",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:30:33.0"
+        }, {
+          "tpen_line_id" : "line/102537469",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "շտէր ևս և շուն շրջեցուցանէր զհետ իւր և ն<abbr>որ</abbr> մա"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,357,567,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:30:57.0"
+        }, {
+          "tpen_line_id" : "line/102537470",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "տուցանէր զաղաւթս և այսպիսի պեղծ աղանդով"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,387,567,41",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:31:20.0"
+        }, {
+          "tpen_line_id" : "line/102537471",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "ապականեալ էր զբ<abbr>զ</abbr>մ արս և զկանայս և յ<abbr>ա</abbr>ծապ"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,428,567,38",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:31:53.0"
+        }, {
+          "tpen_line_id" : "line/102537472",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "աշտ ք<abbr>ղ</abbr>աքէն կ<abbr>դ</abbr>ու<abbr>պլ</abbr>սէ․ ապականեալ ի հաւատ"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,466,567,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:32:35.0"
+        }, {
+          "tpen_line_id" : "line/102537473",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "ացելոցն իբրև զփոքր մասն ք<abbr>ղ</abbr>աքին և գլխովին իսկ "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,492,567,38",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:32:54.0"
+        }, {
+          "tpen_line_id" : "line/102537474",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "ըզմայրն թ<abbr>գոր</abbr>ին ալէքսին և այնչափ յանդգնեալ "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,530,567,39",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:33:27.0"
+        }, {
+          "tpen_line_id" : "line/102537475",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "մայր թ<abbr>գոր</abbr>ին․ որ չար մոլորութ<abbr>բ</abbr>ն իւրով առեալ զմասն "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,569,567,32",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:34:00.0"
+        }, {
+          "tpen_line_id" : "line/102537476",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "ի <abbr>սբ</abbr>ոյ նշանէն <abbr>քս</abbr>ի և դնէր զայն ի կաւշի<del type=\"scribble\"><unclear extent>\"1\"/></del>կ թ<abbr>գո</abbr>րին ծ"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,601,567,33",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:35:44.0"
+        }, {
+          "tpen_line_id" : "line/102537477",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "ածկայբար ի ներքոյ գարշայպարացն զի լիցի այն կ"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,634,567,44",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:36:11.0"
+        }, {
+          "tpen_line_id" : "line/102537478",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "ոխան թ<abbr>գո</abbr>րին զորս յայտնեաց <abbr>ա</abbr>ծ զպեղծ աղանդա"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,678,567,38",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:36:41.0"
+        }, {
+          "tpen_line_id" : "line/102537479",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "աորն ի յիւրոց հաւատակցացն և ազդ արարեալ զայն "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,716,567,33",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:37:26.0"
+        }, {
+          "tpen_line_id" : "line/102537480",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "թ<abbr>գ</abbr>որին․ զորս իմացեալ <abbr>ա</abbr>ծասէր թգ<abbr>ո</abbr>րն ալէքսն և զա"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,749,567,38",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:38:04.0"
+        }, {
+          "tpen_line_id" : "line/102537481",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "զանդագ<abbr>լ</abbr>խ<abbr>ն</abbr> հրով այրեաց և զայլս բ<abbr>զ</abbr>մս արար խ"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,787,567,33",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:38:41.0"
+        }, {
+          "tpen_line_id" : "line/102537482",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "եխդայմահ ի ծովն ովի<add place=\"above\">կ</add>անոս իբրև բիւր մի և զիւր "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13221227#xywh=3,820,567,120",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:39:28.0"
         } ]
       } ],
       "images" : [ {
@@ -38596,365 +38848,269 @@
         "on" : "http://t-pen.org/TPEN/canvas/13221141",
         "@context" : "http://iiif.io/api/presentation/2/context.json",
         "resources" : [ {
-          "tpen_line_id" : "line/102275994",
+          "tpen_line_id" : "line/102537534",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "մայրն ընկէց ի պատուոյ և էհան յերեսաց և եղև խ<abbr>ղ</abbr>"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,0,196,70",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,21,601,54",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:41:29.0"
         }, {
-          "tpen_line_id" : "line/102276009",
+          "tpen_line_id" : "line/102537535",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ու<abbr>թի</abbr>։ <milestone unit=\"section\" n=\"539\"/>դարձեալ ի թուականութ<abbr>են</abbr>ն հայոց ի յամս "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,0,196,70",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,75,601,44",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:42:30.0"
         }, {
-          "tpen_line_id" : "line/102276010",
+          "tpen_line_id" : "line/102537536",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "<num value=\"539\">շ՟լ՟թ՟․</num> յարուցեալ հայրապետն հայոց <abbr>տր</abbr> <del type=\"cancel\">պ</del> բարսեղ "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,70,196,40",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,119,601,42",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:43:59.0"
         }, {
-          "tpen_line_id" : "line/102275995",
+          "tpen_line_id" : "line/102537537",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "և գնացեալ առ տիեզերակալ սուլտանն մելեք շահն "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,70,196,40",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,161,601,32",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:44:23.0"
         }, {
-          "tpen_line_id" : "line/102276011",
+          "tpen_line_id" : "line/102537538",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "զի տեսանէր զհաւատացեալսն <abbr>քս</abbr>ի զի նեղէին զնո"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,110,196,40",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,193,601,45",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:44:49.0"
         }, {
-          "tpen_line_id" : "line/102275996",
+          "tpen_line_id" : "line/102537539",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "<abbr>ս </abbr> ի տեղիս տեղիս և հարկս պահանջէին յեղ<abbr>եց</abbr>եցն "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,110,196,40",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,238,601,44",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:45:41.0"
         }, {
-          "tpen_line_id" : "line/102276012",
+          "tpen_line_id" : "line/102537540",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "<abbr>այ</abbr> և <abbr>ա</abbr>մ ժառանգաւորացն  <del type=\"scribble\"><abbr>այ</abbr></del> ն<abbr>որ</abbr> և գվանորայ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,150,196,37",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,282,601,36",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:46:56.0"
         }, {
-          "tpen_line_id" : "line/102275997",
+          "tpen_line_id" : "line/102537541",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "սն և զե<abbr>պկու</abbr>նս հարկիւ չարչ<abbr>ր</abbr>էին և յայնժամ կ<abbr>թ</abbr>"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,150,196,37",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,318,601,29",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:47:55.0"
         }, {
-          "tpen_line_id" : "line/102276013",
+          "tpen_line_id" : "line/102537542",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ղ<abbr>կ</abbr>ոսն հայոց <abbr>տր</abbr> բարսեղ տեսեալ զայս <abbr>ա</abbr>մ զնեղ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,187,196,77",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,347,601,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:48:34.0"
         }, {
-          "tpen_line_id" : "line/102275998",
+          "tpen_line_id" : "line/102537543",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ութ<abbr>ի</abbr>ս և խորհեցաւ գնալ առ բարի և քաղցր թ<abbr>գ</abbr>որն "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,187,196,77",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,382,601,44",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:49:04.0"
         }, {
-          "tpen_line_id" : "line/102276014",
+          "tpen_line_id" : "line/102537544",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "պարսից և <abbr>ա</abbr>մ հաւատացելոցն <abbr>քս</abbr>ի առ ի ծանուցան"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,264,196,37",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,426,601,39",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:49:54.0"
         }, {
-          "tpen_line_id" : "line/102275999",
+          "tpen_line_id" : "line/102537545",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ել նմայ զայս <abbr>ա</abbr>մ և առեալ ընդ իւր նուէրս սուլ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,264,196,37",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,465,601,26",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:50:20.0"
         }, {
-          "tpen_line_id" : "line/102276015",
+          "tpen_line_id" : "line/102537546",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "տանին իբրև բիւր ոսկոյ և արծաթոյ և դիպակ<abbr>ց</abbr> "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,301,196,39",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,491,601,44",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:50:46.0"
         }, {
-          "tpen_line_id" : "line/102276000",
+          "tpen_line_id" : "line/102537547",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "և հանդերձ ազատաւք և ե<abbr>պկա</abbr>ւք և ք<abbr>հիւ</abbr>ք առեալ "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,301,196,39",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,535,601,48",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:51:31.0"
         }, {
-          "tpen_line_id" : "line/102276016",
+          "tpen_line_id" : "line/102537548",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "վ<abbr>դպետ</abbr> զհետ իւր և գնաց ի պարսիկս առ <abbr>ա</abbr>ծաս"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,340,196,36",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,583,601,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:52:04.0"
         }, {
-          "tpen_line_id" : "line/102276001",
+          "tpen_line_id" : "line/102537549",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "էս սուլտանն և տեսեալ սուլտանին զ<abbr>տր</abbr> բարսեղ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,340,196,36",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,618,601,29",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:52:34.0"
         }, {
-          "tpen_line_id" : "line/102276002",
+          "tpen_line_id" : "line/102537550",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "յոյժ մեծարեաց զնայ և կատարեաց զ<abbr>ա</abbr>մ խնդրու"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,376,196,39",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,647,601,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:52:57.0"
         }, {
-          "tpen_line_id" : "line/102276017",
+          "tpen_line_id" : "line/102537551",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ածս ն<abbr>որ</abbr> և արարեալ զ<abbr>ա</abbr>մ կամս <abbr>տր</abbr> բարսղի և ազ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,376,196,39",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,682,601,38",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:53:55.0"
         }, {
-          "tpen_line_id" : "line/102276003",
+          "tpen_line_id" : "line/102537552",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ատեաց զ<abbr>ա</abbr>մ յեկեղեցիս և զվանորայսն և զ<abbr>ք</abbr>հեայս"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,415,196,35",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,720,601,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:54:36.0"
         }, {
-          "tpen_line_id" : "line/102276018",
+          "tpen_line_id" : "line/102537553",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ն և առեալ զգիր ազատութ<abbr>ե </abbr> և հրովարտակաւք "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,415,196,35",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,755,601,38",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:55:05.0"
         }, {
-          "tpen_line_id" : "line/102276004",
+          "tpen_line_id" : "line/102537554",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "և մեծարանաւք արձակե<abbr>ց</abbr> զհայրապետն հայոց և ահ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,450,196,35",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,793,601,47",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:55:33.0"
         }, {
-          "tpen_line_id" : "line/102276019",
+          "tpen_line_id" : "line/102537555",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "այ ելեալ գայր արքունական հրամանաւք <abbr>տր</abbr> բ<abbr>րս</abbr>եղ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,450,196,35",
+          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=45,840,601,69",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
-        }, {
-          "tpen_line_id" : "line/102276005",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,485,196,36",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
-        }, {
-          "tpen_line_id" : "line/102276020",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,485,196,36",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
-        }, {
-          "tpen_line_id" : "line/102276006",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,521,196,15",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
-        }, {
-          "tpen_line_id" : "line/102276021",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,521,196,15",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
-        }, {
-          "tpen_line_id" : "line/102276007",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,536,196,40",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
-        }, {
-          "tpen_line_id" : "line/102276022",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,536,196,40",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
-        }, {
-          "tpen_line_id" : "line/102276008",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,576,196,60",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
-        }, {
-          "tpen_line_id" : "line/102276023",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221141#xywh=453,576,196,60",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 11:56:17.0"
         } ]
       } ],
       "images" : [ {
@@ -38982,341 +39138,269 @@
         "on" : "http://t-pen.org/TPEN/canvas/13221198",
         "@context" : "http://iiif.io/api/presentation/2/context.json",
         "resources" : [ {
-          "tpen_line_id" : "line/102276024",
+          "tpen_line_id" : "line/102538064",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "մեծաւ ուրախութ<abbr>բ</abbr> և արք փառաւորք ի սուլտանէն "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,0,226,11",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,13,598,77",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 23:57:08.0"
         }, {
-          "tpen_line_id" : "line/102276038",
+          "tpen_line_id" : "line/102538065",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "զհետ իւր և եկեալ հասանէր ի ջահան գաւառին յա"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,0,226,11",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,90,598,38",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 23:57:33.0"
         }, {
-          "tpen_line_id" : "line/102276039",
+          "tpen_line_id" : "line/102538066",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "րեաւ ի վ<abbr>ր</abbr> <abbr>տն</abbr> թէոդոսի որ հրամանաւ փիլառտ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,11,226,68",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,128,598,41",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 23:58:12.0"
         }, {
-          "tpen_line_id" : "line/102276025",
+          "tpen_line_id" : "line/102538067",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ոսին նստեալ էր կ<abbr>թղկ</abbr>ոս ի հոնին և <abbr>տր</abbr> բարսեղ ըն"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,11,226,68",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,169,598,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 23:58:56.0"
         }, {
-          "tpen_line_id" : "line/102276040",
+          "tpen_line_id" : "line/102538068",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "կենոյր յաթոռոյն զ<abbr>տր</abbr> թէոդորոս և առեալ ի նման "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,79,226,50",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,204,598,33",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-15 23:59:28.0"
         }, {
-          "tpen_line_id" : "line/102276026",
+          "tpen_line_id" : "line/102538069",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "է զքօղն և զգաւազանն և զ<abbr>սբ</abbr> նշանն <abbr>տր</abbr> պետրոս"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,79,226,50",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,237,598,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:00:30.0"
         }, {
-          "tpen_line_id" : "line/102276041",
+          "tpen_line_id" : "line/102538070",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ի և արար միահեծան զհայրապետութինն իւր և "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,129,226,32",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,272,598,39",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:01:08.0"
         }, {
-          "tpen_line_id" : "line/102276027",
+          "tpen_line_id" : "line/102538071",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "անտի եկն ի քաղաքն ուռհայ։ <supplied>Եւ</supplied> այս ոչ է մեղ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,129,226,32",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,311,598,47",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:01:46.0"
         }, {
-          "tpen_line_id" : "line/102276042",
+          "tpen_line_id" : "line/102538072",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ադրելի գնալ հայրապետի առ այլազգի թ<abbr>գ</abbr><abbr>որ</abbr>"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,161,226,69",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,358,598,48",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:02:14.0"
         }, {
-          "tpen_line_id" : "line/102276028",
+          "tpen_line_id" : "line/102538073",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : " և առնել խ<abbr>ղղ</abbr>ութ<abbr>ի</abbr> <abbr>սբ</abbr>ոյ եկեղեցոյ զի յաղագս "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,161,226,69",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,406,598,42",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:02:51.0"
         }, {
-          "tpen_line_id" : "line/102276043",
+          "tpen_line_id" : "line/102538074",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "խաղաղութ<abbr>ե</abbr> սբոյ եկեղեցոյ գնաց <abbr>սբ</abbr>ն բարսեղ "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,230,226,33",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,448,598,33",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:03:51.0"
         }, {
-          "tpen_line_id" : "line/102276029",
+          "tpen_line_id" : "line/102538075",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "առ անաւրէնն յուլիանոս թ<abbr>գո</abbr>րն և <abbr>սբ</abbr>ն ներսէս "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,230,226,33",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,481,598,30",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:04:51.0"
         }, {
-          "tpen_line_id" : "line/102276044",
+          "tpen_line_id" : "line/102538076",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "առ ուրացողն վաղէս թ<abbr>գոր</abbr> յունաց և <abbr>սբ</abbr>ն մարու"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,263,226,21",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,511,598,44",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:05:31.0"
         }, {
-          "tpen_line_id" : "line/102276030",
+          "tpen_line_id" : "line/102538077",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "թայ առ յազկերտ պարսից արքայն և վ<abbr>դպ</abbr>ն այն "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,263,226,21",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,555,598,45",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:06:14.0"
         }, {
-          "tpen_line_id" : "line/102276045",
+          "tpen_line_id" : "line/102538078",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "առ թ<abbr>գո</abbr>րն քաղթէացոց և <abbr>քս</abbr> եկեալ առ հրէակ<abbr>ն</abbr> "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,284,226,95",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,600,598,24",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:07:49.0"
         }, {
-          "tpen_line_id" : "line/102276031",
+          "tpen_line_id" : "line/102538079",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ազգն։ <milestone unit=\"section\" n=\"540\"/>իսկ յորժամ եկն <abbr>տր</abbr> բարսեղ յուռհայ փո"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,284,226,95",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,624,598,42",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:18:05.0"
         }, {
-          "tpen_line_id" : "line/102276032",
+          "tpen_line_id" : "line/102538080",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "խեալ էր թուկանութի<abbr>նն</abbr> հայոց <num value=\"540\">․շ՟խ՟․ </num>և գնացե<abbr>լ</abbr>"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,379,226,43",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,666,598,33",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:19:24.0"
         }, {
-          "tpen_line_id" : "line/102276046",
+          "tpen_line_id" : "line/102538081",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "<abbr>տր</abbr> բարսեղ հասանէր մինչև ի մեծն կեսարիայ "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,379,226,43",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,699,598,39",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:19:45.0"
         }, {
-          "tpen_line_id" : "line/102276033",
+          "tpen_line_id" : "line/102538082",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "գամրաց և դառնայր անտիոք և լինէր ուրախութի"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,422,226,43",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,738,598,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:20:03.0"
         }, {
-          "tpen_line_id" : "line/102276047",
+          "tpen_line_id" : "line/102538083",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "մեծ <abbr>ա</abbr>մ աշխարհի որք տեսանէին զնայ և գայր դ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,422,226,43",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,773,598,29",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:20:28.0"
         }, {
-          "tpen_line_id" : "line/102276034",
+          "tpen_line_id" : "line/102538084",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "արձեալ ուռհայ։ յայսմ ամի շարժեալ եղև ընդ "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,465,226,36",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,802,598,41",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:21:16.0"
         }, {
-          "tpen_line_id" : "line/102276048",
+          "tpen_line_id" : "line/102538085",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "<abbr>ա</abbr>մ երկիր յամսեանն սեպտեմբերի և սաստկայ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,465,226,36",
+          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=0,843,598,80",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
-        }, {
-          "tpen_line_id" : "line/102276035",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,501,226,42",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
-        }, {
-          "tpen_line_id" : "line/102276049",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,501,226,42",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
-        }, {
-          "tpen_line_id" : "line/102276036",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,543,226,49",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
-        }, {
-          "tpen_line_id" : "line/102276050",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,543,226,49",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
-        }, {
-          "tpen_line_id" : "line/102276037",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,592,226,7",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:31.0"
-        }, {
-          "tpen_line_id" : "line/102276051",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221198#xywh=1,592,226,7",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:21:40.0"
         } ]
       } ],
       "images" : [ {
@@ -39344,341 +39428,269 @@
         "on" : "http://t-pen.org/TPEN/canvas/13221263",
         "@context" : "http://iiif.io/api/presentation/2/context.json",
         "resources" : [ {
-          "tpen_line_id" : "line/102276052",
+          "tpen_line_id" : "line/102538136",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "պէս երերալով դողայր <abbr>ա</abbr>մ արարածք հանդերձ <abbr>ա</abbr>մ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,0,152,56",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,25,586,50",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:23:55.0"
         }, {
-          "tpen_line_id" : "line/102276066",
+          "tpen_line_id" : "line/102538137",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "արարածաւք որ ի ներքոյ երկնից և լինէր կործանու"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,0,152,56",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,75,586,38",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:25:51.0"
         }, {
-          "tpen_line_id" : "line/102276067",
+          "tpen_line_id" : "line/102538138",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "մն մեծ ի քաղաքն անտիոքայ և բ<abbr>զ</abbr>մ աշտարակք հի"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,56,152,52",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,113,586,33",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:26:38.0"
         }, {
-          "tpen_line_id" : "line/102276053",
+          "tpen_line_id" : "line/102538139",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "մն ի վեր տապալեցան և անկաւ մեծ մասն պա"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,56,152,52",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,146,586,41",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:26:50.0"
         }, {
-          "tpen_line_id" : "line/102276068",
+          "tpen_line_id" : "line/102538140",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "րսպին յանտիոքայ և բ<abbr>զ</abbr>մ արք և կանայք մեռան "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,108,152,35",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,187,586,29",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:27:11.0"
         }, {
-          "tpen_line_id" : "line/102276054",
+          "tpen_line_id" : "line/102538141",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ի ներքոյ բնակութ<abbr>ե</abbr> իւրեանց։ <milestone unit=\"section\" n=\"541\"/>դարձեալ ի թուակ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,108,152,35",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,216,586,36",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:27:45.0"
         }, {
-          "tpen_line_id" : "line/102276069",
+          "tpen_line_id" : "line/102538142",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "անութե<abbr>ս</abbr> հայոց <num value=\"541\">․շ՟խ՟ա՟․ </num> անկաւ մահ սաստիկ ընդ "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,143,152,33",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,252,586,38",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:29:05.0"
         }, {
-          "tpen_line_id" : "line/102276055",
+          "tpen_line_id" : "line/102538143",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "<abbr>ա</abbr>մ արարածս որ և ի բ<abbr>զ</abbr>մութէ մեռելոցն ոչ կարէ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,143,152,33",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,290,586,33",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:29:40.0"
         }, {
-          "tpen_line_id" : "line/102276070",
+          "tpen_line_id" : "line/102538144",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ին ժամանել ք<abbr>հ</abbr>այքն թաղել զմեռեալսն և առ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,176,152,68",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,323,586,50",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:30:01.0"
         }, {
-          "tpen_line_id" : "line/102276056",
+          "tpen_line_id" : "line/102538145",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "հասարակ յ<abbr>ա</abbr>մ տունս ձայն լալոյ և ողբումն ար"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,176,152,68",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,373,586,38",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:30:20.0"
         }, {
-          "tpen_line_id" : "line/102276071",
+          "tpen_line_id" : "line/102538146",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "տասուաց ելանէր և անչափ սաստկ<abbr>ց</abbr>աւ մահն "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,244,152,36",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,411,586,48",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:30:46.0"
         }, {
-          "tpen_line_id" : "line/102276057",
+          "tpen_line_id" : "line/102538147",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "որք բ<abbr>զ</abbr>մք ի յահէ մահուն էրերալով դողային ա"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,244,152,36",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,459,586,33",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:31:18.0"
         }, {
-          "tpen_line_id" : "line/102276072",
+          "tpen_line_id" : "line/102538148",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ռաւել քան զմեռեալսն և անթիւ կոտորածս ե"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,280,152,36",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,492,586,48",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:31:34.0"
         }, {
-          "tpen_line_id" : "line/102276058",
+          "tpen_line_id" : "line/102538149",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ղև աշխարհի ի մեռեալ անձանցն։ Յայսմ ամի վ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,280,152,36",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,540,586,32",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:31:59.0"
         }, {
-          "tpen_line_id" : "line/102276073",
+          "tpen_line_id" : "line/102538150",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "արագայ <abbr>սբ</abbr> նշանն և պատկեր <abbr>ս</abbr>բոյ <abbr>ա</abbr>ծածն"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,316,152,46",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,572,586,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:32:34.0"
         }, {
-          "tpen_line_id" : "line/102276059",
+          "tpen_line_id" : "line/102538151",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ին բերաւ ի քաղաքն ուռհայ և եղև ուրախու"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,316,152,46",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,607,586,50",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:32:50.0"
         }, {
-          "tpen_line_id" : "line/102276060",
+          "tpen_line_id" : "line/102538152",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "թ<abbr>ի</abbr> մեծ ի <abbr>վ</abbr>ր տանն աբգարու և դըղըրդեալ մի"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,362,152,42",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,657,586,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:33:39.0"
         }, {
-          "tpen_line_id" : "line/102276074",
+          "tpen_line_id" : "line/102538153",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ահամուռ <abbr>ա</abbr>մ ք<abbr>ղ</abbr>աքն ելեալք մեծաւ ուրախ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,362,152,42",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,692,586,33",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:34:00.0"
         }, {
-          "tpen_line_id" : "line/102276061",
+          "tpen_line_id" : "line/102538154",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ու<abbr>բ</abbr> ընդ յառաջ ն<abbr>որ</abbr> և ածին զնայ ի քաղաքն մեծ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,404,152,44",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,725,586,39",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:34:24.0"
         }, {
-          "tpen_line_id" : "line/102276075",
+          "tpen_line_id" : "line/102538155",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "օ հանդիսիւք յայնժամ իշխանն յաշխարհին "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,404,152,44",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,764,586,39",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:34:48.0"
         }, {
-          "tpen_line_id" : "line/102276062",
+          "tpen_line_id" : "line/102538156",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ուռհայոյ արար պատէ<add place=\"above\">հ</add>ութ<abbr>ի</abbr> որք եկին զհետ "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,448,152,35",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,803,586,38",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:35:24.0"
         }, {
-          "tpen_line_id" : "line/102276076",
+          "tpen_line_id" : "line/102538157",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "<abbr>սբ</abbr>ոյ ե<abbr>պ</abbr>իկոսին <abbr>տր</abbr> պաւղոսին և այլոց հարանց"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,448,152,35",
+          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=61,841,586,60",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
-        }, {
-          "tpen_line_id" : "line/102276063",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,483,152,44",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
-        }, {
-          "tpen_line_id" : "line/102276077",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,483,152,44",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
-        }, {
-          "tpen_line_id" : "line/102276064",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,527,152,52",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
-        }, {
-          "tpen_line_id" : "line/102276078",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,527,152,52",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
-        }, {
-          "tpen_line_id" : "line/102276065",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,579,152,6",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:32.0"
-        }, {
-          "tpen_line_id" : "line/102276079",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221263#xywh=497,579,152,6",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:36:16.0"
         } ]
       } ],
       "images" : [ {
@@ -39706,341 +39718,269 @@
         "on" : "http://t-pen.org/TPEN/canvas/13221176",
         "@context" : "http://iiif.io/api/presentation/2/context.json",
         "resources" : [ {
-          "tpen_line_id" : "line/102276080",
+          "tpen_line_id" : "line/102538158",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ն և եդեալ զս<abbr>բ</abbr> նշանն յեկեղեցին հանդերձ փ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,0,249,76",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,43,560,56",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:37:24.0"
         }, {
-          "tpen_line_id" : "line/102276094",
+          "tpen_line_id" : "line/102538159",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "առաւորութ<abbr>բ </abbr> և զկնի ամաց ինչ յափշտակե<abbr>լ</abbr> "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,0,249,76",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,99,560,53",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:37:51.0"
         }, {
-          "tpen_line_id" : "line/102276095",
+          "tpen_line_id" : "line/102538160",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "խլեաց ի նոցանէ զ<abbr>սբ</abbr>սն անիրաւաբար։ Յայսմ "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,76,249,49",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,152,560,24",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:38:22.0"
         }, {
-          "tpen_line_id" : "line/102276081",
+          "tpen_line_id" : "line/102538161",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ամի զաւրաժողով արար պուզանն զ<abbr>ա</abbr>մ զզաւր"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,76,249,49",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,176,560,33",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:38:52.0"
         }, {
-          "tpen_line_id" : "line/102276096",
+          "tpen_line_id" : "line/102538162",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "սն պարսից և առեալ զհետ իւր զմեծ ամիրայքն "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,125,249,38",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,209,560,42",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:39:13.0"
         }, {
-          "tpen_line_id" : "line/102276082",
+          "tpen_line_id" : "line/102538163",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "և զտէրն անտիոքայ և զհալպայ զաղսիանն․ և զա"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,125,249,38",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,251,560,38",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:39:44.0"
         }, {
-          "tpen_line_id" : "line/102276097",
+          "tpen_line_id" : "line/102538164",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ղսնգոյրն և անթիւ զաւրականաւք խաղայր գն"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,163,249,37",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,289,560,36",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:40:01.0"
         }, {
-          "tpen_line_id" : "line/102276083",
+          "tpen_line_id" : "line/102538165",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "այր յաշխարհն հոռոմոց և իջեալ ի վ<abbr>ր</abbr> հռչակաւ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,163,249,37",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,325,560,50",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:40:22.0"
         }, {
-          "tpen_line_id" : "line/102276098",
+          "tpen_line_id" : "line/102538166",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "որ քաղաքին որ կոչի նիկիայ և սնոտի խորհրդօք "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,200,249,35",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,375,560,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:40:46.0"
         }, {
-          "tpen_line_id" : "line/102276084",
+          "tpen_line_id" : "line/102538167",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "խելայգարեալ խորհէր անցանել առնուլ զք<abbr>ղ</abbr>"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,200,249,35",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,410,560,48",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:41:06.0"
         }, {
-          "tpen_line_id" : "line/102276099",
+          "tpen_line_id" : "line/102538168",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "աքն կ<abbr>դու</abbr><abbr>պլ</abbr>իս զայն որ վերին պահպանութ<abbr>բ</abbr> "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,235,249,38",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,458,560,36",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:41:47.0"
         }, {
-          "tpen_line_id" : "line/102276085",
+          "tpen_line_id" : "line/102538169",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ն ամրացեալ կայ և մոլորական բնութ<abbr>բ</abbr> միտ ե"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,235,249,38",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,494,560,42",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:42:08.0"
         }, {
-          "tpen_line_id" : "line/102276100",
+          "tpen_line_id" : "line/102538170",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "դեալ առնուլ զանըմբըռնելի քաղաքն և կացեա"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,273,249,39",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,536,560,39",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:42:38.0"
         }, {
-          "tpen_line_id" : "line/102276086",
+          "tpen_line_id" : "line/102538171",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "լ անդ զաւուրս ինչ և ոչ կայր կարողութի ա"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,273,249,39",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,575,560,42",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:42:54.0"
         }, {
-          "tpen_line_id" : "line/102276101",
+          "tpen_line_id" : "line/102538172",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ռնել ինչ։ յայսմ ամի մեռանէր մեծն և աշխաղ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,312,249,39",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,617,560,33",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:43:33.0"
         }, {
-          "tpen_line_id" : "line/102276087",
+          "tpen_line_id" : "line/102538173",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "րհակալ սուլտանն մելէքշահն որ էր հայր և ծ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,312,249,39",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,650,560,39",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:44:15.0"
         }, {
-          "tpen_line_id" : "line/102276088",
+          "tpen_line_id" : "line/102538174",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "նող <abbr>ա</abbr>մ տիեզերաց այր բարի և ողորմած և քաղ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,351,249,42",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,689,560,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:44:35.0"
         }, {
-          "tpen_line_id" : "line/102276102",
+          "tpen_line_id" : "line/102538175",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ցր ի վ<abbr>ր</abbr> <abbr>ա</abbr>մ աշխարհի սայ մեռանէր ի պաղտատ "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,351,249,42",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,724,560,42",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:45:15.0"
         }, {
-          "tpen_line_id" : "line/102276089",
+          "tpen_line_id" : "line/102538176",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "քաղաքի դաւով նենգու<abbr>բ</abbr> ի կնոջէն իւրմէ որ էր "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,393,249,45",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,766,560,38",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:45:45.0"
         }, {
-          "tpen_line_id" : "line/102276103",
+          "tpen_line_id" : "line/102538177",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "դուստր սուլտանին սմրխնդոյ ս<abbr>որ</abbr> դեղ մահ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,393,249,45",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,804,560,30",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:46:16.0"
         }, {
-          "tpen_line_id" : "line/102276090",
+          "tpen_line_id" : "line/102538178",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ու արբուցանէր բարի անձինն և լուծանէր զ<abbr>ա</abbr>մյ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,438,249,45",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,834,560,36",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:46:48.0"
         }, {
-          "tpen_line_id" : "line/102276104",
+          "tpen_line_id" : "line/102538179",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "մեծ թ<abbr>գ</abbr>որն ի կենաց, և եղև սուգ սաստիկ ի վ<abbr>ր</abbr> <abbr>ա</abbr>մ․"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,438,249,45",
+          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=7,870,560,73",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
-        }, {
-          "tpen_line_id" : "line/102276091",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,483,249,36",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
-        }, {
-          "tpen_line_id" : "line/102276105",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,483,249,36",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
-        }, {
-          "tpen_line_id" : "line/102276092",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,519,249,44",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
-        }, {
-          "tpen_line_id" : "line/102276106",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,519,249,44",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
-        }, {
-          "tpen_line_id" : "line/102276093",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,563,249,11",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
-        }, {
-          "tpen_line_id" : "line/102276107",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221176#xywh=1,563,249,11",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:33.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:47:38.0"
         } ]
       } ],
       "images" : [ {
@@ -40068,317 +40008,269 @@
         "on" : "http://t-pen.org/TPEN/canvas/13221137",
         "@context" : "http://iiif.io/api/presentation/2/context.json",
         "resources" : [ {
-          "tpen_line_id" : "line/102276108",
+          "tpen_line_id" : "line/102538222",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : " տիեզերաց, և լուեալ պուզանն զմահ սուլտանին դ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,0,111,53",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,27,581,47",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:49:25.0"
         }, {
-          "tpen_line_id" : "line/102276121",
+          "tpen_line_id" : "line/102538223",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "արձաւ ի քաղաքն ուռհայ և աղսիանն գնաց յանտ"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,0,111,53",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,74,581,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:50:06.0"
         }, {
-          "tpen_line_id" : "line/102276122",
+          "tpen_line_id" : "line/102538224",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "իոք և աղսնգոյրն գնաց ի հալպ ք<abbr>ղք</abbr>: Տէր բարսեղ էր ի "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,53,111,47",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,109,581,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:50:59.0"
         }, {
-          "tpen_line_id" : "line/102276109",
+          "tpen_line_id" : "line/102538225",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "քաղաքն ուռհայ և իբրև զփախստական անկանէր  "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,53,111,47",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,144,581,39",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:51:20.0"
         }, {
-          "tpen_line_id" : "line/102276123",
+          "tpen_line_id" : "line/102538226",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ի քաղաքն անի․ և նստաւ յաթոռ իւր և ահայ յայս"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,100,111,37",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,183,581,33",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:52:23.0"
         }, {
-          "tpen_line_id" : "line/102276110",
+          "tpen_line_id" : "line/102538227",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "մ աւուրքս եղև սաստիկ կոր<add place=\"above\">տ</add>որածք և արիւնհեղու"
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,100,111,37",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,216,581,39",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:53:48.0"
         }, {
-          "tpen_line_id" : "line/102276124",
+          "tpen_line_id" : "line/102538228",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "թիւն ի տանն Հայոց, քանզի յարձակումն արարին զօրքն Թուրքաց և բազմաց խաւար ածին. մեռաւ սուլտանն, և ազգն Թուրքաց զբազումս գերեցին. և տարան զսուլտանն և թաղեցին ի Մարանդ քաղաքի մօտ ի գերեզման հօրն իւրոյ Աբասլանայ. և մնաց իւր երկու որդի աւագն կոչեցաւ Պարկիարուխ, որ էր ծնեալ ի դստերէն Ակութին մեծ ամիրային որ էր ազգական Աբասլանայ, իսկ միւս որդւոյն կոչէին Սափար, որ էր ի դստերէն Սմրղնդոյ սուլտանին, որ նստէր յՕզկան քաղաքի և Խզնէ։ Եւ դնեն զաւագ որդին զՊարկիարուխն յաթոռ հօր իւրոյ Մելեք-շահին և կացուցանեն զնա սուլտան "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,137,111,33",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,255,581,36",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:53:52.0"
         }, {
-          "tpen_line_id" : "line/102276111",
+          "tpen_line_id" : "line/102538229",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "cnt:chars" : ""
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,137,111,33",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,291,581,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:48:15.0"
         }, {
-          "tpen_line_id" : "line/102276125",
+          "tpen_line_id" : "line/102538230",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "cnt:chars" : ""
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,170,111,34",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,326,581,44",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:48:16.0"
         }, {
-          "tpen_line_id" : "line/102276112",
+          "tpen_line_id" : "line/102538232",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "cnt:chars" : ""
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,170,111,34",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,370,581,42",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:48:17.0"
         }, {
-          "tpen_line_id" : "line/102276126",
+          "tpen_line_id" : "line/102538233",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "cnt:chars" : ""
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,204,111,34",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,412,581,38",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:48:17.0"
         }, {
-          "tpen_line_id" : "line/102276113",
+          "tpen_line_id" : "line/102538234",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "cnt:chars" : ""
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,204,111,34",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,450,581,38",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:48:18.0"
         }, {
-          "tpen_line_id" : "line/102276127",
+          "tpen_line_id" : "line/102538235",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "cnt:chars" : ""
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,238,111,39",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,488,581,42",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:48:19.0"
         }, {
-          "tpen_line_id" : "line/102276114",
+          "tpen_line_id" : "line/102538236",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "cnt:chars" : ""
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,238,111,39",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,530,581,38",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:48:20.0"
         }, {
-          "tpen_line_id" : "line/102276128",
+          "tpen_line_id" : "line/102538237",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "cnt:chars" : ""
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,277,111,41",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,568,581,39",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:48:21.0"
         }, {
-          "tpen_line_id" : "line/102276115",
+          "tpen_line_id" : "line/102538238",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "cnt:chars" : ""
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,277,111,41",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,607,581,42",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:48:22.0"
         }, {
-          "tpen_line_id" : "line/102276116",
+          "tpen_line_id" : "line/102538239",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "cnt:chars" : ""
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,318,111,39",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,649,581,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:48:23.0"
         }, {
-          "tpen_line_id" : "line/102276129",
+          "tpen_line_id" : "line/102538240",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "cnt:chars" : ""
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,318,111,39",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,684,581,44",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:48:27.0"
         }, {
-          "tpen_line_id" : "line/102276117",
+          "tpen_line_id" : "line/102538241",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "cnt:chars" : ""
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,357,111,44",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,728,581,32",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:48:28.0"
         }, {
-          "tpen_line_id" : "line/102276130",
+          "tpen_line_id" : "line/102538242",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "cnt:chars" : ""
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,357,111,44",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,760,581,32",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:48:29.0"
         }, {
-          "tpen_line_id" : "line/102276118",
+          "tpen_line_id" : "line/102538243",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "cnt:chars" : ""
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,401,111,43",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,792,581,41",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:48:30.0"
         }, {
-          "tpen_line_id" : "line/102276131",
+          "tpen_line_id" : "line/102538244",
           "@type" : "oa:Annotation",
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
             "cnt:chars" : ""
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,401,111,43",
+          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=63,833,581,65",
           "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
-        }, {
-          "tpen_line_id" : "line/102276119",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,444,111,36",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
-        }, {
-          "tpen_line_id" : "line/102276132",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,444,111,36",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
-        }, {
-          "tpen_line_id" : "line/102276120",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,480,111,52",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
-        }, {
-          "tpen_line_id" : "line/102276133",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13221137#xywh=538,480,111,52",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-03-05 05:05:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-03-16 00:48:30.0"
         } ]
       } ],
       "images" : [ {
