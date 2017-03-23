@@ -2660,6 +2660,20 @@
           "width" : 2851
         },
         "on" : "http://t-pen.org/Bz449+%28K%29+2/canvas/bzan00449_122r_121v.jpg"
+      } ],
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/Bz449+%28K%29+2/transcription/bzan00449_122r_121v.jpg",
+        "@type" : "sc:AnnotationList",
+        "resources" : [ {
+          "@id" : "http://t-pen.org/Bz449+%28K%29+2/line/102244986",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/Bz449+%28K%29+2/canvas/bzan00449_122r_121v.jpg#xywh=156,0,464,10"
+        } ]
       } ]
     }, {
       "@id" : "http://t-pen.org/Bz449+%28K%29+2/canvas/bzan00449_123r_122v.jpg",
