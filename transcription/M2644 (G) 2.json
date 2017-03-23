@@ -26,6 +26,92 @@
           "width" : 1333
         },
         "on" : "http://t-pen.org/M2644+%28G%29+2/canvas/page_121.jpg"
+      } ],
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/M2644+%28G%29+2/transcription/page_121.jpg",
+        "@type" : "sc:AnnotationList",
+        "resources" : [ {
+          "@id" : "http://t-pen.org/M2644+%28G%29+2/line/102241373",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M2644+%28G%29+2/canvas/page_121.jpg#xywh=506,0,84,103"
+        }, {
+          "@id" : "http://t-pen.org/M2644+%28G%29+2/line/102241374",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M2644+%28G%29+2/canvas/page_121.jpg#xywh=506,103,84,160"
+        }, {
+          "@id" : "http://t-pen.org/M2644+%28G%29+2/line/102241375",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M2644+%28G%29+2/canvas/page_121.jpg#xywh=506,263,84,117"
+        }, {
+          "@id" : "http://t-pen.org/M2644+%28G%29+2/line/102241376",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M2644+%28G%29+2/canvas/page_121.jpg#xywh=506,380,84,139"
+        }, {
+          "@id" : "http://t-pen.org/M2644+%28G%29+2/line/102241377",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M2644+%28G%29+2/canvas/page_121.jpg#xywh=506,519,84,115"
+        }, {
+          "@id" : "http://t-pen.org/M2644+%28G%29+2/line/102241378",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M2644+%28G%29+2/canvas/page_121.jpg#xywh=506,634,84,22"
+        }, {
+          "@id" : "http://t-pen.org/M2644+%28G%29+2/line/102241379",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M2644+%28G%29+2/canvas/page_121.jpg#xywh=506,656,84,24"
+        }, {
+          "@id" : "http://t-pen.org/M2644+%28G%29+2/line/102241380",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M2644+%28G%29+2/canvas/page_121.jpg#xywh=506,680,84,22"
+        }, {
+          "@id" : "http://t-pen.org/M2644+%28G%29+2/line/102241381",
+          "@type" : "oa:Annotation",
+          "motivation" : "http://filteredpush.org/ontologies/oa/oad#transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "chars" : ""
+          },
+          "on" : "http://t-pen.org/M2644+%28G%29+2/canvas/page_121.jpg#xywh=506,702,84,91"
+        } ]
       } ]
     }, {
       "@id" : "http://t-pen.org/M2644+%28G%29+2/canvas/page_122.jpg",
