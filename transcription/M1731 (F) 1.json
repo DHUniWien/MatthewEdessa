@@ -1413,12 +1413,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "առաջինք հայոց մեծաց։ Իսկ զկ<add place=\"above\">ն</add>ի անցելոց "
+            "cnt:chars" : "առաջինք հայոց մեծաց։ <milestone unit=\"section\" n=\"412\"/>Իսկ զկ<add place=\"above\">ն</add>ի անցելոց "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13193077#xywh=92,319,492,27",
           "_tpen_note" : "",
           "_tpen_creator" : 281,
-          "modified" : "2014-11-30 12:16:09.0"
+          "modified" : "2017-04-11 08:01:05.0"
         }, {
           "tpen_line_id" : "line/101277351",
           "@type" : "oa:Annotation",
