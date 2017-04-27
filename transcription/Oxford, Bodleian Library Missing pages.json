@@ -1,0 +1,12 @@
+{
+  "@context" : "http://www.shared-canvas.org/ns/context.json",
+  "@id" : "http://t-pen.org/TPEN/manifest/5726/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Oxford, Bodleian Library Missing pages",
+  "sequences" : [ {
+    "@id" : "http://t-pen.org/TPEN/manifest/5726/sequence/normal",
+    "@type" : "sc:Sequence",
+    "label" : "Current Page Order",
+    "canvases" : [ ]
+  } ]
+}
