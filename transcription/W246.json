@@ -3,6 +3,46 @@
   "@id" : "http://t-pen.org/TPEN/manifest/5709/manifest.json",
   "@type" : "sc:Manifest",
   "label" : "W246",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "W246"
+  }, {
+    "label" : "subtitle",
+    "value" : " "
+  }, {
+    "label" : "msIdentifier",
+    "value" : " "
+  }, {
+    "label" : "msSettlement",
+    "value" : "Vienna"
+  }, {
+    "label" : "msRepository",
+    "value" : "Mekhitarist Library"
+  }, {
+    "label" : "msIdNumber",
+    "value" : "246"
+  }, {
+    "label" : "subject",
+    "value" : " "
+  }, {
+    "label" : "date",
+    "value" : ""
+  }, {
+    "label" : "language",
+    "value" : ""
+  }, {
+    "label" : "author",
+    "value" : ""
+  }, {
+    "label" : "description",
+    "value" : " "
+  }, {
+    "label" : "location",
+    "value" : ""
+  }, {
+    "label" : "msCollection",
+    "value" : " "
+  } ],
   "sequences" : [ {
     "@id" : "http://t-pen.org/TPEN/manifest/5709/sequence/normal",
     "@type" : "sc:Sequence",

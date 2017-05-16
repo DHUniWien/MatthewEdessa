@@ -3,6 +3,46 @@
   "@id" : "http://t-pen.org/TPEN/manifest/5726/manifest.json",
   "@type" : "sc:Manifest",
   "label" : "Oxford, Bodleian Library Missing pages",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "Oxford, Bodleian Library Missing pages"
+  }, {
+    "label" : "subtitle",
+    "value" : " "
+  }, {
+    "label" : "msIdentifier",
+    "value" : " "
+  }, {
+    "label" : "msSettlement",
+    "value" : " "
+  }, {
+    "label" : "msRepository",
+    "value" : " "
+  }, {
+    "label" : "msIdNumber",
+    "value" : " "
+  }, {
+    "label" : "subject",
+    "value" : " "
+  }, {
+    "label" : "date",
+    "value" : ""
+  }, {
+    "label" : "language",
+    "value" : ""
+  }, {
+    "label" : "author",
+    "value" : ""
+  }, {
+    "label" : "description",
+    "value" : " "
+  }, {
+    "label" : "location",
+    "value" : ""
+  }, {
+    "label" : "msCollection",
+    "value" : " "
+  } ],
   "sequences" : [ {
     "@id" : "http://t-pen.org/TPEN/manifest/5726/sequence/normal",
     "@type" : "sc:Sequence",

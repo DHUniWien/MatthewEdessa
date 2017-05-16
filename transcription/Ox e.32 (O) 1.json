@@ -3,6 +3,46 @@
   "@id" : "http://t-pen.org/TPEN/manifest/4612/manifest.json",
   "@type" : "sc:Manifest",
   "label" : "Ox e.32 (O) 1",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "Ox e.32 (O) 1"
+  }, {
+    "label" : "subtitle",
+    "value" : " "
+  }, {
+    "label" : "msIdentifier",
+    "value" : "O"
+  }, {
+    "label" : "msSettlement",
+    "value" : "Oxford"
+  }, {
+    "label" : "msRepository",
+    "value" : "Bodleian Library"
+  }, {
+    "label" : "msIdNumber",
+    "value" : "e.32"
+  }, {
+    "label" : "subject",
+    "value" : " "
+  }, {
+    "label" : "date",
+    "value" : ""
+  }, {
+    "label" : "language",
+    "value" : ""
+  }, {
+    "label" : "author",
+    "value" : ""
+  }, {
+    "label" : "description",
+    "value" : " "
+  }, {
+    "label" : "location",
+    "value" : ""
+  }, {
+    "label" : "msCollection",
+    "value" : "Armenian"
+  } ],
   "sequences" : [ {
     "@id" : "http://t-pen.org/TPEN/manifest/4612/sequence/normal",
     "@type" : "sc:Sequence",
