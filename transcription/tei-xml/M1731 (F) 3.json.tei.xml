@@ -1,0 +1,21 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>This is the title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>This is the publication statement</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>This is the source description</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <ab/>
+    </body>
+  </text>
+</TEI>

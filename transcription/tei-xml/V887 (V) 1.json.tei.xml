@@ -1,0 +1,568 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>This is the title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>This is the publication statement</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>This is the source description</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <ab><pb n="090"/>
+<cb n="1"/>
+<lb xml:id="l101260795" n="1"/>գ<abbr>րգր</abbr>ի լ<abbr>ւսւր</abbr>չին և զտեսիլ և զկտակ սր<abbr>բյ</abbr>ն ներսէսի, և զքաջու<abbr>ի</abbr> 
+<lb xml:id="l101260920" n="2"/>և զ<abbr>յղ</abbr>թւ<abbr>ի</abbr> արիա<abbr>կն</abbr> ազգին մամիկոնէից։ Իսկ ի սպառել թ<abbr>գր</abbr>ւ<abbr>ե</abbr>
+<lb xml:id="l101260921" n="3"/>արշակուն<abbr>եց</abbr> <g ref="ըստ"/> բանից առն <abbr>այ</abbr> սր<abbr>բյ</abbr>ն ներսէսի, վարդան մամիկոն
+<lb xml:id="l101260922" n="4"/>եան բռն<abbr>ց</abbr>լ զտեղի թ<abbr>գրց</abbr>ն հայոց և վրաց ամս <num value="20">ի՟</num> և արիա<abbr>բր</abbr> ընդ 
+<lb xml:id="l101260923" n="5"/>դիմամ<abbr>րտ</abbr>լ քաջու<abbr>բ</abbr> <num value="42">.խ՟բ՟.</num> պ<abbr>տրզ</abbr>մեացն պարսկա<abbr>կն</abbr> զօրացն որ դիմէ
+<lb xml:id="l101260924" n="6"/>ին ի վ<abbr>ր</abbr> ն<abbr>ր</abbr>. և յաղ<g ref="թե"/>լ ն<abbr>ց</abbr> քաջն վարդան <abbr>դրձ</abbr><abbr>ւց</abbr>նէր զն<abbr>ս</abbr>. և յաղթա֊
+<lb xml:id="l101260925" n="7"/>հարէր զն<abbr>ս</abbr> վերին օգն<abbr>կ</abbr>նւ<abbr>բ</abbr>ն և զօրւ<abbr>բ</abbr> <abbr>սբ</abbr> խաչին։ Եւ յետ բ<abbr>զւ</abbr>մ 
+<lb xml:id="l101260926" n="8"/>յաղթւ<abbr>ե</abbr> <abbr>նհտ</abbr><abbr>կլ</abbr> առնոյր զպսակն մր<abbr>տր</abbr>սուե յաւուր ազկերտի. 
+<lb xml:id="l101260927" n="9"/>պ<abbr>րս</abbr>ից արքայից արքայէ։ Արդ՝ այս համառօտ աս<abbr>ց</abbr>ւ զայլս 
+<lb xml:id="l101260928" n="10"/><abbr>ամ</abbr> ի <abbr>սբ</abbr> վարդանանց գրոցն գտցես զբով<abbr>նդկ</abbr>ն։ Արդ՝ ի սրբոյն 
+<lb xml:id="l101260806" n="11"/>գ<abbr>րգր</abbr>է հայոց լ<abbr>ւսր</abbr>չէ մինչև ցայսօր շարադրի ամք <num value="662">.ո՟կ՟բ՟</num>։ 
+<lb xml:id="l101260807" n="12"/>Եւ մեսրօպ ազգակից սր<abbr>բյ</abbr>ն յովսե<abbr>փյ</abbr> երից ի մացուցանեմ վ<abbr>ս</abbr> ն<abbr>ր</abbr>, 
+<lb xml:id="l101260808" n="13"/>զոր ոմ<abbr>ն</abbr>ք ասեն ե<g ref="թէ"/> ե<abbr>պս</abbr> գոլով ճշ<abbr>տ</abbr> վ<abbr>ս</abbr> զի ղևոնդ էրէց վանանդ
+<lb xml:id="l101260809" n="14"/>ացի որ է ն<abbr>հտ</abbr>կակից սր<abbr>բյ</abbr>ն յովսե<abbr>փյ</abbr>. յաւուրս սր<abbr>բյ</abbr>ն վարդ<abbr>ն</abbr>յ,
+<lb xml:id="l101260810" n="15"/>ի ժամ մր<abbr>տր</abbr>սւ<abbr>ե</abbr> ասէր ցովսէփ յ<abbr>ռ</abbr>ջ մատիր զի դու աստիճանաւ 
+<lb xml:id="l101260811" n="16"/>վերես. աստիճան ասաց. զի ոչ աթոռ զի երիցուն յ<abbr>րժ</abbr>մ ձեռն
+<lb xml:id="l101260812" n="17"/>ադրի. ե<abbr>պս</abbr> <abbr>կմ</abbr> կ<abbr>թղկս</abbr> յայնժամ լինի աթոռոյն տուն ք<abbr>հ</abbr>յու<abbr><g ref="թե"/></abbr>։ 
+<lb xml:id="l101260813" n="18"/>Եւ արդ յ<abbr>ռ</abbr>ջ<abbr>ք</abbr> զվ<abbr>խճ</abbr>ն<abbr>լ</abbr>ն ս<abbr>հկ</abbr>յ ե<abbr>պս</abbr>ի տայր զտեղա<abbr>պ</abbr>հւ<abbr>ի</abbr> աթոռ
+<lb xml:id="l101260814" n="19"/>ոյն գ<abbr>րգր</abbr>ի և մեսրօպա վր<abbr>դպտ</abbr>ին. և մեսրօպ տայր յովսէփ երից
+<lb xml:id="l101260815" n="20"/>ու. և իշփոթմանէ ժ<abbr>մկի</abbr>ն ոչ ժաման<abbr>եց</abbr> ծեռնադրիլ յովսեփ ե<abbr>պս</abbr> 
+<lb xml:id="l101260816" n="21"/>կամ կ<abbr>թղ</abbr>կ<abbr>ս</abbr> այլ մնաց երէց և ի նմին վախ<abbr>ճնլ</abbr>։ Եւ արդ զայս հան<abbr>ել</abbr> 
+<lb xml:id="l101260817" n="22"/>յ<abbr>րևլց</abbr> գրոց ի հայոց մնացորդացն պատմու<abbr>ե</abbr>ց և ետու որդոց ել 
+<lb xml:id="l101260818" n="23"/>իմոյ <abbr>սբ</abbr> աւազանին ծն<g ref="ընդ"/>եամբն վահանա մամիկոնոյ ի գեղն որ կոչի 
+<lb xml:id="l101260819" n="24"/>վարժի, արդոյք ըն<g ref="թե"/>ռնոյք կամ օրի<abbr>նկ</abbr>էք յիշ<abbr>ց</abbr>ք արժան<abbr>ւր</abbr> յաղօթս 
+<lb xml:id="l101260820" n="25"/>ձեր վերոյ յիշ<abbr>ց</abbr>լք ի սմա և <abbr>ած</abbr> զձեզ յիշէ ամեն։ 
+<cb n="2"/>
+<lb xml:id="l101260821" n="1"/><hi rend="red">Ի լուսաւորչէն մինչև ի ս<abbr>հ</abbr>կ հյ<abbr>րպտ</abbr>ն ի կեսարի</hi>
+<lb xml:id="l101260899" n="2"/>այ կու ձեռնադրէին կ<abbr>թղկ</abbr>ս<abbr>ւ</abbr>նք յ<abbr>րժ</abbr>մ եղև ժողով քաղկեդ
+<lb xml:id="l101260900" n="3"/>ոնի, բժնցն հայք ի յունաց, և հ<abbr>ստտ</abbr>եցին ի դուին զի ովսէփ. 
+<lb xml:id="l101260901" n="4"/>և զգիւտ անդ ձեռնադրեցին և անտի փ<abbr>խ</abbr><abbr>ցւ</abbr> ի անի. մինչև 
+<lb xml:id="l101260902" n="5"/>ի պետրոս հ<abbr>յրպտ</abbr>ն որ գնաց<abbr>ել</abbr> ի բիւզանդիա և եկն ի սեբաստ
+<lb xml:id="l101260903" n="6"/>իա. և նստաւ և անդա<abbr>փխ</abbr><abbr>ցւ</abbr> և յետ ն<abbr>ր</abbr> խաչիկն քւեր որդի 
+<lb xml:id="l101260904" n="7"/>ն<abbr>ր</abbr>. աջորդեաց զաթոռն ն<abbr>ր</abbr>. և յետ ն<abbr>ր</abbr> ազգն յու<abbr>նց</abbr> հ<abbr>կռ</abbr>կու<abbr>բ</abbr> 
+<lb xml:id="l101260905" n="8"/>խա<abbr>փն</abbr><abbr>ց</abbr>ին զկ<abbr>թղկ</abbr>սւ<abbr>ի</abbr>ն հայոց ամս <num value="10">ժ</num> մինչև ցգագիկ որ է տեղեաւ 
+<lb xml:id="l101260906" n="9"/>ղարսեցի. և նա ել<abbr>ել</abbr> բ<abbr>զմ</abbr> կ<abbr>շռ</abbr>օք հաւանեցոյց զա<del rend="scribble">ս</del>զգն յու<abbr>նց</abbr>. 
+<lb xml:id="l101260907" n="10"/>և ձեռնադր<abbr>եց</abbr> զվահրամ որ է վ<abbr>կյ</abbr>ասէրն գ<abbr>րգր</abbr> ի թաւաբլուրն. 
+<lb xml:id="l101260908" n="11"/>յայնմ ժ<abbr>մկ</abbr>ի բաժանե<abbr>ցւ</abbr> կ<abbr>թղկ</abbr>սւ<abbr>ի</abbr>. և յետ վ<abbr>կյ</abbr>ասիրին գրիգորիս 
+<lb xml:id="l101260909" n="12"/>եղ<abbr>բյ</abbr>րն ներսէսի. ի կարմիր վանքն. և նա յաջորդ<abbr>եց</abbr> ի հռոմկլայն. և 
+<lb xml:id="l101260910" n="13"/>յետ ն<abbr>ր</abbr> ներսէս մինչև ի յոհաննէս. և յայնմ ժ<abbr>մկ</abbr>ի դ<abbr>ւ</abbr>թ անուն ոմն 
+<lb xml:id="l101260911" n="14"/>ձեռնադ<abbr>րլ</abbr> եղև ի սիս. և գժտու<abbr>ի</abbr> ի մէջ ն<abbr>ց</abbr> եղև, և անտի մինչև 
+<lb xml:id="l101260912" n="15"/>ի ստեփ<abbr>ն</abbr>նոս որ գերե<abbr>ցւ</abbr> ի յեգիպտոս և ի սիս ձեռնադ<abbr>րլ</abbr> կ<abbr>թղկ</abbr><abbr>ս</abbr> մինչ
+<lb xml:id="l101260913" n="16"/>և ցթումա վ<abbr>րդտ</abbr>ն, և բ<abbr>ժն</abbr><abbr>լն</abbr> ն<abbr>ր</abbr> եղև աթոռն ս<abbr>հմ</abbr><abbr>նլ</abbr> յէջմիածին և 
+<lb xml:id="l101260914" n="17"/>զբուն ոչ խ<abbr>փն</abbr><abbr>լ</abbr> զի դեռևս կենդանի էր կ<abbr>թղկ</abbr>սն սըսայ, զի ի լ<abbr>ւսւր</abbr>չէն 
+<lb xml:id="l101260915" n="18"/>մինչև ի նա էր հաս<abbr>ել</abbr> կ<abbr>թղ</abbr><abbr>կս</abbr>ւ<abbr>ի</abbr> և նա ոչ եղև կամակից ձեռնադրելո 
+<lb xml:id="l101260916" n="19"/>կ<abbr>թղ</abbr>կ<abbr>ս</abbr> էջմիածին, զի նա դեռևս կենդանի էր <num value="9">թ</num> եղ<abbr>բյ</abbr>րք զաքարիա, 
+<lb xml:id="l101260917" n="20"/>և իւան դ<abbr>ր</abbr>ձ<abbr>ւ</abbr> վրացի և եղբայրն ոչ, նա խնդրէր վրան զի պ<abbr>տ</abbr><abbr>ար</abbr>գ 
+<lb xml:id="l101260918" n="21"/>արասց<hi rend="elongated">ե</hi>ն։ 
+<lb xml:id="l101260919" n="22"/><milestone unit="section" n="401"/><hi rend="red">Իսկ <g ref="ընդ"/> աւուրսն <g ref="ընդ"/> այնոսիկ և ի յամին <num value="401">.ն՟ա՟.</num> եղև սով </hi>
+<lb xml:id="l101260843" n="23"/>սաստիկ ի բ<abbr>զ</abbr>մ տեղիս. բ<abbr>յ</abbr>ց <g ref="աշխարհ"/>ն հարաւոյ ի յերկիրն տաճ<abbr>կց</abbr> եղև 
+<lb xml:id="l101260844" n="24"/>նեղւ<abbr>ի</abbr> մեծ և առօել <abbr>ք</abbr> զ<abbr>ամ</abbr> ի միջագետս. և ի խստւ<abbr>է</abbr> սովոյն տագ<abbr>նպ</abbr> 
+<lb xml:id="l101260845" n="25"/>և տատան<abbr>ւ</abbr>մն լինէր ի բ<abbr>զ</abbr>մ տեղիս և ի հ<abbr>ռչ</abbr>կ<abbr>ւ</abbr>ր մայրաք<abbr>ղ</abbr>քն ուռհայ 
+<pb n="092"/>
+<cb n="1"/>
+<lb xml:id="l101260846" n="1"/>զորս կանգն<abbr>եց</abbr> տիգրան արքա հայոց. և կ<abbr>ցլ</abbr> սովն այն <g ref="աշխարհ"/>ին 
+<lb xml:id="l101261706" n="2"/>զամս <num value="7">.է՟.</num> և անթիւ լինէր կոտորածն յերե<abbr>սց</abbr> սովոյն այն և 
+<lb xml:id="l101261707" n="3"/><g ref="աշխարհ"/>ին տաճկաց անցումն լինէր մեծ, և քրիստոնեայքն անթիւք 
+<lb xml:id="l101261708" n="4"/>մեռան յերե<abbr>սց</abbr> բ<abbr>ր</abbr>կու<abbr>ե</abbr> սովոյն. և զկնի <num value="7">.է՟</num> ամին եկ<abbr>ել</abbr> մորեխ այնմ 
+<lb xml:id="l101261709" n="5"/>գ<abbr>ւռ</abbr>էն <g ref="որպէս"/> զաւազ ծովու և ապ<abbr>կ</abbr>ն<abbr>եց</abbr> զ<g ref="երկիր">երկ</g>իրն. և սաստ<abbr>կնյր</abbr> սովն 
+<lb xml:id="l101261710" n="6"/>առօել <abbr>ք</abbr> զառօելն և զայր<abbr>ց</abbr>լ բ<abbr>զմ</abbr>ա<abbr>ցն</abbr> և գ<abbr>զ</abbr>նա<abbr>բր</abbr> յանողորմ յարձ
+<lb xml:id="l101261711" n="7"/>ակ<abbr>ել</abbr> զմիմեանս ուտէին, և իշխանքն և մեծամեծքն ընդօք և մրգ
+<lb xml:id="l101261712" n="8"/>օք կերակրէին և եղեւ անցումն անասնոցն և այլ ոչ շինե<abbr>ց</abbr>ն 
+<lb xml:id="l101261713" n="9"/>մինչև ցայսաւր ժ<abbr>մկ</abbr>ի։ 
+<lb xml:id="l101260857" n="10"/><milestone unit="section" n="407"/><hi rend="red">Դ<abbr>րձլ</abbr> ի թ<abbr>վկ</abbr>նու<abbr>ե</abbr>ս հայոց ի <num value="407">.ն՟. և է՟.</num> ամին զօրա֊</hi>
+<lb xml:id="l101261694" n="11"/>ժողով լինէր ազգն արաբկաց ուռհա. և <abbr>ամ</abbr> եդեսացոց <g ref="աշխարհ"/>ն 
+<lb xml:id="l101261695" n="12"/>ահագին բ<abbr>զ</abbr>մւ<abbr>բ</abbr> անց<abbr>ել</abbr> <g ref="ընդ"/> մեծ գետն եփրատ և եկ<abbr>ել</abbr> ի վ<abbr>ր</abbr> ամուր 
+<lb xml:id="l101261696" n="13"/>ք<abbr>ղք</abbr>ին որ կոչի սամուսատ. և ելանէր ի պ<abbr>տրզ</abbr>մն զօրապետն հոռ
+<lb xml:id="l101261697" n="14"/>ոմոց, որում անունն ասէին պառակամանոս այր զօր<abbr>ւր</abbr> և քաջ 
+<lb xml:id="l101261698" n="15"/>և ի դուռն ք<abbr>ղք</abbr>ին բախէին զմիմեանս, և աւուրն յայնմիկ հարին 
+<lb xml:id="l101260862" n="16"/>տաճկունք զօրսն հոռոմոց և ա<abbr>րր</abbr>ին կոտ<abbr>որ</abbr>ծ մեծ առ դրան ք<abbr>ղք</abbr>ին 
+<lb xml:id="l101260863" n="17"/>և յետ աւուրց ինչ առաւ ք<abbr>ղք</abbr>ն սամուսատ մերձ ի ք<abbr>ղք</abbr>ն ուռհա։ 
+<lb xml:id="l101260864" n="18"/><milestone unit="section" n="408"/><hi rend="red">Իսկ ի թ<abbr>վկն</abbr>ւ<abbr>ե</abbr>ս ազգիս հայոց ի <num value="408">.դ՟ճ՟. և ի ը՟.</num> ամին</hi> 
+<lb xml:id="l101260865" n="19"/>զօրաժ<abbr>ղ</abbr>վ ար<abbr>րլ</abbr> թ<abbr>գր</abbr>ն հոռոմոց ռամանոսն և գա ի վ<abbr>ր</abbr> տաճկաց 
+<lb xml:id="l101260866" n="20"/>և անց<abbr>ել</abbr> <g ref="ընդ"/> համա<abbr>տր</abbr>ծ ծովն ովկիանոս, և նաւովք ան<abbr>ցն</abbr>էր ի մեծ 
+<lb xml:id="l101260867" n="21"/>կղզին որ ասի կռիտ. և սաստիկ պ<abbr>տրզ</abbr>մ<abbr>ւ</abbr> առ<abbr>ել</abbr> զնա ի զօրացն 
+<lb xml:id="l101260868" n="22"/>եգիպ<abbr>տս</abbr>ի, վ<abbr>ս</abbr> զի զ<abbr>ամ</abbr> կղզիքն և զ<abbr>ամ</abbr> ծովեզե<abbr>րց</abbr> <g ref="աշխարհ"/>ն արաբ<abbr>կց</abbr> ազգն 
+<lb xml:id="l101260869" n="23"/>ունէին զամս <num value="400">.դ՟ճ՟</num>։ Յայսմ ամի կոտորեցին զաւրքն հայոց, ըզ
+<lb xml:id="l101260870" n="24"/>համտունն զօրապետն տաճկաց։ 
+<lb xml:id="l101260871" n="25"/><milestone unit="section" n="410"/><hi rend="red">Յամի և ի թ<abbr>վկ</abbr>նւ<abbr>ե</abbr>ս հայոց <num value="410">.ն՟.ժ՟.</num> զանաւարզայ</hi> 
+<cb n="2"/>
+<lb xml:id="l101260872" n="1"/>և զհալապ էառ արապիկն ի թ<abbr>գր</abbr>էն մսրա և անթիւ ա<abbr>րր</abbr> զկոտ
+<lb xml:id="l101261699" n="2"/>որածն ի քրիստոնէիցն քան իւ<abbr>րց</abbr> ազգին։ 
+<lb xml:id="l101261700" n="3"/><hi rend="red">Յայսմ ամի զօրաժողով ա<abbr>րր</abbr> զօրապետն հայոց, զ</hi>
+<lb xml:id="l101261701" n="4"/>մարզպետ<abbr>կ</abbr>ն գունտն <num value="45000">.խ՟ և ե՟ռ՟.</num> արանց քաջանց զարդ ի յ<abbr>րքւ</abbr>ն<abbr>կ</abbr>ն 
+<lb xml:id="l101261702" n="5"/>գնտէն. և ժ<abbr>ղվց</abbr>ն <abbr>ամ</abbr> իշ<abbr>խն</abbr>քն <g ref="աշխարհ"/>ց տանն հայոց առ <abbr>սբ</abbr> հ<abbr>յրպ</abbr>ն ան
+<lb xml:id="l101261703" n="6"/>անիա վ<abbr>ս</abbr> զի տացեն զօծ<abbr>ւ</abbr>մն թ<abbr>գր</abbr>ւ<abbr>ե</abbr>ն աշոտ, գագկա <g ref="ըստ"/> ա<abbr>ռ</abbr>ջին 
+<lb xml:id="l101261704" n="7"/>օծմանն հարց իւրոց, վ<abbr>ս</abbr> զի չև ևս էր նստ<abbr>ել</abbr> յաթոռ թ<abbr>գր</abbr>ւ<abbr>ե</abbr> տանն 
+<lb xml:id="l101261705" n="8"/>հայոց և ոչ էր եդ<abbr>ել</abbr> թագ ի վ<abbr>ր</abbr> գլխոյ իւրոյ։ 
+<lb xml:id="l101260881" n="9"/><hi rend="red">Հարկաւորեալ կոչեցին զամենագովելին զտէ՞ր</hi> 
+<lb xml:id="l101260882" n="10"/>յ<abbr>հն</abbr>նէս կ<abbr>թղ</abbr>կ<abbr>ս</abbr>ն աղուանից <g ref="աշխարհ"/>ին և <num value="40">.խ՟.</num> ե<abbr>պս</abbr>ունք <g ref="ընդ"/> ն<abbr>մյ</abbr> և մեծաշուք 
+<lb xml:id="l101260883" n="11"/>իշ<abbr>խ</abbr>նւ<abbr>բ</abbr> կոչեցին զփիլ<abbr>պ</abbr>ս թ<abbr>գր</abbr>ն աղուանից զայր <abbr>ա</abbr>ծային, և զ<abbr>սբ</abbr> 
+<lb xml:id="l101260884" n="12"/>որդին գոշազգակա որդոյ վաչագանա, որ էին թ<abbr>գր</abbr>ք աղուանից 
+<lb xml:id="l101260885" n="13"/><g ref="աշխարհ"/>ց։ Եւ յայնմ աւուր եղեւ ժ<abbr>ղ</abbr>վ ահագին մեծ ի ք<abbr>ղ</abbr>քն անի, որ եղև 
+<lb xml:id="l101260886" n="14"/>այժմու ժ<abbr>մկ</abbr>իս թ<abbr>գր</abbr>անիստ ք<abbr>ղ</abbr>ք հայոց. և յայսմ ամի օծաւ արքա 
+<lb xml:id="l101260887" n="15"/>աշոտ ի յօծումն հարց իւրոց, և նս<abbr>տ</abbr>ւ ի գահոյս ա<abbr>ռ</abbr>ջի թ<abbr>գրց</abbr>ն հայ
+<lb xml:id="l101260888" n="16"/>ոց ազգին, և լինէր ու<abbr>ր</abbr>խւ<abbr>ի</abbr> մեծ <abbr>ամ</abbr> տանն հայոց վ<abbr>ս</abbr> զի տեսին ն<abbr>րգլ</abbr> 
+<lb xml:id="l101260889" n="17"/>զաթոռ թ<abbr>գր</abbr>ւ<abbr>ե</abbr>ն <g ref="աշխարհ"/>ին հայոց <g ref="ըստ"/> ա<abbr>ռ</abbr>ջին հարցն. ևս առ<abbr>ւ</abbr>լ ու<abbr>ր</abbr>խ լինէ
+<lb xml:id="l101260890" n="18"/>ին յա<abbr>ղ</abbr>գս քաջւ<abbr>ե</abbr>ն գագկա, վ<abbr>ս</abbr> զի էր կորովի, և այր պ<abbr>տրզ</abbr>մող. և այնմ 
+<lb xml:id="l101260891" n="19"/>աւուր լինէր հանդէս զօրացն ն<abbr>ր</abbr>, <num value="100000">.ճ՟ռ՟</num>աց վառելոց ընտիր ընտիր 
+<lb xml:id="l101260892" n="20"/>արանց ի մ<abbr>ր</abbr>տ պ<abbr>տրզ</abbr>մի անուանե<abbr>ց</abbr> և քաջ կորովե<abbr>ց</abbr>. վ<abbr>ս</abbr> զի <g ref="որպէս"/> զկորիւնս 
+<lb xml:id="l101260893" n="21"/>առիւծոց, կամ <g ref="որպէս"/> զձագս արծւ<abbr>ե</abbr>ց յուզէին զօր պ<abbr>տրզ</abbr>մին և լու<abbr>ել</abbr> 
+<lb xml:id="l101260894" n="22"/>զայս <abbr>ամ</abbr> շուրջակ<abbr>յ</abbr>ք <abbr>ամ</abbr> թ<abbr>գր</abbr>ք ազգ<abbr>ց</abbr> ափխզաց և ուն<abbr>ց</abbr> բաբելացոց 
+<lb xml:id="l101260895" n="23"/>և պ<abbr>ր</abbr>սից, տուրս և սէրս հն<abbr>դր</abbr>ձ պ<abbr>տւկ</abbr>ն ընծայիւք յուղ<abbr>ր</abbr>կէին ի 
+<lb xml:id="l101260896" n="24"/>փռ<abbr>ւ</abbr>րւ<abbr>ի</abbr> հայոց թ<abbr>գր</abbr>ւ<abbr>ե</abbr>ն. և յայն<abbr>ժմ</abbr> զթ<abbr>գր</abbr>ն աղուանից զփիլիպէ, և զ
+<lb xml:id="l101260898" n="25"/>կ<abbr>թղկս</abbr>ն զտէր յո<abbr>հն</abbr>նէս զե<abbr>պս</abbr>ունսն և զզօրսն որ եկին զհետ թ<abbr>գր</abbr>ին 
+<pb n="094"/>
+<cb n="1"/>
+<lb xml:id="l101261641" n="1"/>և հյ<abbr>րպ</abbr>տին յուղ<abbr>ր</abbr>կեցին մեծամեծ տրօք և սիրով ի <g ref="աշխարհ"/>ն աղուանից, որ 
+<lb xml:id="l101261868" n="2"/>էր յաթոռ <abbr>սբ</abbr> աոք<abbr>լ</abbr>յն թադէոսի որք են ն<abbr>հպտ</abbr>ք ա<abbr>ռ</abbr>ջինք հայոց մեծ<abbr>ց</abbr>. 
+<lb xml:id="l101261869" n="3"/>իսկ զկնի անցանելոց <num value="2">.բ՟.</num> ամաց մեռ<abbr>ւ</abbr> թ<abbr>գր</abbr>ն հոռոմոց ռամանոս և մն<abbr>ց</abbr>լ 
+<lb xml:id="l101261870" n="4"/>լինէր իւր <num value="2">.բ՟</num> որդի վասիլ, և կոստանդին որդիքն ռամանոսի ծերոյն։ 
+<lb xml:id="l101261871" n="5"/><milestone unit="section" n="412"/><hi rend="red">Ե</hi>ւ եղեւ յամի <num value="412">.դ՟ճ՟ և ի .ժբ՟.</num> թ<abbr>գր</abbr>ե<abbr>ց</abbr> նիկիփ<abbr>ռ</abbr> ի վ<abbr>ր</abbr> տանն յունաց 
+<lb xml:id="l101261872" n="6"/>և էր այր բարի <abbr>սբ</abbr>, և <abbr>ա</abbr>ծասէր լցե<abbr>լ</abbr> <abbr>ամ</abbr> առ<abbr>ք</abbr>նւ<abbr>բ</abbr> և արդ<abbr>ր</abbr>ւ<abbr>բ</abbr> յաղթող և 
+<lb xml:id="l101261873" n="7"/>քաջ ի վ<abbr>ր</abbr> <abbr>ամ</abbr> պ<abbr>տրզմց</abbr>, ողորմած ի վ<abbr>ր</abbr> <abbr>ամ</abbr> հւ<abbr>տցլ</abbr>ոցն ք<abbr>ս</abbr>ի, այցելու այրե<abbr>ց</abbr> 
+<lb xml:id="l101261874" n="8"/>և գերե<abbr>ց</abbr>, դարմ<abbr>ն</abbr>իչ ո<add place="above">ր</add><abbr>բ</abbr>ց և տնանկ<abbr>ց</abbr>։ <hi rend="red">Զ</hi>աւրաժ<abbr>ղ</abbr>վ ա<abbr>րր</abbr>լ ահագին 
+<lb xml:id="l101261875" n="9"/>բ<abbr>զ</abbr>մու<abbr>բ</abbr> և անցե<abbr>լ</abbr> <g ref="ընդ"/> համատ<abbr>ր</abbr>ծ ծովն ովկիանոս և գայր ի վ<abbr>ր</abbr> տ<abbr>ճկց</abbr>, 
+<lb xml:id="l101261876" n="10"/>մռմռե<abbr>լ</abbr> <g ref="որպէս"/> առիւծ սաստիկ պ<abbr>տրզ</abbr>մ<abbr>ւ</abbr> եւ խաղ<abbr>յ</abbr>ր <g ref="աշխարհ"/>ն կիլիկեցոց. և մեծ<abbr>ւ</abbr> 
+<lb xml:id="l101261877" n="11"/>յաղթւ<abbr>բ</abbr> առնու զհռչակ<abbr>ւ</abbr>որն զտարսիաս ք<abbr>ղ</abbr>ք և անցե<abbr>լ</abbr> էառ զատ
+<lb xml:id="l101261878" n="12"/>անա և զմըսիս, և զականաւորն զանաւարզա, և ահագին և սաստ
+<lb xml:id="l101261879" n="13"/>իկ կոտորած էած ի վ<abbr>ր</abbr> ազգին տ<abbr>ճկց</abbr>. մինչև ի դուռն անտիոքա ք<abbr>ղ</abbr>քին։ 
+<lb xml:id="l101261880" n="14"/><hi rend="red">Ե</hi>ւ թ<abbr>գր</abbr>ն դ<abbr>ր</abbr>ձ<abbr>ւ</abbr> նիկիփ<abbr>ռ</abbr> մեծ<abbr>ւ</abbr> յ<abbr>ղ</abbr>թւ<abbr>բ</abbr> անթիւ գերւ<abbr>բ</abbr> և բ<abbr>զ</abbr>մ աւարաւ 
+<lb xml:id="l101261881" n="15"/>և գնա մ<abbr>տ</abbr>նէ ի թ<abbr>գ</abbr>րաբն<abbr>կ</abbr> ք<abbr>ղք</abbr>ն ի կ<abbr>ստ</abbr>ն<abbr>դ</abbr>ւպօլիս և զորդիսն ռամ<abbr>ն</abbr>սին 
+<lb xml:id="l101261882" n="16"/>զվասիլն և զկ<abbr>ստ</abbr>նդին առ իւր <abbr>պ</abbr>հէ ի պ<abbr>ղ</abbr>տատ տան մեծ<abbr>ւ</abbr> պատ<abbr>ւ</abbr>վ և փ<abbr>ռ</abbr>րւ<abbr>բ</abbr>։ 
+<lb xml:id="l101261883" n="17"/><milestone unit="section" n="418"/><hi rend="red">Դ<abbr>ձ</abbr>լ ի թ<abbr>վկ</abbr>նւ<abbr>ե</abbr>ս ոմն մահա<abbr>պր</abbr>տ և արգե<abbr>լկ</abbr>ն կղզոջն կայր</hi> 
+<lb xml:id="l101261884" n="18"/>որում անունն կոչէին չմըշկիկ, գաղտ յուղարկե<abbr>լ</abbr> առ նա անօրէն 
+<lb xml:id="l101261885" n="19"/>և պեղծ թագուհին, և հ<abbr>րմ</abbr>ն<abbr>ւ</abbr> թ<abbr>գր</abbr>ին եհան զնա ի կղզոյն, և եբեր 
+<lb xml:id="l101261886" n="20"/>ի կ<abbr>ստ</abbr>նդն<abbr>ւ</abbr> պօլիս առանց գիտելոյ թ<abbr>գր</abbr>ին, և ի ծածուկ ար<abbr>ր</abbr> ընդ 
+<lb xml:id="l101261887" n="21"/>ն<abbr>մյ</abbr> դաշինս սպանանել զնիկիփաւռ թ<abbr>գր</abbr>ն և խոստ<abbr>ց</abbr>ւ լինել նմա 
+<lb xml:id="l101261888" n="22"/>կին և նստ<abbr>ւ</abbr>ցնել զնա յաթոռ թ<abbr>գ</abbr>րւ<abbr>ե</abbr>ն և հաւանեց<abbr>ւ</abbr> առնել զհ<abbr>րմն</abbr>ս 
+<lb xml:id="l101261889" n="23"/>անօրէն թագուհոյն։ <hi rend="red">Ե</hi>ւ նիկիփաւռ ս<abbr>բ</abbr> թ<abbr>գր</abbr>ն նստե<abbr>լ</abbr> կայր ի 
+<lb xml:id="l101261890" n="24"/>գահոյսն իւր ի ժամ երեկոյին և վառե<abbr>լ</abbr> մոմեղինօքն և ըն<g ref="թե"/>ռնոյր զ<abbr>ա</abbr>ծ
+<lb xml:id="l101261891" n="25"/>ային կտակագիրսն. և ե<abbr>կլ</abbr> թագուհին շաղապատէր զթ<abbr>գր</abbr>աւն 
+<cb n="2"/>
+<lb xml:id="l101261667" n="1"/>և զթուրն որ կայր մօտ առ իւր, փոկակապս ա<abbr>րր</abbr>լ պնդագոյնս 
+<lb xml:id="l101261892" n="2"/>և ել<abbr>ել</abbr> գն<abbr>ց</abbr> առ <abbr>չր</abbr>ախր<abbr>հդ</abbr>ն իւր. և ձեռօք իւրովք տայր թուր 
+<lb xml:id="l101261893" n="3"/>մահաբերն ի նա հեղլով զարիւն ար<abbr>դր</abbr>ոյն։ <hi rend="red">Ե</hi>ւ եկ<abbr>ել</abbr> չմշկին 
+<lb xml:id="l101261894" n="4"/>և ծածկաբ<abbr>ր</abbr> ի ներքս վազե<abbr>ց</abbr> ի սենե<abbr>կ</abbr> թ<abbr>գր</abbr>ին. և տեսե<abbr>լ</abbr> զնա թ<abbr>գր</abbr>ն 
+<lb xml:id="l101261895" n="5"/>ասէր <g ref="ընդ"/> նա շուն կատաղե<abbr>լ</abbr> զինչ ուզես աստ. և քաջապ<abbr>ս</abbr> յ<abbr>րւց</abbr>լ 
+<lb xml:id="l101261896" n="6"/>թ<abbr>գր</abbr>ն յուզէր զթուրն և տես<abbr>ել</abbr> սաստկ<abbr>պ</abbr>ս պնդ<abbr>ել</abbr>. և յայն չմշկիկըն 
+<lb xml:id="l101261897" n="7"/>յարձկ<abbr>ց</abbr>ւ ի վ<abbr>ր</abbr> թ<abbr>գր</abbr>ին և անխնայ գ<abbr>զ</abbr>նաբ<abbr>ր</abbr> խողխողէր զամենաբ<abbr>ր</abbr>ի 
+<lb xml:id="l101261898" n="8"/>արք<abbr>յ</abbr>ն. և հերձե<abbr>լ</abbr> զնա երիս մասունս և ծածկե<abbr>լ</abbr> լինէր ի մէջ արեան 
+<lb xml:id="l101261899" n="9"/>իւր, աւանդէր զհոգին ի ք<abbr>ս</abbr> չ<abbr>ր</abbr>աչ<abbr>ր</abbr> և դառն մահուամբ. և տե<abbr>ս</abbr>ն
+<lb xml:id="l101261900" n="10"/>էին զի այծէս զգեցե<abbr>լ</abbr> էր թ<abbr>գր</abbr>ն մերկուց ի վ<abbr>ր</abbr> մր<abbr>մնյ</abbr>ն ծածկե<abbr>լ</abbr> ծիրան
+<lb xml:id="l101261901" n="11"/>օքն և արիւն սփռե<abbr>լ</abbr> ցայ<g ref="թէ"/>ր զերեսօքն սպանողացն զառն <abbr>այ</abbr>. և 
+<lb xml:id="l101261902" n="12"/>զմ<abbr>րմ</abbr>ին ն<abbr>ր</abbr> թաղեցին մաւտ առ <abbr>սբ</abbr> թ<abbr>գր</abbr>ցն արժ<abbr>ն</abbr>ւ<abbr>ր</abbr> զգ<abbr>րզմ</abbr>նի. և նստ
+<lb xml:id="l101261903" n="13"/>աւ յաթոռն թ<abbr>գր</abbr>ւ<abbr>ե</abbr> յուն<abbr>ց</abbr> անօրէն չմըշկիկըն, տիրե<abbr>լ</abbr> էառ զկոստ
+<lb xml:id="l101261904" n="14"/>անդն<abbr>ւ</abbr> պօլիս և զ<abbr>ամ</abbr> ս<abbr>հմ</abbr>նս <g ref="աշխարհ"/>ին հոռոմոց ար<abbr>ր</abbr> <g ref="ընդ"/> իշխ<abbr>ն</abbr>ւ<abbr>բ</abbr>ն իւր
+<lb xml:id="l101261683" n="15"/>ով և զորդիսն ռամանոսի թ<abbr>գր</abbr>ին փախուց ի յանօրէն թագուհոյն 
+<lb xml:id="l101261684" n="16"/>ի վասակաւան ի հանձիթ գ<abbr>ւռ</abbr>ին. տարան զվասիլն և զկոս<abbr>տ</abbr>նդին 
+<lb xml:id="l101261685" n="17"/>առ սպրամիկն մեծ մխիթրա մայրն, վ<abbr>ս</abbr> զի մի դեղ մահու տացեն ն<abbr>ց</abbr> 
+<lb xml:id="l101261686" n="18"/>և սպան<abbr>ն</abbr>իցեն զն<abbr>ս</abbr>։ <hi rend="red">Ե</hi>ւ յ<abbr>ղգ</abbr>ս անիրաւ մահուանս այս կայր ի 
+<lb xml:id="l101261687" n="19"/>մեծի տրտմու<abbr>ե</abbr> թ<abbr>գր</abbr>ն չմշկիկ, անհանգիստ վիրաւորեալ։ 
+<lb xml:id="l101261688" n="20"/><milestone unit="section" n="420"/><hi rend="red">Իսկ ի վերանալ թ<abbr>գր</abbr>ու<abbr>ե</abbr>ս հայոց ի յամի <num value="420">.դ՟ճ՟. և .ի՟.</num> մեռ</hi>
+<lb xml:id="l101261689" n="21"/>անէր հայոց արք<abbr>յ</abbr>ն գագիկ. խաղաղւ<abbr>բ</abbr> մահուամբ և եղև հ<abbr>կռկ</abbr>
+<lb xml:id="l101261690" n="22"/>ու<abbr>ի</abbr> և աղմուկ մեծ ի մէջ <num value="2">.բ՟.</num> որդոց թ<abbr>գր</abbr>ին գագկայ. <g ref="ընդ"/> ոհաննէս և <g ref="ընդ"/> 
+<lb xml:id="l101261691" n="23"/>աշոտ. յոհաննէս աւագ էր <abbr>ք</abbr> զաշոտ, և իմաստուն և հանճարեղ 
+<lb xml:id="l101261692" n="24"/>էր յոյժ, բ<abbr>յ</abbr>ց մր<abbr>մն</abbr>վն թանգ էր. իսկ աշոտ կրսէր էր և էր, այր քաջ 
+<lb xml:id="l101261693" n="25"/>և զօր<abbr>ւ</abbr>ր, անպ<abbr>ր</abbr>տելի և յաղթօղ ի պ<abbr>տրզ</abbr>մունս. բայց բռնակալե<abbr>ց</abbr> 
+<pb n="096"/>
+<cb n="1"/>
+<lb xml:id="l101261714" n="1"/>յոհաննէս զաթոռ թ<abbr>գր</abbr>ւ<abbr>ե</abbr>ն հայոց. և աշոտ շրջէր զօրաւքն 
+<lb xml:id="l101261820" n="2"/>և աւար հր<abbr>կն</abbr>էր զբ<abbr>զ</abbr>մ տեղիս. և նեղէր զք<abbr>ղ</abbr>քն անի և գնացե<abbr>լ</abbr> 
+<lb xml:id="l101261821" n="3"/>առ սենեքէրիմ թ<abbr>գր</abbr>ն վասպուրակն<abbr>յ</abbr>, առ որդին ապուսահլի 
+<lb xml:id="l101261822" n="4"/>որդւո աշոտոյ, որդոյ դերենկան, որդոյ գագկա, արծրունի 
+<lb xml:id="l101261823" n="5"/>ազգաւ որդիք ադրամելեքա արքային ասորես<abbr>տ</abbr>նեաց։ 
+<lb xml:id="l101261824" n="6"/><hi rend="red">Եւ առեալ աշոտ զաւրս ի նմանէ և անցանէր</hi> 
+<lb xml:id="l101261825" n="7"/>առ գուրկէն թ<abbr>գր</abbr>, անձևացեացն խաղ<abbr>յ</abbr>ր զօր<abbr>ւ</abbr>քն գայր հ<abbr>ս</abbr>նէր 
+<lb xml:id="l101261826" n="8"/>ի լեառն վարագ և մտանէր ի վանք ս<abbr>բ</abbr> ն<abbr>շ</abbr>նին ք<abbr>ս</abbr>ի և երկրպ<abbr>գ</abbr>լ 
+<lb xml:id="l101261827" n="9"/>ա<abbr>ռ</abbr>ջի <abbr>ա</abbr>ծըն<abbr>կ</abbr>լ խաչին <abbr>այ</abbr>. և պատկերի սրբոյ <abbr>ա</abbr>ծածնին, և 
+<lb xml:id="l101261828" n="10"/>տուե<abbr>լ</abbr> յոսկոյն արաբացոց սրբոյ նշանին <num value="30000">.լ՟ռ՟.</num> դահե<abbr>կ</abbr>ն զոր եհ
+<lb xml:id="l101261829" n="11"/>ան ի պաղտատ ք<abbr>ղք</abbr>էն, զոր էր պ<abbr>րգ</abbr>ևե<abbr>լ</abbr> ն<abbr>մյ</abbr> խալիֆայն, և ար<abbr>ր</abbr> 
+<lb xml:id="l101261830" n="12"/>զայն պահարան աշոտ սրբոյ ն<abbr>շ</abbr>նին, և զարդ<abbr>ր</abbr>ց զնա ակամբք 
+<lb xml:id="l101261831" n="13"/>և մր<abbr>գր</abbr>տովք և ինքն զօրօքն բ<abbr>զմ</abbr>օք հ<abbr>ս</abbr>նէր ի թ<abbr>գ</abbr>րանիստ ք<abbr>ղ</abbr>քն անի։ 
+<lb xml:id="l101261832" n="14"/>Եւ իբրև լուաւ յոհաննէս զգալն աշոտոյ եղբօր իւրոյ հ<abbr>րմյ</abbr>ց, 
+<lb xml:id="l101261833" n="15"/>փող պ<abbr>տրզ</abbr>մի հ<abbr>րկ</abbr>նել, և ինքն ի գահոյս անշ<abbr>ր</abbr>ժ նստե<abbr>լ</abbr> կայր վ<abbr>ս</abbr> զի ան
+<lb xml:id="l101261834" n="16"/>հմուտ էր պ<abbr>տրզ</abbr>մի և դղըրդե<abbr>լ</abbr> ք<abbr>ղ</abbr>քն անի, ելե<abbr>լ</abbr> ի պ<abbr>տրզ</abbr>մ <g ref="ընդ"/> աշոտոյ, 
+<lb xml:id="l101261835" n="17"/><num value="40000">խ՟ռ՟.</num> հետևակ<abbr>ց</abbr> և <num value="20000">.ի՟ռ՟.</num> ձիաւորաց և յայնժ<abbr>մ</abbr> մի ոմն իշ<abbr>խ</abbr>նի զօր
+<lb xml:id="l101261836" n="18"/>աց թ<abbr>գր</abbr>ին վրացի դեսպանւ<abbr>ի</abbr> եկ<abbr>ե</abbr>լ էր առ յո<abbr>հ</abbr>ննէս. վ<abbr>ս</abbr> զի մայրն 
+<lb xml:id="l101261837" n="19"/>յոհաննիսի և աշոտոյ դուստր էր վրաց թ<abbr>գր</abbr>ին գուրգէ. կատրա֊
+<lb xml:id="l101261838" n="20"/>միտիդ թ<abbr>գ</abbr>ուհին. և ասէր իշ<abbr>խ</abbr>նն վրաց <g ref="ընդ"/> թ<abbr>գր</abbr>ն յոհաննէս. ո՞վ արք
+<lb xml:id="l101261839" n="21"/>այ յո<abbr>հ</abbr>ննէս հր<abbr>մյ</abbr>ց զի ցուցանիցեն ինձ մի<abbr>յ</abbr>ն զաշոտ և ես ձեռ
+<lb xml:id="l101261840" n="22"/>բակ<abbr>լ</abbr> ա<abbr>ր</abbr>րից զնա, և կ<abbr>պ</abbr>նօք բերից զնա ա<abbr>ռ</abbr>ջի քո. վ<abbr>ս</abbr> զի այրն այն 
+<lb xml:id="l101261841" n="23"/>էր այր քաջ և անպ<abbr>րտ</abbr>ելի ի պ<abbr>տրզ</abbr>մ. և ասէր յ<abbr>հն</abbr>նէս թ<abbr>գր</abbr>ն ցայրն 
+<lb xml:id="l101261842" n="24"/>այն ահա այր հզօր է աշոտ, դու զիարդ կարես ածել ա<abbr>ռ</abbr>ջի իմ 
+<lb xml:id="l101261843" n="25"/>և ասէր իշ<abbr>խ</abbr>նն վրացի ձիուն առից զնա կեն<abbr>դ</abbr>նի և ասէ ցնա յ<abbr>հն</abbr>նէս 
+<cb n="2"/>
+<lb xml:id="l101261740" n="1"/>ե<g ref="թէ"/> զկորիւն առիւծո մի արհամարհեսցես մինչև տեսանիցես 
+<lb xml:id="l101261844" n="2"/>և յայնժ<abbr>մ</abbr> ճակատե<abbr>ց</abbr>ն <g ref="ընդ"/> միմ<abbr>ե</abbr>նս, և իշ<abbr>խ</abbr>նն որ յափխզաց, ո<abbr>պ</abbr> 
+<lb xml:id="l101261845" n="3"/>զարծւի ընթ<abbr>ց</abbr>լ ի ձայն բարձր, և յուզէր զաշոտ, և ասէր ո՞վ աշ
+<lb xml:id="l101261846" n="4"/>ոտ յ<abbr>ռ</abbr>ջ եկեսցես. և լու<abbr>ե</abbr>լ աշոտ և եղև զայր<abbr>ց</abbr>լ իբրև զի<del rend="cancel">ւ</del>նծ 
+<lb xml:id="l101261847" n="5"/>և յուզել զմիմ<abbr>ե</abbr>նս ընթ<abbr>ն</abbr>յին առ իրեարս. և իշխանն վրաց զնիզակն 
+<lb xml:id="l101261848" n="6"/>եդ<abbr>ե</abbr>լ աշոտոյ, իսկ աշոտ իբրև զկայծակն ի ներքս ան<abbr>ց</abbr>նէր և հ<abbr>րկ</abbr>ն
+<lb xml:id="l101261849" n="7"/>էր զնա պօղովատովն ի վ<abbr>ր</abbr> սաղարթին, և զեր<abbr>կ</abbr>թա<abbr>պտ</abbr> մ<abbr>րմ</abbr>ինն պատ
+<lb xml:id="l101261850" n="8"/>առ<abbr>ե</abbr>ց մինչև ցոտն, և հն<abbr>դր</abbr>ձ միջօքն յերկիր ընկենոյր։ <hi rend="red">Ե</hi>ւ եղև 
+<lb xml:id="l101261851" n="9"/>յաւուր յայնմիկ սաստիկ պ<abbr>տրզ</abbr>մ և <abbr>դր</abbr>ձ<abbr>ւ</abbr>ցին զք<abbr>ղ</abbr>քն ի փախուստ, 
+<lb xml:id="l101261852" n="10"/>մինչև փ<abbr>խւցլ</abbr>քն ոչ ժամ<abbr>ն</abbr>էին մտանել ի ք<abbr>ղք</abbr>ն, ի յախուրան գետն անկ
+<lb xml:id="l101261853" n="11"/>անէին և դ<abbr>ր</abbr>ձւ յաշոտ մեծաւ յաղթւ<abbr>բ</abbr>. և ետ յաւուրցս ինչ խորհ
+<lb xml:id="l101261854" n="12"/>եցան բագրատունիքն և պալհաւունիքն, և այլ <abbr>ամ</abbr> ազատա<abbr>գ</abbr>ւնդ 
+<lb xml:id="l101261855" n="13"/>զօրացն հայկա<abbr>զ</abbr>նց առնել խաղ<abbr>ղ</abbr>ւ<abbr>ի</abbr> ի մէջ յոհաննիսի և աշոտոյ։ 
+<lb xml:id="l101261856" n="14"/><hi rend="red">Ե</hi>ւ յայն<abbr>ժմ</abbr> ս<abbr>բ</abbr> հ<abbr>յրպտ</abbr>ն պետրոս և իշ<abbr>խ</abbr>նքն ելին առ աշոտ, և 
+<lb xml:id="l101261857" n="15"/>մեծաւ երդմամբ նստուցին զաշոտ դրուց <g ref="աշխարհ"/>ին թ<abbr>գր</abbr> <abbr>ամ</abbr> տանն հ<abbr>յ</abbr>ոց 
+<lb xml:id="l101261858" n="16"/>և յ<abbr>հն</abbr>նէս նստցի թ<abbr>գր</abbr> ի ք<abbr>ղ</abbr>քն անի և ե<g ref="թէ"/> մեռնի յ<abbr>հնն</abbr>էս աշոտ լինի 
+<lb xml:id="l101261859" n="17"/>թ<abbr>գր</abbr> <abbr>ամ</abbr> տանն հ<abbr>յ</abbr>ոց և յայն<abbr>ժմ</abbr> եղև խաղ<abbr>ղ</abbr>ւ<abbr>ի</abbr> <g ref="աշխարհ"/>ին հայոց։ 
+<lb xml:id="l101261860" n="18"/><hi rend="red">Յայնմ ժ<abbr>մկ</abbr>ի նստաւ աբաս ի կարս թ<abbr>գրկ</abbr>ն իշ<abbr>խ</abbr>նւ<abbr>բ</abbr> </hi>
+<lb xml:id="l101261861" n="19"/>հրամ<abbr>ն</abbr>ւ ազգապետին իւրոյ գագկա հայոց արք<abbr>յ</abbr>ին. և գուրգէն 
+<lb xml:id="l101261862" n="20"/>աղուանից <g ref="աշխարհ"/>ն, վ<abbr>ս</abbr> զի ազգէ հայոց թ<abbr>գր</abbr>ցն էին և կախն հն<abbr>զնդ</abbr>ւ<abbr>բ</abbr> 
+<lb xml:id="l101261863" n="21"/>տանն հայոց շիրակա։ Իսկ աշոտ թ<abbr>գր</abbr>ն ոչ ժ<abbr>մն</abbr>ե<abbr>ց</abbr> մ<abbr>տ</abbr>նել ի ք<abbr>ղք</abbr>ն անի 
+<lb xml:id="l101261864" n="22"/>մինչև ցօր մահուան իւրոյ։ Իսկ յայսմ աւուրս ապիրատ ոմն որ էր 
+<lb xml:id="l101261865" n="23"/>մեծ իշ<abbr>խ</abbr>ն հայոց որդի հասանա, սա վ<abbr>ս</abbr> աշոտոյ միաբանւ<abbr>ե</abbr>ն զոր 
+<lb xml:id="l101261866" n="24"/>ունէր յ<abbr>ռ</abbr>ջագ<abbr>յ</abbr>ն յերկ<abbr>ւցլ</abbr> ի թ<abbr>գր</abbr>էն յոհ<abbr>ն</abbr>նիսէ, ապըստ<abbr>մ</abbr>բ<abbr>ե</abbr>լ փախեաւ 
+<lb xml:id="l101261867" n="25"/>ի նմ<abbr>ն</abbr>է և գն<abbr>ց</abbr> ի դըւին ք<abbr>ղ</abbr>ք, առ ապուսվար պ<abbr>րս</abbr>ից զօրավարն և <num value="12">.բ՟ժ՟</num>ան 
+<pb n="098"/>
+<cb n="1"/>
+<lb xml:id="l101261766" n="1"/><num value="1000">ռ՟.</num> ձիաւոր <g ref="ընդ"/> ն<abbr>մյ</abbr>. և ապուսուար մեծարե<abbr>լ</abbr> զնա բ<abbr>զ</abbr>մ աւուրս. 
+<lb xml:id="l101262962" n="2"/>յայնժամ մատեան առ ապուսուար չարեօք խաւսեօք և ասեն, 
+<lb xml:id="l101262963" n="3"/>ե<g ref="թէ"/> այսպ<abbr>ս</abbr>ի այր յաղթող և զօրաւոր և զօրօք բ<abbr>զմ</abbr>օք եկ<abbr>ե</abbr>լ է առ 
+<lb xml:id="l101262964" n="4"/>քեզ, կորուստ գ<abbr>ր</abbr>ծէ քեզ և <abbr>ամ</abbr> տանս տաճկ<abbr>ց</abbr>։ Յայնժ<abbr>մ</abbr> ոխս առ
+<lb xml:id="l101262965" n="5"/>ել ամիրային ի սիրտ իւր, և գաղտ ի յայլ զօրացն ի զրոյց սիրո կոչե<abbr>ց</abbr> 
+<lb xml:id="l101262966" n="6"/>զապիրատն, և ի ծածուկ կորոյս զայնպիսի այր քաջ և հզօր և ան
+<lb xml:id="l101262967" n="7"/>ուանի ի մէջ <abbr>ամ</abbr> <g ref="աշխարհ"/>ին հայոց։ Իսկ իշխան ոմն սարի անուն որ էր զօր
+<lb xml:id="l101261775" n="8"/>ավար մեծ իշխանին ապիրատին առե<abbr>լ</abbr> զկինն և զորդիս ն<abbr>ր</abbr>. և զհեծ
+<lb xml:id="l101261776" n="9"/>ելագունդ զօրսն և գն<abbr>ց</abbr> ի ք<abbr>ղ</abbr>քն անի, և թ<abbr>գր</abbr>ն յ<abbr>հն</abbr>նէս կարի յո՞յժ 
+<lb xml:id="l101261777" n="10"/>ապաշաւէր զանիրաւ մահն ապիրատին հայոց իշ<abbr>խ</abbr>նին և որդոցն 
+<lb xml:id="l101261778" n="11"/>ն<abbr>ր</abbr>. ապլջահապա, և վասակա, սարէ և զ<abbr>ամ</abbr> զօրացն տայր թ<abbr>գր</abbr>ն 
+<lb xml:id="l101261779" n="12"/>հայոց գաւառս և զիշխանութ<abbr>ի</abbr>ն։ 
+<lb xml:id="l101261780" n="13"/><hi rend="red">Յայսմ ժ<abbr>մկ</abbr>իս զաւրաժողով ա<abbr>րր</abbr>ե<abbr>լ</abbr> թ<abbr>գր</abbr>ն դելումնաց</hi> 
+<lb xml:id="l101261781" n="14"/>և յանկ<abbr>ր</abbr>ծս գայր հ<abbr>ս</abbr>նէր ի նիգս գ<abbr>ւռ</abbr>ին հ<abbr>յ</abbr>ոց մերձ ի յամուրն բջնի. 
+<lb xml:id="l101261782" n="15"/>և վասակ ասպարապետն հայոց սիրեցե<abbr>լ</abbr> որդովն իւրով գրիգորիւ 
+<lb xml:id="l101261783" n="16"/>և այլ փ<abbr>ռւ</abbr>ր ազատօքն նստե<abbr>լ</abbr> կայր ի մեծ ու<abbr>ր</abbr>խու<abbr>ե</abbr>. և հայեց<abbr>ւ</abbr> վաս
+<lb xml:id="l101261784" n="17"/>ակ ի յառապարս ճ<abbr>պրհ</abbr>ին, և ահայ գայր մի ի շտապս <g ref="ընդ"/> հետևակ 
+<lb xml:id="l101261785" n="18"/>գնացս ճ<abbr>պրհ</abbr>ին. և տես<abbr>ե</abbr>լ վասակ<abbr>յ</abbr> ասէր. գուժաբեր է այրն այն. և 
+<lb xml:id="l101261786" n="19"/>հ<abbr>ս</abbr>նէր այրն ի դուռն բերդին բջնոյ, ձայն աղ<abbr>ղ</abbr>կի բ<abbr>ր</abbr>ձե<abbr>լ</abbr> ասէր գերեց<abbr>ւ</abbr> 
+<lb xml:id="l101261787" n="20"/><abbr>ամ</abbr> գ<abbr>ւռ</abbr>ն նգաց։ <hi rend="red">Յ</hi>այնժամ <g ref="որպէս"/> զառիւծ գոչե<abbr>ց</abbr> քաջ զօրավարն 
+<lb xml:id="l101261788" n="21"/>վա<abbr>ս</abbr>կ, և յ<abbr>րւց</abbr>լ զգենոյր զգեստ երկաթապ<abbr>տ</abbr>ս և զկնի ն<abbr>ր</abbr> <num value="7">.է՟.</num> ազատ 
+<lb xml:id="l101261789" n="22"/>և <g ref="ըստ"/> պատահելո ժ<abbr>մւ</abbr>ն այլ հեծելազօրս զկնի ն<abbr>ց</abbr>. և կ<abbr>զմ</abbr>ե<abbr>ց</abbr>ն ազատքն 
+<lb xml:id="l101261790" n="23"/>զկնի վ<abbr>սկ</abbr>յ. և սրանայր քաջ և աղէկ, անունն փիլիպպէ, և գորգ չոր
+<lb xml:id="l101261791" n="24"/>տուանէլն և այլք ոմ<abbr>ն</abbr>ք. և այրս այրք քաջք և յաղթողք ի պ<abbr>տրզ</abbr>մունս 
+<lb xml:id="l101261792" n="25"/>և ոչ կ<abbr>ր</abbr>աց վ<abbr>ս</abbr>կ համբերել սրտին, մինչև զօրքն ժողովեսցեն վ<abbr>ս</abbr> զի 
+<cb n="2"/>
+<lb xml:id="l101261793" n="1"/>կային <g ref="ընդ"/> ձեռամբ ն<abbr>ր</abbr> այրս իբրև <num value="5000">.ե՟ռ՟</num>ս. և առ հպարտւ<abbr>ե</abbr> զօրւ<abbr>ե</abbr> 
+<lb xml:id="l101262948" n="2"/>իւր և <num value="500">.շ՟.</num> արամբ յ<abbr>ռ</abbr>ջ ելեալ <g ref="որպէս"/> զ<subst><del rend="erase"><gap extent="5"/></del><add>առիւծ</add></subst> ի նգաց գ<abbr>ւռ</abbr>ին, և անձն 
+<lb xml:id="l101262949" n="3"/>արար<abbr>ե</abbr>լ զտուն և զամուրն բջնի որդոյ իւրումն գրիգորի. և հ<abbr>ս</abbr>նէր 
+<lb xml:id="l101262950" n="4"/>վասակ ի վանք մի. հ<abbr>ղրդ</abbr>ց<abbr>ւ</abbr> ինքն և <abbr>ամ</abbr> զօրքն և խ<abbr>ստ</abbr>վն<abbr>ց</abbr>ն զմեղս 
+<lb xml:id="l101262951" n="5"/>իւ<abbr>րց</abbr> բ<abbr>ր</abbr>ի խ<abbr>ստ</abbr>վնւ<abbr>բ</abbr> որ ի <abbr>քս</abbr> <abbr>յս</abbr>. և ի ճ<abbr>պր</abbr>հին հանդիպե<abbr>լ</abbr> ի գեւղ մի, և 
+<lb xml:id="l101262952" n="6"/>տեսին, զի այլազգիքն առ հ<abbr>սր</abbr>կ կոտորե<abbr>լ</abbr> էին զ<abbr>ամ</abbr> գեւղն, և զաւրք 
+<lb xml:id="l101262953" n="7"/>այլ ազգե<abbr>ց</abbr>ն պատե<abbr>լ</abbr> էին շուրջ զեկեղեցեաւն, և զհ<abbr>ւտց</abbr>լն որ ի ներսն 
+<lb xml:id="l101261801" n="8"/> կային և կոտորեցին անխնայ սրով. և տեսե<abbr>լ</abbr> զայն քաջին վ<abbr>սկյ</abbr>, ձայն
+<lb xml:id="l101261802" n="9"/>իւ գոչե<abbr>ց</abbr> <g ref="որպէս"/> զառիւծ և արձկ<abbr>ց</abbr>ւ ի վ<abbr>ր</abbr> զօրաց այլազգե<abbr>ց</abbr>ն. և կոտոր
+<lb xml:id="l101261803" n="10"/>եցին զն<abbr>ս</abbr> այրս <num value="300">.գ՟ճ՟.</num> և մն<abbr>ց</abbr>լքն փ<abbr>խստ</abbr><abbr>կ</abbr>նք լեալ անկանէին ի զօրսն 
+<lb xml:id="l101261804" n="11"/>այլազգ<abbr>ե</abbr>ցն։ Եւ շ<abbr>ր</abbr>ժ<abbr>ե</abbr>լ գային բ<abbr>զմ</abbr>ւ<abbr>ի</abbr>ք բանակին ի վ<abbr>ր</abbr> զօր<abbr>ց</abbr> քրիստոնէ
+<lb xml:id="l101261805" n="12"/>ից և իբրև անչափ անթիւ տե<abbr>ս</abbr>նէին բ<abbr>զ</abbr>մւ<abbr>ի</abbr> զօրացն այլազգե<abbr>ց</abbr>ն, և 
+<lb xml:id="l101261806" n="13"/>յայն<abbr>ժմ</abbr> միա<abbr>բ</abbr>ն զմահ ա<abbr>ռ</abbr>ջի եդին. և սկսան առաքինան<abbr>լ</abbr> ի պ<abbr>տրզ</abbr>մին 
+<lb xml:id="l101262954" n="14"/>և <g ref="որպէս"/> զգայլս ի մէջ այծ<abbr>ե</abbr>ց. և կամ <g ref="որպէս"/> զարծուիս ի յերամս ձագուց, այն
+<lb xml:id="l101262955" n="15"/>պէս արիաբ<abbr>ր</abbr> ընթան<abbr>յ</abbr>ին ի մէջ պ<abbr>տրզ</abbr>մին և զբ<abbr>զմ</abbr>ս խոց<abbr>ե</abbr>լ դիաթաւալ 
+<lb xml:id="l101261810" n="16"/>յերկիր ձգէին։ Յայն<abbr>ժմ</abbr> ախոյեան մի ելե<abbr>լ</abbr> ի զօրացն այլազգեացն 
+<lb xml:id="l101261811" n="17"/>սեաւ խափշիկ, և այր քաջ որ և <num value="7">.է՟.</num> գայլ կոչէին զնա, վ<abbr>ս</abbr> զի զինչ է 
+<lb xml:id="l101262956" n="18"/><num value="7">է՟</num> գայլն ի ջոկս ոչխ<abbr>ր</abbr>ցն գ<abbr>ր</abbr>ծէր, սա ևս առօել ի մէջ պ<abbr>տրզ</abbr>մին։ և 
+<lb xml:id="l101262957" n="19"/>ահա գայր խափշիկն իբրև զսեաւ ամպ որոտալով որ բոց հ<abbr>տ</abbr>նէ
+<lb xml:id="l101262958" n="20"/>ին ի զրեհաց ն<abbr>ր</abbr>, և ձայն տուե<abbr>լ</abbr> և յանուանէ յուզէր զվա<abbr>ս</abbr>կ. հայ
+<lb xml:id="l101262959" n="21"/>եց<abbr>ւ</abbr> քաջն եմրան, և ետես զնա զի գայր <g ref="որպէս"/> լեառն մրրկե<abbr>լ</abbr> դ<abbr>ր</abbr>ձ<abbr>ւ</abbr> առ 
+<lb xml:id="l101262960" n="22"/>վասակ և ասէր ահայ այր անպ<abbr>ր</abbr>տելի և քաջ, որ այլ չէր ծնե<abbr>լ</abbr> ի վ<abbr>ր</abbr> 
+<lb xml:id="l101261817" n="23"/><g ref="երկիր"/>րի. և աս<abbr>ց</abbr> վա<abbr>ս</abbr>կ. ո՞վ առիւծ և քաջ եմրան, վ<abbr>ս</abbr> էր զարհուրեցար <g ref="ընդ"/> 
+<lb xml:id="l101261818" n="24"/>տեսիլ ն<abbr>ր</abbr>. ահայ ես ելից <g ref="ընդ"/>դէմ ն<abbr>ր</abbr> և տաց ն<abbr>ր</abbr> զպ<abbr>ր</abbr>գեւքն զոր ետ դ<abbr>ւ</abbr>թ 
+<lb xml:id="l101262961" n="25"/>գողիաթու հայհոյիչին <abbr>այ</abbr>. յայն<abbr>ժմ</abbr> հ<abbr>ս</abbr>նէր գ<abbr>զ</abbr>նաբ<abbr>ր</abbr> այրն այն, 
+<pb n="100"/>
+<cb n="1"/>
+<lb xml:id="l101262895" n="1"/>ռումբ եդե<abbr>լ</abbr> քաջին վ<abbr>սկյ</abbr>, <abbr>ոպ</abbr> զի առցէ զնա ի ծայր գեղարդեանն 
+<lb xml:id="l101263278" n="2"/>իւրով. և ի շտապս լեալ վասակին երգս դիմե<abbr>ց</abbr> և պողովատ թրովն 
+<lb xml:id="l101263279" n="3"/>ի վ<abbr>ր</abbr> սաղաւարդին գահեաց. և երկուս հերձե<abbr>ց</abbr> զխափշիկ քաջ որ 
+<lb xml:id="l101263280" n="4"/>և մասունք մ<abbr>րմ</abbr>ն<abbr>յ</abbr>ն յ<g ref="երկիր">երկ</g>իր ան<abbr>կ</abbr>նէր և հս<abbr>տտ</abbr>ցն ի պ<abbr>տրզ</abbr>մն և անհնարին 
+<lb xml:id="l101263281" n="5"/>գ<abbr>ր</abbr>ծոյն և ի սաստ<abbr>կնլ</abbr> մարտին և ի բ<abbr>զմ</abbr>ն<abbr>լ</abbr> խոցուած սուսերացն պ<abbr>կ</abbr>ս
+<lb xml:id="l101263282" n="6"/>ե<abbr>ց</abbr> քաջն եմրան, վ<abbr>ս</abbr> զի անհնարիւն պ<abbr>տրզ</abbr>մին ի միմ<abbr>ե</abbr>նց մոլորե<abbr>լ</abbr> եղեն 
+<lb xml:id="l101263283" n="7"/>դասք ագատացն որ և զիրեր<abbr>ց</abbr> մահ ոչ կարացին տեսանել։ 
+<lb xml:id="l101263284" n="8"/><hi rend="red">Յայնժամ քաջն վասակ դ<abbr>ր</abbr>ձ<abbr>ւ</abbr> միացե<abbr>լ</abbr> և գնայր իբրև</hi> 
+<lb xml:id="l101263285" n="9"/>զառիւծ զայր<abbr>ց</abbr>լ <g ref="ընդ"/> մէջ զօրաց այլազգացն անցանէր և էր ձանձր<abbr>ցլ</abbr> 
+<lb xml:id="l101262905" n="10"/>ի մեծի պ<abbr>տրզ</abbr>մին, և դիմե<abbr>ց</abbr> ելանէր ի լեառն որ կոչէր սերկևելոյ, և ի 
+<lb xml:id="l101262906" n="11"/>բ<abbr>զ</abbr>մ հ<abbr>լծ</abbr>ն<abbr>ց</abbr> պ<abbr>տրզ</abbr>մին նստե<abbr>լ</abbr> <g ref="ընդ"/> հովանեաւ քարանց և տեսե<abbr>լ</abbr> զնայ 
+<lb xml:id="l101262907" n="12"/>շին<abbr>կ</abbr>նացն որք փ<abbr>խլ</abbr> էին։ <hi rend="red">Յ</hi>այնժամ մի ոմն նմանե<abbr>լ</abbr> կայենի սպան
+<lb xml:id="l101262908" n="13"/>ողին, եկե<abbr>լ</abbr> գտանէր զնա զի ննջէր ի վշտացն ուժգին բախե<abbr>ց</abbr> զնա և 
+<lb xml:id="l101262909" n="14"/>ընկէց <g ref="ընդ"/> բարձու քարին և <abbr>սս</abbr> կ<abbr>տրց</abbr>ւ քաջն վա<abbr>ս</abbr>կ պալհաւունին։ 
+<lb xml:id="l101262911" n="15"/><milestone unit="section" n="421"/><hi rend="red">Դ<abbr>ձ</abbr>լ այս ինչ գ<abbr>ր</abbr>ծեցաւ ի հայոց թվականու<abbr><g ref="թե"/></abbr>նն</hi>, 
+<lb xml:id="l101263286" n="16"/>յամին <num value="421">.ն՟. և .ի՟ա՟.</num> վ<abbr>ս</abbr> զի զօրապետն հռոմ<abbr>յ</abbr>ցոց, դեմեալիկոսն, որում 
+<lb xml:id="l101263287" n="17"/>անունն մլեհ ասէին, ելե<abbr>լ</abbr> բ<abbr>զ</abbr>մ զօր<abbr>ւ</abbr>ք գայր ի վ<abbr>ր</abbr> տաճկ<abbr>ց</abbr>. և ի տեղիս 
+<lb xml:id="l101262914" n="18"/>յաղ<g ref="թե"/><abbr>ց</abbr> <abbr>այ</abbr> օգն<abbr>կ</abbr>նւ<abbr>բ</abbr>ն ք<abbr>ս</abbr>ի. և գայր հ<abbr>ս</abbr>նէր ի վ<abbr>ր</abbr> ք<abbr>ղ</abbr>քին մելտենու. և 
+<lb xml:id="l101262915" n="19"/>բ<abbr>զ</abbr>մ չր<abbr>չր</abbr>նօք նեղե<abbr>լ</abbr> զք<abbr>ղ</abbr>քն արգելե<abbr>լ</abbr> ի հացէ և ի ջրոյ, և այնու հ<abbr>ւ</abbr>նե<abbr>ցւց</abbr>ն
+<lb xml:id="l101262916" n="20"/>էր զք<abbr>ղ</abbr>քն մելտենի և յ<abbr>րւց</abbr>լ գնայր մեծաւ ու<abbr>ր</abbr>խու<abbr>բ</abbr> իջանէր ի վ<abbr>ր</abbr> տիգր
+<lb xml:id="l101263288" n="21"/>անակ<abbr>ր</abbr>տ ք<abbr>ղ</abbr>քին, որ անուանե<abbr>լ</abbr> կոչի ամիթ, ի վ<abbr>ր</abbr> ագլատ գետոյ. և զօրք 
+<lb xml:id="l101263289" n="22"/>տաճկ<abbr>ց</abbr> ելե<abbr>լ</abbr> ի պ<abbr>տրզ</abbr>մ <g ref="ընդ"/> զօրսն հոռոմոց և ար<abbr>ր</abbr>ին սաստիկ պ<abbr>տրզ</abbr>մ մերձ 
+<lb xml:id="l101263290" n="23"/>առ դուրս ք<abbr>ղք</abbr>ին ամթայ և զօրքն տաճկ<abbr>ց</abbr> դ<abbr>ր</abbr>ձ<abbr>ւ</abbr> ի փախ<abbr>ւ</abbr>ստ ա<abbr>ռ</abbr>ջի զօր<abbr>ց</abbr>ն 
+<lb xml:id="l101263291" n="24"/>հոռոմոցն. և բ<abbr>զ</abbr>մ կոտորածս եղե<abbr>լ</abbr> ի ն<abbr>ց</abbr>, ինե մտին ք<abbr>ղ</abbr>քն. և զօրքն հոռոմոց 
+<lb xml:id="l101263292" n="25"/>բ<abbr>նկց</abbr>ն առ ափն գետոյն ի տեղին որ կոչի աւսալ մերձ ի ք<abbr>ղ</abbr>քն <num value="2">.բ՟</num> նետընկէց 
+<cb n="2"/>
+<lb xml:id="l101262922" n="1"/>և յետ սակաւ աւուրց <abbr>ա</abbr>ծասաստ բ<abbr>րկ</abbr>ւ<abbr>ի</abbr>ն շ<abbr>ր</abbr>ժեց<abbr>ւ</abbr> յ<g ref="երկին"/>ց, և ահա ելանէր 
+<lb xml:id="l101263293" n="2"/>հողմն ուժգնակի մինչև ի սաստկու<g ref="թե"/>նէ գոչ<abbr>մ</abbr>նն շ<abbr>ր</abbr>ժէր <g ref="երկիր"/>րն. և ի բռնու
+<lb xml:id="l101263294" n="3"/><g ref="թե"/>նէ հողմոյն հող երկրին ի վ<abbr>ր</abbr> հոսե<abbr>լ</abbr> տարածէր ի վ<abbr>ր</abbr> զօր<abbr>ց</abbr> քրիստոնէիցն. 
+<lb xml:id="l101263295" n="4"/>և թանձր<abbr>ց</abbr>լ փոշին ծածկէր զմր<abbr>դ</abbr> և զանս<abbr>ւ</abbr>ն, և զ<abbr>ամ</abbr> կարասի ն<abbr>ց</abbr> ի գետ 
+<lb xml:id="l101263296" n="5"/>անդր լնոյր, և ի փոշուն խ<abbr>ւր</abbr>լ կուրան<abbr>յ</abbr>ին մր<abbr>դ</abbr> և ան<abbr>սւ</abbr>ն, և <abbr>ա</abbr>ծասաստ 
+<lb xml:id="l101263297" n="6"/>բ<abbr>ր</abbr>կու<g ref="թե"/>նէ փոշոյն և փ<abbr>կ</abbr>լ մթացան <abbr>ամ</abbr> աչք ի լուսոյ. և եղեն պ<abbr>շր</abbr>լ <abbr>ամ</abbr> 
+<lb xml:id="l101263298" n="7"/>զօրքն հոռոմոց, և զելս իրացն ոչ կ<abbr>ր</abbr>էին գտանել. և յայնժ<abbr>մ</abbr> զօրքն այլ
+<lb xml:id="l101263299" n="8"/>ազգե<abbr>ց</abbr>ն տեսին զ<abbr>բրկ</abbr>ւ<abbr>ե</abbr> կ<abbr>տր</abbr>ծն ի վ<abbr>ր</abbr> քրիս<abbr>տ</abbr>նէից և գիտ<abbr>ց</abbr>լ զի <abbr>ած</abbr> պ<abbr>տրզ</abbr>մի 
+<lb xml:id="l101263300" n="9"/><g ref="ընդ"/> ն<abbr>ս</abbr>, և առ հ<abbr>սր</abbr>կ բախեցան այլազգե<abbr>ց</abbr> զօրք ի վ<abbr>ր</abbr> քրիստոնէից զօրացն 
+<lb xml:id="l101263301" n="10"/>և անխնայ սրախողխողս կոտորեցին զն<abbr>ս</abbr> անողորմ, էին արք իբրև <num value="50000">.ծ՟ռ՟.</num> 
+<lb xml:id="l101263302" n="11"/>և ս<abbr>կւ</abbr>ք էին որ կարացին փախչել յեր<abbr>ս</abbr>ց սրոյն. մեծ մասն զօրացն կոտոր
+<lb xml:id="l101263303" n="12"/>ե<abbr>ց</abbr>ն։ Զզօրավարն զդեմեալիկոսն և զայլ մեծամեծ իշ<abbr>խ</abbr>նսն հոռոմոց 
+<lb xml:id="l101263304" n="13"/>ձերբակ<abbr>լ</abbr> ա<abbr>ր</abbr>րին, և ածին ի ք<abbr>ղ</abbr>քն ամիթ <num value="40">.խ՟.</num> իշխան մեծամեծք և անուան
+<lb xml:id="l101263305" n="14"/>իք <g ref="ընդ"/> ն<abbr>մ</abbr>յ. և յ<abbr>րժ</abbr>մ տեսին իշ<abbr>խ</abbr>նքն այլազգե<abbr>ց</abbr>ն զկորուստ զօրացն հոռ
+<lb xml:id="l101263306" n="15"/>ոմոց, զարհ<abbr>ւր</abbr>լ երկեան յո՞յժ, և աս<abbr>ց</abbr>ին ե<g ref="թէ"/> զայս <abbr>ամ</abbr> արիւնս զոր հեղաք 
+<lb xml:id="l101263307" n="16"/>ի տանէն հոռոմոց մեզ ոչ մնա. գան հոռոմայեցիքն և անցւ<abbr>ց</abbr>նեն ըզ
+<lb xml:id="l101263308" n="17"/>տունս տ<abbr>ճկ</abbr>ց։ Եկայք արասցուք սէ՞րս և միա<abbr>բ</abbr>նւ<abbr>ի</abbr>ս <g ref="ընդ"/> զօրապետսն. և 
+<lb xml:id="l101263309" n="18"/><g ref="ընդ"/> իշ<abbr>խ</abbr>նսն հոռոմոց, և առցուք երդմունս ի ն<abbr>ց</abbr>նէ և արձկ<abbr>սց</abbr><abbr>ւ</abbr>ք զնոսա 
+<lb xml:id="l101263310" n="19"/>խաղ<abbr>ղ</abbr>ւ<abbr>բ</abbr> յ<g ref="աշխարհ"/>ն իւ<abbr>րց</abbr>. և ի խորհելն ն<abbr>ց</abbr> զայս եհաս հ<abbr>մ</abbr>բաւ սպանման նիկի
+<lb xml:id="l101263311" n="20"/>փաւռա թ<abbr>գր</abbr>ին հոռոմոց. և յայնժ<abbr>մ</abbr> իշ<abbr>խ</abbr>նք այլազգե<abbr>ց</abbr>ն յուղարկեցին 
+<lb xml:id="l101263312" n="21"/>զիշ<abbr>խ</abbr>նս քրիստոնէից զ<num value="40">.խ՟.</num>սն առ խալիֆայն ի պաղտատ քղք և ամ<abbr>նք</abbr>ն 
+<lb xml:id="l101263313" n="22"/>անդ մե<abbr>ռ</abbr>ն։ Եւ գրե<abbr>ց</abbr> դեմեալիկոսն ի կս<abbr>տնդ</abbr>ն<abbr>ւ</abbr> պօլիս թուղթ և գրե<abbr>ց</abbr> 
+<lb xml:id="l101263314" n="23"/>ի նա յանէծս և ցաւ<abbr>գ</abbr>ինս։ Եւ ասէր <abbr>սս</abbr> ե<g ref="թէ"/> մեք ոչ էաք արժանի <g ref="ըստ"/> օրինի 
+<lb xml:id="l101263315" n="24"/>քրիստոնէից մտանել ի յ<abbr>ա</abbr>հնե<abbr>լ</abbr> հող գ<abbr>րզմ</abbr>նի, այլ եղաք ժ<abbr>ռն</abbr>գ<abbr>ր</abbr>դս անիծ
+<lb xml:id="l101263316" n="25"/>ե<abbr>լ</abbr> հողոյ և չարագործ<abbr>ց</abbr> գ<abbr>րզմ</abbr>նի. և ահա մեք զձեզ ոչ գիտեմք որ նստաւ 
+<pb n="102"/>
+<cb n="1"/>
+<lb xml:id="l101263224" n="1"/>յաթոռ ս<abbr>բ</abbr> թ<abbr>գր</abbr>ու<abbr>ե</abbr>դ հոռ<abbr>մ</abbr>ց. զմահս մեր և զարիւն զոր հեղաւ ի դուռն 
+<lb xml:id="l101263493" n="2"/>ամիթ ք<abbr>ղք</abbr>ին, և զօտար մահս մեր ի գլխոյ քո խնդրեսցէ ք<abbr>ս</abbr> <abbr>ա</abbr>ծ մեր, ի 
+<lb xml:id="l101263494" n="3"/>յաւուր դ<abbr>տստ</abbr>նին, ե<g ref="թէ"/> ոչ արասցես վրէժ խնդրւ<abbr>ի</abbr>ն ի ք<abbr>ղք</abbr>էն ամթայ։ 
+<lb xml:id="l101263495" n="4"/>Եւ իբրև հ<abbr>ս</abbr>նէր թուղթս այս առ թ<abbr>գր</abbr> չմշկիկ, ի կս<abbr>տն</abbr>դն<abbr>ւ</abbr> պօլիս, 
+<lb xml:id="l101263496" n="5"/>և եղեւ յ<abbr>րժ</abbr>մ լուաւ զայս թ<abbr>գր</abbr>ն, շ<abbr>րժ</abbr>ե<abbr>լ</abbr> լինէր մեծ<abbr>ւ</abbr> բ<abbr>ր</abbr>կւ<abbr>բ</abbr>. և լի իսկ 
+<lb xml:id="l101263497" n="6"/>եղե<abbr>լ</abbr> <abbr>ամ</abbr> սրտմտու<abbr>բ</abbr>. և ի նոյն ամին զօրս ժո<abbr>ղ</abbr>վ ար<abbr>ր</abbr> առ հ<abbr>սր</abbr>կ զ<abbr>ամ</abbr> <g ref="աշխարհ"/>ն 
+<lb xml:id="l101263498" n="7"/>յարևմտից գայր հ<abbr>ս</abbr>նէր զայր<abbr>ց</abbr>լ <g ref="որպէս"/> հուր բորբոքե<abbr>լ</abbr> լինէր և արձկ<abbr>ց</abbr>ւ 
+<lb xml:id="l101263232" n="8"/>ի վ<abbr>ր</abbr> տ<abbr>ճկ</abbr><abbr>ց</abbr> և կամեցաւ զմուտն յ<g ref="աշխարհ"/>ն հայոց առնել։ 
+<lb xml:id="l101263233" n="9"/><hi rend="red">Յայնժամ <abbr>ամ</abbr> թ<abbr>գր</abbr>ազունքն հայոց ազատքն և իշ<abbr>խ</abbr>նք</hi> 
+<lb xml:id="l101263234" n="10"/>մեծամեծք յ<g ref="աշխարհ"/>ց տանն յ<abbr>րև</abbr>լ<abbr>ց</abbr> ժողով ար<abbr>ր</abbr>ին առ թ<abbr>գր</abbr>ն հայոց, աշոտ 
+<lb xml:id="l101263235" n="11"/>բագրատունի. թ<abbr>գր</abbr>ն կապանին փիլիպէ, և թ<abbr>գր</abbr>ն աղուանից գուրգ
+<lb xml:id="l101263236" n="12"/>էն, աբաս կարուց տէրն, և սէնիքերիմ վասպուրանոց տէրն, և 
+<lb xml:id="l101263237" n="13"/>գուրգէն անձևացե<abbr>ց</abbr> տէրն, և բովան<abbr>դ</abbr>կ <abbr>ամ</abbr> տունն սասանու. և բան
+<lb xml:id="l101263238" n="14"/>ակ հարե<abbr>լ</abbr> ի հարքա գ<abbr>ւռ</abbr>ին արք իբրև <num value="80000">.ձ՟ռ՟.</num> և եկե<abbr>լ</abbr> հ<abbr>շ</abbr>կ թ<abbr>գր</abbr>ին հոռոմոց 
+<lb xml:id="l101263239" n="15"/>առ ն<abbr>ս</abbr> և տեսին պատրս<abbr>տկ</abbr>ն զ<abbr>ամ</abbr> տունն հայոց ժ<abbr>ղվ</abbr>ե<abbr>լ</abbr> ի մի վայր և 
+<lb xml:id="l101263240" n="16"/>եր<g ref="թե"/><abbr>լ</abbr> պ<abbr>տ</abbr>մեցին թ<abbr>գր</abbr>ին չմըշկանն. գն<abbr>ց</abbr>ին և իշ<abbr>խն</abbr><abbr>ց</abbr>ն հայոց զկնի հր<abbr>շկց</abbr>ն 
+<lb xml:id="l101263241" n="17"/>հոռոմոց իմաստասէրն լևոն, և ստատ իշ<abbr>խ</abbr>նն թոռնեցի և այլ ե<abbr>պս</abbr>ք 
+<lb xml:id="l101263242" n="18"/>և վր<abbr>դտ</abbr>ք և ա<abbr>ր</abbr>րին սէր և խաղ<abbr>ղ</abbr>ւ<abbr>ի</abbr> <g ref="ընդ"/> թ<abbr>գր</abbr>ին հոռոմոց, և <g ref="ընդ"/> աշոտ արք<abbr>յ</abbr>ին 
+<lb xml:id="l101263243" n="19"/>հայոց. և գայր խաղ<abbr>յ</abbr>ր թ<abbr>գր</abbr>ն չմշկիկն, ահագին բ<abbr>զ</abbr>մու<abbr>բ</abbr> և հ<abbr>ս</abbr>նէր ի տար
+<lb xml:id="l101263244" n="20"/>աւն գ<abbr>ւռ</abbr> հայոց, և իջե<abbr>լ</abbr> ի մուշ ա<abbr>ռ</abbr>ջի այծե<abbr>ց</abbr> բերդին և յ<abbr>ռ</abbr>ջին գ<abbr>շր</abbr>ն, 
+<lb xml:id="l101263499" n="21"/>բ<abbr>զ</abbr>մ նեղւ<abbr>ի</abbr> կրե<abbr>ց</abbr> զօրքն հոռոմոց, և մտ<abbr>ւց</abbr>նէին ա<abbr>ռ</abbr>ջի ն<abbr>ր</abbr> զթուղթն վահ
+<lb xml:id="l101263246" n="22"/>անա հայոց կ<abbr>թղկ</abbr><abbr>ս</abbr>ին և թ<abbr>գր</abbr>ն առե<abbr>լ</abbr> ընկլ<abbr>ւ</abbr> սիրով և յո՞յժ մեծարեաց 
+<lb xml:id="l101263247" n="23"/>զթուղթսն և զբերողն. և հս<abbr>տ</abbr>տե<abbr>ց</abbr> ուխտ սիրոյ <g ref="ընդ"/> հայք, և խնդրե<abbr>ց</abbr> 
+<lb xml:id="l101263248" n="24"/>զօրս աշոտոյ գալ ն<abbr>մ</abbr>յ օգն<abbr>կ</abbr>նւ<abbr>ի</abbr> և տուե<abbr>լ</abbr> աշոտ զօրս ի տանէ հայոց, 
+<lb xml:id="l101263249" n="25"/>վառելոց, և այր պ<abbr>տրզ</abbr>մողս իբրև <num value="10000">.ժ՟ռ՟.</num> խնղրե<abbr>ց</abbr> ապուրս և ռոճիկս. 
+<cb n="2"/>
+<lb xml:id="l101263250" n="1"/>և զ<abbr>ամ</abbr> տուե<abbr>լ</abbr> ն<abbr>մ</abbr>յ աշոտ։ Եւ զվր<abbr>դտ</abbr>ն հայոց զղևոնդ զե<abbr>պս</abbr>ն և զիշ<abbr>խ</abbr>ն
+<lb xml:id="l101263500" n="2"/>սըն մեծ պ<abbr>րգ</abbr>ևօք յուղարկե<abbr>ց</abbr> առ աշոտ թ<abbr>գր</abbr>ն հայոց։ 
+<lb xml:id="l101263501" n="3"/><hi rend="red">Յայնժամ թ<abbr>գր</abbr>ն չմշկիկ որ ասէին կիւռժան դ<abbr>ր</abbr>ձաւ</hi> 
+<lb xml:id="l101263502" n="4"/>ի պ<abbr>տրզ</abbr>մ ի վ<abbr>ր</abbr> տաճկաց, և մեծ<abbr>ւ</abbr> յաղթու<abbr>բ</abbr> և սրտմտու<abbr>բ</abbr> կոտորածով 
+<lb xml:id="l101263503" n="5"/>և արեամբ ելից զ<abbr>ամ</abbr> <g ref="երկիր"/>իրն, և զբ<abbr>զ</abbr>մ ք<abbr>ղք</abbr>ս և զամուր բերդս ի հիմանց, 
+<lb xml:id="l101263504" n="6"/>քարատակս ար<abbr>ր</abbr> <num value="300">.գ՟ճ՟.</num> մինչեւ ի ս<abbr>հմ</abbr>նս բաղտատ ք<abbr>ղք</abbr>ին. բայ<subst rend="overwrite"><del>զ</del><add>ց</add></subst> զուռ
+<lb xml:id="l101263505" n="7"/>հայ ոչ ար<abbr>ր</abbr> աւեր յ<abbr>ղգ</abbr>ս կրօնւ<abbr>ր</abbr>ցն որ բն<abbr>կլ</abbr> էին ի լերինն և <abbr>ամ</abbr> ս<abbr>հմ</abbr>նս ն<abbr>ր</abbr> 
+<lb xml:id="l101263506" n="8"/>իբրև <num value="12000">.բ՟ժ՟ան .ռ՟.</num> և գ<abbr>յ</abbr>ր հ<abbr>ս</abbr>նէր ի վ<abbr>ր</abbr> ամթա ք<abbr>ղք</abbr>ին բ<abbr>զ</abbr>մ սրտմտութ<abbr>բ</abbr>։ 
+<lb xml:id="l101263507" n="9"/>Իսկ տ<abbr>ր</abbr>ն ամթա ք<abbr>ղ</abbr>քին կին էր որ էր քոյր համանոյ ամիրային տ<abbr>ճկ</abbr><abbr>ց</abbr> 
+<lb xml:id="l101263508" n="10"/>և յ<abbr>ռ</abbr>ջ ժ<abbr>մկ</abbr>ց թ<abbr>գր</abbr>ն խառնակե<abbr>լ</abbr> էր <g ref="ընդ"/> ն<abbr>մյ</abbr> մեղօք, և վ<abbr>սյ</abbr>ն<abbr>ր</abbr>կ չարար հըն
+<lb xml:id="l101263509" n="11"/>արս առնելոյ զք<abbr>ղ</abbr>քն ամիթ. և ելե<abbr>լ</abbr> կնոջն ի վ<abbr>ր</abbr> պարսպին ք<abbr>ղ</abbr>քին ասէ 
+<lb xml:id="l101263510" n="12"/>ցթ<abbr>գր</abbr>ն ի վ<abbr>ր</abbr> կնոջն գաս <del rend="strike">ի վ<abbr>ր</abbr></del> պ<abbr>տրզ</abbr>մին և չհամարիս զայտ քեզ ն<abbr>խտ</abbr>ինք. 
+<lb xml:id="l101263511" n="13"/>և ասէր թ<abbr>գր</abbr>ն երդում ունիմ առ իս քակել զպարիսպտ ք<abbr>ղ</abbr>քինդ, և ազ
+<lb xml:id="l101263512" n="14"/>ատեսցեն մր<abbr>դկ</abbr>դ. ասէր տիկինն քղ<abbr>ք</abbr>ին. էջ քակեա զկանդարայն որ կա 
+<lb xml:id="l101263513" n="15"/>ի վ<abbr>ր</abbr> ադգաղաթ գետո, և այնիւ կ<abbr>տ</abbr>րեսցես զերդումն քո և ար<abbr>ր</abbr> թ<abbr>գր</abbr>ն 
+<lb xml:id="l101263514" n="16"/>այն<abbr>պ</abbr>ս. և առե<abbr>լ</abbr> բ<abbr>զ</abbr>մ գանձս ոսկոյ և արծ<abbr>թ</abbr>ոյ, և թողե<abbr>լ</abbr> զամիթ վ<abbr>ս</abbr> կնոջն 
+<lb xml:id="l101263515" n="17"/>իւր, և վ<abbr>ս</abbr> զի չմշկիկն ի գ<abbr>ւռ</abbr>էն խոզնա էր ի տեղոյն որ այժմ կոչի չմըշ
+<lb xml:id="l101263516" n="18"/>կածագք, և կինն ի նմին ս<abbr>հմն</abbr><abbr>ց</abbr>ն էր զի յայնմ ժ<abbr>մկ</abbr>ին տաճկունքն էին 
+<lb xml:id="l101263517" n="19"/>տիրե<abbr>լ</abbr> բ<abbr>զ</abbr>մ տեղե<abbr>ց</abbr>. և ահայ թ<abbr>գր</abbr>ն յուն<abbr>ց</abbr> խաղ<abbr>յ</abbr>ր գն<abbr>յ</abbr>ր <g ref="ընդ"/> <g ref="աշխարհ"/>ն տաճկ<abbr>ց</abbr> 
+<lb xml:id="l101263271" n="20"/>արեան հեղութ<abbr>բ</abbr> մինչև ի ս<abbr>հմ</abbr>նս բաղտատ ք<abbr>ղ</abbr>քի. և շրջան առեալ 
+<lb xml:id="l101263518" n="21"/>զներքի կողմն <g ref="աշխարհ"/>ին գնայր <abbr>էմ</abbr> ք<abbr>ղ</abbr>ք և գերե<abbr>ց</abbr> թ<abbr>գր</abbr>ն չմըշկիկ. թուղթ 
+<lb xml:id="l101263519" n="22"/>առ աշոտ թ<abbr>գր</abbr>ն հայոց այսպէս։ 
+<lb xml:id="l101263520" n="23"/><milestone unit="section" n="421letter"/><hi rend="red">Աշոտ շահինշահ հայոց մեծաց և իմ հոգեկան զաւակ</hi> 
+<lb xml:id="l101263521" n="24"/>լուր և իմացիր, <g ref="թէ"/> որչափ ինչ ս<abbr>քնչ</abbr>լիս ար<abbr>ր</abbr> <abbr>ած</abbr> առ մեզ և զարմ<abbr>նլ</abbr>ի յաղթ
+<lb xml:id="l101263522" n="25"/>ութ<abbr>ի</abbr>ս, որ և իմն<abbr>լ</abbr>ն անկարելի է զ<abbr>այ</abbr> քաղցրու<g ref="թե"/>նէն և զահ<abbr>ւ</abbr>ր մր<abbr>դ</abbr>ասիրւ<abbr>ի</abbr>ն 
+<pb n="104"/>
+<cb n="1"/>
+<lb xml:id="l101263441" n="1"/>զոր ար<abbr>ր</abbr> <abbr>տր</abbr> <g ref="ընդ"/> ժռ<abbr>ն</abbr>գւ<abbr>ի</abbr>ս իւր։ Ի յայսմ տարոջս ի ձեռն թ<abbr>գր</abbr>ւ<abbr>ե</abbr>ս մեր
+<lb xml:id="l101274799" n="2"/>ում կամեց<abbr>ք</abbr> և քո փ<abbr>ռւ</abbr>րւ<abbr>ե</abbr>դ ծանուցանելով աշոտ բագրատունի 
+<lb xml:id="l101274800" n="3"/>և զաւակ իմ իմացւ<abbr>ց</abbr>նեմ քեզ, որ և դու <g ref="որպէս"/> և քրիստոնեայդ ես և֊ 
+<lb xml:id="l101274801" n="4"/>հ<abbr>ւտ</abbr>րիմ սիրելի թ<abbr>գր</abbr>ւ<abbr>ե</abbr>ս մերում, ու<abbr>ր</abbr>խանաս և փ<abbr>ռւ</abbr>րես զահաւոր 
+<lb xml:id="l101274802" n="5"/>զմեծւ<abbr>ի</abbr>ն ք<abbr>ս</abbr>ի <abbr>այ</abbr> մերոյ, և գիտասցես <g ref="թէ"/> որչափ օգնեսցէ <abbr>ած</abbr> քրիս
+<lb xml:id="l101274803" n="6"/>տոնէից <abbr>ամ</abbr> ժ<abbr>մկ</abbr>ի <abbr>ք</abbr> ետ հարկատու առնելո թ<abbr>գր</abbr>ւ<abbr>ե</abbr>ս մերո զ<abbr>ամ</abbr> 
+<lb xml:id="l101274804" n="7"/>արևելս պ<abbr>ր</abbr>սից. և կամ <g ref="թէ"/> <g ref="որպէս"/> հանաք զնշխ<abbr>ր</abbr>ս սրբո հ<abbr>յրպ</abbr>տին յակ<abbr>բ</abbr>յ 
+<lb xml:id="l101274805" n="8"/>ի Մծբնա ք<abbr>ղք</abbr>էն տ<abbr>ճկց</abbr>, և առաք ի տ<abbr>ճկց</abbr> զհարկն մեր, և զգերու<abbr>ի</abbr>ն 
+<lb xml:id="l101274806" n="9"/>հանաք ի նոցանէն և ելե<abbr>լ</abbr> գն<abbr>ց</abbr>ք. և վ<abbr>ս</abbr> ամբր<abbr>տւ</abbr>նւ<abbr>ե</abbr>ն և հպ<abbr>ր</abbr>տւ<abbr>ե</abbr>ն 
+<lb xml:id="l101274807" n="10"/>ամիրել ի մոմնոյ, իշ<abbr>խ</abbr>նին ափրիկեցոցն զորս մախըրարապիկք կոչեն 
+<lb xml:id="l101263452" n="11"/>որ և բ<abbr>զ</abbr>մ զօր<abbr>ւ</abbr>ք եկե<abbr>լ</abbr> ի վ<abbr>ր</abbr> մեր, և առ ժամ մի ի վտանգի արկին զօրսն 
+<lb xml:id="l101263453" n="12"/>մեր, և ապա<add place="below">յ</add> աղ<del rend="cancel">օ</del><g ref="թե"/>ցաք ն<abbr>ց</abbr> մեծ<abbr>ւ</abbr> զօրւ<abbr>բ</abbr> և օգն<abbr>կ</abbr>նւ<abbr>բ</abbr>ն <abbr>այ</abbr> և ամօթա֊
+<lb xml:id="l101263454" n="13"/>լիցս դ<abbr>ր</abbr>ձան <g ref="որպէս"/> զայլ թշնամիսն. և յայնժամ սւորն առ<abbr>ք</abbr> զներքին կողմն 
+<lb xml:id="l101263455" n="14"/><g ref="աշխարհ"/>ին ն<abbr>ց</abbr>, և ի սուր սուսերի մաշեց<abbr>ք</abbr> զգ<abbr>ւռ</abbr>ս բ<abbr>զմ</abbr>ս, և փութ<abbr>պ</abbr>ս դ<abbr>ր</abbr>ձաք 
+<lb xml:id="l101263456" n="15"/>ի դուրս և ար<abbr>ր</abbr>ք ձմերոց, և զ<abbr>ամ</abbr> հեծելազօրսն մեր հռոգեցաք. ապր
+<lb xml:id="l101263457" n="16"/>իլի յամսեանն ի մուտն դիմե<abbr>լ</abbr> խաղա<abbr>ց</abbr>ք ի <g ref="աշխարհ"/>ն փիւնիկեցոց, և պաղ
+<lb xml:id="l101263458" n="17"/>եստինացւոց, և քննայոյ զառնէայք զպեղծ ափրիկեցիքն որք եկ
+<lb xml:id="l101274808" n="18"/>ե<abbr>լ</abbr> էին ի գ<abbr>ւռ</abbr>ն շամա։ Եւ ելե<abbr>լ</abbr> <abbr>ամ</abbr> զօր<abbr>ւ</abbr>ք մերօք դիմ<abbr>ե</abbr>լ խաղ<abbr>լ</abbr>վ գն<abbr>ց</abbr>ք 
+<lb xml:id="l101274809" n="19"/>ի յանտիոքա, և ան<abbr>ց</abbr>ք <g ref="ընդ"/> <abbr>ամ</abbr> գ<abbr>ւռ</abbr>ն մերոյ թ<abbr>գր</abbr>ւ<abbr>ե</abbr>ս, և հն<abbr>զ</abbr>նդ արարաք 
+<lb xml:id="l101274810" n="20"/>մեծ<abbr>ւ</abbr> հր<abbr>կւ</abbr>րւ<abbr>բ</abbr> և անհամար գերւ<abbr>բ</abbr> և հ<abbr>ս</abbr>նէաք մինչև ի հէս քղք, և 
+<lb xml:id="l101274811" n="21"/>ելե<abbr>լ</abbr> <g ref="ընդ"/>ունե<abbr>ց</abbr>ն զմեզ բարւոք, որք մեր հարկատունքն էին գ<abbr>ւռկ</abbr>նքն. 
+<lb xml:id="l101274812" n="22"/>և հ<abbr>ս</abbr>նէաք մինչև ի վատոլվէքն որ անուանե<abbr>լ</abbr> կոչի իլուպօվիս որ է 
+<lb xml:id="l101274813" n="23"/>արեգ ք<abbr>ղ</abbr>ք, երևելի և ահ<abbr>ւ</abbr>ր պ<abbr>տրստ</abbr>լ մեծ յոյժ և հարուստ և ելին 
+<lb xml:id="l101274814" n="24"/>պ<abbr>տրզ</abbr>մաւ <g ref="ընդ"/> ա<abbr>ռ</abbr>ջ մեր և բ<abbr>զ</abbr>մւ<abbr>ի</abbr> զօրաց մերոց հ<abbr>լծկ</abbr>ն ա<abbr>րր</abbr>ին զն<abbr>ս</abbr>, և ի 
+<lb xml:id="l101274815" n="25"/>բերան սրոյ կոտորեցին և յետ <abbr>սկւ</abbr> աւուրց պ<abbr>շրց</abbr>ք զարեգ ք<abbr>ղ</abbr>ք, 
+<cb n="2"/>
+<lb xml:id="l101263467" n="1"/>և բ<abbr>զ</abbr>մ գերւ<abbr>ի</abbr>ս, մանկունս և աղջկունս առին զօրքն մեր, և զգանձս 
+<lb xml:id="l101274816" n="2"/>ոսկոյ և արծաթոյ, և բ<abbr>զ</abbr>մ անասունս առին, և ահայ անտի յ<abbr>ռ</abbr>ջ<abbr>ց</abbr>ք 
+<lb xml:id="l101274817" n="3"/>ի մեծ ք<abbr>ղք</abbr>ն դամասկոս, կ<abbr>մց</abbr>ք և զայն պ<abbr>շր</abbr>ել. իսկ ք<abbr>ղք</abbr>ն 
+<lb xml:id="l101274818" n="4"/>և այր իմաստուն առաք<abbr>ե</abbr>ց առ թ<abbr>գր</abbr>ւ<abbr>ի</abbr>ս մեր, և բ<abbr>զ</abbr>մ ընծայիւք աղաչ
+<lb xml:id="l101274819" n="5"/>ե<abbr>ց</abbr> զմեզ չանկանել ի գերւ<abbr>ի</abbr> և ոչ գնալ ի ծ<abbr>ռ</abbr>յու<abbr>ի</abbr> <g ref="որպէս"/> զատելոքա զբնակ
+<lb xml:id="l101274820" n="6"/>իչսն և ոչ զգ<abbr>ւռ</abbr>ն աւերել <g ref="որպէս"/> զնոցայն և բերին բ<abbr>զ</abbr>մ տուրս պ<abbr>տւկ</abbr>նս, 
+<lb xml:id="l101274821" n="7"/>և <add place="below">յ</add>ոլով ձիս և ջորիս երևելիս, և գ<abbr>ղց</abbr>կ այարք ոսկո և արծ<abbr>թ</abbr>ոյ, և հ<abbr>ր</abbr>կս 
+<lb xml:id="l101274822" n="8"/>արաբացեացս ոսկոյն <num value="40000">.խ՟ռ՟.</num> դահեկանս, առին ի մէնջ զօր<abbr>կ</abbr>նս. և 
+<lb xml:id="l101274823" n="9"/>տուին մեզ գիրս, վ<abbr>ս</abbr> զի յ<abbr>ւտ</abbr>ն ծ<abbr>ռյ</abbr>ք կացցեն թ<abbr>գր</abbr>ւ<abbr>ե</abbr>ս մեր<abbr>ւ</abbr>մ, զազգք 
+<lb xml:id="l101274824" n="10"/>զհետ ազգի, և ցեղս զհետ ցեղի. և կ<abbr>րգց</abbr>ք անդ զօրավ<abbr>ր</abbr> զայր ոմն որ 
+<lb xml:id="l101274825" n="11"/>կոչէր թուրք, այր փ<abbr>ռւ</abbr>ր պաղտատեցի որ եկն առ մեզ ի ծ<abbr>ռ</abbr>յութ<abbr>ի</abbr> 
+<lb xml:id="l101274826" n="12"/><num value="500">ե՟ճ՟.</num> ձիաւորով և հւ<abbr>տ</abbr>ց ի ք<abbr>ս</abbr>. որ և յ<abbr>ռ</abbr>ջն ծ<abbr>ռ</abbr>յե<abbr>լ</abbr> էր թ<abbr>գր</abbr>ւ<abbr>ե</abbr>ս մերում. 
+<lb xml:id="l101274827" n="13"/>և դամասկացիքն ար<abbr>ր</abbr>ին դաշինս երդման զի տացեն զհ<abbr>ր</abbr>կն անխ<abbr>փ</abbr>ն, 
+<lb xml:id="l101274828" n="14"/>և աս<abbr>ց</abbr>ին գով թ<abbr>գր</abbr>ւ<abbr>ե</abbr>ս մերում և <g ref="ընդ"/> մեր թշնամիսն մարտնչել և յղ<abbr>գ</abbr>ս 
+<lb xml:id="l101274829" n="15"/>այսորիկ անպ<abbr>շր</abbr>ելի թողաք զն<abbr>ս</abbr> և անտի յ<abbr>րւց</abbr>լ գն<abbr>ց</abbr>ք ի տիբեր<abbr>կ</abbr>ն ծովն 
+<lb xml:id="l101274830" n="16"/>ուր տ<abbr>ր</abbr>ն մեր <abbr>յս</abbr> <abbr>քս</abbr> <num value="103">.ճ՟. և .գ՟.</num> ձկամբն զս<abbr>քն</abbr>չ<abbr>լ</abbr>սն ար<abbr>ր</abbr> կ<abbr>մց</abbr>ք և զայն ք<abbr>ղ</abbr>քն 
+<lb xml:id="l101274831" n="17"/>պ<abbr>շր</abbr>ել, իսկ ն<abbr>ք</abbr> եկին ի հնզ<abbr>ն</abbr>դւ<abbr>ի</abbr> մերոյ թ<abbr>գր</abbr>ւ<abbr>ե</abbr>ս և բերին մեզ ընծայս 
+<lb xml:id="l101274832" n="18"/>բ<abbr>զ</abbr>մս <g ref="որպէս"/> դամասկ<abbr>ց</abbr>իքն և հարկս <num value="30000">.լ՟.ռ՟.</num> դահե<abbr>կ</abbr>նս առանց այլոց և խն
+<lb xml:id="l101274833" n="19"/>դրեցին զօրավ<abbr>ր</abbr>ս ի մէնջ գիր ծ<abbr>ռ</abbr>յւ<abbr>ե</abbr> տուե<abbr>լ</abbr> մեզ հ<abbr>ստ</abbr>տուն <g ref="որպէս"/> զդամաս
+<lb xml:id="l101263487" n="20"/>կ<abbr>ց</abbr>իքն հնզ<abbr>ն</abbr>դ լինել մեզ յ<abbr>ւտ</abbr>ն և տան անխափան զհարկն մեր։ Յայն
+<lb xml:id="l101263488" n="21"/>ժ<abbr>մ</abbr> թողաք զն<abbr>ս</abbr> ի գերու<g ref="թե"/>նէ և ոչ աւերեցաք զք<abbr>ղ</abbr>քն և ոչ զգ<abbr>ւռ</abbr>ն և 
+<lb xml:id="l101274834" n="22"/>ոչ ար<abbr>ր</abbr>ք զն<abbr>ս</abbr> աւարս, վ<abbr>ս</abbr> զի հայրենի տուն էր սրբ<abbr>ց</abbr> առ<abbr>քլ</abbr>ցն նա աւան
+<lb xml:id="l101274835" n="23"/>իկ և զնազարէթ որ զաւետիսն։ Իսկ ի հր<abbr>շ</abbr>կէն լուաւ <abbr>ա</abbr>ծածին ս<abbr>բ</abbr> 
+<lb xml:id="l101274836" n="24"/>կոյսն մարիամ. նոյնպ<abbr>ս</abbr> գն<abbr>ց</abbr>ք և ի թաբւ<abbr>րկ</abbr>ն լեառն, և ելաք այն տեղւոջն 
+<lb xml:id="l101274837" n="25"/>ուր այլակ<abbr>րպց</abbr><abbr>ւ</abbr> ք<abbr>ս</abbr> <abbr>ա</abbr>ծ մեր և մինչդեռ այն տեղւոջն կայաք եկին 
+<pb n="106"/>
+<cb n="1"/>
+<lb xml:id="l101274746" n="1"/>առ մեզ ի ռամլէէ և է<abbr>մ</abbr>, աղաչել զթ<abbr>գր</abbr>ւ<abbr>ի</abbr>ս մեր, ողորմւ<abbr>ի</abbr> գտանել, ի 
+<lb xml:id="l101274892" n="2"/>մէնջ խնդրեցին զօրավ<abbr>ր</abbr>, և եղեն հարկատուք և լինել մեզ ի ծ<abbr>ռյ</abbr>ւ<abbr>ի</abbr> զոր 
+<lb xml:id="l101274893" n="3"/>ար<abbr>ր</abbr>ք։ Իսկ կ<abbr>մց</abbr>ք զ<abbr>սբ</abbr> գ<abbr>րզմ</abbr>նն ք<abbr>ս</abbr>ի <abbr>այ</abbr> մերոյ ազ<abbr>տ</abbr>ել ի պատուհ<abbr>ս</abbr>ից տ<abbr>ճկ</abbr>ցն 
+<lb xml:id="l101274894" n="4"/>ար<abbr>պ</abbr>կ<abbr>ց</abbr> կ<abbr>ր</abbr>գե<abbr>ցք</abbr> զօրավ<abbr>ր</abbr>ս <abbr>ամ</abbr> <g ref="թէ"/>մս որք հն<abbr>զնդ</abbr><abbr>ց</abbr>ն և եղեն հարկ<abbr>տւ</abbr>ք 
+<lb xml:id="l101274895" n="5"/>թ<abbr>գր</abbr>ւ<abbr>ե</abbr>ս մեր<abbr>ւ</abbr>մ որ է պէնիադա, որ կոչի դեկապօլիս և գենեսարէթ 
+<lb xml:id="l101274896" n="6"/>և յի յարկեա որ կոչի պըղոտմիա, և գրով յանձին կալան, ամ յամէ 
+<lb xml:id="l101274897" n="7"/>անխափան տալ զհարկն, և լինել <g ref="ընդ"/> ծ<abbr>ռյ</abbr>ւ<abbr>բ</abbr> մեր. գն<abbr>ց</abbr>ք ի կեսարիա որ է 
+<lb xml:id="l101274898" n="8"/>յեզր մեծի ծովուն ովկիանոսի, հնզ<abbr>ն</abbr>դ<abbr>ց</abbr>ն և եկին <g ref="ընդ"/> մերով իշ<abbr>խ</abbr>նւ<abbr>բ</abbr>. 
+<lb xml:id="l101274899" n="9"/>և ե<g ref="թէ"/> ոչ էին փ<abbr>խւ</abbr><abbr>ց</abbr>լ ծովեզեր<abbr>ց</abbr> բերդերն, որք էին բնակե<abbr>լ</abbr> պեղծ ափր
+<lb xml:id="l101274756" n="10"/>իկեցիքն զարհուրե<abbr>լ</abbr>ք ի մէնջ օգն<abbr>կ</abbr>նւ<abbr>բ</abbr>ն <abbr>այ</abbr>, <abbr>սբ</abbr> ք<abbr>ղ</abbr>քն յ<abbr>է</abbr>մ էաք գնացե<abbr>լ</abbr> 
+<lb xml:id="l101274757" n="11"/>և ի <abbr>սբ</abbr> տեղիսն <abbr>այ</abbr> էաք յաղօթս կ<abbr>ց</abbr>լ. և իբրև ե<g ref="թէ"/> փախեան ծովեզերաց 
+<lb xml:id="l101274758" n="12"/>բնակիչքն, յայն<abbr>ժմ</abbr> զվերին կողմն <g ref="աշխարհ"/>ին հնզ<abbr>ն</abbr>դեցւ<abbr>ց</abbr>ք, և <g ref="ընդ"/> հոռոմոց իշխ
+<lb xml:id="l101274759" n="13"/>անու<abbr>բ</abbr> ար<abbr>ր</abbr>ք, և կ<abbr>րգց</abbr>ք անդ զօրավար և ի մեր կոյս ար<abbr>ր</abbr>ք, և զոչ հնազ
+<lb xml:id="l101274760" n="14"/>անդե<abbr>լ</abbr>ս պ<abbr>տրզ</abbr>մաւ պ<abbr>շր</abbr>եցաք, և առե<abbr>լ</abbr> գն<abbr>ց</abbr>ք <g ref="ընդ"/> ծովեզերին պօղոտայն 
+<lb xml:id="l101274761" n="15"/>որ դէմ յանդիմ<abbr>ն</abbr> երթայր ի վռիտուն ք<abbr>ղք</abbr>ն, յերևելին և անուանին 
+<lb xml:id="l101274762" n="16"/>պարսպե<abbr>լ</abbr> յոյժ, որ այժմ ասի պերութ, պ<abbr>տրզ</abbr>մե<abbr>լ</abbr> և սաստիկ կռվով 
+<lb xml:id="l101274763" n="17"/>առե<abbr>լ</abbr> զնա և <num value="1000">.ռ՟</num> ափրիկեցի ձերբակ<abbr>լ</abbr> ար<abbr>ր</abbr>ք, նոյնպ<abbr>ս</abbr> և զսուսերի 
+<lb xml:id="l101274764" n="18"/>զամիրելի մոմնոյ, և զայլ լաւագոյն իշ<abbr>խ</abbr>նսն և այն ք<abbr>ղք</abbr>ն զօրավ<abbr>ր</abbr> եդաք 
+<lb xml:id="l101274765" n="19"/>և անտի կ<abbr>մց</abbr>ք ի սիդոն անցանել. իսկ յ<abbr>րժ</abbr>մ լուան սիդոնացիքն, առ<abbr>ք</abbr>ցին 
+<lb xml:id="l101274766" n="20"/>առ մեզ զձերսն ք<abbr>ղք</abbr>ին իւ<abbr>րց</abbr>. եկին և աղաչեցին զթ<abbr>գր</abbr>ւ<abbr>ի</abbr>ս մեր, և խնդրեցին 
+<lb xml:id="l101274900" n="21"/>զի հարկտ<abbr>ւ</abbr>ք լինիցին մեզ մեծաւ ահիւ և կալ մնալ մեզ ի ծ<abbr>ռյ</abbr>ւ<abbr>ի</abbr>. զորս 
+<lb xml:id="l101274768" n="22"/>լուաք իսկ աղաչան<abbr>ց</abbr> ն<abbr>ց</abbr> և կ<abbr>տրց</abbr>ք զկամս նց։ Եւ առաք ի ն<abbr>ց</abbr>նէ զհարկն 
+<lb xml:id="l101274901" n="23"/>և տուաք ն<abbr>ց</abbr> զօրավ<abbr>ր</abbr>ս և անտի յ<abbr>րւց</abbr>լ գն<abbr>ց</abbr>ք ի բիբողոն, հին և յամուր 
+<lb xml:id="l101274902" n="24"/>բերդն և զայն ևս պ<abbr>տրզ</abbr>մ<abbr>ե</abbr>լ առաք և զբնակիչս ն<abbr>ր</abbr> ի գերւ<abbr>ի</abbr> մատնեցաք 
+<lb xml:id="l101274903" n="25"/>և մեծաւ աւարաւ և գերւ<abbr>բ</abbr> անց<abbr>ք</abbr> <g ref="ընդ"/> <abbr>ամ</abbr> ծովեզեր<abbr>ց</abbr> ք<abbr>ղք</abbr>ին <g ref="ընդ"/> դժուարս 
+<cb n="2"/>
+<lb xml:id="l101274772" n="1"/>և <g ref="ընդ"/> նեղ ճ<abbr>պրհ</abbr>ին <g ref="ընդ"/> որ այլ զօրք հեծելոց, ոչ երբէք էր անցե<abbr>լ</abbr>, նեղ, և 
+<lb xml:id="l101274904" n="2"/>նուրբ և չար ճ<abbr>պր</abbr>հն. և անդ գտանէաք շէն և վայելուչ ք<abbr>ղ</abbr>քանի, և 
+<lb xml:id="l101274905" n="3"/>ամուր բերդեր, յոր<abbr>ւ</abbr>մ կային տաճիկ պ<abbr>հպ</abbr>նք զ<abbr>ամ</abbr>ն պ<abbr>շրց</abbr>ք, և քարիյատ
+<lb xml:id="l101274906" n="4"/>ակս կործանե<abbr>ց</abbr>ք, և զբնակիչսն ի գերւ<abbr>ի</abbr> վարե<abbr>ց</abbr>ք. և յ<abbr>ռ</abbr>ջ <abbr>ք</abbr> զհա<abbr>սն</abbr><abbr>լ</abbr>ն 
+<lb xml:id="l101274907" n="5"/>մեր ի տրապօլիս հեծե<abbr>լ</abbr> զօրս առ<abbr>քց</abbr>ք զթիմացիսն և զտաշխամատաց
+<lb xml:id="l101274908" n="6"/>իսն ի կապանն որ կոչի քարերես, վ<abbr>ս</abbr> զի լուե<abbr>լ</abbr> էր մեր ե<g ref="թէ"/> պեղծ ափրիկեց
+<lb xml:id="l101274909" n="7"/>իքն անդ նստէին ի կ<abbr>պ</abbr>նին և հր<abbr>մյց</abbr>ք քմինս դնել, և դարմ<abbr>ն</abbr>ս մահու զ<abbr>ր</abbr>ծ
+<lb xml:id="l101274910" n="8"/>եցաք ն<abbr>ց</abbr> և <g ref="որպէս"/> պ<abbr>տւր</abbr><abbr>ց</abbr>ք նոյնպ<abbr>ս</abbr> և ա<abbr>ր</abbr>րին և <num value="2000">.բ՟ռ՟.</num> ի ն<abbr>ց</abbr>նէ յայտնի ելե<abbr>լ</abbr> 
+<lb xml:id="l101274911" n="9"/>ի վ<abbr>ր</abbr> զօր<abbr>ց</abbr> մերոց զբ<abbr>զմ</abbr>ս ի ն<abbr>ց</abbr>նէ սպանին, և յ<abbr>լվ</abbr>ս ի ն<abbr>ց</abbr>նէ ար<abbr>ր</abbr>ին կալականս 
+<lb xml:id="l101274912" n="10"/>և ածին ա<abbr>ռ</abbr>ջի մերո թ<abbr>գր</abbr>ւ<abbr>ե</abbr>ս. նոյնպ<abbr>ս</abbr> և ուր հանդիպէին փախ<abbr><g ref="ըստ"/>կ</abbr>նս 
+<lb xml:id="l101274913" n="11"/>առնէին զն<abbr>ս</abbr>։ Եւ իսպառ ջնջեցաք զ<abbr>ամ</abbr> <g ref="աշխարհ"/>ն տրապօլիս, զայգիսն 
+<lb xml:id="l101274914" n="12"/>և զձի<g ref="թե"/>նիսն և զբուրաս<abbr>տ</abbr>նս ն<abbr>ց</abbr> առ հ<abbr>սր</abbr>կ կոտորեց<abbr>ք</abbr> և աւեր դ<abbr>ր</abbr>ձ
+<lb xml:id="l101274915" n="13"/>ուցաք և արմատախիլ ար<abbr>ր</abbr>ք զ<abbr>ամ</abbr> գ<abbr>ւռ</abbr>ն. և ափրիկեցիքն որ էին անդ 
+<lb xml:id="l101274916" n="14"/>համարձակե<abbr>ց</abbr>ն և ելին ի պտ<abbr>րզ</abbr>մ <g ref="ընդ"/>դէմ մեր։ Յայն<abbr>ժմ</abbr> արձակ<abbr>ց</abbr>ք ի վ<abbr>ր</abbr> 
+<lb xml:id="l101274917" n="15"/>ն<abbr>ց</abbr> և կոտորե<abbr>ց</abbr>ք առ հ<abbr>սր</abbr>կ զամենե<abbr>ս</abbr>ն և ապա առաք զմեծ ք<abbr>ղք</abbr>ն զճու
+<lb xml:id="l101274918" n="16"/>էլն, որ գաբաւոնն կոչէին, և զվաղանեացն և զսեհունն, և զինքն 
+<lb xml:id="l101274919" n="17"/>իսկ զհռչակօորն զուրզաւ և ոչ մն<abbr>ց</abbr> մինչև ցռամլէ և կեսարիա, ոչ 
+<lb xml:id="l101274920" n="18"/>ծով և ոչ ց<abbr>մ</abbr>ք որք ոչ հնզ<abbr>նդ</abbr><abbr>ց</abbr>ն թ<abbr>գր</abbr>ւ<abbr>ե</abbr>ս մերում և ա<abbr>րր</abbr>ք ծ<abbr>ռյ</abbr>ս զն<abbr>ս</abbr> մեր. 
+<lb xml:id="l101274921" n="19"/>վ<abbr>ս</abbr> զի յամիսս <num value="7">.է՟.</num> շրջեց<abbr>ւ</abbr> թ<abbr>գր</abbr>ւ<abbr>ի</abbr>ս մեր յայնմ <g ref="աշխարհ"/>ին, հանդերձ զօր<abbr>ւ</abbr>ք բ<abbr>զ</abbr>մ
+<lb xml:id="l101274922" n="20"/>աւք. և սպառե<abbr>ց</abbr>ք զք<abbr>ղք</abbr>ս և զգ<abbr>ւռ</abbr>ս, և ոչ իշխե<abbr>ց</abbr> ելանել ամիրիլի մոմնի 
+<lb xml:id="l101274923" n="21"/>ի բաբելոնէ <g ref="ընդ"/>դէմ մեր, և կ<abbr>մ</abbr> հերծե<abbr>լ</abbr>ս արձակե<abbr>լ</abbr> օգնւ<abbr>ի</abbr> իւր զօրացն։ Եւ 
+<lb xml:id="l101274794" n="22"/>ե<g ref="թէ"/> չէր լեալ խստագոյն խորշակ և անջրդի ճ<abbr>պր</abbr>հի յայն տեղիսն որ մերձ է 
+<lb xml:id="l101274795" n="23"/>ի բաբելոն <g ref="որպէս"/> և քո փռ<abbr>ւր</abbr>ւ<abbr>ե</abbr>դ իսկ գիտես թ<abbr>գր</abbr>ւ<abbr>ի</abbr>ս մեր մինչև ի բաբելոն 
+<lb xml:id="l101274797" n="24"/>եր<g ref="թե"/><abbr>լ</abbr> որ և զինքն իսկ ի յ<g ref="երկիր"/>րն եգիպտացոց հ<abbr>լծ</abbr><abbr>ց</abbr>ք, և իսպ<abbr>ռ</abbr> յաղթահ<abbr>րց</abbr>ք 
+<lb xml:id="l101274798" n="25"/>շնորհօքն <abbr>այ</abbr> որ թ<abbr>գր</abbr>եցոյցն զիս. ազատեցան այժմ ամ փիւնիկէ, 
+<pb n="108"/>
+<cb n="1"/>
+<lb xml:id="l101274838" n="1"/>և պաղեստին և ասորիք ի ծ<abbr>ռյ</abbr>ւ<abbr>ե</abbr> տ<abbr>ճկ</abbr><abbr>ց</abbr>, և հ<abbr>ւ</abbr>ն<abbr>ց</abbr>ն <g ref="ընդ"/> հոռոմոց իշխ
+<lb xml:id="l101274976" n="2"/>անւ<abbr>բ</abbr> և այլ և լիբանանու մեծ լեառն հն<abbr>զն</abbr>դե<abbr>ց</abbr>ն <g ref="ընդ"/> մերով իշխ<abbr>ն</abbr>ւ<abbr>բ</abbr>ս 
+<lb xml:id="l101274977" n="3"/>և զ<abbr>ամ</abbr> տաճկունք որք անդ կային ահագին բ<abbr>զմ</abbr>ւ<abbr>բ</abbr> գերու<abbr>բ</abbr> առաք, և 
+<lb xml:id="l101274978" n="4"/>բաշխեցաք հեծելոց մերոց. և զասորես<abbr>տ</abbr>ն քաղցր<abbr>պ</abbr>ս և մ<abbr>րդ</abbr>ասիր<abbr>պ</abbr>ս 
+<lb xml:id="l101274979" n="5"/>բարովեցաք հոգիք իբրև <num value="20000">.ի՟.ռ՟.</num> հանաք և ի գաբաւոն բնակեց<abbr>ւց</abbr>ք 
+<lb xml:id="l101274980" n="6"/>ահագին։ <gap extent="10" rend="blank"/> Զի այսպիսի յաղթւ<abbr>ի</abbr>ս ետ <abbr>ած</abbr> քրիստոնէ
+<lb xml:id="l101274981" n="7"/>ից որ ոչ եղև երբէք և գտաք յայնմ ք<abbr>ղ</abbr>քին, ի գաբաւոն զ<abbr>սբ</abbr> հողա֊
+<lb xml:id="l101274982" n="8"/>թափ ք<abbr>ս</abbr>ի <abbr>այ</abbr> որով և շրջեց<abbr>ւ</abbr> իսկ ի վ<abbr>ր</abbr> <g ref="աշխարհ"/>ի. նոյնպ<abbr>ս</abbr> և զպատ<abbr>կ</abbr>րն փրկչին 
+<lb xml:id="l101274983" n="9"/>զորս հրէայքն յետ ժ<abbr>մկ</abbr>ի խոցե<abbr>լ</abbr> էին ուստի վաղվ<abbr>ղ</abbr>կի ել արիւն և ջուր, 
+<lb xml:id="l101274849" n="10"/>և զխոց տիգին ոչ գտաք. յայնմ ք<abbr>ղ</abbr>քին զպ<abbr>տւկ</abbr>ն հերոյ գլխոյ կ<abbr>րպ</abbr>տ
+<lb xml:id="l101274850" n="11"/>ին և զմկրտչին յով<abbr>ն</abbr>նու և առե<abbr>լ</abbr> տանիմք ի պ<abbr>հպ</abbr>նւ<abbr>ի</abbr> <abbr>ա</abbr>ծա<abbr>պ</abbr>հ ք<abbr>ղ</abbr>քին 
+<lb xml:id="l101274851" n="12"/>մերոյ։ Եւ արդ ի սեպտեմբերի ամսոյն հաճու<abbr>բ</abbr>ն <abbr>այ</abbr> զմեր <abbr>ա</abbr>ծակեցոյց 
+<lb xml:id="l101274852" n="13"/>զօրքս ի յանտիոք հանաք, և վ<abbr>սյ</abbr>ն<abbr>ր</abbr>կ քո փ<abbr>ռւ</abbr>րւ<abbr>ե</abbr>դ գիտաց<abbr>ւց</abbr>ք վ<abbr>ս</abbr> զի 
+<lb xml:id="l101274853" n="14"/>ի ձեռն մեր հր<abbr>մն<abbr>ց</abbr></abbr>ս զարմանաս և դու ինքն իսկ փ<abbr>ռւ</abbr>րես զ<abbr>այ</abbr> մեծ մ<abbr>րդ</abbr>
+<lb xml:id="l101274854" n="15"/>ասիրւ<abbr>ի</abbr>ն և գիտասցես <g ref="թէ"/> որչափ բարի գ<abbr>ծ</abbr>ցն այժմիկ, և կամ քանի աւ
+<lb xml:id="l101274855" n="16"/>ելան, և լայն և <g ref="ընդ"/>արձակ եղև իշ<abbr>խ</abbr>նւ<abbr>ի</abbr> սրբոյ խաչին ք<abbr>ս</abbr>ի և մինչև ցայս 
+<lb xml:id="l101274856" n="17"/>տեղիք <abbr>այ</abbr> անունն գովի, և փ<abbr>ռւ</abbr>րի և ճոխանա թ<abbr>գր</abbr>ւ<abbr>ի</abbr>ս մեր անուամբ 
+<lb xml:id="l101274857" n="18"/>մեծու<abbr>բ</abbr>, և զօրւ<abbr>ի</abbr>ն <abbr>այ</abbr> բարեբանե<abbr>լ</abbr> գովի, ի բերանէ մերմէ զորս  <g ref="ընդ"/> ձեռ
+<lb xml:id="l101274858" n="19"/>ամբ մերով հնազանդեցոյց <abbr>ա</abbr>ծ, <g ref="ընդ"/><abbr>րւ</abbr>մ հն<abbr>պ</abbr>զաւր, ա<abbr>հլ</abbr> տ<abbr>ր</abbr> <abbr>ա</abbr>ծ ի<abbr>լ</abbr>ի. յան
+<lb xml:id="l101274859" n="20"/>ափոռտէն պռտաւսպաթրին դերջնա, լևոնի և տարօնոյ զօրավ<abbr>ր</abbr>
+<lb xml:id="l101274860" n="21"/>ին ողջոյն և ի տէր խնդ<abbr>լ</abbr>։ Արդ գիտ<abbr>ց</abbr>ք որ զայծե<abbr>ց</abbr> բերդն <g ref="որպէս"/> յանձին 
+<lb xml:id="l101274861" n="22"/>կալար չես տու<abbr>ե</abbr>լ. և այժմ գրեցաք առ զօրավարդ մեր, որ ոչ զբերդն 
+<lb xml:id="l101274862" n="23"/>առնու և ոչ զջորեանն զոր պայմանեցեր զի այժմ չեղև առ մեզ պէտք 
+<lb xml:id="l101274863" n="24"/>բայց զխռովու լաւն զոր յուղարկե<abbr>ց</abbr>ք, տուր տանել առ զօրավարն 
+<lb xml:id="l101274864" n="25"/>մեր որ առ<abbr>ք</abbr>է առ թ<abbr>գր</abbr>ւ<abbr>ի</abbr>ս մեր և զվս<abbr>տկց</abbr>դ քոց և զարմտե<abbr>ց</abbr>դ ագանես 
+<cb n="2"/>
+<lb xml:id="l101274865" n="1"/>զփոխարէնն <g ref="ըստ"/> սերման<abbr>ե</abbr>ցն զ<abbr>ամ</abbr> բարի մի <g ref="ըստ"/> միոջէ։ <hi rend="red">Դ</hi><abbr>ձ</abbr>լ գրեց<abbr>ւ</abbr> վր<abbr>դտ</abbr>ն 
+<lb xml:id="l101274984" n="2"/>հայոց ի ղևոնդն <abbr>սս</abbr> մեր հաճելի և թ<abbr>գր</abbr>ւ<abbr>ե</abbr>ս սիրեց<abbr>ե</abbr>լ մեծ իմ<abbr>ստ</abbr>ասէրն 
+<lb xml:id="l101274985" n="3"/>պանդալևոն ողջոյն. ահա հր<abbr>մյ</abbr><abbr>ց</abbr>ք ձեզ որ ի դարձին մեր ի տաճկաց 
+<lb xml:id="l101274986" n="4"/>գտանեմք զձեզ ի ս<abbr>բ</abbr> ք<abbr>ղք</abbr>ս, և <abbr>կմ</abbr> ի սլեսինն, յր<abbr>ժ</abbr>մ եկիր առ մեզ ի յաշոտոյ 
+<lb xml:id="l101274987" n="5"/>շահնշահէ, և հոգե<abbr>կ</abbr>ն զաւակէ մերմէ, և դ<abbr>ր</abbr>ձ<abbr>ւ</abbr>ցեր զ<abbr>ամ</abbr> սրտմտու<abbr>ի</abbr>ս 
+<lb xml:id="l101274988" n="6"/>ի նմ<abbr>ն</abbr>է և տարար զբագրատունի պապն յանձևացին. դու, և ես, սա 
+<lb xml:id="l101274989" n="7"/>աթոռնից <gap extent="4" rend="empty"/> պռտօսպաթարն. և արդ ջանացիր որ գտանեմք զքեզ 
+<lb xml:id="l101274990" n="8"/><abbr>ա</abbr>ծապահ ք<abbr>ղք</abbr>ին մեր, և անդ արասց<abbr>ւ</abbr>ք տօնս մեծ, հողաթափացն ք<abbr>ս</abbr>ի 
+<lb xml:id="l101274991" n="9"/><abbr>այ</abbr> մերոյ, և <abbr>սբ</abbr> հերացն մկրտչին յ<abbr>վն</abbr>ն<abbr>ւ</abbr>. և արդ ահա հաճ ունիմ և զայս 
+<lb xml:id="l101274992" n="10"/>ինչ ի քէն, վ<abbr>ս</abbr> զի խօսեսցիս <g ref="ընդ"/> մեր իմաստասէրն և <g ref="ընդ"/> փիլիսոփայիցն մերոց 
+<lb xml:id="l101274993" n="11"/>և ուրախասցուք մեք ի ձեզ և յ<abbr>ա</abbr>ծ ի մեզ և ի ձեզ. և տ<abbr>ր</abbr> <abbr>յս</abbr> եղիցի <g ref="ընդ"/> իւրում 
+<lb xml:id="l101274994" n="12"/>ծ<abbr>ռյց</abbr>դ։ Իսկ յ<abbr>րժ</abbr>մ լուաւ զայս վր<abbr>դտ</abbr>ն հայոց ղևոնդ յ<abbr>րւց</abbr>լ գնաց ի 
+<lb xml:id="l101274879" n="13"/>կս<abbr>տ</abbr>նդն<abbr>ւ</abbr>պօլիս և ար<abbr>ր</abbr>ին տօնս հրաշափ<abbr>ռ</abbr>ս հողաթափացն <abbr>այ</abbr> և 
+<lb xml:id="l101274995" n="14"/>հերե<abbr>ց</abbr> սրբոյ կ<abbr>րպտ</abbr>ին։ Եւ եղև յայնմ<abbr>ւ</abbr>ր ու<abbr>րխ</abbr>ւ<abbr>ի</abbr> ի կս<abbr>տ</abbr>նդն<abbr>ւ</abbr>պօլիս 
+<lb xml:id="l101274881" n="15"/>և խօս<abbr>ց</abbr>ւ վր<abbr>դտ</abbr>ն հայոց ա<abbr>ռ</abbr>ջի թ<abbr>գր</abbr>ին <g ref="ընդ"/> <abbr>ամ</abbr> իմստասիրացն հոռոմոց 
+<lb xml:id="l101274996" n="16"/>և անպ<abbr>րտ</abbr>ելի երևեց<abbr>ւ</abbr> ի մէջ վր<abbr>դտ</abbr>ացն տանն յուն<abbr>ց</abbr> վ<abbr>ս</abbr> զի <abbr>ամ</abbr> հ<abbr>րց</abbr>
+<lb xml:id="l101274883" n="17"/>մունսն հաճելի երևց<abbr>ւ</abbr>։ Եւ բ<abbr>զ</abbr>մ գովու<abbr>բ</abbr> բարեբանեցին զնա, և 
+<lb xml:id="l101274884" n="18"/>զուսուցիչն ն<abbr>ր</abbr>, և մեծ<abbr>ւ</abbr> պ<abbr>րգ</abbr>ևօք ի թ<abbr>գր</abbr>էն երևելիս և պ<abbr>տւկ</abbr>նս շնորհ
+<lb xml:id="l101274885" n="19"/>եց<abbr>ւ</abbr> նմ<abbr>յ</abbr> և գն<abbr>ց</abbr> մեծ<abbr>ւ</abbr> ու<abbr>ր</abbr>խւ<abbr>բ</abbr> յ<g ref="աշխարհ"/>ն հայոց ի մեծ տունն շիրակայ։ 
+<lb xml:id="l101274886" n="20"/><hi rend="red">Արդ ի յետ բզմ պ<abbr>տրզ</abbr>մացն և յաղթու<abbr>ե</abbr>ցն զոր վանեաց</hi> 
+<lb xml:id="l101274997" n="21"/>կայսրն չըմըշկիկն, անկանէր ի վ<abbr>ր</abbr> ն<abbr>ր</abbr> մահուն երկիւղն և ահն սոսկ<abbr>լ</abbr>ի 
+<lb xml:id="l101274888" n="22"/>դատ<abbr>ստ</abbr>նին <abbr>այ</abbr>, և զմտաւ ածե<abbr>լ</abbr> յիշե<abbr>ց</abbr> զանիրաւ մահն արդարուն 
+<lb xml:id="l101274889" n="23"/>նիկիփաւռա, և զանպ<abbr>րտ</abbr> արիւնն ն<abbr>ր</abbr> կոծ առե<abbr>լ</abbr> լայր և ոգո<subst><del rend="illegible"/><add place="inplace">ց</add></subst> հանէր 
+<lb xml:id="l101274890" n="24"/>և յայնժ<abbr>մ</abbr> խ<abbr>ր</abbr>հեց<abbr>ւ</abbr> վարս առաքիւ<abbr>ե</abbr> ստան<abbr>լ</abbr> զի դեռևս կարասցէ 
+<lb xml:id="l101274891" n="25"/>ապշ<abbr>խ</abbr>րւ<abbr>բ</abbr> մաքրել զարիւնն զոր եհեղ ի տարապ<abbr>ր</abbr>տուց և <num value="5">.ե՟.</num> ամ մի<abbr>յ</abbr>ն 
+<pb n="110"/>
+<lb xml:id="l101274924" n="1"/>կալե<abbr>լ</abbr> զաթոռ թ<abbr>գր</abbr>ու<abbr>ե</abbr> յուն<abbr>ց</abbr>. և մինչդեռ զայս <abbr>ամ</abbr> զմտաւ ածէր, 
+<lb xml:id="l101275052" n="2"/>խորհեց<abbr>ւ</abbr> բարիոք խորհ<abbr>ւ</abbr>րդս որ <g ref="ըստ"/> կ<abbr>մց</abbr>ն <abbr>այ</abbr> էր և յուղարկե<abbr>լ</abbr> ի վասակ<abbr>յ</abbr> 
+<lb xml:id="l101275053" n="3"/>վանն, ի գ<abbr>ւռ</abbr>ն հանձթա, և բերե<abbr>լ</abbr> տայր զվասիլն և զկոստանդին, 
+<lb xml:id="l101275054" n="4"/>որդիսն ռամանոսի թ<abbr>գր</abbr>ին զորս փախոյց առ սպրամիկն ի յահէ ան
+<lb xml:id="l101275055" n="5"/>օրէն թագուհոյն վ<abbr>ս</abbr> զի չարաբարոյ էր յոյժ։ Իսկ յայնժ<abbr>մ</abbr> եբեր ըզ
+<lb xml:id="l101275056" n="6"/>վասիլն ի կ<abbr>ստ</abbr>նդն<abbr>ւ</abbr>պօլիս ժողով ա<abbr>րրլ</abbr> զ<abbr>ամ</abbr> իշ<abbr>խ</abbr>նս մեծամեծս տանն 
+<lb xml:id="l101275057" n="7"/>յուն<abbr>ց</abbr> և եղև ահաւոր հանդէս ի պաղտատ թ<abbr>գր</abbr>ին. և յայնժ<abbr>մ</abbr> թ<abbr>գր</abbr>ն 
+<lb xml:id="l101275058" n="8"/>չմըշկիկ առե<abbr>լ</abbr> թագն ձեռօք իւրովք ի գլխոյ իւրմէ և եդե<abbr>լ</abbr> ի գլուխն 
+<lb xml:id="l101275059" n="9"/>վասլին և նստւ<abbr>ց</abbr>նէր զնա յաթոռ թ<abbr>գր</abbr>ու<abbr>ե</abbr> իւրոյ և երկիրպ<abbr>գ</abbr>նէր ի վ<abbr>ր</abbr> 
+<lb xml:id="l101274934" n="10"/>երես<abbr>ց</abbr> իւրոց վասլին. և զ<abbr>ամ</abbr> թ<abbr>գր</abbr>ւ<abbr>ի</abbr> տանն յուն<abbr>ց</abbr>, նմ<abbr>յ</abbr> յանձն ա<abbr>րր</abbr>ե<abbr>լ</abbr> 
+<lb xml:id="l101274935" n="11"/>և տուե<abbr>լ</abbr> ի վասիլն զիւր հայրեն<abbr>կ</abbr>ն յաթոռն, և ինքն դիմե<abbr>լ</abbr> յանապ<abbr>տ</abbr> 
+<lb xml:id="l101274936" n="12"/>և յանձն իւր առ<abbr>ե</abbr>լ զկ<abbr>րգ</abbr>ս կրօն<abbr>ւ</abbr>րւ<abbr>ե</abbr> ի վանս ընթացե<abbr>լ</abbr> բնակէր։ 
+<lb xml:id="l101274937" n="13"/>Ահա որ երեկեան աւուրն թ<abbr>գ</abbr>ր և այսաւր <g ref="ընդ"/> աղքատս նստեալ 
+<lb xml:id="l101274938" n="14"/>դադարէր կամաւոր աղք<abbr>տ</abbr>ւ<abbr>բ</abbr>, վ<abbr>ս</abbr> զի ժռ<abbr>ն</abbr>գեսցէ զերանւ<abbr>ի</abbr> <abbr>սբ</abbr> աւետ
+<lb xml:id="l101274939" n="15"/>արանին և վճարեսցէ զմեղն անպ<abbr>ր</abbr>տ անձինն նիկիփաւռա։ 
+<lb xml:id="l101274940" n="16"/><milestone unit="section" n="424"/>Դրձլ ի բարձրանալ 
+</ab>
+    </body>
+  </text>
+</TEI>
