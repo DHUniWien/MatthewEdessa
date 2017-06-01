@@ -25,7 +25,7 @@ _armenian_glyphs = {
     'ընդ': ('und', 'ARMENIAN END SYMBOL'),
     'ըստ': ('ust', 'ARMENIAN EST SYMBOL'),
     'պտ': ('ptlig', 'ARMENIAN PEH-TIWN LIGATURE'),
-    'թբ': ('tblig'), 'ARMENIAN TO-BEN LIGATURE'),
+    'թբ': ('tblig', 'ARMENIAN TO-BEN LIGATURE'),
     'թե': ('techlig', 'ARMENIAN TO-ECH LIGATURE'),
     'թի': ('tinilig', 'ARMENIAN TO-INI LIGATURE'),
     'թէ': ('tehlig', 'ARMENIAN TO-EH LIGATURE'),
