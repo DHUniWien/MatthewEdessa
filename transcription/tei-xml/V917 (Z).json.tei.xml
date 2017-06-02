@@ -3,13 +3,25 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>This is the title</title>
+        <title>V917 (Z)</title>
       </titleStmt>
       <publicationStmt>
-        <p>This is the publication statement</p>
+        <p>Unpublished manuscript</p>
       </publicationStmt>
       <sourceDesc>
-        <p>This is the source description</p>
+        <msDesc xml:id="Z">
+          <msIdentifier>
+            <settlement>Venice</settlement>
+            <repository>Mekhitarist Library</repository>
+            <idno>917</idno>
+          </msIdentifier>
+          <history>
+            <origin>
+              <origDate>&lt;1700</origDate>
+              <origPlace>unknown</origPlace>
+            </origin>
+          </history>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
   </teiHeader>

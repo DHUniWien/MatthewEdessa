@@ -3,13 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>This is the title</title>
+        <title>W574 old 2</title>
       </titleStmt>
       <publicationStmt>
-        <p>This is the publication statement</p>
+        <p>Unpublished manuscript</p>
       </publicationStmt>
       <sourceDesc>
-        <p>This is the source description</p>
+        <msDesc xml:id="W">
+          <msIdentifier>
+            <settlement>Vienna</settlement>
+            <repository>Mekhitarist Library</repository>
+            <idno>574</idno>
+          </msIdentifier>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
   </teiHeader>

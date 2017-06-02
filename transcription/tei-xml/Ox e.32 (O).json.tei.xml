@@ -3,13 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>This is the title</title>
+        <title>Ox e.32 (O)</title>
       </titleStmt>
       <publicationStmt>
-        <p>This is the publication statement</p>
+        <p>Unpublished manuscript</p>
       </publicationStmt>
       <sourceDesc>
-        <p>This is the source description</p>
+        <msDesc xml:id="O">
+          <msIdentifier>
+            <settlement>Oxford</settlement>
+            <repository>Bodleian Library</repository>
+            <idno>e.32</idno>
+          </msIdentifier>
+          <history>
+            <origin>
+              <origDate>18th c.</origDate>
+            </origin>
+          </history>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
   </teiHeader>

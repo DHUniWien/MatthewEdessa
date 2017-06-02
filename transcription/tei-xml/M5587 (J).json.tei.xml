@@ -3,13 +3,25 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>This is the title</title>
+        <title>M5587 (J)</title>
       </titleStmt>
       <publicationStmt>
-        <p>This is the publication statement</p>
+        <p>Unpublished manuscript</p>
       </publicationStmt>
       <sourceDesc>
-        <p>This is the source description</p>
+        <msDesc xml:id="M5587">
+          <msIdentifier>
+            <settlement>Yerevan</settlement>
+            <repository>Matenadaran</repository>
+            <idno>5587</idno>
+          </msIdentifier>
+          <history>
+            <origin>
+              <origDate>1617</origDate>
+              <origPlace>Lviv</origPlace>
+            </origin>
+          </history>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
   </teiHeader>

@@ -3,13 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>This is the title</title>
+        <title>M1896 (A)</title>
       </titleStmt>
       <publicationStmt>
-        <p>This is the publication statement</p>
+        <p>Unpublished manuscript</p>
       </publicationStmt>
       <sourceDesc>
-        <p>This is the source description</p>
+        <msDesc xml:id="A">
+          <msIdentifier>
+            <settlement>Yerevan</settlement>
+            <repository>Matenadaran</repository>
+            <idno>1896</idno>
+          </msIdentifier>
+          <history>
+            <origin>
+              <origDate>1689</origDate>
+            </origin>
+          </history>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -1165,7 +1176,7 @@
 <lb xml:id="l101257483" n="19"/>տօսպաթարն. և արդ ջանացիր 
 <lb xml:id="l101257484" n="20"/>որ գտանեմ զքեզ յ<abbr>ած</abbr>ապահ 
 <lb xml:id="l101257485" n="21"/>ք<abbr>ղ</abbr>քին մեր. և անդ արասցուք 
-<lb xml:id="l101257486" n="22"/>տօն<add place="above" cert="medium">ս</add> մեծ. հողաթափացն <abbr>քի</abbr> <abbr>այ</abbr> 
+<lb xml:id="l101257486" n="22"/>տօն<add place="above" cert="high">ս</add> մեծ. հողաթափացն <abbr>քի</abbr> <abbr>այ</abbr> 
 <lb xml:id="l101257508" n="23"/>մերոյ, և ս<abbr>բ</abbr> հերացն մկրտչին 
 <lb xml:id="l101257487" n="24"/>յովաննու։ Եւ արդ ահա հաճ<abbr>ել</abbr> 
 <lb xml:id="l101257488" n="25"/>ունիմ և զայս ինչ ի քէն, վ<abbr>ս</abbr> զի 
