@@ -3,13 +3,20 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>M1731 (F) 3</title>
+        <title>Ժամանակագրութիւն</title>
+        <author>Մատթէոս Ուռհայեցի</author>
       </titleStmt>
       <publicationStmt>
         <p>Unpublished manuscript</p>
       </publicationStmt>
       <sourceDesc>
-        <msDesc/>
+        <msDesc xml:id=" K">
+          <msIdentifier>
+            <settlement>Bzommar</settlement>
+            <repository> Bibliothek des Klosters</repository>
+            <idno> 449</idno>
+          </msIdentifier>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
   </teiHeader>

@@ -3,13 +3,26 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>This is the title</title>
+        <title>Ժամանակագրութիւն</title>
+        <author>Մատթէոս Ուռհայեցի</author>
       </titleStmt>
       <publicationStmt>
-        <p>This is the publication statement</p>
+        <p>Unpublished manuscript</p>
       </publicationStmt>
       <sourceDesc>
-        <p>This is the source description</p>
+        <msDesc xml:id=" K">
+          <msIdentifier>
+            <settlement>Bzommar</settlement>
+            <repository> Bibliothek des Klosters</repository>
+            <idno> 449</idno>
+          </msIdentifier>
+          <history>
+            <origin>
+              <origDate>1623</origDate>
+              <origPlace>Bitlis</origPlace>
+            </origin>
+          </history>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -2414,7 +2427,7 @@
 <lb xml:id="l102774330" n="12"/>այնուհետեւ խնամարկէ
 <lb xml:id="l102774331" n="13"/>ին ընդ ձեռամբ անկեա
 <lb xml:id="l102774332" n="14"/>լսն զազգն քրիստոնէից։ 
-<lb xml:id="l102774333" n="15"/><p/><add place="margin left"><num value="Kap. 38">․լ՟ր․</num></add> <hi rend="red">Ի</hi> <date n="630">․ռ՟լ․</date> թվին զաւրացաւ 
+<lb xml:id="l102774333" n="15"/><p/><add place="margin left"><num value="150000">․լ՟ր․</num></add> <hi rend="red">Ի</hi> <date n="630">․ռ՟լ․</date> թվին զաւրացաւ 
 <lb xml:id="l102774334" n="16"/>Սալահադինն ի յաճախո
 <lb xml:id="l102774335" n="17"/>ւթենէ մեղաց մերոց և ժո
 <lb xml:id="l102774336" n="18"/>ղովեաց զամենայն հնա
@@ -2706,7 +2719,7 @@
 <lb xml:id="l102774617" n="13"/>անունն էր <name type="pn">Ազատին Խայար Շահ</name>  
 <lb xml:id="l102774618" n="14"/>էառ զՄելտենի 
 <lb xml:id="l102774619" n="15"/>ի ժառանգութիւն իւր։ 
-<lb xml:id="l102774620" n="16"/><p/><add place="margin right"><num value="Kap. 39">․լ՟թ․</num></add> <hi rend="red">Ի</hi> <date n="641">․ոխ՟ա․</date> թուականին 
+<lb xml:id="l102774620" n="16"/><p/><add place="margin right"><num value="39">․լ՟թ․</num></add> <hi rend="red">Ի</hi> <date n="641">․ոխ՟ա․</date> թուականին 
 <lb xml:id="l102774621" n="17"/>Հայոց շարժեցաւ տու
 <lb xml:id="l102774623" n="18"/>նն Ֆռանկաց խառնի
 <lb xml:id="l102774624" n="19"/>ճաղանճ բազմութիւն առ

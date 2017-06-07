@@ -3,7 +3,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Bz449 (K) </title>
+        <title>Ժամանակագրութիւն</title>
+        <author>Մատթէոս Ուռհայեցի</author>
       </titleStmt>
       <publicationStmt>
         <p>Unpublished manuscript</p>
@@ -18,17 +19,29 @@
         </msDesc>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <charDecl>
+        <glyph xml:id="asxarh">
+          <glyphName>ARMENIAN ASHXARH SYMBOL</glyphName>
+          <mapping>աշխարհ</mapping>
+        </glyph>
+        <glyph xml:id="tehlig">
+          <glyphName>ARMENIAN TO-EH LIGATURE</glyphName>
+          <mapping>թէ</mapping>
+        </glyph>
+      </charDecl>
+    </encodingDesc>
   </teiHeader>
   <text>
     <body>
       <ab><pb n="bzan00449_118v.jpg"/>
 <lb xml:id="l102925849" n="1"/><milestone unit="section" n="401"/><hi rend="red">Ի</hi>սկ ընդ աւուրսն այնոսիկ, և ի  յամին <num value="401">ն՟ա՟։</num> եղև սով 
-<lb xml:id="l102925850" n="2"/>սաստիկ ի բազում տեղիս: Բայց յ<g ref="">աշխարհ</g>ն հարաւոյ յեր
+<lb xml:id="l102925850" n="2"/>սաստիկ ի բազում տեղիս: Բայց յ<g ref="#asxarh">աշխարհ</g>ն հարաւոյ յեր
 <lb xml:id="l102925851" n="3"/>կրին տաճ<subst><del rend="overwrite">ն</del><add>ա</add></subst>կաց, եղև նեղու<abbr>թի</abbr> մեծ, և առաւել քան 
-<lb xml:id="l102925852" n="4"/>զ<abbr>ամ</abbr> ի միջագետս։ և ի խստու<abbr><g ref="">թէ</g></abbr> սովուն, տագնապ և 
+<lb xml:id="l102925852" n="4"/>զ<abbr>ամ</abbr> ի միջագետս։ և ի խստու<abbr><g ref="#tehlig">թէ</g></abbr> սովուն, տագնապ և 
 <lb xml:id="l102925853" n="5"/>տատանումն լինէր ի բազում տեղիս, և  ի հռչակաւոր 
 <lb xml:id="l102925854" n="6"/>մայրաքաղաքն յուրհայ՝ զոր կանգնեաց տիգրան ար
-<lb xml:id="l102925856" n="7"/>քայ հայոց։ եւ կացեալ սովն այն <g ref="">աշխարհ</g>ին զամս <num value="7">է՟</num>, և անթիւ լինէր կոտորածն յերեսաց սովոյն: և <g ref="">աշխարհ</g>ին տաճ
+<lb xml:id="l102925856" n="7"/>քայ հայոց։ եւ կացեալ սովն այն <g ref="#asxarh">աշխարհ</g>ին զամս <num value="7">է՟</num>, և անթիւ լինէր կոտորածն յերեսաց սովոյն: և <g ref="#asxarh">աշխարհ</g>ին տաճ
 <lb xml:id="l102925857" n="8"/>կաց անցումն լինէր մեծ, և քրիստոնեայք անթիւ
 <pb n="bzan00449_119r.jpg"/>
 <lb xml:id="l102962660" n="1"/>մեռան յերեսաց բարկու<abbr>թե</abbr> սովոյն։ և զկնի <num value="5">ե՟</num> ամին, 

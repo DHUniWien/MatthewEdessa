@@ -3,15 +3,51 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>This is the title</title>
+        <title>Ժամանակագրութիւն</title>
+        <author>Մատթէոս Ուռհայեցի</author>
       </titleStmt>
       <publicationStmt>
-        <p>This is the publication statement</p>
+        <p>Unpublished manuscript</p>
       </publicationStmt>
       <sourceDesc>
-        <p>This is the source description</p>
+        <msDesc xml:id=" K">
+          <msIdentifier>
+            <settlement>Bzommar</settlement>
+            <repository> Bibliothek des Klosters</repository>
+            <idno> 449</idno>
+          </msIdentifier>
+          <history>
+            <origin>
+              <origDate>1623</origDate>
+            </origin>
+          </history>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <charDecl>
+        <glyph xml:id="asxarh">
+          <glyphName>ARMENIAN ASHXARH SYMBOL</glyphName>
+          <mapping>աշխարհ</mapping>
+        </glyph>
+        <glyph xml:id="techlig">
+          <glyphName>ARMENIAN TO-ECH LIGATURE</glyphName>
+          <mapping>թե</mapping>
+        </glyph>
+        <glyph xml:id="tehlig">
+          <glyphName>ARMENIAN TO-EH LIGATURE</glyphName>
+          <mapping>թէ</mapping>
+        </glyph>
+        <glyph xml:id="und">
+          <glyphName>ARMENIAN END SYMBOL</glyphName>
+          <mapping>ընդ</mapping>
+        </glyph>
+        <glyph xml:id="ust">
+          <glyphName>ARMENIAN EST SYMBOL</glyphName>
+          <mapping>ըստ</mapping>
+        </glyph>
+      </charDecl>
+    </encodingDesc>
   </teiHeader>
   <text>
     <body>
@@ -73,7 +109,7 @@
 <lb xml:id="l101491135" n="1"/>գոր անուանի. 
 <lb xml:id="l101491136" n="2"/>երևեալ սորա 
 <lb xml:id="l101954534" n="3"/>թողեալ զսէր 
-<lb xml:id="l101491140" n="4"/><g ref="">աշխարհ</g>իս. և բուռն 
+<lb xml:id="l101491140" n="4"/><g ref="#asxarh">աշխարհ</g>իս. և բուռն 
 <lb xml:id="l101491141" n="5"/>հարեալ զյաւի
 <lb xml:id="l101491142" n="6"/>տենական կենա
 <lb xml:id="l101491144" n="7"/>ցն. սա լուսաւ
@@ -393,7 +429,7 @@
 <lb xml:id="l101543808" n="3"/>և արար աւար և 
 <lb xml:id="l101543810" n="4"/>գերութ<abbr>ի</abbr> զ<abbr>ամ</abbr> գա
 <lb xml:id="l101543812" n="5"/>ւառն և գնաց 
-<lb xml:id="l101543813" n="6"/><g ref="">աշխարհ</g>ն պարսից ան
+<lb xml:id="l101543813" n="6"/><g ref="#asxarh">աշխարհ</g>ն պարսից ան
 <lb xml:id="l101543814" n="7"/>համար աւարաւ 
 <lb xml:id="l101543815" n="8"/>և բազում գերու
 <lb xml:id="l101543816" n="9"/>թ<abbr>բ</abbr> և անդ սա
@@ -555,7 +591,7 @@
 <lb xml:id="l101957830" n="6"/>յախթ ի պատաս
 <lb xml:id="l101957831" n="7"/>խանիսն զի սա 
 <lb xml:id="l101957832" n="8"/>ի <abbr>սբ</abbr> սոփի ի յամ
-<lb xml:id="l101957833" n="9"/>բիոնն նստէր <g ref="">ընդ</g> 
+<lb xml:id="l101957833" n="9"/>բիոնն նստէր <g ref="#und">ընդ</g> 
 <lb xml:id="l101957834" n="10"/><abbr>ամ</abbr> վարդապետ
 <lb xml:id="l101957835" n="11"/>սն հոռոմոց. և 
 <lb xml:id="l101957836" n="12"/>յայնժամ ատոմ 
@@ -869,7 +905,7 @@
 <lb xml:id="l101548448" n="2"/>արդ այսպէս 
 <lb xml:id="l101548449" n="3"/>իմանամք զէա
 <lb xml:id="l101548450" n="4"/>կանին զոյգս 
-<lb xml:id="l101548451" n="5"/><g ref="">ընդ</g> հաստատու
+<lb xml:id="l101548451" n="5"/><g ref="#und">ընդ</g> հաստատու
 <lb xml:id="l101548452" n="6"/>թ<abbr>ի</abbr> և ծնելութ<abbr>ի</abbr>. 
 <lb xml:id="l101548453" n="7"/>Իսկ զերկրորդն 
 <lb xml:id="l101548454" n="8"/>վ<abbr>ս</abbr> փրկութ<abbr>ե</abbr> 
@@ -914,7 +950,7 @@
 <lb xml:id="l101957960" n="21"/>ռաքելոցն ընդ 
 <lb xml:id="l101957961" n="22"/>նմին և <abbr>սբ</abbr> հարցն։ 
 <lb xml:id="l101957962" n="23"/><hi rend="red">Ա</hi>րդ լուր և զա
-<lb xml:id="l101957963" n="24"/>յս ով արքա <g ref="">թէ</g> 
+<lb xml:id="l101957963" n="24"/>յս ով արքա <g ref="#tehlig">թէ</g> 
 <lb xml:id="l101957964" n="25"/><abbr>ոպ</abbr> զհերձուածող
 <pb n="129v"/>
 <cb n="1"/>
@@ -1896,7 +1932,7 @@
 <lb xml:id="l101549724" n="22"/>յաղագս պահո
 <lb xml:id="l101549725" n="23"/>ցն առաջաւո
 <lb xml:id="l101549726" n="24"/>րացն ոչ ինչ միջո
-<lb xml:id="l101549728" n="25"/>ց իցէ քանզի <g ref="">ըստ</g> 
+<lb xml:id="l101549728" n="25"/>ց իցէ քանզի <g ref="#ust">ըստ</g> 
 <cb n="2"/>
 <lb xml:id="l101549730" n="1"/>տկարութ<abbr>ե</abbr> ազ
 <lb xml:id="l101549732" n="2"/>գի բնութ<abbr>ե</abbr> ա
@@ -2185,7 +2221,7 @@
 <lb xml:id="l101550281" n="20"/>այ քաղաք գամ
 <lb xml:id="l101550282" n="21"/>րաց. և <abbr>ոպ</abbr> էր 
 <lb xml:id="l101550283" n="22"/>յառաջագոյն 
-<lb xml:id="l101550284" n="23"/>զայրացեալ <g ref="">ընդ</g> 
+<lb xml:id="l101550284" n="23"/>զայրացեալ <g ref="#und">ընդ</g> 
 <lb xml:id="l101550285" n="24"/>յունաց և ար
 <lb xml:id="l101550286" n="25"/>ձակեցաւ ի վ<abbr>ր</abbr> 
 <pb n="141v"/>
@@ -3125,7 +3161,7 @@
 <lb xml:id="l101978655" n="6"/>ցին <abbr>նմ</abbr> գով և 
 <lb xml:id="l101978656" n="7"/>եդին ի վ<abbr>ր</abbr> գլ
 <lb xml:id="l101978657" n="8"/>խոյ ն<abbr>ր</abbr> զթագն։ 
-<lb xml:id="l101978658" n="9"/><num value="red">Յ</num>այսմ ժամա
+<lb xml:id="l101978658" n="9"/><num value="300">Յ</num>այսմ ժամա
 <lb xml:id="l101978659" n="10"/>նակիս <abbr>սբ</abbr> հայ
 <lb xml:id="l101978660" n="11"/>րապետն հայոց 
 <lb xml:id="l101978661" n="12"/>վահրամ որ կո
@@ -3259,7 +3295,7 @@
 <lb xml:id="l101979044" n="7"/>հոգևոր ճանա
 <lb xml:id="l101979045" n="8"/>պարհաց իւ
 <lb xml:id="l101979046" n="9"/>րոց առ ի բնա
-<lb xml:id="l101979047" n="10"/>կել ի լերինս <g ref="">ընդ</g> 
+<lb xml:id="l101979047" n="10"/>կել ի լերինս <g ref="#und">ընդ</g> 
 <lb xml:id="l101979048" n="11"/>միանձունսն 
 <lb xml:id="l101979049" n="12"/>ճգնաւորացն 
 <lb xml:id="l101979050" n="13"/><abbr>ք</abbr>ի. և ըստացաւ 
@@ -3815,7 +3851,7 @@
 <lb xml:id="l101980619" n="7"/>կարկտաբերս. 
 <lb xml:id="l101980620" n="8"/>և հասանէր ի սե
 <lb xml:id="l101980621" n="9"/>բաստիա քա
-<lb xml:id="l101980622" n="10"/>ղաք. և ելեալ <g ref="">ընդ</g>
+<lb xml:id="l101980622" n="10"/>ղաք. և ելեալ <g ref="#und">ընդ</g>
 <lb xml:id="l101980623" n="11"/>առաջ ն<abbr>ր</abbr> որդիք 
 <lb xml:id="l101980624" n="12"/>թագաւորացն 
 <lb xml:id="l101980625" n="13"/>հայոց. ատոմ 
@@ -4137,7 +4173,7 @@
 <lb xml:id="l101983810" n="11"/>հոռոմոց. և 
 <lb xml:id="l101983811" n="12"/>ահա առ վա
 <lb xml:id="l101983812" n="13"/>ղիւն եղև պա
-<lb xml:id="l101983813" n="14"/>տերազմ. և <g ref="">ընդ</g> 
+<lb xml:id="l101983813" n="14"/>տերազմ. և <g ref="#und">ընդ</g> 
 <lb xml:id="l101983814" n="15"/>առաւաւտն 
 <lb xml:id="l101983815" n="16"/>հնչեցուցեալ 
 <lb xml:id="l101983816" n="17"/>զփող պատե
@@ -4173,7 +4209,7 @@
 <lb xml:id="l101983987" n="20"/>տողոտափ. և 
 <lb xml:id="l101983988" n="21"/>զուլն և զպա
 <lb xml:id="l101983989" n="22"/>ծունակն կա
-<lb xml:id="l101983990" n="23"/>ցուցանէր <g ref="">ընդ</g> 
+<lb xml:id="l101983990" n="23"/>ցուցանէր <g ref="#und">ընդ</g> 
 <lb xml:id="l101983991" n="24"/>աջմէ իւրմէ 
 <lb xml:id="l101983992" n="25"/>և ընդ ձախմէ 
 <cb n="2"/>
@@ -4738,7 +4774,7 @@
 <lb xml:id="l101985331" n="2"/>այլ զաւրացն 
 <lb xml:id="l101985332" n="3"/>և ասէր թէ տե
 <lb xml:id="l101985333" n="4"/>սէք զի մեր գուն
-<lb xml:id="l101985334" n="5"/>դս երթիցէ <g ref="">ընդ</g>
+<lb xml:id="l101985334" n="5"/>դս երթիցէ <g ref="#und">ընդ</g>
 <lb xml:id="l101985335" n="6"/>դէմ ֆռանգին 
 <lb xml:id="l101985336" n="7"/>և ահա գայր ըռ
 <lb xml:id="l101985337" n="8"/>ըմբաղատն և 
@@ -4808,7 +4844,7 @@
 <lb xml:id="l101987765" n="20"/>նաւք և սուտ 
 <lb xml:id="l101987766" n="21"/>երդմամբ սկսաւ 
 <lb xml:id="l101987767" n="22"/>սէր միաբանու
-<lb xml:id="l101987768" n="23"/>թ<abbr>ե</abbr> կարգել <g ref="">ընդ</g> 
+<lb xml:id="l101987768" n="23"/>թ<abbr>ե</abbr> կարգել <g ref="#und">ընդ</g> 
 <lb xml:id="l101987769" n="24"/><abbr>նմ</abbr> մինչև ի ձեռն 
 <lb xml:id="l101987770" n="25"/>բազում տրոց 
 <cb n="2"/>
@@ -5111,7 +5147,7 @@
 <lb xml:id="l101988483" n="5"/>սէին. և թ<abbr>գր</abbr>ն 
 <lb xml:id="l101988484" n="6"/>միխայլ ոչինչ հա
 <lb xml:id="l101988485" n="7"/>կառակեցաւ 
-<lb xml:id="l101988486" n="8"/><g ref="">ընդ</g>դէմ ն<abbr>ց</abbr>. այլ 
+<lb xml:id="l101988486" n="8"/><g ref="#und">ընդ</g>դէմ ն<abbr>ց</abbr>. այլ 
 <lb xml:id="l101988487" n="9"/>յայտնապէս անի
 <lb xml:id="l101988488" n="10"/>ծեաց զամենա
 <lb xml:id="l101988489" n="11"/>պեղծ թագու
@@ -5132,7 +5168,7 @@
 <cb n="2"/>
 <lb xml:id="l101988479" n="1"/>տէ. և թողեալ 
 <lb xml:id="l101988507" n="2"/>զաթոռ և զթագ
-<lb xml:id="l101988509" n="3"/>գրու<abbr><g ref="">թե</g></abbr>ն իւրո։ 
+<lb xml:id="l101988509" n="3"/>գրու<abbr><g ref="#techlig">թե</g></abbr>ն իւրո։ 
 <lb xml:id="l101988510" n="4"/><milestone unit="section" n="525"/><hi rend="red">Ի</hi> թվականու
 <lb xml:id="l101988511" n="5"/>թ<abbr>ե</abbr>ս հայոց <num value="525">շիե</num> 
 <lb xml:id="l101988512" n="6"/>թ<abbr>գր</abbr>ե<abbr>ց</abbr> ի վ<abbr>ր</abbr> հո
@@ -5471,7 +5507,7 @@
 <lb xml:id="l101989208" n="20"/>բարձրացաւ 
 <lb xml:id="l101989209" n="21"/>թ<abbr>վկ</abbr>նութ<abbr>ի</abbr>ս հայոց 
 <lb xml:id="l101989210" n="22"/>ի յամս. <num value="528">շ՟ի՟ը՟</num> եղև 
-<lb xml:id="l101989211" n="23"/>սով սաստիկ <g ref="">ընդ</g> <abbr>ամ</abbr> 
+<lb xml:id="l101989211" n="23"/>սով սաստիկ <g ref="#und">ընդ</g> <abbr>ամ</abbr> 
 <lb xml:id="l101989212" n="24"/>աշխարհս խաչա
 <lb xml:id="l101989213" n="25"/>պաշտաց. յայնկոյս 
 <pb n="172v"/>
@@ -5498,7 +5534,7 @@
 <lb xml:id="l101989299" n="20"/>և վաստակաւորք. 
 <lb xml:id="l101989300" n="21"/>և տարածեցաւ 
 <lb xml:id="l101989301" n="22"/>արհասարակ 
-<lb xml:id="l101989302" n="23"/><g ref="">ընդ</g> <abbr>ամ</abbr> աշխարհք. 
+<lb xml:id="l101989302" n="23"/><g ref="#und">ընդ</g> <abbr>ամ</abbr> աշխարհք. 
 <lb xml:id="l101989303" n="24"/>և յանմարդ եղեն 
 <lb xml:id="l101989304" n="25"/>բազում գաւ
 <cb n="2"/>
@@ -5563,7 +5599,7 @@
 <lb xml:id="l101989434" n="6"/>սովոյն և ի պանտխ
 <lb xml:id="l101989435" n="7"/>տութենէ կենացն 
 <lb xml:id="l101989436" n="8"/>մահ անկանէր ի ն<abbr>ս</abbr> 
-<lb xml:id="l101989437" n="9"/><g ref="">ընդ</g> <abbr>ամ</abbr> երկիր և յա
+<lb xml:id="l101989437" n="9"/><g ref="#und">ընդ</g> <abbr>ամ</abbr> երկիր և յա
 <lb xml:id="l101989438" n="10"/>գեցան առ ի թա
 <lb xml:id="l101989439" n="11"/>ղել զն<abbr>ս</abbr>. լցաւ եր
 <lb xml:id="l101989440" n="12"/>կիր ի դիականց ն<abbr>ց</abbr> 
@@ -5593,7 +5629,7 @@
 <lb xml:id="l101989533" n="9"/>րոց ընկալաք զհա
 <lb xml:id="l101989534" n="10"/>տուցումն յար
 <lb xml:id="l101989535" n="11"/>դար դատաւո
-<lb xml:id="l101989536" n="12"/>րէն <abbr>այ</abbr> <g ref="">ըստ</g> այնմ 
+<lb xml:id="l101989536" n="12"/>րէն <abbr>այ</abbr> <g ref="#ust">ըստ</g> այնմ 
 <lb xml:id="l101989537" n="13"/>զոր ասաց փրկի
 <lb xml:id="l101989538" n="14"/>չն եթէ <abbr>ամ</abbr> ծառ 
 <lb xml:id="l101989539" n="15"/>որ ոչ բերէ պը
@@ -5709,7 +5745,7 @@
 <lb xml:id="l101989786" n="19"/>տոսն և ասէր. ե
 <lb xml:id="l101989787" n="20"/>թէ զիարդ համ
 <lb xml:id="l101989788" n="21"/>արձակեցաք զայդ 
-<lb xml:id="l101989789" n="22"/>գործել <g ref="">ընդ</g> առն 
+<lb xml:id="l101989789" n="22"/>գործել <g ref="#und">ընդ</g> առն 
 <lb xml:id="l101989790" n="23"/>թ<abbr>գ</abbr>րի. եթէ թո
 <lb xml:id="l101989791" n="24"/>ղոյք և եթէ ոչ ձեզ 
 <lb xml:id="l101989792" n="25"/>կորուստ գործե
@@ -5818,7 +5854,7 @@
 <lb xml:id="l101990023" n="22"/>գաւորաբնակ 
 <lb xml:id="l101990024" n="23"/>քաղաքն անի. և 
 <lb xml:id="l101990025" n="24"/>ելեալ <abbr>ամ</abbr> տունն 
-<lb xml:id="l101990026" n="25"/>շիրակա կալ <g ref="">ընդ</g> 
+<lb xml:id="l101990026" n="25"/>շիրակա կալ <g ref="#und">ընդ</g> 
 <cb n="2"/>
 <lb xml:id="l101993527" n="1"/>առաջ ն<abbr>ր</abbr>. և 
 <lb xml:id="l101993528" n="2"/>ահա զայր վա
@@ -5861,7 +5897,7 @@
 <lb xml:id="l101990097" n="12"/>դն որ կոչի լտար. 
 <lb xml:id="l101990098" n="13"/>վ<abbr>ս</abbr> զի ժողովեցան 
 <lb xml:id="l101990099" n="14"/>բերդացիք գա
-<lb xml:id="l101990100" n="15"/>ւառին <g ref="">ընդ</g> առ
+<lb xml:id="l101990100" n="15"/>ւառին <g ref="#und">ընդ</g> առ
 <lb xml:id="l101990101" n="16"/>աջ ն<abbr>ր</abbr> ի պատե
 <lb xml:id="l101990102" n="17"/>րազմ. և յայսմ ա
 <lb xml:id="l101990103" n="18"/>ւուր յաղթ<abbr>եց</abbr> 
@@ -5954,7 +5990,7 @@
 <pb n="177r"/>
 <cb n="1"/>
 <lb xml:id="l101990301" n="1"/>արիական պա
-<lb xml:id="l101990303" n="2"/>տերազմ <g ref="">ընդ</g> պար
+<lb xml:id="l101990303" n="2"/>տերազմ <g ref="#und">ընդ</g> պար
 <lb xml:id="l101990304" n="3"/>սից. և կացեալ 
 <lb xml:id="l101990305" n="4"/>սմպատ ի յաթոռ 
 <lb xml:id="l101990306" n="5"/>տուկութ<abbr>ե</abbr>ն ուռ
@@ -6226,7 +6262,7 @@
 <lb xml:id="l101990902" n="6"/>նահնին. և այս 
 <lb xml:id="l101990903" n="7"/>յակոբոս էր որ խօ
 <lb xml:id="l101990904" n="8"/>սեցաւ ի կոստան
-<lb xml:id="l101990905" n="9"/>դնուպաւլիս <g ref="">ընդ</g> 
+<lb xml:id="l101990905" n="9"/>դնուպաւլիս <g ref="#und">ընդ</g> 
 <lb xml:id="l101990906" n="10"/>իմաստասէրսն հո
 <lb xml:id="l101990907" n="11"/>ռոմոց ի յաւու
 <lb xml:id="l101990908" n="12"/>րն թ<abbr>գր</abbr>ին տուկ

@@ -3,13 +3,26 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>W243 1</title>
+        <title>Ժամանակագրութիւն</title>
+        <author>Մատթէոս Ուռհայեցի</author>
       </titleStmt>
       <publicationStmt>
         <p>Unpublished manuscript</p>
       </publicationStmt>
       <sourceDesc>
-        <msDesc/>
+        <msDesc xml:id=" K">
+          <msIdentifier>
+            <settlement>Bzommar</settlement>
+            <repository> Bibliothek des Klosters</repository>
+            <idno> 449</idno>
+          </msIdentifier>
+          <history>
+            <origin>
+              <origDate>1623</origDate>
+              <origPlace>Bitlis</origPlace>
+            </origin>
+          </history>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
   </teiHeader>

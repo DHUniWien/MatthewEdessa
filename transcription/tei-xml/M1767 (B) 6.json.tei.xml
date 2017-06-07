@@ -3,20 +3,35 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>M1767 (B) 6</title>
+        <title>Ժամանակագրութիւն</title>
+        <author>Մատթէոս Ուռհայեցի</author>
       </titleStmt>
       <publicationStmt>
         <p>Unpublished manuscript</p>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="M1767">
+        <msDesc xml:id=" K">
           <msIdentifier>
-            <settlement>Yerevan</settlement>
-            <repository>Matenadaran</repository>
+            <settlement>Bzommar</settlement>
+            <repository> Bibliothek des Klosters</repository>
+            <idno> 449</idno>
           </msIdentifier>
+          <history>
+            <origin>
+              <origDate>1623</origDate>
+            </origin>
+          </history>
         </msDesc>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <charDecl>
+        <glyph xml:id="und">
+          <glyphName>ARMENIAN END SYMBOL</glyphName>
+          <mapping>ընդ</mapping>
+        </glyph>
+      </charDecl>
+    </encodingDesc>
   </teiHeader>
   <text>
     <body>
@@ -1649,7 +1664,7 @@
 <lb xml:id="l102022934" n="6"/>նոցայ կամէի գր
 <lb xml:id="l102022935" n="7"/>ել բայց ոչ հա
 <lb xml:id="l102022936" n="8"/>մարձակեցաք զի 
-<lb xml:id="l102022937" n="9"/><g ref="">ընդ</g> իշխանու<abbr>բ</abbr> 
+<lb xml:id="l102022937" n="9"/><g ref="#und">ընդ</g> իշխանու<abbr>բ</abbr> 
 <lb xml:id="l102022938" n="10"/>ն<abbr>ց</abbr> էաք։ 
 <lb xml:id="l102022939" n="11"/><milestone unit="section" n="567"/><hi rend="red">Ի</hi>սկ ի թուա
 <lb xml:id="l102022940" n="12"/>կանու<abbr>թե</abbr>ն հայոց 
@@ -1976,7 +1991,7 @@
 <lb xml:id="l102023632" n="15"/>կոտորեաց զն<abbr>ս</abbr> 
 <lb xml:id="l102023633" n="16"/>և արար զն<abbr>ս</abbr> 
 <lb xml:id="l102023634" n="17"/>արգելականս որ 
-<lb xml:id="l102023635" n="18"/>այլ ոչ ելան <g ref="">ընդ</g> 
+<lb xml:id="l102023635" n="18"/>այլ ոչ ելան <g ref="#und">ընդ</g> 
 <lb xml:id="l102023636" n="19"/>դռւռն քաղաք
 <lb xml:id="l102023637" n="20"/>ին ի պատերա
 <lb xml:id="l102023638" n="21"/>զմ և էառ իշխ
@@ -2393,7 +2408,7 @@
 <lb xml:id="l102024697" n="8"/>և գաղտաբար 
 <lb xml:id="l102024698" n="9"/>անցուցան զմե
 <lb xml:id="l102024699" n="10"/>ծ մասն զօրա
-<lb xml:id="l102024700" n="11"/>ցն <g ref="">ընդ</g> եփրատ. 
+<lb xml:id="l102024700" n="11"/>ցն <g ref="#und">ընդ</g> եփրատ. 
 <lb xml:id="l102024701" n="12"/>գետն և ի թլպա
 <lb xml:id="l102024702" n="13"/>շարայ մինչև ի 
 <lb xml:id="l102024703" n="14"/>քեսուն առ 
