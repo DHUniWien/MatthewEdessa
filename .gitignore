@@ -62,3 +62,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# T-PEN backup creates temporary files (mainly for debugging purposes)
+transcription/.*stdout
+transcription/.*stderr
