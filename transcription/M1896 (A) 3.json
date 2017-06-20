@@ -3327,12 +3327,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "նն և մեծ հաւատաց<abbr>ել</abbr><subst rend=\"overwrite\"><del><gap extent=3/></del><add>ն <abbr>այ</abbr></add></subst> գրի"
+            "cnt:chars" : "նն և մեծ հաւատաց<abbr>ել</abbr><subst rend=\"overwrite\"><del><gap extent=\"3\"/></del><add>ն <abbr>այ</abbr></add></subst> գրի"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13196835#xywh=392,416,261,20",
           "_tpen_note" : "",
           "_tpen_creator" : 1548,
-          "modified" : "2016-12-09 08:45:57.0"
+          "modified" : "2017-06-19 13:15:32.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101925438",
           "_tpen_line_id" : "line/101925438",
@@ -14766,12 +14766,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<subst rend=\"overwrite\"><del><gap extent=\"1\" type=\"illegible\"/></del><add place=\"before\"></subst>և արդ`</add> ահա առ նա մեք հանապա՛զ "
+            "cnt:chars" : "<subst rend=\"overwrite\"><del><gap extent=\"1\" type=\"illegible\"/></del><add place=\"before\">և արդ`</add></subst> ահա առ նա մեք հանապա՛զ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13196796#xywh=115,274,261,18",
           "_tpen_note" : "",
-          "_tpen_creator" : 281,
-          "modified" : "2016-11-04 15:51:15.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2017-06-19 13:16:56.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102006800",
           "_tpen_line_id" : "line/102006800",
@@ -15506,12 +15506,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "պէս։ Բայց դուք <subst rend=\"overwrite\"><del><gap extent=\"5\" type=\"illegible\"></del><add>մի՛ վհ</add></subst>ատի՛ք "
+            "cnt:chars" : "պէս։ Բայց դուք <subst rend=\"overwrite\"><del><gap extent=\"5\" type=\"illegible\"></gap></del><add>մի՛ վհ</add></subst>ատի՛ք "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13196806#xywh=67,122,252,22",
           "_tpen_note" : "",
-          "_tpen_creator" : 281,
-          "modified" : "2016-11-04 16:17:26.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2017-06-19 13:19:35.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102013027",
           "_tpen_line_id" : "line/102013027",
