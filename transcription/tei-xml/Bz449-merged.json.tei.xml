@@ -10,12 +10,17 @@
         <p>Unpublished manuscript</p>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id=" K">
+        <msDesc xml:id="K">
           <msIdentifier>
             <settlement>Bzommar</settlement>
-            <repository> Bibliothek des Klosters</repository>
+            <repository>Bibliothek des Klosters</repository>
             <idno> 449</idno>
           </msIdentifier>
+          <history>
+            <origin>
+              <origDate>1699</origDate>
+            </origin>
+          </history>
         </msDesc>
       </sourceDesc>
     </fileDesc>
