@@ -43,6 +43,22 @@
     "label" : "msCollection",
     "value" : " "
   } ],
+  "service" : [ {
+    "@context" : "http://iiif.io/api/auth/1/context.json",
+    "@id" : "http://t-pen.org/TPEN/login.jsp",
+    "profile" : "http://iiif.io/api/auth/1/login",
+    "label" : "T-PEN Login",
+    "header" : "Login for image access",
+    "description" : "Agreement requires an open T-PEN session to view images",
+    "confirmLabel" : "Login",
+    "failureHeader" : "T-PEN Login Failed",
+    "failureDescription" : "<a href=\"http://t-pen.org/TPEN/about.jsp\">Read Agreement</a>",
+    "service" : [ {
+      "@id" : "http://t-pen.org/TPEN/login.jsp",
+      "profile" : "http://iiif.io/api/auth/1/logout",
+      "label" : "End T-PEN Session"
+    } ]
+  } ],
   "sequences" : [ {
     "@id" : "http://t-pen.org/TPEN/manifest/4551/sequence/normal",
     "@type" : "sc:Sequence",
