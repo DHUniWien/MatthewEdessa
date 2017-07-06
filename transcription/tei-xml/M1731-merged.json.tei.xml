@@ -10,7 +10,19 @@
         <p>Unpublished manuscript</p>
       </publicationStmt>
       <sourceDesc>
-        <msDesc/>
+        <msDesc xml:id="F">
+          <msIdentifier>
+            <settlement>Yerevan</settlement>
+            <repository>Matenadaran</repository>
+            <idno>1731</idno>
+          </msIdentifier>
+          <history>
+            <origin>
+              <origDate>1617</origDate>
+              <origPlace>Lviv</origPlace>
+            </origin>
+          </history>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>

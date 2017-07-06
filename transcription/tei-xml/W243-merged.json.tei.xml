@@ -10,7 +10,18 @@
         <p>Unpublished manuscript</p>
       </publicationStmt>
       <sourceDesc>
-        <msDesc/>
+        <msDesc xml:id="W243">
+          <msIdentifier>
+            <settlement>Vienna</settlement>
+            <repository>Mekhitarist Library</repository>
+            <idno>243</idno>
+          </msIdentifier>
+          <history>
+            <origin>
+              <origDate>18th-19th c.</origDate>
+            </origin>
+          </history>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
