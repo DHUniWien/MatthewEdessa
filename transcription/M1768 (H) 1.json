@@ -11390,12 +11390,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "բար հարկանէր զնա՛, և յերկո՛ւսս պատա՛ռե<abbr>ց</abbr> "
+            "cnt:chars" : "բար հարկանէր զնա՛, և յ<num value=\"2\">երկո՛ւս</num>ս պատա՛ռե<abbr>ց</abbr> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13223564#xywh=122,213,527,24",
           "_tpen_note" : "",
           "_tpen_creator" : 1932,
-          "modified" : "2017-03-21 14:59:01.0"
+          "modified" : "2017-07-07 04:00:04.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102615050",
           "_tpen_line_id" : "line/102615050",
