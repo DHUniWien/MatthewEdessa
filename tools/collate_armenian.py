@@ -79,22 +79,28 @@ def normalize_witness(wit, base, milestone, input, first_layer=False):
             msdata = json.load(fh)
         xmlobj = from_sc(msdata, special_chars=_armenian_glyphs, numeric_parser=numberparse)
     else:
-        with open(xmlfile, encoding='utf-8') as fh:
+        with open(wit, encoding='utf-8') as fh:
             xmlobj = etree.parse(fh)
     tokens = from_etree(xmlobj, milestone=milestone, first_layer=first_layer)
     if not len(tokens):
         # The witness doesn't have anything for the given milestone. Skip it.
         return None
+
+    ## Get the intended sigil of the manuscript
+    # Backup option:
     sigil = re.sub('(\.(json|tei|xml))+$', '', basename(wit))
-    # sigil = xmlobj.getroot().find(
-    #         '{http://www.tei-c.org/ns/1.0}msDesc').get(
-    #         '{http://www.w3.org/XML/1998/namespace}id')
+    # Now try to find it for real
+    ns = {'t': 'http://www.tei-c.org/ns/1.0'}
+    msdesc = xmlobj.getroot().xpath('//t:msDesc', namespaces=ns)
+    if len(msdesc) > 0 and '{http://www.w3.org/XML/1998/namespace}id' in msdesc[0].keys():
+        sigil = msdesc[0].get('{http://www.w3.org/XML/1998/namespace}id')
+    # Add the a.c. designator if we need to
     if first_layer:
         sigil += ' (a.c.)'
     witnesses.append({'id': sigil, 'tokens': normalize_spelling(tokens)})
 
-    # Add in the base, which is a plain text file.
-    tokens = plaintext_tokenize(base)
+    # Add in the base, which is a simple TEI file with the canonical set of milestones.
+    tokens = from_file(base, milestone=milestone)
     witnesses.append({'id': 'BASE', 'tokens': normalize_spelling(tokens)})
 
     # Now do the collation. Use the Java version for this.
@@ -123,14 +129,6 @@ def normalize_witness(wit, base, milestone, input, first_layer=False):
         witness_tokens.append(collated_token)
 
     return {'id': sigil, 'tokens': witness_tokens}
-    
-def plaintext_tokenize(txtfile):
-    tokens = []
-    with open(txtfile, encoding='utf-8') as fh:
-        words = fh.read()
-        for word in words.split():
-            tokens.append({'t': word, 'n': word, 'lit': word})
-    return tokens
 
 
 def _collate(witnesses, output='json'):
