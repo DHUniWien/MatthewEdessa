@@ -15,6 +15,6 @@ for page in pages:
     if pgtag is not None and page['label'].find(pgtag) < 0:
         continue
     pglines = [x['resource']['cnt:chars'] for x in page['otherContent'][0]['resources']]
-    lines.append(''.join(pglines))
+    lines.append('\n'.join(pglines))
 
 print(''.join(lines))
