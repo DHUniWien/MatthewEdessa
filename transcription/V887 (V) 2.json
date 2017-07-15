@@ -18023,12 +18023,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ոյ այլ աւուրն ան<abbr>կւ</abbr> հուր <g ref=\"երկինք\">երկնի</g>ց ի վ<abbr>ր</abbr> եկեղեցոյն <abbr>սբ</abbr> պետ<abbr>րս</abbr>ի, և <g ref=\"\">որպէս</g> զղամբր "
+            "cnt:chars" : "ոյ այլ աւուրն ան<abbr>կւ</abbr> հուր <g ref=\"երկինք\">երկնի</g>ց ի վ<abbr>ր</abbr> եկեղեցոյն <abbr>սբ</abbr> պետ<abbr>րս</abbr>ի, և <g ref=\"\">որպէս</g> զղամբ<g ref=\"\">ա</g>ր "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13198004#xywh=755,149,467,29",
-          "_tpen_note" : "There is something between բ and ր in զղամբր. It seems to be the abbr. of ա. Can I mention it like abbr.?",
-          "_tpen_creator" : 1548,
-          "modified" : "2016-01-12 05:20:46.0"
+          "_tpen_note" : "There is something between բ and ր in զղամբր. It seems to be the abbr. of ա. Can I mention it like abbr.? - TLA I have seen that elsewhere, and am calling it a glyph for ա. I've marked it as such here.",
+          "_tpen_creator" : 281,
+          "modified" : "2017-07-14 10:34:25.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101765422",
           "_tpen_line_id" : "line/101765422",
@@ -18607,12 +18607,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ին մեծաւ աղաչանօք <del rend=\"erase\"><supplied>գային ի հ<abbr>նզ</abbr>նդւ<abbr>ի</abbr></supplied></del>  և ա<abbr>սց</abbr>ին. ով <g ref=\"\">աշխարհ</g>ակալ սուլտան, "
+            "cnt:chars" : "ին մեծաւ աղաչանօք <del rend=\"strike\">գային ի հ<abbr>նզ</abbr>նդւ<abbr>ի</abbr></del>  և ա<abbr>սց</abbr>ին. ով <g ref=\"\">աշխարհ</g>ակալ սուլտան, "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13198038#xywh=35,666,606,30",
-          "_tpen_note" : "<del rend=''erase''><supplied>գային ի հ<abbr>նզ</abbr>նդւ<abbr>ի</abbr></supplied></del> Is it right?",
-          "_tpen_creator" : 1548,
-          "modified" : "2017-06-08 10:19:53.0"
+          "_tpen_note" : "<del rend=\"erase\"><supplied>գային ի հ<abbr>նզ</abbr>նդւ<abbr>ի</abbr></supplied></del> Is it right? - TLA I've fixed it, you don't need the supplied and it's struck out, not erased. Otherwise it's good.",
+          "_tpen_creator" : 281,
+          "modified" : "2017-07-14 10:36:44.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101766171",
           "_tpen_line_id" : "line/101766171",
