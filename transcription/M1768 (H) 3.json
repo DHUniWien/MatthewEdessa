@@ -16214,12 +16214,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ոյն. և մտեալ քղքցի<g  ref=\"\">նք</g>ն յեկեղեցին և գազանաբար "
+            "cnt:chars" : "ոյն. և մտեալ քղքցի<subst><del type=\"overwrite\">ն</del><add>ք</add></subst>ն յեկեղեցին և գազանաբար "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13223457#xywh=143,404,539,24",
           "_tpen_note" : "<g  ref=\"\">նք</g>",
-          "_tpen_creator" : 1932,
-          "modified" : "2017-04-29 05:25:33.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2017-09-05 16:42:47.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102836330",
           "_tpen_line_id" : "line/102836330",
@@ -31558,8 +31558,8 @@
           },
           "on" : "http://t-pen.org/TPEN/canvas/13223477#xywh=39,787,531,45",
           "_tpen_note" : "",
-          "_tpen_creator" : 1932,
-          "modified" : "2017-05-05 06:50:07.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2017-09-05 16:56:55.0"
         } ]
       } ],
       "images" : [ {

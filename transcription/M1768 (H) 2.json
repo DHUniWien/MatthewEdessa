@@ -5374,12 +5374,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "երկրի՛ մինչև <g  ref=\"\">արեգակ</g>ն և <g  ref=\"\">լուս</g>ին ի կերպս արեան երև: "
+            "cnt:chars" : "երկրի՛ մինչև ն և <g  ref=\"լուսին\">լուս</g>ին ի կերպս արեան երև: "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13223633#xywh=148,546,565,23",
           "_tpen_note" : "",
-          "_tpen_creator" : 1932,
-          "modified" : "2017-05-07 16:58:57.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2017-09-05 16:34:51.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102659509",
           "_tpen_line_id" : "line/102659509",
@@ -8927,12 +8927,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "կացա՛ւ պատեր<g  ref=\"\">եա</g>զմն և գոջէ՛ր <abbr>ոպ</abbr> զառի՛ւծ ի "
+            "cnt:chars" : "կացա՛ւ պատեր<subst><del type=\"overwrite\">ե</del><add>ա</add></subst>զմն և գոջէ՛ր <abbr>ոպ</abbr> զառի՛ւծ ի "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13223603#xywh=18,630,585,26",
           "_tpen_note" : "",
-          "_tpen_creator" : 1932,
-          "modified" : "2017-04-03 14:29:54.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2017-09-05 16:37:19.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102669483",
           "_tpen_line_id" : "line/102669483",
