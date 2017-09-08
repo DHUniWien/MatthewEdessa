@@ -21452,12 +21452,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<supplied>Յ</supplied>այնժա՛մ <abbr>տր</abbr> պետրոս հ<abbr>յր</abbr>պե՛տն հայոց. և_ "
+            "cnt:chars" : "<supplied>Յ</supplied>այնժա՛մ <abbr>տր</abbr> պետրոս հ<abbr>յ<subst rend=\"overwrite\"><del>յ</del><add>ր</add></subst></abbr>պե՛տն հայոց. և_ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13223568#xywh=128,119,565,35",
           "_tpen_note" : "",
           "_tpen_creator" : 1932,
-          "modified" : "2017-04-24 11:13:09.0"
+          "modified" : "2017-09-07 15:47:07.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102633109",
           "_tpen_line_id" : "line/102633109",
@@ -24707,12 +24707,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "և զխանսն հոռոմոց որք եկեա՛լ էին կողմնա<abbr>պհ</abbr> "
+            "cnt:chars" : "և զխանսն հոռոմոց որք եկեա՛լ էին կող<subst rend=\"overwrite\"><del>ն</del><add>մ</add></subst>նա<abbr>պհ</abbr> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13223512#xywh=137,430,550,29",
           "_tpen_note" : "",
           "_tpen_creator" : 1932,
-          "modified" : "2017-03-28 15:09:49.0"
+          "modified" : "2017-09-07 21:38:40.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102638734",
           "_tpen_line_id" : "line/102638734",
