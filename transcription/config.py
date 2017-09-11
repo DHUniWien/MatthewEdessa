@@ -112,4 +112,4 @@ def milestones():
             for line in fh:
                 for m in re.finditer(r'milestone unit="section" n="(\w+)"', line):
                     milestonelist.append(m.group(1))
-    return milestonelist[0:5]
+    return milestonelist[50:55]
