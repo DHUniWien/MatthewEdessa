@@ -1265,12 +1265,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "Յայսմ ժամանակի ապաստամբեց"
+            "cnt:chars" : "<hi rend=\"ornament\">Յ</hi>այսմ ժամանակի ապաստամբեց"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13198223#xywh=682,365,465,33",
-          "_tpen_note" : "տառի ձևը տարբերվում ա",
-          "_tpen_creator" : 1903,
-          "modified" : "2017-04-04 05:35:30.0"
+          "_tpen_note" : "",
+          "_tpen_creator" : 1548,
+          "modified" : "2017-09-10 07:15:40.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102670240",
           "_tpen_line_id" : "line/102670240",
@@ -7379,12 +7379,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi  rend=\"red\">Այս տեղիս պակասէ՛ շատ բան և յաւր</hi>"
+            "cnt:chars" : "<add><hi  rend=\"red\">Այս տեղիս պակասէ՛ շատ բան և յաւր"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13198187#xywh=112,703,477,30",
-          "_tpen_note" : "տեքստից դուրս ավելացում",
-          "_tpen_creator" : 1903,
-          "modified" : "2017-04-29 05:54:54.0"
+          "_tpen_note" : "",
+          "_tpen_creator" : 1548,
+          "modified" : "2017-09-10 07:30:00.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102691894",
           "_tpen_line_id" : "line/102691894",
@@ -7392,12 +7392,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi  rend=\"red\">ինակն չկա՛ գրած։</hi> միշտ\n\n"
+            "cnt:chars" : "ինակն չկա՛ գրած։</hi></add> <gap extent=12 reason=\"erased\"/> <del type=\"scribble\" extent=\"1\">unclear</del> միշտ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13198187#xywh=112,733,477,38",
-          "_tpen_note" : "1․ տեքստից դուրս ավելացում, 2․բացթողում",
-          "_tpen_creator" : 1903,
-          "modified" : "2017-04-07 07:39:03.0"
+          "_tpen_note" : "",
+          "_tpen_creator" : 1548,
+          "modified" : "2017-09-10 07:35:05.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102691895",
           "_tpen_line_id" : "line/102691895",
@@ -7405,12 +7405,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "և հանապազ ի գինարբուս դեգեր"
+            "cnt:chars" : "<del type=\"blot\"><hi rend=\"red\">Մ</hi></del> և հանապազ ի գինարբուս դեգեր"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13198187#xywh=112,771,477,26",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2017-04-07 07:43:40.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2017-09-10 07:34:18.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102691896",
           "_tpen_line_id" : "line/102691896",
@@ -16064,12 +16064,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<milestone unit=\"section\" n=\"486\"/><hi  rend=\"red\">Ի</hi>սկ ի փոխել թվականո<abbr>ւթե</abbr>ս հայոց "
+            "cnt:chars" : "<milestone unit=\"section\" n=\"486\"/><hi  rend=\"red\">Ի</hi>սկ <del type=\"strike\" extent=\"5\">unclear</del> ի փոխել թվականո<abbr>ւթե</abbr>ս հայոց "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13198183#xywh=649,536,488,24",
-          "_tpen_note" : "ջնջվածը անհասկանալի ա",
-          "_tpen_creator" : 1903,
-          "modified" : "2017-04-30 12:06:00.0"
+          "_tpen_note" : "",
+          "_tpen_creator" : 1548,
+          "modified" : "2017-09-10 07:39:04.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102722769",
           "_tpen_line_id" : "line/102722769",
