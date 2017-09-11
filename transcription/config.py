@@ -1,5 +1,7 @@
 """Configuration routines for tpen2tei and friends"""
 
+import os
+import re
 import yaml
 
 metadata = {
@@ -69,3 +71,24 @@ def transcription_filter(line):
     '“', '"').replace(    # fix curly quote pasting by Anahit
     '”', '"').replace(
     ',', '.')             # MSS have no difference between comma & dot
+
+def normalise_armenian(token):
+    if token['n'] == token['t']:
+        str = token['n'].lower().replace('եւ', 'և').replace('աւ', 'օ')
+        if re.search(r'\w', str) is not None:
+            str = re.sub(r'[\W]', '', str)
+        token['n'] = str
+        
+def milestones():
+    # Where are we?
+    milestonelist = []
+    ourpath = os.path.abspath(os.path.dirname(__file__))
+    ocrpath = ourpath.replace('transcription', 'ocr')
+    ocrfiles = [f for f in os.listdir(ocrpath)
+        if f.startswith('vagharshapat') and f.endswith('.txt')]
+    for f in sorted(ocrfiles):
+        with open("%s/%s" % (ocrpath, f), encoding='utf-8') as fh:
+            for line in fh:
+                for m in re.finditer(r'milestone unit="section" n="(\w+)"', line):
+                    milestonelist.append(m.group(1))
+    return milestonelist
