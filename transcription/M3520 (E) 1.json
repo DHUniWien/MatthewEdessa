@@ -161,12 +161,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ռչակաւոր մայրաքաղաքն ուռհայ, զոր ըսկան"
+            "cnt:chars" : "ռչակաւոր մայրաքաղաքն ուռհայ, զորըս կան"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220519#xywh=24,321,521,24",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-05-06 12:56:38.0"
+          "modified" : "2017-09-13 10:20:01.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102888130",
           "_tpen_line_id" : "line/102888130",
@@ -291,12 +291,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "զիմիմեանս <del type=\"scribble\"><unclear extent=\"1\"/></del>ուտէին, և իշխանքն և մեծամեծքն "
+            "cnt:chars" : "զիմիմեանս <del type=\"scribble\" extent=\"1\">unclear</del> ուտէին, և իշխանքն և մեծամեծքն "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220519#xywh=24,584,521,26",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-07-06 13:42:08.0"
+          "modified" : "2017-09-13 10:09:13.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102888140",
           "_tpen_line_id" : "line/102888140",
@@ -407,12 +407,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "բազմութ<abbr>բ</abbr> անցեսալ ընդ մեծ գետն եփրատ "
+            "cnt:chars" : "բազումութ<abbr>բ</abbr> անցեսալ ընդ մեծ գետն եփրատ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220524#xywh=176,179,480,33",
           "_tpen_note" : "",
-          "_tpen_creator" : 11,
-          "modified" : "2017-05-19 13:11:23.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-09-13 10:10:45.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102888147",
           "_tpen_line_id" : "line/102888147",
@@ -446,12 +446,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ոց, որում անուն ասէ պառակամանոս․ այր զ"
+            "cnt:chars" : "ոց, որում անուն ասէին պառակամանոս․ այր զ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220524#xywh=176,267,480,20",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-07-06 13:44:18.0"
+          "modified" : "2017-09-13 10:11:31.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102888150",
           "_tpen_line_id" : "line/102888150",
@@ -16411,12 +16411,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<milestone unit=\"section\" n=\"460\"/><hi  rend=\"red\">Ի</hi>սկ ի թուականն հայոց <num  value=\"407\">․դ՟ճ՟է՟․</num> ամեն զաւրաժող"
+            "cnt:chars" : "<milestone unit=\"section\" n=\"460\"/><hi  rend=\"red\">Ի</hi>սկ ի թուականն հայոց <num  value=\"460\">․դ՟ճ՟կ՟․</num> ամեն զաւրաժող"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220599#xywh=50,479,502,22",
-          "_tpen_note" : "դճէ=407/460",
+          "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-07-08 09:25:27.0"
+          "modified" : "2017-09-13 07:12:36.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103047842",
           "_tpen_line_id" : "line/103047842",
@@ -16569,9 +16569,9 @@
             "cnt:chars" : "ականու<abbr>թի</abbr>ն հայոց հասանէր ի յամս <num  value=\"467\">․դ՟ճ՟կ՟է՟</num>զար"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220554#xywh=115,172,519,29",
-          "_tpen_note" : "դճկէ=467/465",
+          "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-05-20 23:32:29.0"
+          "modified" : "2017-09-13 07:03:41.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103047852",
           "_tpen_line_id" : "line/103047852",
@@ -21390,9 +21390,9 @@
             "cnt:chars" : "ձեալ ի թուականութ<abbr>ե</abbr>ս մերում յամս <num  value=\"484\">դ՟ճ՟ և ձ՟դ՟․</num> մե"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220535#xywh=30,508,472,34",
-          "_tpen_note" : "I changed 483 to 484, because դճ և ձդ",
+          "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-05-26 10:59:17.0"
+          "modified" : "2017-09-14 01:10:02.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103052019",
           "_tpen_line_id" : "line/103052019",
@@ -26107,9 +26107,9 @@
             "cnt:chars" : "ու<abbr>թե</abbr>ս հայոց <num  value=\"405\">ն՟ձ՟ե՟</num> ամին լինէր ժողով մեծ ի քաղ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220547#xywh=133,584,476,33",
-          "_tpen_note" : "405/407",
+          "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-05-27 23:53:21.0"
+          "modified" : "2017-09-13 07:15:57.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103064801",
           "_tpen_line_id" : "line/103064801",
@@ -33399,12 +33399,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ասարակ <abbr>ամ</abbr> տեեզերք․ <g ref=\"\">ըս</g> բանի մարգարէին որ ա"
+            "cnt:chars" : "ասարակ <abbr>ամ</abbr> տեեզերք․ <g ref=\"ըստ\">ըս</g> բանի մարգարէին որ ա"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220521#xywh=134,259,483,22",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-07-10 14:12:03.0"
+          "modified" : "2017-09-13 05:15:05.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103070656",
           "_tpen_line_id" : "line/103070656",
@@ -35589,12 +35589,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<abbr>նր</abbr> աբրեհիմն էառ․ և <num  value=\"40\">խ՟</num> ուղտ բարձաւ զգա"
+            "cnt:chars" : "<abbr>նր</abbr> աբր<add place=\"above\">ա</add>եհի<add place=\"above\">ամ</add>մն էառ․ և <num  value=\"40\">խ՟</num> ուղտ բարձաւ զգա"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220546#xywh=50,272,460,20",
-          "_tpen_note" : "աբրե/ա/հի/ամ/մնք",
+          "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-07-10 15:03:34.0"
+          "modified" : "2017-09-13 07:18:41.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103072542",
           "_tpen_line_id" : "line/103072542",
@@ -35735,9 +35735,9 @@
             "cnt:chars" : "ահա․ այս սկիզբն եղև հայոց կոր<add place=\"above\">ը</add>ս<add place=\"above\">տ</add>եանս. լուր"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220546#xywh=50,557,460,24",
-          "_tpen_note" : "հետագա հավելում է թվում",
+          "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-07-10 15:07:47.0"
+          "modified" : "2017-09-13 08:00:35.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103072553",
           "_tpen_line_id" : "line/103072553",
@@ -37157,12 +37157,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "նէր ձայն պատերազմին առ լիպարիտն․ <g ref=\"\"> թէ</g> հասիր"
+            "cnt:chars" : "նէր ձայն պատերազմին առ լիպարիտն․ <g ref=\"\">թէ</g> հասիր"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220623#xywh=162,296,479,24",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-07-11 06:15:46.0"
+          "modified" : "2017-09-13 05:18:34.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103072919",
           "_tpen_line_id" : "line/103072919",
@@ -37183,12 +37183,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "արիտն ե<g ref=\"\">թէ </g> շաբա<g ref=\"\">թէ</g>, և ոչ է  վրացեացս ելանել յա"
+            "cnt:chars" : "արիտն ե<g ref=\"\">թէ</g> շաբա<g ref=\"\">թէ</g>, և ոչ է  վրացեացս ելանել յա"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220623#xywh=162,349,479,27",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-07-11 06:16:30.0"
+          "modified" : "2017-09-13 05:18:50.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103072921",
           "_tpen_line_id" : "line/103072921",
@@ -38090,12 +38090,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "բնակեալ կային, և ասացին․ <g ref=\"\">թէ </g> անհնազանդ "
+            "cnt:chars" : "բնակեալ կային, և ասացին․ <g ref=\"\">թէ</g> անհնազանդ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220648#xywh=45,296,477,25",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-07-11 22:40:01.0"
+          "modified" : "2017-09-13 05:23:16.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103205397",
           "_tpen_line_id" : "line/103205397",
@@ -42444,12 +42444,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "եղի առեալ ոչ գնայր. և կարծէին <g ref=\"\"> թէ</g> ընդ մեծու"
+            "cnt:chars" : "եղի առեալ ոչ գնայր. և կարծէին <g ref=\"\">թէ</g> ընդ մեծու"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220622#xywh=48,269,470,23",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-07-11 23:05:46.0"
+          "modified" : "2017-09-13 05:28:53.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103206579",
           "_tpen_line_id" : "line/103206579",
