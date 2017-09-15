@@ -52359,12 +52359,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<num>դ՟ճ՟ձ՟ե՟.</num>, խաւարե"
+            "cnt:chars" : "<num value=\"485\">դ՟ճ՟ձ՟ե՟.</num>, խաւարե"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13192752#xywh=308,598,190,28",
-          "_tpen_note" : "թիվ",
+          "_tpen_note" : "",
           "_tpen_creator" : 1548,
-          "modified" : "2016-08-05 10:18:24.0"
+          "modified" : "2017-09-14 09:35:08.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101920552",
           "_tpen_line_id" : "line/101920552",
@@ -59502,8 +59502,8 @@
           },
           "on" : "http://t-pen.org/TPEN/canvas/13192722#xywh=226,668,168,24",
           "_tpen_note" : "seems to be a real comma",
-          "_tpen_creator" : 281,
-          "modified" : "2016-08-02 23:39:18.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2017-09-14 09:37:01.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101412964",
           "_tpen_line_id" : "line/101412964",
@@ -63639,12 +63639,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ի կարգ քահանայու"
+            "cnt:chars" : "ի կար<subst rend=\"overwrite\"><del>լ</del><add>գ</add></subst> քահանայու"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13192668#xywh=419,216,201,24",
-          "_tpen_note" : "կարգ",
+          "_tpen_note" : "",
           "_tpen_creator" : 1548,
-          "modified" : "2016-08-08 07:59:46.0"
+          "modified" : "2017-09-14 09:40:28.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101917355",
           "_tpen_line_id" : "line/101917355",
@@ -69909,12 +69909,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "կամեցաւ թ<abbr>գր</abbr>ել "
+            "cnt:chars" : "կամեցա<subst rend=\"overwrite\"><del>ց</del><add>ւ</add></subst> թ<abbr>գր</abbr>ել "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13192754#xywh=281,598,188,26",
-          "_tpen_note" : "ց-ւ",
+          "_tpen_note" : "",
           "_tpen_creator" : 1548,
-          "modified" : "2016-08-08 10:43:22.0"
+          "modified" : "2017-09-14 09:41:43.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101917838",
           "_tpen_line_id" : "line/101917838",
@@ -72427,12 +72427,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ազգի զը"
+            "cnt:chars" : "ազգի <gap extent=\"7\"/> զը"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13192701#xywh=275,239,210,33",
-          "_tpen_note" : "՞",
+          "_tpen_note" : "",
           "_tpen_creator" : 1548,
-          "modified" : "2016-08-09 07:10:57.0"
+          "modified" : "2017-09-14 09:42:56.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101918024",
           "_tpen_line_id" : "line/101918024",
@@ -72505,12 +72505,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "հայրենի իւրոյ զոր "
+            "cnt:chars" : "հայրե<add place=\"above\">ն</add>ի իւրոյ զոր "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13192701#xywh=275,395,210,28",
-          "_tpen_note" : "ն",
+          "_tpen_note" : "",
           "_tpen_creator" : 1548,
-          "modified" : "2016-08-09 07:12:16.0"
+          "modified" : "2017-09-14 09:43:54.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101918030",
           "_tpen_line_id" : "line/101918030",
@@ -75493,9 +75493,9 @@
             "cnt:chars" : "գայլան ամեա. և "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13192716#xywh=214,372,183,26",
-          "_tpen_note" : "գայլան",
+          "_tpen_note" : "",
           "_tpen_creator" : 1548,
-          "modified" : "2016-08-09 08:34:06.0"
+          "modified" : "2017-09-14 09:44:40.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101918251",
           "_tpen_line_id" : "line/101918251",
@@ -75508,7 +75508,7 @@
           "on" : "http://t-pen.org/TPEN/canvas/13192716#xywh=214,398,183,27",
           "_tpen_note" : "",
           "_tpen_creator" : 1548,
-          "modified" : "2016-08-09 08:34:15.0"
+          "modified" : "2017-09-14 09:44:59.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101918252",
           "_tpen_line_id" : "line/101918252",
@@ -75521,7 +75521,7 @@
           "on" : "http://t-pen.org/TPEN/canvas/13192716#xywh=214,425,183,26",
           "_tpen_note" : "",
           "_tpen_creator" : 1548,
-          "modified" : "2016-08-09 08:34:20.0"
+          "modified" : "2017-09-14 09:44:56.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101918253",
           "_tpen_line_id" : "line/101918253",
