@@ -7799,12 +7799,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "առակո՛ւ<abbr>թե</abbr> ի մէջ երկուց հ<abbr>յր</abbr>պ<abbr>տ</abbr>ցն. գրիգորիսի՛ "
+            "cnt:chars" : "առակո՛ւ<abbr>թե</abbr> ի մէջ <num value=\"2\">երկու</num>ց հ<abbr>յր</abbr>պ<abbr>տ</abbr>ցն. գրիգորիսի՛ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13223488#xywh=135,736,551,26",
           "_tpen_note" : "",
           "_tpen_creator" : 1932,
-          "modified" : "2017-04-27 14:25:26.0"
+          "modified" : "2017-09-15 16:30:22.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102802115",
           "_tpen_line_id" : "line/102802115",

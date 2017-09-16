@@ -2668,12 +2668,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "կանգնե<subst><del rend=\"erase\"><ex>ա</ex></del>ց<add place=\"above\">ին</add></subst> բաբանս և փիլիկպանս, "
+            "cnt:chars" : "կանգնե<del rend=\"erase\"><ex>ա</ex></del>ց<add place=\"above\">ին</add> բաբանս և փիլիկպանս, "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13196708#xywh=394,762,270,23",
           "_tpen_note" : "",
           "_tpen_creator" : 281,
-          "modified" : "2016-03-01 07:51:11.0"
+          "modified" : "2017-09-15 13:39:19.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101824730",
           "_tpen_line_id" : "line/101824730",
