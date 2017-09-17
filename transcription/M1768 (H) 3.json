@@ -12168,12 +12168,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "և զերեք յորդիքն ձեռօքն իւրո՛վք է սպա՛ն և զենե<abbr>ց</abbr> "
+            "cnt:chars" : "և զ<num value=\"3\">երեք</num> յորդիքն ձեռօքն իւրո՛վք է սպա՛ն և զենե<abbr>ց</abbr> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13223485#xywh=128,114,558,29",
           "_tpen_note" : "",
           "_tpen_creator" : 1932,
-          "modified" : "2017-04-28 14:02:46.0"
+          "modified" : "2017-09-16 15:53:49.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102835611",
           "_tpen_line_id" : "line/102835611",
@@ -12324,12 +12324,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "սին խոցեալ զսուլտանն հարեալ յերեք տեղիս և "
+            "cnt:chars" : "սին խոցեալ զսուլտանն հարեալ յ<num value=\"3\">երեք</num> տեղիս և "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13223485#xywh=128,435,558,29",
           "_tpen_note" : "",
           "_tpen_creator" : 1932,
-          "modified" : "2017-04-28 14:57:22.0"
+          "modified" : "2017-09-16 15:54:49.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102835623",
           "_tpen_line_id" : "line/102835623",
@@ -13932,12 +13932,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "դն և <abbr>ա</abbr>մ թուրգնն փախստակա՛ն լինէին առա"
+            "cnt:chars" : "դն և <abbr>ա</abbr>մ թուրգ<subst rend=\"overwrite\"><del>ն</del><add>ք</add></subst>ն փախստակա՛ն լինէին առա"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13223495#xywh=145,502,537,26",
           "_tpen_note" : "",
           "_tpen_creator" : 1932,
-          "modified" : "2017-04-28 16:25:29.0"
+          "modified" : "2017-09-16 16:14:28.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102836037",
           "_tpen_line_id" : "line/102836037",
