@@ -6695,12 +6695,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ե<del type=\"cancel\">անբ</del> հեղմամբ գային ի վ<abbr>ր</abbr> ազգին քրիս_"
+            "cnt:chars" : "եա<subst rend=\"overwrite\"><del type=\"cancel\">մբ</del><add place=\"above\">ն</add></subst> հեղմամբ գային ի վ<abbr>ր</abbr> ազգին քրիս_"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202187#xywh=129,896,586,31",
           "_tpen_note" : "",
-          "_tpen_creator" : 1548,
-          "modified" : "2017-06-08 11:21:23.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2017-10-26 15:04:22.0"
         } ]
       } ],
       "images" : [ {
