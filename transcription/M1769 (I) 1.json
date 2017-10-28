@@ -1137,8 +1137,8 @@
           },
           "on" : "http://t-pen.org/TPEN/canvas/13227035#xywh=36,48,586,89",
           "_tpen_note" : "",
-          "_tpen_creator" : 1923,
-          "modified" : "2017-09-14 04:36:00.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2017-10-27 07:42:47.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102979418",
           "_tpen_line_id" : "line/102979418",
@@ -5333,12 +5333,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "մերձ ի քաղաքն <num value=\"2\">.բ՟.</num> նետ ընգէցս. և յետս սակաւ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13227084#xywh=15,15,525,120",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2017-10-22 14:07:37.0"
+          "modified" : "2017-10-27 07:54:51.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102979887",
           "_tpen_line_id" : "line/102979887",
@@ -8095,25 +8095,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ենի տօն էր սրբոց առաքելոցն. նա յաւանիկ և ըզ"
+            "cnt:chars" : "ենի տօն էր սրբոց առաքելոցն. նա յաւանիկ և ըզ <note place=\"margin-bottom\"><num value=\"20\">ի՟</num></note> "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13227082#xywh=146,809,577,51",
+          "on" : "http://t-pen.org/TPEN/canvas/13227082#xywh=146,809,577,142",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2017-05-11 06:53:29.0"
-        }, {
-          "@id" : "http://t-pen.org/TPEN/line/102980383",
-          "_tpen_line_id" : "line/102980383",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : " ի "
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13227082#xywh=146,860,577,91",
-          "_tpen_note" : "",
-          "_tpen_creator" : 1904,
-          "modified" : "2017-05-11 06:53:17.0"
+          "modified" : "2017-10-27 08:11:29.0"
         } ]
       } ],
       "images" : [ {
@@ -8458,25 +8445,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "և ընդ հոռոմոց. իշխանու<abbr>բ</abbr> արարաք. և կարգե"
+            "cnt:chars" : "և ընդ հոռոմոց. իշխանու<abbr>բ</abbr> արարաք. և կարգե <note place=\"margin-bottom\"><num value=\"21\">ի՟ա՟</num></note> "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13227031#xywh=30,799,516,30",
+          "on" : "http://t-pen.org/TPEN/canvas/13227031#xywh=30,799,516,146",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2017-05-11 07:24:06.0"
-        }, {
-          "@id" : "http://t-pen.org/TPEN/line/102980440",
-          "_tpen_line_id" : "line/102980440",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : " իա "
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13227031#xywh=30,829,516,116",
-          "_tpen_note" : "",
-          "_tpen_creator" : 1904,
-          "modified" : "2017-05-11 07:24:14.0"
+          "modified" : "2017-10-27 08:12:50.0"
         } ]
       } ],
       "images" : [ {
@@ -9171,12 +9145,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "և արարաք ծառայս զնս մեզ. վ<abbr>ս</abbr> ամիսս. <num  value=\"7\">է</num>. շրջեցաւ "
+            "cnt:chars" : "և արարաք ծառայս զնս մեզ. վ<abbr>ս</abbr> ամիսս <num  value=\"7\">.է.</num> շրջեցաւ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13227103#xywh=39,800,577,36",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2017-05-11 08:09:00.0"
+          "modified" : "2017-10-27 08:03:03.0"
         } ]
       } ],
       "images" : [ {
@@ -9909,12 +9883,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ղակեցաք. սուր տանել առ զօրավարն մեր. որ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13227117#xywh=130,63,602,73",
           "_tpen_note" : "",
-          "_tpen_creator" : 1923,
-          "modified" : "2017-10-22 15:16:34.0"
+          "_tpen_creator" : 1904,
+          "modified" : "2017-10-27 08:04:37.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102980647",
           "_tpen_line_id" : "line/102980647",
@@ -12722,12 +12696,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "աքեսցես ինձ զհարկս. <num  value=\"10\">ժ՟</num>. տարոյ. և պանդանդ զորդ"
+            "cnt:chars" : "աքեսցես ինձ զհարկս <num  value=\"10\">.ժ՟.</num> տարոյ. և պանդանդ զորդ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13227081#xywh=141,143,584,24",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2017-05-11 14:10:04.0"
+          "modified" : "2017-10-27 08:07:22.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102980917",
           "_tpen_line_id" : "line/102980917",
@@ -12982,12 +12956,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ւնիս ի գեղն որ խօսունս կոչէին. <num  value=\"200000\">բ՟ճ՟.ռ՟</num>.ով և դաւ"
+            "cnt:chars" : "ւնիս ի գեղն որ խօսունս կոչէին <num  value=\"200000\">.բ՟ճ՟.ռ՟.</num>ով և դաւ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13227081#xywh=141,715,584,39",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2017-05-11 14:29:31.0"
+          "modified" : "2017-10-27 08:07:40.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102980937",
           "_tpen_line_id" : "line/102980937",
@@ -14356,12 +14330,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "անդնուպօլիս. և յետ. <num  value=\"2\">բ՟</num>. ամի. դ<abbr>րձ</abbr>լ ժողով արար "
+            "cnt:chars" : "անդնուպօլիս. և յետ <num  value=\"2\">.բ՟.</num>ամի. դ<abbr>րձ</abbr>լ ժողով արար "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13227089#xywh=148,649,571,36",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2017-05-15 02:38:18.0"
+          "modified" : "2017-10-27 08:09:26.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102981136",
           "_tpen_line_id" : "line/102981136",
@@ -25232,12 +25206,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "յարուցեալ <abbr>տր</abbr> պետրոս կաթ<abbr>ղս</abbr>ն հայոց. յաթո <note place=\"margin-bottom\"><num value=\"23\">ի՟գ՟</num></note>"
+            "cnt:chars" : "յարուցեալ <abbr>տր</abbr> պետրոս կաթ<abbr>ղս</abbr>ն հայոց. յաթո <note place=\"margin-bottom\"><num value=\"23\">ի՟գ՟</num></note> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13227049#xywh=55,795,574,167",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2017-10-23 13:23:18.0"
+          "modified" : "2017-10-27 12:36:18.0"
         } ]
       } ],
       "images" : [ {
@@ -26282,12 +26256,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "յ<g ref=\"\">աշխարհ</g>ն յունաց և անհամար բազմու<abbr>թբ</abbr> գնաց ի <note place=\"margin-bottom\">աստղն:</note>"
+            "cnt:chars" : "յ<g ref=\"\">աշխարհ</g>ն յունաց և անհամար բազմու<abbr>թբ</abbr> գնաց ի <note place=\"margin-bottom\">աստղն:</note> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13227109#xywh=51,782,611,143",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2017-10-23 13:21:54.0"
+          "modified" : "2017-10-27 12:37:38.0"
         } ]
       } ],
       "images" : [ {
