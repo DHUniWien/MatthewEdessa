@@ -1,0 +1,47 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ժամանակագրութիւն</title>
+        <author>Մատթէոս Ուռհայեցի</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished manuscript</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <charDecl>
+        <glyph xml:id="asxarh">
+          <glyphName>ARMENIAN ASHXARH SYMBOL</glyphName>
+          <mapping>աշխարհ</mapping>
+        </glyph>
+        <glyph xml:id="und">
+          <glyphName>ARMENIAN END SYMBOL</glyphName>
+          <mapping>ընդ</mapping>
+        </glyph>
+      </charDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <ab><pb n="3380.0002a.jpg"/>
+<lb xml:id="l103578913" n="1"/><milestone unit="section" n="401"/>Իսկ <g ref="#und">ընդ</g> յաւուրսն <g ref="#und">ընդ</g> այնոսիկ և ի յամին <num value="401">.ն՟ա՟.</num> իղև 
+<lb xml:id="l103578914" n="2"/>սով սաստիկ ի բ<abbr>զ</abbr>մ տեղիս բայց յ<g ref="#asxarh">աշխարհ</g>ն հարաւոյ 
+<lb xml:id="l103578915" n="3"/>ի յերկրին՝ տաճկաց եղև նեղու<abbr>թի</abbr> մեծ և առա
+<lb xml:id="l103578916" n="4"/>ւել քան զ<abbr>ա</abbr>մ ի միջագէտս և ի խստու<abbr>թե</abbr> սո
+<lb xml:id="l103578917" n="5"/>վոյն տագնապ և տատանում լիներ ի բ<abbr>զ</abbr>մ տե
+<lb xml:id="l103578918" n="6"/>ղիս և ի հռչակաւոր մայրա<abbr>քղ</abbr>քն ուռհայ 
+<lb xml:id="l103578919" n="7"/>զորս կանգնեաց տիգրան արքայ հայոց և կա
+<lb xml:id="l103578920" n="8"/>ցեալ սովն յայնմ <g ref="#asxarh">աշխարհ</g>ին. զամս <num value="7">.է՟.</num> և անթիւ լի
+<lb xml:id="l103578921" n="9"/>նէր կոտորածն յերեսացն սովոյն այն՝ և <g ref="#asxarh">աշխարհ</g>ին 
+<lb xml:id="l103578922" n="10"/>տաճկաց լիներ անցումն մեծ և ի քրիստոնեայքն 
+<lb xml:id="l103578923" n="11"/>անթիւք մեռան յերեսաց բարկու<abbr>թե</abbr> սովոյն 
+<lb xml:id="l103578924" n="12"/>և զկնի <num value="5">ե՟.</num> ամին եկեալ մորեխ յայնմ գաւառեն 
+</ab>
+    </body>
+  </text>
+</TEI>
