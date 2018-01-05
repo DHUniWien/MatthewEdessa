@@ -37119,12 +37119,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "րու<abbr>թբ</abbr> անդ սատակեցաւ։ <note place=\"margin-bottom\" hand=\"second\">շատ բան է պակաս․</note> <milestone unit=\"section\" n=\"546cutoff\"/>Յայսմ ա՛մի լի"
+            "cnt:chars" : "րու<abbr>թբ</abbr> անդ սատակեցաւ։ <note place=\"margin-bottom\" hand=\"second\">շատ բան <choice><seg resp=\"#ap\">է</seg><seg resp=\"#as\">կայ</seg></choice> պակաս․</note> <milestone unit=\"section\" n=\"546cutoff\"/>Յայսմ ա՛մի լի"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13219678#xywh=173,717,533,22",
           "_tpen_note" : "նոթ-ով նշված նախադասությունը ճիշտ ա՞",
-          "_tpen_creator" : 1903,
-          "modified" : "2017-11-06 03:20:49.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2018-01-04 06:54:48.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103561039",
           "_tpen_line_id" : "line/103561039",
