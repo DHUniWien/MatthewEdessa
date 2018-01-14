@@ -7,7 +7,8 @@ from lxml.etree import fromstring
 
 metadata = {
     'title': 'Ժամանակագրութիւն',
-    'author': 'Մատթէոս Ուռհայեցի',
+    'author': 'Մատթէոս Ուռհայե
+    ի',
     'short_error': True
 }
 
@@ -30,6 +31,7 @@ special_chars = {
     'թև': ('tewlig', 'ARMENIAN TO-EW LIGATURE'),  # with the Unicode ligature
     'թեւ': ('tewlig', 'ARMENIAN TO-EW LIGATURE'),  # with ե ւ separated
     'թի': ('tinilig', 'ARMENIAN TO-INI LIGATURE'),
+    'թց': ('tinilig', 'ARMENIAN TO-C‛Ō LIGATURE'),
     'թէ': ('tehlig', 'ARMENIAN TO-EH LIGATURE'),
     'էս': ('eslig', 'ARMENIAN EH-SEH LIGATURE'),
     'ես': ('echslig', 'ARMENIAN ECH-SEH LIGATURE'),
