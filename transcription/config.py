@@ -7,8 +7,7 @@ from lxml.etree import fromstring
 
 metadata = {
     'title': 'Ժամանակագրութիւն',
-    'author': 'Մատթէոս Ուռհայե
-    ի',
+    'author': 'Մատթէոս Ուռհայեցի',
     'short_error': True
 }
 
