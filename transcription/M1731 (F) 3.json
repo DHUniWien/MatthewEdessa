@@ -30624,12 +30624,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "զայս անգամ ողորմեսցիս և թող<g ref=\"\">թց</g>ես զան"
+            "cnt:chars" : "զայս անգամ ողորմեսցիս և թող<subst><del>թ</del><add>ց</add></subst>ես զան"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13219787#xywh=154,324,494,32",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2017-11-17 04:21:35.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2018-01-14 09:46:46.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103603093",
           "_tpen_line_id" : "line/103603093",
