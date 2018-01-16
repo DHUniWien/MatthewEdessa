@@ -38268,12 +38268,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ամանակիս և ի <add place=\"above\">խ</add>փափանելոյ <abbr>ա</abbr>ծպաշտու"
+            "cnt:chars" : "ամանակիս և ի <subst><del typ=\"cancel\">փ</del><add place=\"above\">խ</add></subst>ափանելոյ <abbr>ա</abbr>ծպաշտու"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13221216#xywh=16,283,530,38",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-09-06 06:49:10.0"
+          "modified" : "2018-01-15 11:26:56.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102487399",
           "_tpen_line_id" : "line/102487399",
@@ -38346,12 +38346,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ոռ <abbr>սբ</abbr>ոյ առաքելոյն թաթէոս արդ այս "
+            "cnt:chars" : "ոռ <abbr>սբ</abbr>ոյ առաքելոյն թաթէոսի արդ այս "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13221216#xywh=16,510,530,38",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-04-26 21:31:41.0"
+          "modified" : "2018-01-15 11:27:47.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102487405",
           "_tpen_line_id" : "line/102487405",
@@ -56099,12 +56099,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "սան ժամ աւուրն․ <milestone unit=\"section\" n=\"550\"/>Ի յամի <num  value=\"400\">դ՟ճ՟․</num>երորդի <num  value=\"30\">․շ՟․</num>երրորդի <num  value=\"50\">․ծ՟</num>"
+            "cnt:chars" : "սան ժամ աւուրն․ <milestone unit=\"section\" n=\"550prologue\"/>Ի յամի <num  value=\"400\">դ՟ճ՟․</num>երորդի <num  value=\"30\">․շ՟․</num>երրորդի <num  value=\"50\">․ծ՟</num>"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13221094#xywh=55,579,589,30",
           "_tpen_note" : "",
-          "_tpen_creator" : 1923,
-          "modified" : "2017-04-28 23:45:38.0"
+          "_tpen_creator" : 281,
+          "modified" : "2018-01-16 00:59:09.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102621941",
           "_tpen_line_id" : "line/102621941",
