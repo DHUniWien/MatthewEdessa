@@ -46,7 +46,7 @@ special_chars = {
 }
 
 def unfinished():
-    return ['M8232', 'M1775', 'M6686', 'London OR5260']
+    return ['M8232', 'M1775', 'M6686', 'London OR5260', 'W574']
 
 def numeric_parser(val):
     """Given the text content of a <num> element, try to turn it into a number."""
