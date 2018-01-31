@@ -668,12 +668,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "վ<abbr>ս</abbr> զի մի ի<subst rend=\"erase\"><del>ն</del><add> </add></subst>չարա"
+            "cnt:chars" : "վ<abbr>ս</abbr> զի մի ի <subst rend=\"erase\"><del>ն</del><add> </add></subst>չարա"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13197065#xywh=473,720,231,29",
           "_tpen_note" : "",
-          "_tpen_creator" : 281,
-          "modified" : "2016-08-13 17:26:08.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-01-30 04:49:07.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101535863",
           "_tpen_line_id" : "line/101535863",
