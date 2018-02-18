@@ -17324,12 +17324,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ի հոգոյն ի հոգէկիրսն: <hi rend=\"red\"><abbr>Ած</abbr></hi> ասեմ զհայր."
+            "cnt:chars" : "ի հոգոյն ի հոգէկիրսն: <hi rend=\"red\"><abbr>Ած</abbr></hi> ասեմ զհայր. "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202179#xywh=137,318,575,29",
           "_tpen_note" : "",
-          "_tpen_creator" : 1932,
-          "modified" : "2017-02-13 10:35:43.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-02-17 13:54:38.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102195959",
           "_tpen_line_id" : "line/102195959",
@@ -18932,12 +18932,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<g ref=\"\">ըստ</g> որում միաւորեալն մ<subst><del type=\"scribble\">unclear</del><add place=\"above\"></add></subst>ն<del type=\"cancel\">աց</del>ան շփոյթ և՛ "
+            "cnt:chars" : "<g ref=\"\">ըստ</g> որում միաւորեալն <subst><del type=\"cancel\">մ<del type=\"scribble\">unclear</del><add place=\"above\">ն</add>նաց անշփոյթ</del><add place=\"margin-bottom\">մնաց անշփոթ</add></subst> և՛ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202124#xywh=134,776,581,27",
           "_tpen_note" : "",
-          "_tpen_creator" : 1548,
-          "modified" : "2017-06-08 11:23:15.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-02-17 15:16:51.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102196221",
           "_tpen_line_id" : "line/102196221",
@@ -18947,23 +18947,10 @@
             "@type" : "cnt:ContentAsText",
             "cnt:chars" : "անպարագրելի և ոչ <g ref=\"\">ըստ</g> յանձին յեղանակի. "
           },
-          "on" : "http://t-pen.org/TPEN/canvas/13202124#xywh=134,803,581,42",
+          "on" : "http://t-pen.org/TPEN/canvas/13202124#xywh=134,803,581,83",
           "_tpen_note" : "",
           "_tpen_creator" : 1932,
-          "modified" : "2017-02-13 12:30:01.0"
-        }, {
-          "@id" : "http://t-pen.org/TPEN/line/102196222",
-          "_tpen_line_id" : "line/102196222",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "մն<del type=\"cancel\">աց</del> անշփոթ  "
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13202124#xywh=134,845,581,41",
-          "_tpen_note" : "",
-          "_tpen_creator" : 1923,
-          "modified" : "2017-12-03 03:59:49.0"
+          "modified" : "2018-02-17 13:19:04.0"
         } ]
       } ],
       "images" : [ {
