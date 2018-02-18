@@ -119,6 +119,6 @@ def milestones():
     for f in sorted(ocrfiles):
         with open("%s/%s" % (ocrpath, f), encoding='utf-8') as fh:
             for line in fh:
-                for m in re.finditer(r'milestone unit="section" n="(\w+)"', line):
+                for m in re.finditer(r'milestone unit="section" n="([\w.]+)"', line):
                     milestonelist.append(m.group(1))
     return milestonelist
