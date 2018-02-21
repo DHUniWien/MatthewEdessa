@@ -41,6 +41,8 @@ special_chars = {
     'թգ': ('tglig', 'ARMENIAN TO-GIM LIGATURE'),
     'ին': ('inlig', 'ARMENIAN INI-NU LIGATURE'),
     'իվ': ('ivlig', 'ARMENIAN INI-VEV LIGATURE'),
+    'ռո': ('rolig', 'ARMENIAN RA-VO LIGATURE'),
+    'ըս': ('uslig', 'ARMENIAN ET-SEH LIGATURE'),
     'ա': ('avar', 'ARMENIAN AYB VARIANT'),
     'հ': ('hvar', 'ARMENIAN HO VARIANT'),
     'յ': ('yabove', 'ARMENIAN YI SUPERSCRIPT VARIANT'),
