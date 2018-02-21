@@ -40,10 +40,11 @@ special_chars = {
     'զմ': ('zmlig', 'ARMENIAN ZA-MEN LIGATURE'),
     'թգ': ('tglig', 'ARMENIAN TO-GIM LIGATURE'),
     'ին': ('inlig', 'ARMENIAN INI-NU LIGATURE'),
+    'իվ': ('ivlig', 'ARMENIAN INI-VEV LIGATURE'),
     'ա': ('avar', 'ARMENIAN AYB VARIANT'),
     'հ': ('hvar', 'ARMENIAN HO VARIANT'),
     'յ': ('yabove', 'ARMENIAN YI SUPERSCRIPT VARIANT'),
-    'ր': ('rabove', 'ARMENIAN RE SUPERSCRIPT VARIANT')
+    'ր': ('rabove', 'ARMENIAN REH SUPERSCRIPT VARIANT')
 }
 
 def unfinished():
