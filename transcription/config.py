@@ -25,6 +25,7 @@ special_chars = {
     'ըստ': ('ust', 'ARMENIAN EST SYMBOL'),
     'ըստ այնմ': ('ustaynm', 'ARMENIAN EST-AYNM LIGATURE'),
     'պտ': ('ptlig', 'ARMENIAN PEH-TIWN LIGATURE'),
+    'րպ': ('rplig', 'ARMENIAN REH-PEH LIGATURE'),
     'թբ': ('tblig', 'ARMENIAN TO-BEN LIGATURE'),
     'թե': ('techlig', 'ARMENIAN TO-ECH LIGATURE'),
     'թև': ('tewlig', 'ARMENIAN TO-EW LIGATURE'),  # with the Unicode ligature
