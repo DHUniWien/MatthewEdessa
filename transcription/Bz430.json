@@ -4106,12 +4106,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "և փակին ընդ պոռնկու<abbr>թե</abbr> ախ<gap extent=\"5\"><supplied>տին և </supplied></gap>սիրեն "
+            "cnt:chars" : "և փակին ընդ պոռնկու<abbr>թե</abbr> ախ<damage extent=\"5\"><supplied>տին և </supplied></damage>սիրեն "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202705#xywh=668,496,499,46",
           "_tpen_note" : "",
           "_tpen_creator" : 281,
-          "modified" : "2015-12-20 02:36:12.0"
+          "modified" : "2018-02-23 01:38:44.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101766297",
           "_tpen_line_id" : "line/101766297",
@@ -5468,12 +5468,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ով աշխ<subst><gap extent=\"5\"/><add place=\"inline\">արհ</add></subst>աց և գաւառաց։ Եւ ա"
+            "cnt:chars" : "ով աշխ<subst><del><gap extent=\"5\"/></del><add place=\"inline\">արհ</add></subst>աց և գաւառաց։ Եւ ա"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202698#xywh=194,663,470,41",
           "_tpen_note" : "",
           "_tpen_creator" : 281,
-          "modified" : "2015-12-30 14:28:11.0"
+          "modified" : "2018-02-23 01:39:45.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101767037",
           "_tpen_line_id" : "line/101767037",
