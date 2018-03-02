@@ -226,12 +226,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "եալ գա՞յր բարսեղ կաթ<abbr>ղ</abbr>սն հայ հայոց ի "
+            "cnt:chars" : "եալ գա՞յր բարսեղ կաթ<abbr>ղ</abbr>սն <del type=\"erase\">հայ</del> հայոց ի "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202253#xywh=98,509,666,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 1932,
-          "modified" : "2017-06-14 12:20:54.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2018-03-01 04:10:07.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102238370",
           "_tpen_line_id" : "line/102238370",
@@ -278,12 +278,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<add place=\"margin\">գ</add> գալ ընդ յառաջ ն<abbr>ր</abbr>. և ահայ գայր բազում "
+            "cnt:chars" : "<subst><add place=\"margin\">գ</add><del type=\"\">գ</del></subst>ալ ընդ յառաջ ն<abbr>ր</abbr>. և ահայ գայր բազում "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202253#xywh=98,635,666,33",
-          "_tpen_note" : "",
-          "_tpen_creator" : 1932,
-          "modified" : "2017-03-01 12:56:48.0"
+          "_tpen_note" : "գ del type",
+          "_tpen_creator" : 1548,
+          "modified" : "2018-03-01 04:49:55.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102238374",
           "_tpen_line_id" : "line/102238374",
@@ -537,12 +537,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ամիրայն խոսրով և արար <subst><add place=\"above\">ասպատ</add><del type=\"cancel\">ասպատակ</del></subst> երկիրն "
+            "cnt:chars" : "ամիրայն խոսրով և արար <subst><add place=\"margin\">ասպատակ</add><del type=\"cancel\">ասպատակ</del></subst> երկիրն "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202264#xywh=28,338,685,27",
           "_tpen_note" : "",
-          "_tpen_creator" : 1923,
-          "modified" : "2017-11-02 10:45:48.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2018-03-01 04:18:19.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102238317",
           "_tpen_line_id" : "line/102238317",
@@ -874,12 +874,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ոյ. և յ<abbr>ա</abbr>մ գաւառսն ն<abbr>ր</abbr>. զի եղեն զրկեալք յայն "
+            "cnt:chars" : "ոյ. և յ<abbr>ա</abbr>մ գաւառն ն<abbr>ր</abbr>. զի եղեն զրկեալք յայն "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202270#xywh=148,409,625,32",
           "_tpen_note" : "",
-          "_tpen_creator" : 1932,
-          "modified" : "2017-03-01 13:30:29.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2018-03-01 04:23:30.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102238291",
           "_tpen_line_id" : "line/102238291",
@@ -1030,12 +1030,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "սայ ապստամբե<del type=\"cancel\">unclear</del>ցաւ և գնաց առ փի"
+            "cnt:chars" : "սայ ապստամբե<del type=\"erase\"><gap/></del>ցաւ և գնաց առ փի"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202270#xywh=148,785,625,24",
           "_tpen_note" : "",
-          "_tpen_creator" : 1932,
-          "modified" : "2017-03-01 13:36:58.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2018-03-01 04:35:26.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102238303",
           "_tpen_line_id" : "line/102238303",
