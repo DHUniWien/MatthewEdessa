@@ -1873,12 +1873,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "արքայն, և հերձեալ զնա յերիս մասունս <note place=\"margin-top\" hand=\"second\">և սպանեալն <abbr>սբ</abbr> թագաւորն բարի,</note> և ծածկեալ "
+            "cnt:chars" : "արքայն, և հերձեալ զնա յերիս մասունս <add place=\"margin-top\" hand=\"second\">և սպանեալն <abbr>սբ</abbr> թագաւորն բարի,</add> և ծածկեալ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13224869#xywh=24,75,584,50",
           "_tpen_note" : "",
-          "_tpen_creator" : 1904,
-          "modified" : "2018-01-09 07:25:34.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-03-22 07:36:46.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103580742",
           "_tpen_line_id" : "line/103580742",
@@ -1899,12 +1899,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "չարաչար և դառն մահու<del hand=\"second\" type=\"cancel\"><g ref=\"\">թե</g></del>ամբ. և տեսանէին "
+            "cnt:chars" : "չարաչար և դառն մահու<del hand=\"second\" type=\"strike\"><g ref=\"\">թե</g></del>ամբ. և տեսանէին "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13224869#xywh=24,149,584,26",
           "_tpen_note" : "",
-          "_tpen_creator" : 1904,
-          "modified" : "2017-11-10 11:28:06.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-03-22 08:13:37.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103580744",
           "_tpen_line_id" : "line/103580744",
@@ -1912,12 +1912,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "զի այծ<subst><del type=\"strike\" hand=\"second\">էս</del><note place=\"margin-top\" hand=\"second\">ւոյն</note></subst> զգեցեալ էր թագաւորն մերկուց ի "
+            "cnt:chars" : "զի այծ<subst><del type=\"strike\" hand=\"second\">էս</del><add place=\"above\" hand=\"second\">եայն</add></subst> զգեցեալ էր թագաւորն մերկուց ի "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13224869#xywh=24,175,584,21",
           "_tpen_note" : "",
-          "_tpen_creator" : 1904,
-          "modified" : "2018-01-09 07:29:45.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-03-22 08:12:47.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103580745",
           "_tpen_line_id" : "line/103580745",
@@ -2055,12 +2055,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "սիլն և զԿոստանդինն առ սպրամիկն մեծ մխիթա֊ <note place=\"margin\" hand=\"second\">րին</note> "
+            "cnt:chars" : "սիլն և զԿոստանդինն առ սպրամիկն մեծ մխիթա֊"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13224869#xywh=24,448,584,29",
           "_tpen_note" : "",
-          "_tpen_creator" : 1904,
-          "modified" : "2017-11-10 08:06:10.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-03-22 08:00:57.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103580756",
           "_tpen_line_id" : "line/103580756",
@@ -2068,12 +2068,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "րայ մայրն, <del type=\"strike\" hand=\"second\">վասն</del> զի մի դեղ <note place=\"margin-top\" hand=\"second\">մահու</note> տացեն նոցա <del type=\"strike\" hand=\"second\">մա֊"
+            "cnt:chars" : "րա<add place=\"\" hand=\"second\">յ</add> մայրն, <del type=\"strike\" hand=\"second\">վասն</del> զի մի դեղ <add place=\"above\" hand=\"second\">մահու</add> տացե<del type=\"cancel\" hand=\"second\">ն</del> նոցա <subst><del type=\"strike\" hand=\"second\">մա֊"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13224869#xywh=24,477,584,24",
           "_tpen_note" : "",
-          "_tpen_creator" : 1904,
-          "modified" : "2018-01-09 07:34:44.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-03-22 08:15:05.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103580757",
           "_tpen_line_id" : "line/103580757",
@@ -2081,12 +2081,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "հու</del> և սպանանիցէն <note place=\"margin-top\" hand=\"second\">նոսա</note>: Եւ յաղագս անիրաւ "
+            "cnt:chars" : "հու</del><add place=\"above\" hand\"second\">թունաւորին</add></subst> և սպանանիցէն <add place=\"above\" hand=\"second\">նոսա</add>: Եւ յաղագս անիրաւ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13224869#xywh=24,501,584,26",
           "_tpen_note" : "",
-          "_tpen_creator" : 1904,
-          "modified" : "2018-01-09 07:34:51.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-03-22 08:15:46.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103580758",
           "_tpen_line_id" : "line/103580758",
@@ -2107,12 +2107,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ւորն Չմշկիկ անհանգիստ վիրաւորեալ <add place=\"margin-top\" hand=\"second\">ոգւով</add>։ "
+            "cnt:chars" : "ւորն Չմշկիկ անհանգիստ վիրաւորեալ <add place=\"above\" hand=\"second\">ոգւով</add>։ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13224869#xywh=24,548,584,27",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2018-03-22 02:51:18.0"
+          "modified" : "2018-03-22 08:10:34.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103580760",
           "_tpen_line_id" : "line/103580760",
