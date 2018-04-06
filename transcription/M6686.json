@@ -3102,12 +3102,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "չեն զերորդու<abbr>թին</abbr>ն <subst><del rend=\"\">ի խաչեալ</del><add place=\"margin\">ի խաչն</add></subst> խաչեալ կամ կիրս ինչ <abbr>ա</abbr>ծ"
+            "cnt:chars" : "չեն զերորդու<abbr>թին</abbr>ն <subst><del rend=\"overwrite\">ի խաչեալ</del><add place=\"margin\">ի խաչն</add></subst> կամ կիրս ինչ <abbr>ա</abbr>ծ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234372#xywh=52,181,653,32",
           "_tpen_note" : "del rend",
-          "_tpen_creator" : 1548,
-          "modified" : "2018-03-28 12:03:56.0"
+          "_tpen_creator" : 1904,
+          "modified" : "2018-04-05 04:04:11.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103842856",
           "_tpen_line_id" : "line/103842856",
@@ -3677,7 +3677,7 @@
           "on" : "http://t-pen.org/TPEN/canvas/13234367#xywh=42,123,535,35",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-02-14 04:25:25.0"
+          "modified" : "2018-04-05 03:58:24.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103842995",
           "_tpen_line_id" : "line/103842995",
@@ -4813,12 +4813,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "նեմք վերախտիսն <abbr>այ</abbr>, յաղագս խաչեցելոյն. "
+            "cnt:chars" : "նեմք վերախտիսն <abbr>այ</abbr>, յաղագըս խաչեցելոյն. "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234363#xywh=172,755,533,58",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-03-19 05:10:00.0"
+          "modified" : "2018-04-05 04:09:55.0"
         } ]
       } ],
       "images" : [ {
@@ -5072,12 +5072,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "այսր բանիցս և վ<abbr>ս</abbr> կատարման <abbr>սբ</abbr> խորհրդոյն "
+            "cnt:chars" : "այսր բանիցս և վ<abbr>ս</abbr> կատարման <abbr>սբ</abbr> խորհրդոյն. "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234348#xywh=35,675,560,30",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-03-19 05:15:21.0"
+          "modified" : "2018-04-05 04:11:34.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103843624",
           "_tpen_line_id" : "line/103843624",
@@ -5085,12 +5085,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "հացին և գինոյն. գրեմք. իսկ զիարդ անապա<abbr>կն</abbr> "
+            "cnt:chars" : "հացին և գինոյն. գրեմք. Իսկ զիարդ անապա<abbr>կն</abbr> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234348#xywh=35,705,560,38",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-02-14 05:29:57.0"
+          "modified" : "2018-04-05 04:11:55.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103843625",
           "_tpen_line_id" : "line/103843625",
@@ -6354,12 +6354,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "անի<subst rend=\"overwrite\"><del>ց</del><add place=\"\">չ</add></subst>ն <g ref=\"\">թէ</g> յարուցեալ մարիամ գնաց ի լեառն"
+            "cnt:chars" : "անի<subst rend=\"overwrite\"><del>ց</del><add>չ</add></subst>ն <g ref=\"\">թէ</g> յարուցեալ մարիամ գնաց ի լեառն"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234355#xywh=140,114,539,33",
           "_tpen_note" : "",
-          "_tpen_creator" : 1548,
-          "modified" : "2018-03-28 12:22:05.0"
+          "_tpen_creator" : 1904,
+          "modified" : "2018-04-05 04:21:43.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103843863",
           "_tpen_line_id" : "line/103843863",
@@ -7171,12 +7171,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "նեալ յաւիտեանս և յայժմ: <milestone unit=\"section\" n=\"514aftermath\"/><hi rend=\"red\">Ե</hi>ւ այս<abbr>պ</abbr> խօսե<abbr>ցւ</abbr> "
+            "cnt:chars" : "նեալ յաւիտեանս և յայժմ: <p/><milestone unit=\"section\" n=\"514aftermath\"/><hi rend=\"red\">Ե</hi>ւ այս<abbr>պ</abbr> խօսե<abbr>ցւ</abbr> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234347#xywh=137,680,544,33",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-03-21 05:44:57.0"
+          "modified" : "2018-04-05 04:25:55.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103843921",
           "_tpen_line_id" : "line/103843921",
