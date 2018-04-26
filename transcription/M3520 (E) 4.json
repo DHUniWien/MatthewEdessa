@@ -13985,12 +13985,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<abbr>ա</abbr>մ հեծելովք և հետևակա<g ref=\"\">նց</g> որոց և բ<abbr>զ</abbr>մ "
+            "cnt:chars" : "<abbr>ա</abbr>մ հեծելովք և հետևակա<subst rend=\"overwrite\"><del>ն</del><add>ց</add></subst> որոց և բ<abbr>զ</abbr>մ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13221043#xywh=23,203,524,25",
           "_tpen_note" : "",
-          "_tpen_creator" : 1923,
-          "modified" : "2018-03-25 12:30:52.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2018-04-25 03:09:46.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103425020",
           "_tpen_line_id" : "line/103425020",
