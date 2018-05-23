@@ -29,7 +29,7 @@ special_chars = {
     'թբ': ('tblig', 'ARMENIAN TO-BEN LIGATURE'),
     'թե': ('techlig', 'ARMENIAN TO-ECH LIGATURE'),
     'թև': ('tewlig', 'ARMENIAN TO-EW LIGATURE'),  # with the Unicode ligature
-    'թեւ': ('tewlig', 'ARMENIAN TO-ECH-YIWN LIGATURE'),  # with ե ւ separated
+    'թեւ': ('teylig', 'ARMENIAN TO-ECH-YIWN LIGATURE'),  # with ե ւ separated
     'թի': ('tinilig', 'ARMENIAN TO-INI LIGATURE'),
     'թէ': ('tehlig', 'ARMENIAN TO-EH LIGATURE'),
     'էս': ('eslig', 'ARMENIAN EH-SEH LIGATURE'),
