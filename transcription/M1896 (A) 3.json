@@ -15522,12 +15522,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "պէս։ Բայց դուք <subst rend=\"overwrite\"><del><gap extent=\"5\" type=\"illegible\"></gap></del><add>մի՛ վհ</add></subst>ատի՛ք "
+            "cnt:chars" : "պէս։ Բայց դուք <subst rend=\"overwrite\"><del><gap extent=\"5\" reason=\"illegible\"></gap></del><add>մի՛ վհ</add></subst>ատի՛ք "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13196806#xywh=67,122,252,22",
           "_tpen_note" : "",
-          "_tpen_creator" : 281,
-          "modified" : "2017-09-15 13:35:23.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2018-05-29 13:40:44.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102013027",
           "_tpen_line_id" : "line/102013027",

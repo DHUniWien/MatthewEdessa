@@ -7416,12 +7416,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "րաժնունեաց <abbr>տ</abbr>ն։ <milestone unit=\"section\" n=\"455\"/>Յորժ<abbr>մ</abbr> լինէր թուականն հայոց <num value=\"455\">դ՟ճ՟ և ծ՟ե՟</num> ամ, զօրաժօղով <del type=\"\">լի</del> արար <abbr>թգւ</abbr>որն "
+            "cnt:chars" : "րաժնունեաց <abbr>տ</abbr>ն։ <milestone unit=\"section\" n=\"455\"/>Յորժ<abbr>մ</abbr> լինէր թուականն հայոց <num value=\"455\">դ՟ճ՟ և ծ՟ե՟</num> ամ, զօրաժօղով <del type=\"strike\">լի</del> արար <abbr>թգւ</abbr>որն "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13226018#xywh=57,501,683,14",
           "_tpen_note" : "",
-          "_tpen_creator" : 1923,
-          "modified" : "2017-10-04 04:27:25.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2018-05-29 13:44:41.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103314160",
           "_tpen_line_id" : "line/103314160",
@@ -16384,12 +16384,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ի խորս անդնդոց, և <del type=\"\">ետ</del> զաւուրս բզ<abbr>մ</abbr>ս գայր ձայն աղաղակի ն<abbr>ց</abbr> ի խորոյ անդնդոց և էր ամառ֊"
+            "cnt:chars" : "ի խորս անդնդոց, և <gap/> զաւուրս բզ<abbr>մ</abbr>ս գայր ձայն աղաղակի ն<abbr>ց</abbr> ի խորոյ անդնդոց և էր ամառ֊"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13226012#xywh=66,613,618,20",
-          "_tpen_note" : "",
-          "_tpen_creator" : 1904,
-          "modified" : "2017-07-18 08:05:48.0"
+          "_tpen_note" : "gap-էր?",
+          "_tpen_creator" : 1548,
+          "modified" : "2018-05-29 13:49:04.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103315148",
           "_tpen_line_id" : "line/103315148",
@@ -27740,12 +27740,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<abbr>ա</abbr>ծտեսու<abbr>թին</abbr> և դատողու<abbr>ե</abbr>ն հատուցմանն <del type=\"\">ասեմ</del> բարւոյն ասեմ և չարին: Իսկ զկանոն<abbr>ել</abbr>սն յա֊"
+            "cnt:chars" : "<abbr>ա</abbr>ծտեսու<abbr>թին</abbr> և դատողու<abbr>ե</abbr>ն հատուցումն <del type=\"strike\">ասեմ</del> բարւոյն ասեմ և չարին: Իսկ զկանոն<abbr>ել</abbr>սն յա֊"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13226042#xywh=31,536,610,21",
           "_tpen_note" : "",
-          "_tpen_creator" : 1904,
-          "modified" : "2017-07-27 14:27:02.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2018-05-29 13:50:33.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103322210",
           "_tpen_line_id" : "line/103322210",
@@ -35955,12 +35955,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<abbr>տր</abbr> գրիգորիսի <del type=\"cancel\">և</del> սա էր տուկ<subst><add place=\"above\">ն</add><del type=\"cancel\">ե</del> ի անտիոք ք<abbr>ղք</abbr></subst>ի, սա սպանաւ ի շուկայ փողոցին ան֊"
+            "cnt:chars" : "<abbr>տր</abbr> գրիգորիսի <del type=\"strike\">և</del> սա էր տուկ<subst><add place=\"above\">ն</add><del type=\"cancel\">ե</del></subst> ի անտիոք ք<abbr>ղք</abbr>ի, սա սպանաւ ի շուկայ փողոցին ան֊"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13225971#xywh=42,357,680,23",
           "_tpen_note" : "",
-          "_tpen_creator" : 1904,
-          "modified" : "2017-08-27 09:37:08.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2018-05-29 13:57:56.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103356667",
           "_tpen_line_id" : "line/103356667",
@@ -56071,12 +56071,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<add place=\"\" hand =\"second\"> Յայսմ ժմկիս ( ի <num value=\"\">շիա</num> <g ref=\"\">ընդ</g> կիրակոսի ի նմանէ սամուէլի ) ժողով "
+            "cnt:chars" : "<add hand =\"second\"> Յայսմ ժմկիս ( ի <num value=\"501\">շիա</num> <g ref=\"\">ընդ</g> կիրակոսի ի նմանէ սամուէլի ) ժողով "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13225994#xywh=49,36,628,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 1923,
-          "modified" : "2018-03-05 00:13:33.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2018-05-29 14:00:27.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103443481",
           "_tpen_line_id" : "line/103443481",
@@ -56460,12 +56460,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<add place=\"\" hand =\"second\">զկնի աւարց նեղեձաւ ի ձառացն ի հոռմոցեաց կոչել զ<abbr>ամ</abbr> "
+            "cnt:chars" : "<add hand =\"second\">զկնի աւարց նեղեձաւ ի ձառացն ի հոռմոցեաց կոչել զ<abbr>ամ</abbr> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13225968#xywh=68,52,574,33",
           "_tpen_note" : "",
-          "_tpen_creator" : 1923,
-          "modified" : "2018-03-05 00:15:10.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2018-05-29 14:01:38.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103443584",
           "_tpen_line_id" : "line/103443584",
@@ -56940,12 +56940,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<add place=\"\" hand =\"second\">Շուրիկկէն<del type=\"cancel\">,</del> մկուրիշահ, որդոյն որ կոչի շերիեն տօղ և յայսմ աւարս "
+            "cnt:chars" : "<add hand =\"second\">Շուրիկկէն<del type=\"cancel\">,</del> մկուրիշահ, որդոյն որ կոչի շերիեն տօղ և յայսմ աւարս "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13226043#xywh=61,49,610,51",
           "_tpen_note" : "",
-          "_tpen_creator" : 1923,
-          "modified" : "2018-03-05 00:15:37.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2018-05-29 14:01:07.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103443557",
           "_tpen_line_id" : "line/103443557",
