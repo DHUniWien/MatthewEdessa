@@ -1640,12 +1640,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "զհրամանս <note place=\"margin-top\" hand=\"second\">անօրէն</note> թագու<subst><del type=\"overwrite\">րի</del><add>հւոյն</add></subst>։ "
+            "cnt:chars" : "զհրամանս <note place=\"margin-top\" hand=\"second\">անօրէն</note> թագու<subst rend=\"overwrite\"><del>րի</del><add>հւոյն</add></subst>։ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13224854#xywh=263,556,445,26",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-01-09 07:14:03.0"
+          "modified" : "2018-06-18 16:08:39.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103580726",
           "_tpen_line_id" : "line/103580726",
