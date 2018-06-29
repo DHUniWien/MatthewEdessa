@@ -21081,12 +21081,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ւոյն ա<subst><del type=\"overwrite\">ր</del><add>ռ</add></subst> թագաւորն տիուժէն դառ֊"
+            "cnt:chars" : "ւոյն ա<subst rend=\"overwrite\"><del>ր</del><add>ռ</add></subst> թագաւորն տիուժէն դառ֊"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13224732#xywh=25,167,431,21",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2017-12-13 04:22:41.0"
+          "modified" : "2018-06-28 15:57:14.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103665965",
           "_tpen_line_id" : "line/103665965",
@@ -21133,12 +21133,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "սուլտանին ա<subst><del type=\"overwrite\">պ</del><add>բ</add></subst>ասլանայ կամեցաւ գաղտ ապս֊"
+            "cnt:chars" : "սուլտանին ա<subst rend=\"overwrite\"><del>պ</del><add>բ</add></subst>ասլանայ կամեցաւ գաղտ ապս֊"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13224732#xywh=25,264,431,21",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2017-12-13 04:26:25.0"
+          "modified" : "2018-06-28 15:57:36.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103665969",
           "_tpen_line_id" : "line/103665969",
@@ -21172,12 +21172,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "հըն հոռոմոց վասն զի այսպիսի նշան ոչ երբէք "
+            "cnt:chars" : "հըն հոռոմոց <milestone unit=\"section\" n=\"519\"/>վասն զի այսպիսի նշան ոչ երբէք "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13224732#xywh=25,336,431,24",
           "_tpen_note" : "",
-          "_tpen_creator" : 1904,
-          "modified" : "2017-12-13 04:32:04.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-06-28 06:49:09.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103665972",
           "_tpen_line_id" : "line/103665972",
@@ -21276,12 +21276,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "Յայսմ ամի շարժեալ և որպէս գետ "
+            "cnt:chars" : "<p/>Յայսմ ամի շարժեալ և որպէս գետ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13224732#xywh=25,540,431,27",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2017-12-13 04:34:47.0"
+          "modified" : "2018-06-28 15:56:16.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103665980",
           "_tpen_line_id" : "line/103665980",
@@ -21860,12 +21860,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "նայն սահմանսն նոցա բազո<subst><del type=\"overwrite\">ո</del><add>ւ</add></subst>մ աւարաւ "
+            "cnt:chars" : "նայն սահմանսն նոցա բազո<subst rend=\"overwrite\"><del>ո</del><add>ւ</add></subst>մ աւարաւ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13224774#xywh=301,888,407,30",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-01-15 09:33:39.0"
+          "modified" : "2018-06-28 15:59:17.0"
         } ]
       } ],
       "images" : [ {
@@ -48019,12 +48019,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "կերակրօք օգնէին նոցա և ամենայն ազգք հաւա֊"
+            "cnt:chars" : "կերակրօք օգնէին նոցա և ամենայն ազգ հաւա֊"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13224764#xywh=291,160,413,24",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-01-01 05:22:35.0"
+          "modified" : "2018-06-28 16:01:00.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103668956",
           "_tpen_line_id" : "line/103668956",
@@ -48071,12 +48071,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "մասն պակասեալ լինէր և այ<subst><del type=\"overwrite\">ը</del><add>լ</add></subst>ն ամենայն կային "
+            "cnt:chars" : "մասն պակասեալ լինէր և այ<subst rend=\"overwrite\"><del>ը</del><add>լ</add></subst>ն ամենայն կային "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13224764#xywh=291,258,413,21",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-01-17 09:57:21.0"
+          "modified" : "2018-06-28 16:00:19.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103668960",
           "_tpen_line_id" : "line/103668960",
