@@ -861,12 +861,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "զչար խորհուրդն իւր և արդ ահա. առաքեաց <abbr>թ</abbr>֊"
+            "cnt:chars" : "զչար խորհուրդն իւր և արդ ահա. առաքեաց թ<g ref=\"\">ա</g>֊"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234349#xywh=47,559,559,35",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-03-18 10:30:57.0"
+          "modified" : "2018-06-29 13:58:44.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103842269",
           "_tpen_line_id" : "line/103842269",
@@ -1107,12 +1107,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "աւոր<del rend=\"scribble\">ն</del> և մեր փեսա առաքեայ և կոչեա զնա այսր. "
+            "cnt:chars" : "աւոր<del rend=\"strike\">ն</del> և մեր փեսա առաքեայ և կոչեա զնա այսր. "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234369#xywh=163,405,529,33",
           "_tpen_note" : "",
-          "_tpen_creator" : 1548,
-          "modified" : "2018-03-28 09:29:56.0"
+          "_tpen_creator" : 1904,
+          "modified" : "2018-06-29 14:01:51.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103841896",
           "_tpen_line_id" : "line/103841896",
@@ -1586,12 +1586,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "թագաւ<del rend=\"scribble\">ե</del>որ եմ և որդի թգօրացն հայոց. և <abbr>ամ</abbr> հայք հնա֊"
+            "cnt:chars" : "թագաւ<del rend=\"strikr\">ե</del>որ եմ և որդի թգօրացն հայոց. և <abbr>ամ</abbr> հայք հնա֊"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234358#xywh=145,103,544,30",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-03-18 10:59:55.0"
+          "modified" : "2018-06-29 14:06:24.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103842674",
           "_tpen_line_id" : "line/103842674",
@@ -1820,12 +1820,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<p/><hi rend=\"red\">Ն</hi>ախ և առաջին գիտեմք անսկզբ<del rend=\"cancel\">ն</del>մամբ. և ան"
+            "cnt:chars" : "<p/><hi rend=\"red\">Ն</hi>ախ և առաջին գիտեմք անսկզբ<del rend=\"strike\">ն</del>մամբ. և ան"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234358#xywh=145,710,544,36",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-04-04 05:45:19.0"
+          "modified" : "2018-06-29 14:09:16.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103842692",
           "_tpen_line_id" : "line/103842692",
@@ -2973,12 +2973,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "շանց և իշոց գրեմք զորս նզովեսցէ կաթողիկէ և "
+            "cnt:chars" : "շանց և իշ<add place=\"above\">ւ</add>ոց գրեմք զորս նզովեսցէ կաթողիկէ և "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234370#xywh=151,615,535,32",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-02-14 03:51:04.0"
+          "modified" : "2018-06-29 14:14:00.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103842848",
           "_tpen_line_id" : "line/103842848",
@@ -3491,12 +3491,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<abbr>վս</abbr> իւրու<abbr><g ref=\"\">թե</g></abbr> մարմնոյն է երբէք զի ըմբռնել. "
+            "cnt:chars" : "<abbr>վս</abbr> իւրու<abbr><g ref=\"\">թե</g></abbr> մարմնոյն երբէք զի ըմբռնել. "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234364#xywh=140,393,529,33",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-02-14 04:18:09.0"
+          "modified" : "2018-06-29 14:17:05.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103842983",
           "_tpen_line_id" : "line/103842983",
@@ -5349,7 +5349,7 @@
           "on" : "http://t-pen.org/TPEN/canvas/13234342#xywh=185,583,539,35",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-03-19 05:19:39.0"
+          "modified" : "2018-06-29 14:23:10.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103843792",
           "_tpen_line_id" : "line/103843792",
@@ -6212,12 +6212,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ի տուն իւր և դարձեալ ասէ <g ref=\"\">թէ</g> յետ աւուրց<del rend=\"scribble\">է</del>ն այ֊"
+            "cnt:chars" : "ի տուն իւր և դարձեալ ասէ <g ref=\"\">թէ</g> յետ աւուրց<del rend=\"strike\">է</del>ն այ֊"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234341#xywh=45,532,561,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 1548,
-          "modified" : "2018-03-28 12:18:01.0"
+          "_tpen_creator" : 1904,
+          "modified" : "2018-06-29 14:25:47.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103843853",
           "_tpen_line_id" : "line/103843853",
@@ -6241,9 +6241,9 @@
             "cnt:chars" : "տիտէ զայս որ միտսունին, <g ref=\"\">թե</g> մինչ ժողովրդեանն "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234341#xywh=45,599,561,33",
-          "_tpen_note" : "տիտե",
-          "_tpen_creator" : 1548,
-          "modified" : "2018-03-28 12:19:16.0"
+          "_tpen_note" : "",
+          "_tpen_creator" : 1904,
+          "modified" : "2018-06-29 14:25:30.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103843855",
           "_tpen_line_id" : "line/103843855",
@@ -9464,12 +9464,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ի բեմբն գտանէին զմասն <abbr>սբ</abbr> խորհրդոյն անա"
+            "cnt:chars" : "ի բեմբն գտանէին զմասն <abbr>սբ</abbr>. խորհրդոյն անա"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234378#xywh=152,440,550,32",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-02-15 03:07:38.0"
+          "modified" : "2018-06-29 14:33:15.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103844149",
           "_tpen_line_id" : "line/103844149",
@@ -10539,12 +10539,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "եփրատա հարիւր արեամբ <abbr>նր</abbr>. եկ հասիր ի <abbr>վր</abbr> սորա "
+            "cnt:chars" : "եփրատա <num value=\"100\">հարիւր</num> արեամբ <abbr>նր</abbr>. եկ հասիր ի <abbr>վր</abbr> սորա "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234359#xywh=149,139,557,33",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-03-24 09:38:30.0"
+          "modified" : "2018-06-29 14:36:50.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103844224",
           "_tpen_line_id" : "line/103844224",
@@ -10565,12 +10565,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "և անշապապողական արու<abbr>թբ</abbr> և գայր ի <abbr>վր</abbr>. "
+            "cnt:chars" : "և անշտ<del rend=\"strike\">պ</del>ապողական արու<abbr>թբ</abbr> և գայր ի <abbr>վր</abbr>. "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13234359#xywh=149,202,557,36",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2018-02-15 04:01:53.0"
+          "modified" : "2018-06-29 14:37:31.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103844226",
           "_tpen_line_id" : "line/103844226",
