@@ -87,6 +87,27 @@ def transcription_filter(line):
         ',', '.')  # MSS have no difference between comma & dot
 
 
+def tokenise(textnode):
+    """Returns a list of tokens from a given text string. In this case,
+    punctuation becomes its own token."""
+    tokens = []
+    words = re.split('\s', textnode)
+    punctuation = re.compile(r"([.,։]+)?(\w+)([.,։]+)?")
+    for w in words:
+        match = punctuation.fullmatch(w)
+        if match is not None:
+            for bit in match.groups():
+                if bit is not None:
+                    tokens.append(bit)
+        else:
+            tokens.append(w)
+    return tokens
+
+
+def punctuation():
+    return([".", "։", "՜", "՝", "՞"])
+    
+
 def normalise(token):
     # Normalise for Armenian orthography and case
     if token['n'] == token['t']:
