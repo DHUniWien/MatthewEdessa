@@ -1,0 +1,41 @@
+Notes for
+Write a web UI for resolving abbreviations #5
+https://ghe.phaidra.org/dh/dhops/issues/5
+
+Save the expansion (exp) for each abbreviation (abbr) within all documents (doc) into a database (db).
+? Examining the xml documents resulting from tpen2tei would be ok?
+
+? An abbr can have only one exp, because pre- and post-fixes are written araund the abbr, so only the core part, which is not inflected, is to be expanded?
+
+Determine all documents, or only the next document, which have/has abbr which are not in the database yet:
+At the beginning, choosing one doc after the other by the user will be fine, but when most documents are checked, it would be tiring browsing manually through one doc after the other, to see whether there are still remaining unexpanded abbr.
+As for creating an xml tree for/of all documents probably would be quite time consuming, when the goal is only to find a document with unresolved abbr, a text based solution can be preferred.
+So, use regex with python like grep in shell, file by file.
+Another way could be to make a tree of all documents. Then it would be possible to show the user all occurences of the current abbr in their context, from all documents.
+
+The minimum code should do:
+
+git pull the db in its current state from the repository
+
+Choose the directory with files to be examined. User or code.
+List filenames in this directory.
+Loop through these files and 
+	if there are abbr in the current file (regex), 
+		make a set of them
+		loop through the set 
+			if the current abbr is not in the db yet, 
+				show the abbr in its surroundings to the user and
+				let the user input the expansion
+				(make a preview of the result)
+				if it is ok, save it to the db.
+				else: skip this abbr and handle the next one.
+	(else: go to the next document and check again for yet unexpanded abbr)
+
+Show all new entires (and give the possibility to make corrections)
+
+git commit and push the updated db into the repository
+
+? Which server has python and can have flask or django? Not all packages of normalise_armenian.py etc are necessary, only those for the above code and for the server?
+
+pro and contra flask vs django:
+Which kind of authentication is targeted?
