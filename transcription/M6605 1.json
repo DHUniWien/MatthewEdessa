@@ -36527,12 +36527,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "և որպէս զփայտակոյտս այրեցաւ քարն և բոցն բարձրաց֊"
+            "cnt:chars" : "և որպէս զփայտակոյտս այրեցաւ քարն և բոցն բարձ<add place=\"afterline\">րաց֊</add>"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13224896#xywh=30,483,430,27",
           "_tpen_note" : "",
           "_tpen_creator" : 1904,
-          "modified" : "2017-11-24 10:01:44.0"
+          "modified" : "2018-07-30 01:19:04.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103614308",
           "_tpen_line_id" : "line/103614308",
