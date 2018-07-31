@@ -46,7 +46,7 @@ def normalize_witness(conn, xmlfile, base, milestone, interactive=False, config=
     cxinput['witnesses'].append({'id': 'BASE', 'tokens': base_witness['tokens']})
 
     # Now collate the witness to the base.
-    print("Comparing witness %s with base" % sigil, file=sys.stderr)
+    print("Comparing witness %s with base" % sigil)
     result = json.loads(_collate(cxinput))
 
     # And now, figure out the likely expansion of any abbreviations in the
@@ -78,51 +78,63 @@ def _find_normal_form(conn, token, basetoken, interactive):
     LOOKUP_SQL = 'SELECT expansion FROM abbreviations WHERE form=?'
     INSERT_SQL = 'INSERT INTO abbreviations VALUES (?, ?)'
     utiwn_re = re.compile('^(.*)ութ(իւն|եան|ենէ|եամբ)(.*)')
-    utiwn_forms = ['իւն', 'եան', 'ենէ', 'եամբ']
+    utiwn_forms = ['ութիւն', 'ութեան', 'ութենէ', 'ութեամբ']
+
+    # Strip non-alphabetic characters from base token before we do
+    # the database lookups
+    basetokenstr = re.sub(r"\W", "", basetoken.get('n')).casefold()
 
     # First see if an entry exists in the database
     c = conn.cursor()
-    c.execute(LOOKUP_SQL, (token['n'],))
+    c.execute(LOOKUP_SQL, (token.get('re'),))
     result = c.fetchall()
     if len(result) > 0:
-        print("Using form %s for %s" % (result[0], token['lit']), file=sys.stderr)
+        print("Using form %s for %s" % (result[0][0], token.get('display')))
         return result[0]
 
     # Then see if the token's regex matches the base
-    regex = re.compile(token['re'])
-    if regex.match(basetoken['n']):
-        print("Regex matched form %s for %s" % (basetoken['n'], token['n']), file=sys.stderr)
-        c.execute(INSERT_SQL, (token['n'], basetoken['n']))
+    regex = re.compile(token.get('re'), re.I)
+    if regex.match(basetokenstr):
+        print("Regex matched form %s for %s" % (basetokenstr, token.get('display')))
+        c.execute(INSERT_SQL, (token.get('re'), basetokenstr))
         conn.commit()
-        return basetoken['n']
+        return basetokenstr
 
     # Then do -ութիւն form parsing
-    mo = utiwn_re.match(basetoken['n'])
+    mo = utiwn_re.match(basetokenstr)
     if mo is not None:
-        root = mo.group(0)
-        suffix = mo.group(1)
+        root = mo.group(1)
+        suffix = mo.group(3) or ''
+        # If the base has a suffix, we need to add that suffix to the regex
+        regex_suffix = re.compile(token.get('re') + suffix, re.I)
         for uf in utiwn_forms:
             form = root + uf + suffix
-            if regex.match(form):
-                print("Regex morph matched form %s for %s" % (form, token['n']), file=sys.stderr)
-                c.execute(INSERT_SQL, (token['n'], form))
+            if regex_suffix.match(form):
+                print("Regex morph matched form %s for %s" % (form, token.get('display')))
+                c.execute(INSERT_SQL, (token.get('re'), form))
                 conn.commit()
                 return form
             elif regex.match(root + uf):
-                print("Regex morph matched form %s for %s" % (root + uf, token['t']), file=sys.stderr)
-                c.execute(INSERT_SQL, (token['n'], root + uf))
+                print("Regex morph matched non-suffixed form %s for %s"
+                      % (root + uf, token.get('display')))
+                c.execute(INSERT_SQL, (token.get('re'), root + uf))
                 conn.commit()
                 return root + uf
 
     # If we are in interactive mode, ask
     if interactive:
-        norm_form = input("Normal form for %s (ase token %s)? " % (token['lit'], basetoken['n']))
-        if norm_form:
-            c.execute(INSERT_SQL, (token['n'], norm_form))
+        norm_form = input("Normal form for %s (base token %s)? "
+                          "\n\t(return to accept, q to quit) " % (token.get('lit'), basetokenstr))
+        if norm_form == "q":
+            exit()
+        elif norm_form:
+            c.execute(INSERT_SQL, (token.get('re'), norm_form))
             conn.commit()
+        else:
+            c.execute(INSERT_SQL, (token.get('re'), basetokenstr))
         return norm_form
 
-    print("Unable to find normalisation for %s" % token['lit'], file=sys.stderr)
+    print("Unable to find normalisation for %s" % token.get('lit'))
     return None
 
 
@@ -170,13 +182,12 @@ if __name__ == '__main__':
     # Collate each witness in turn against the base, and evaluate for a
     # normal form
     for fn in options.file:
-        print("Attempting normalisation on witness %s, milestone %s" % (fn, options.milestone), file=sys.stderr)
+        print("Attempting normalisation on witness %s, milestone %s" % (fn, options.milestone))
         normalize_witness(dbconn, fn, options.base, options.milestone, interactive=options.interactive,
                           config=options.config)
-        print("Attempting normalisation on a.c. layer witness %s, milestone %s" % (fn, options.milestone),
-              file=sys.stderr)
+        print("Attempting normalisation on a.c. layer witness %s, milestone %s" % (fn, options.milestone))
         normalize_witness(dbconn, fn, options.base, options.milestone, interactive=options.interactive,
                           config=options.config, aclayer=True)
 
     dbconn.close()
-    print("Done. Results saved to %s" % options.db, file=sys.stderr)
+    print("Done. Results saved to %s" % options.db)

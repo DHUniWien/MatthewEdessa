@@ -2,7 +2,6 @@
 
 import os
 import re
-import yaml
 from lxml.etree import fromstring
 
 metadata = {
@@ -49,6 +48,7 @@ special_chars = {
     'ր': ('rabove', 'ARMENIAN REH SUPERSCRIPT VARIANT')
 }
 
+
 def numeric_parser(val):
     """Given the text content of a <num> element, try to turn it into a number."""
     # Create the stack of characters
@@ -92,9 +92,9 @@ def tokenise(textnode):
     punctuation becomes its own token."""
     tokens = []
     words = re.split('\s', textnode)
-    punctuation = re.compile(r"([.,։]+)?(\w+)([.,։]+)?")
+    punct = re.compile(r"([.,։]+)?(\w+)([.,։]+)?")
     for w in words:
-        match = punctuation.fullmatch(w)
+        match = punct.fullmatch(w)
         if match is not None:
             for bit in match.groups():
                 if bit is not None:
@@ -105,44 +105,62 @@ def tokenise(textnode):
 
 
 def punctuation():
-    return([".", "։", "՜", "՝", "՞"])
+    return [".", "։", "՜", "՝", "՞"]
     
 
 def normalise(token):
     # Normalise for Armenian orthography and case
-    if token['n'] == token['t']:
-        st = token['n'].lower().replace('եւ', 'և').replace('աւ', 'օ')
+    if token.get('n') == token.get('t'):
+        st = token.get('n').lower().replace('եւ', 'և').replace('աւ', 'օ')
         if re.search(r'\w', st) is not None:
             st = re.sub(r'[\W]', '', st)
         token['n'] = st
-    # Make a regex for matching any abbreviated words
-    if token['lit'].find('abbr') > -1:
-        token['re'] = '%s.*' % '.*'.join(token['t'])
-        token['re'] = token['re'].replace('վ', '[վւ]')
-    # Make an Graphviz HTML display field for abbreviations, gaps, hilights, etc.
+
+    # Parse the word's XML literal form
     word = fromstring('<word>%s</word>' % token['lit'])
+
+    # Make a regex for matching any abbreviated words
+    if token.get('lit').find('abbr') > -1:
+        # Get the first part of the word
+        token['re'] = _strip_nonalpha(word.text)
+        # Wildcard the abbreviation bit of the word
+        for ch in word:
+            if ch.tag == 'abbr':  # Join all letters with wildcards
+                token['re'] += '.*%s.*' % '.*'.join(_strip_nonalpha(ch.text))
+            token['re'] += _strip_nonalpha(ch.tail)
+        # Recognise that 'վ' and 'ւ' are used a bit interchangeably e.g. in թվականութիւն
+        token['re'] = re.sub(r'\Bվ', '[վւ]', token.get('re'))
+
+    # Make a Graphviz HTML display field for abbreviations, gaps, hilights, etc.
     display = word.text or ''
     for ch in word:
         if ch.tag == 'abbr':  # Put a line over it
             display += '<O>%s</O>' % ch.text
-            use_html = True
         elif ch.tag == 'hi':  # Make it red
             display += '<FONT COLOR="red">%s</FONT>' % ch.text
         elif ch.tag == 'gap':  # Replace it with stars
             glen = 1
             try:
                 glen = int(ch.get('extent'))
-            except:
+            except ValueError:
                 pass
             display += '*' * glen
         elif ch.tag == 'damage':
             display += '[%s]' % ch.text
+        # elif ch.tag == 'lb':
+        #     display += ' | '
         else:
             display += ch.text or ''
         display += ch.tail or ''
     if display != token['t']:
         token['display'] = display
     return token
+
+
+def _strip_nonalpha(token):
+    if token is not None:
+        return re.sub(r"\W", "", token)
+    return ""
 
 
 def milestones():
