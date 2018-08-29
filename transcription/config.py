@@ -1,3 +1,4 @@
+# coding=utf-8
 """Configuration routines for tpen2tei and friends"""
 
 import os
@@ -142,7 +143,7 @@ def normalise(token):
             glen = 1
             try:
                 glen = int(ch.get('extent'))
-            except ValueError:
+            except (ValueError, TypeError):
                 pass
             display += '*' * glen
         elif ch.tag == 'damage':
