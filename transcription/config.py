@@ -80,6 +80,8 @@ def transcription_filter(line):
     """A list of custom corrections to easily-fixed transcription errors"""
     line = re.sub(r'(?<=[^</"])un(clear|known)', '<gap/>', line)
     line = re.sub(r'<del\s+type', '<del rend', line)
+    # fix hyphen misinterpretation of Tatevik V.
+    line = re.sub(r'\s*<add place="below">֊</add>', '֊', line)
     return line.replace(
         '_', '֊').replace(  # fix erroneous underscore use by Razmik
         '“', '"').replace(  # fix curly quote pasting by Anahit
