@@ -112,6 +112,25 @@ def punctuation():
 
 
 def normalise(token):
+    # Remove all the punctuation that is irrelevant for collation
+    stripped = token.get('t').replace(
+        '֊', '').replace(
+        '՛', '')
+    # If we've just blanked out the token, blank it all out and return
+    if stripped == '':
+        return {'t':'','n':'','lit':''}
+    # Otherwise continue with our modified 't' value
+    else:
+        token['t'] = stripped
+    # If the token is a number, also "fix" the orthography of the number -
+    # remove overlines, set-off dots, and uppercase the lined digits
+    if "num value" in token.get('lit'):
+        if "՟" in token.get('t'):
+            token['t'] = token.get('t').upper().replace('ԵՒ', 'և')
+        token['t'] = token.get('t').replace(
+            '.', '').replace(
+            '՟', '')
+
     # Normalise for Armenian orthography and case
     if token.get('n') == token.get('t'):
         st = token.get('n').lower().replace('եւ', 'և').replace('աւ', 'օ')
