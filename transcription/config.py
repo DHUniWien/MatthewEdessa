@@ -86,7 +86,7 @@ def transcription_filter(line):
         '_', '֊').replace(  # fix erroneous underscore use by Razmik
         '“', '"').replace(  # fix curly quote pasting by Anahit
         ':', '։').replace(  # use Armenian full stop, not ASCII colon
-        '․', '.').replace( # use ASCII period, not Unicode one-dot leader
+        '․', '.').replace(  # use ASCII period, not Unicode one-dot leader
         '”', '"').replace(
         '<subst><del rend="overwrite"', '<subst rend="overwrite"><del').replace(
         ',', '.')  # MSS have no difference between comma & dot
@@ -115,6 +115,7 @@ def punctuation():
 
 def normalise(token):
     # Remove all the punctuation that is irrelevant for collation
+    orig = token.get('t')
     stripped = token.get('t').replace(
         '֊', '').replace(
         '՛', '')
@@ -132,6 +133,9 @@ def normalise(token):
         token['t'] = token.get('t').replace(
             '.', '').replace(
             '՟', '')
+    # Change the 'normal' form as well if appropriate
+    if token.get('n') == orig:
+        token['n'] = token.get('t')
 
     # Normalise for Armenian orthography and case
     if token.get('n') == token.get('t'):
