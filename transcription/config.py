@@ -86,6 +86,7 @@ def transcription_filter(line):
         '_', '֊').replace(  # fix erroneous underscore use by Razmik
         '“', '"').replace(  # fix curly quote pasting by Anahit
         ':', '։').replace(  # use Armenian full stop, not ASCII colon
+        'xml։id', 'xml:id').replace(  # ...except for xml:id
         '․', '.').replace(  # use ASCII period, not Unicode one-dot leader
         '”', '"').replace(
         '<subst><del rend="overwrite"', '<subst rend="overwrite"><del').replace(
