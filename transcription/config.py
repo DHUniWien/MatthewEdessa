@@ -115,27 +115,17 @@ def punctuation():
 
 def normalise(token):
     # Remove all the punctuation that is irrelevant for collation
-    orig = token.get('t')
-    stripped = token.get('t').replace(
-        '֊', '').replace(
-        '՛', '')
-    # If we've just blanked out the token, blank it all out and return
-    if stripped == '':
-        return {'t':'','n':'','lit':''}
-    # Otherwise continue with our modified 't' value
-    else:
-        token['t'] = stripped
+    token['t'] = _strip_noise(token['t'])
+    token['n'] = _strip_noise(token['n'])
+    token['lit'] = _strip_noise(token['lit'])
     # If the token is a number, also "fix" the orthography of the number -
     # remove overlines, set-off dots, and uppercase the lined digits
-    if "num value" in token.get('lit'):
+    if re.match(r'\d+', token.get('n')):
         if "՟" in token.get('t'):
             token['t'] = token.get('t').upper().replace('ԵՒ', 'և')
         token['t'] = token.get('t').replace(
             '.', '').replace(
             '՟', '')
-    # Change the 'normal' form as well if appropriate
-    if token.get('n') == orig:
-        token['n'] = token.get('t')
 
     # Normalise for Armenian orthography and case
     if token.get('n') == token.get('t'):
@@ -184,6 +174,11 @@ def normalise(token):
         token['display'] = display
     return token
 
+
+def _strip_noise(str):
+    return str.replace(
+        '֊', '').replace(
+        '՛', '')
 
 def _strip_nonalpha(token):
     if token is not None:
