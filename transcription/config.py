@@ -199,6 +199,21 @@ def _strip_nonalpha(token):
 def _number_orth(st):
     return re.sub(r'[^\w\s]', '', st).upper().replace('ԵՒ', 'և')
 
+def postprocess(root):
+    """Find all pb/lb/cb milestone elements that occur last in a
+    paragraph, and move them outside that paragraph."""
+    ns = {'t': 'http://www.tei-c.org/ns/1.0'}
+    for block in root.xpath('//t:body/t:p', namespaces=ns):
+        parent = block.getparent()
+        idx = parent.index(block)
+        try:
+            last_el = block.xpath('./child::*[last()]', namespaces=ns)[0]
+        except IndexError:
+            continue
+        tag = last_el.tag.replace('{http://www.tei-c.org/ns/1.0}', '')
+        if last_el.tail is None and re.match(r'[lcp]b', tag):
+            parent.insert(idx+1, last_el)
+
 def milestones():
     # Where are we?
     milestonelist = []
