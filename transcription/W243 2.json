@@ -36684,12 +36684,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "տեանս ամէն: "
+            "cnt:chars" : "տեանս ամէն: </p>"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13225959#xywh=40,500,674,28",
           "_tpen_note" : "",
-          "_tpen_creator" : 1932,
-          "modified" : "2017-08-28 17:24:03.0"
+          "_tpen_creator" : 281,
+          "modified" : "2018-09-18 02:13:26.0"
         } ]
       } ],
       "images" : [ {
@@ -36701,44 +36701,6 @@
           "format" : "image/jpeg"
         },
         "on" : "http://t-pen.org/TPEN/canvas/13225959"
-      } ]
-    }, {
-      "@id" : "http://t-pen.org/TPEN/canvas/13225951",
-      "@type" : "sc:Canvas",
-      "label" : "page_074v.jpg",
-      "width" : 750,
-      "height" : 1000,
-      "otherContent" : [ {
-        "@id" : "http://t-pen.org/TPEN/project/5708/annotations/13225951",
-        "@type" : "sc:AnnotationList",
-        "label" : "http://t-pen.org/TPEN/canvas/13225951 List",
-        "proj" : 5708,
-        "on" : "http://t-pen.org/TPEN/canvas/13225951",
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "resources" : [ {
-          "@id" : "http://t-pen.org/TPEN/line/103455675",
-          "_tpen_line_id" : "line/103455675",
-          "@type" : "oa:Annotation",
-          "motivation" : "oad:transcribing",
-          "resource" : {
-            "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
-          },
-          "on" : "http://t-pen.org/TPEN/canvas/13225951#xywh=0,0,1500,1000",
-          "_tpen_note" : "",
-          "_tpen_creator" : 0,
-          "modified" : "2017-08-28 17:24:32.0"
-        } ]
-      } ],
-      "images" : [ {
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13225951&height=2000&user=null",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
-        },
-        "on" : "http://t-pen.org/TPEN/canvas/13225951"
       } ]
     } ]
   } ]
