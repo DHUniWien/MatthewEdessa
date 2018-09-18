@@ -85,9 +85,11 @@ def transcription_filter(line):
     return line.replace(
         '_', '֊').replace(  # fix erroneous underscore use by Razmik
         '“', '"').replace(  # fix curly quote pasting by Anahit
-        ':', '։').replace(  # use Armenian full stop, not ASCII colon
-        '․', '.').replace(  # use ASCII period, not Unicode one-dot leader
         '”', '"').replace(
+        ':', '։').replace(  # use Armenian full stop, not ASCII colon
+        'xml։id', 'xml:id').replace( # ...except in xml:id attribute
+        '․', '.').replace(  # use ASCII period, not Unicode one-dot leader
+        '<p/>', '</p><p>').replace( # fix paragraph milestones
         '<subst><del rend="overwrite"', '<subst rend="overwrite"><del').replace(
         ',', '.')  # MSS have no difference between comma & dot
 
@@ -118,24 +120,21 @@ def normalise(token):
     token['t'] = _strip_noise(token['t'])
     token['n'] = _strip_noise(token['n'])
     token['lit'] = _strip_noise(token['lit'])
-    # If the token is a number, also "fix" the orthography of the number -
-    # remove overlines, set-off dots, and uppercase the lined digits
-    if re.match(r'\d+', token.get('n')):
-        if "՟" in token.get('t'):
-            token['t'] = token.get('t').upper().replace('ԵՒ', 'և')
-        token['t'] = token.get('t').replace(
-            '.', '').replace(
-            '՟', '')
 
-    # Normalise for Armenian orthography and case
+    # Do some orthographic simplification for Armenian string matching
     if token.get('n') == token.get('t'):
-        st = token.get('n').lower().replace('եւ', 'և').replace('աւ', 'օ')
+        st = token.get('n').lower().replace(
+            'եւ', 'և').replace(
+            'աւ', 'օ').replace(
+            'է', 'ե').replace(
+            'վ', 'ւ')
         if re.search(r'\w', st) is not None:
             st = re.sub(r'[\W]', '', st)
         token['n'] = st
 
     # Parse the word's XML literal form
     word = fromstring('<word>%s</word>' % token['lit'])
+    token_is_number = 'num' in token.get('context')
 
     # Make a regex for matching any abbreviated words
     if token.get('lit').find('abbr') > -1:
@@ -151,6 +150,8 @@ def normalise(token):
 
     # Make a Graphviz HTML display field for abbreviations, gaps, hilights, etc.
     display = word.text or ''
+    if token_is_number:
+        display = _number_orth(display)
     for ch in word:
         if ch.tag == 'abbr':  # Put a line over it
             display += '<O>%s</O>' % ch.text
@@ -165,26 +166,38 @@ def normalise(token):
             display += '*' * glen
         elif ch.tag == 'damage':
             display += '[%s]' % ch.text
+        elif ch.tag == 'supplied':
+            display += '&lt;%s&gt;' % ch.text
+        elif ch.tag == 'num':
+            token_is_number = True
+            display += _number_orth(ch.text)
         # elif ch.tag == 'lb':
         #     display += ' | '
         else:
             display += ch.text or ''
         display += ch.tail or ''
+    # Clean up orthographic noise of numbers by replacing the 't' value
+    if token_is_number:
+        token['t'] = display
     if display != token['t']:
         token['display'] = display
     return token
 
 
-def _strip_noise(str):
-    return str.replace(
+def _strip_noise(st):
+    return st.replace(
         '֊', '').replace(
         '՛', '')
+
 
 def _strip_nonalpha(token):
     if token is not None:
         return re.sub(r"\W", "", token)
     return ""
 
+
+def _number_orth(st):
+    return re.sub(r'[^\w\s]', '', st).upper().replace('ԵՒ', 'և')
 
 def milestones():
     # Where are we?
