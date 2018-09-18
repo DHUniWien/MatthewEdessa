@@ -35,6 +35,7 @@ special_chars = {
     'էս': ('eslig', 'ARMENIAN EH-SEH LIGATURE'),
     'ես': ('echslig', 'ARMENIAN ECH-SEH LIGATURE'),
     'յր': ('yrlig', 'ARMENIAN YI-REH LIGATURE'),
+    'մի': ('milig', 'ARMENIAN MEN-INI LIGATURE'),
     'րզ': ('rzlig', 'ARMENIAN REH-ZA LIGATURE'),
     'սպ': ('splig', 'ARMENIAN SEH-PEH LIGATURE'),
     'զմ': ('zmlig', 'ARMENIAN ZA-MEN LIGATURE'),
