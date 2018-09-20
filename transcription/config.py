@@ -135,7 +135,7 @@ def normalise(token):
 
     # Parse the word's XML literal form
     word = fromstring('<word>%s</word>' % token['lit'])
-    token_is_number = 'num' in token.get('context')
+    token_is_number = 'num' in token.get('context', '')
 
     # Make a regex for matching any abbreviated words
     if token.get('lit').find('abbr') > -1:
