@@ -200,12 +200,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<p/><milestone unit=\"section\" n=\"401\"/>Ի<hi rend=\"red\">սկ ընդ յաւուրսն ընդ այնոսիկ և յամին</hi> "
+            "cnt:chars" : "<p><milestone unit=\"section\" n=\"401\"/><hi rend=\"large\">Ի</hi><hi rend=\"red\">սկ ընդ յաւուրսն ընդ այնոսիկ և յամին</hi> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220240#xywh=126,304,492,16",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2018-06-25 10:29:17.0"
+          "_tpen_creator" : 281,
+          "modified" : "2018-09-18 04:18:26.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102138410",
           "_tpen_line_id" : "line/102138410",
@@ -3158,12 +3158,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<p/><note>Ա<hi rend=\"red\">բաս եղբայր էր աշոտոյ և</hi> "
+            "cnt:chars" : "<p/><mod rend=\"red\"><hi rend=\"black\">Ա</hi>բաս եղբայր էր աշոտոյ և  "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220234#xywh=163,373,458,27",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2018-06-25 13:37:01.0"
+          "_tpen_creator" : 281,
+          "modified" : "2018-09-18 04:25:50.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102142824",
           "_tpen_line_id" : "line/102142824",
@@ -3171,12 +3171,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"red\">յօհաննէս թ<abbr>գ</abbr>րի</hi></note> "
+            "cnt:chars" : "յօհաննէս թ<abbr>գ</abbr>րի</mod> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220234#xywh=163,400,458,13",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2018-06-25 13:37:12.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-09-18 03:42:59.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102142825",
           "_tpen_line_id" : "line/102142825",
@@ -5493,12 +5493,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<p/>Ա<hi rend=\"red\">յս աշոտ կացեալ թ<abbr>գր</abbr> ամս <num value=\"27\">․ի՟է՟․</num> և ապ</hi>"
+            "cnt:chars" : "<p/><mod rend=\"red\">Այս աշոտ կացեալ թ<abbr>գր</abbr> ամս <num value=\"27\">․ի՟է՟․</num> և ապ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220164#xywh=43,350,501,16",
           "_tpen_note" : "Should we mark the letter \"Ա\" as red ? ",
           "_tpen_creator" : 1923,
-          "modified" : "2018-09-04 07:34:28.0"
+          "modified" : "2018-09-18 03:44:39.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102144944",
           "_tpen_line_id" : "line/102144944",
@@ -5506,12 +5506,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"red\">ա՛ սմբատ շահնշահ ամս <num value=\"13\">ժ՟գ՟</num> և</hi> "
+            "cnt:chars" : "ա՛ սմբատ շահնշահ ամս <num value=\"13\">ժ՟գ՟</num> և  "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220164#xywh=43,366,501,21",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2018-06-26 02:46:23.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-09-18 03:44:48.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102144945",
           "_tpen_line_id" : "line/102144945",
@@ -5519,12 +5519,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"red\">գագիկ <num value=\"29\">ի՟թ՟</num>։~</hi> "
+            "cnt:chars" : "գագիկ <num value=\"29\">ի՟թ՟</num>։~</mod> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220164#xywh=43,387,501,18",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2018-06-26 02:55:26.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-09-18 03:45:02.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102144946",
           "_tpen_line_id" : "line/102144946",
@@ -8866,12 +8866,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"ornament\">Ե</hi><hi rend=\"red\">ւ յանափոռտէն պռտօսպաթրին</hi> "
+            "cnt:chars" : "<mod rend=\"red\"><hi rend=\"ornament\">Ե</hi>ւ յանափոռտէն պռտօսպաթրին  "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220158#xywh=161,344,471,15",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2018-06-26 03:51:41.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-09-18 03:46:02.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102148209",
           "_tpen_line_id" : "line/102148209",
@@ -8879,12 +8879,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"red\">դերջնա՛ լևոնի և տարնօնոյ զօր</hi>"
+            "cnt:chars" : "դերջնա՛ լևոնի և տարնօնոյ զօր"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220158#xywh=161,359,471,20",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2018-02-18 12:21:19.0"
+          "modified" : "2018-09-18 03:46:10.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102148210",
           "_tpen_line_id" : "line/102148210",
@@ -8892,12 +8892,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"red\">ավարին ողջոյն․ և ի <abbr>տր</abbr> խնդալ։</hi> "
+            "cnt:chars" : "ավարին ողջոյն․ և ի <abbr>տր</abbr> խնդալ։</mod> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220158#xywh=161,379,471,16",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-12-17 07:50:31.0"
+          "modified" : "2018-09-18 03:46:29.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102148211",
           "_tpen_line_id" : "line/102148211",
@@ -11253,12 +11253,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<p/><note><num value=\"400\">Ն՟․</num><hi rend=\"red\">և <num value=\"27\">ի՟է՟</num> թուականին վաղջանեց</hi>"
+            "cnt:chars" : "<p/><mod rend=\"red\"><num value=\"400\">Ն՟․</num> և <num value=\"27\">ի՟է՟</num> թուականին վաղջանեց"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220132#xywh=53,393,482,15",
           "_tpen_note" : "Should we mark the letter \"Ն\" as red?",
           "_tpen_creator" : 1923,
-          "modified" : "2018-09-04 07:36:36.0"
+          "modified" : "2018-09-18 03:47:41.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102149904",
           "_tpen_line_id" : "line/102149904",
@@ -11266,12 +11266,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"red\">աւ անանիայ ի թագաւորու</hi>"
+            "cnt:chars" : "աւ անանիայ ի թագաւորու"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220132#xywh=53,408,482,19",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2018-06-26 04:23:40.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-09-18 03:47:52.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102149905",
           "_tpen_line_id" : "line/102149905",
@@ -11279,12 +11279,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"red\">թ<abbr>են</abbr> աշոտոյ․ որդւոյ աբասայ։</hi></note> "
+            "cnt:chars" : "թ<abbr>են</abbr> աշոտոյ․ որդւոյ աբասայ։</mod> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220132#xywh=53,427,482,20",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2018-06-26 04:23:50.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-09-18 03:48:06.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102149906",
           "_tpen_line_id" : "line/102149906",
@@ -43206,12 +43206,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<p/><note>Վ<hi rend=\"red\">ասն մահուանն <abbr>տ</abbr>ն պետրոսի</hi> "
+            "cnt:chars" : "<p/><mod rend=\"red\">Վասն մահուանն <abbr>տ</abbr>ն պետրոսի "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220262#xywh=28,583,458,19",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2018-06-28 03:56:57.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-09-18 03:49:31.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102194103",
           "_tpen_line_id" : "line/102194103",
@@ -43219,12 +43219,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"red\">կթ<abbr>ղ</abbr>կոսին․ Վա՜յ <num value=\"1000\">․ռ՟․</num> աւաղ։</hi></note> "
+            "cnt:chars" : "կթ<abbr>ղ</abbr>կոսին․ Վա՜յ <num value=\"1000\">․ռ՟․</num> աւաղ։</mod>  "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220262#xywh=28,602,458,15",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2018-06-28 03:56:38.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-09-18 03:49:43.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102194104",
           "_tpen_line_id" : "line/102194104",
@@ -54246,12 +54246,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<p/><note>Ո<hi rend=\"red\">վ եղբարք լուարուք զնենգ</hi>"
+            "cnt:chars" : "<p/><mod rend=\"red\">Ով եղբարք լուարուք զնենգ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220124#xywh=183,597,452,14",
           "_tpen_note" : "Should we mark the letter \"Ո\" as red?",
           "_tpen_creator" : 1923,
-          "modified" : "2018-09-04 08:14:34.0"
+          "modified" : "2018-09-18 03:51:22.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102203772",
           "_tpen_line_id" : "line/102203772",
@@ -54259,12 +54259,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"red\">ութիւն յունացն․ զոր ա<abbr>րր</abbr>ին</hi> "
+            "cnt:chars" : "ութիւն յունացն․ զոր ա<abbr>րր</abbr>ին  "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220124#xywh=183,611,452,21",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2017-10-02 03:09:09.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-09-18 03:51:44.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102203773",
           "_tpen_line_id" : "line/102203773",
@@ -54272,12 +54272,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"red\">ընդ ազգս հայոց։</hi></note> "
+            "cnt:chars" : "ընդ ազգս հայոց։</mod>   "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220124#xywh=183,632,452,20",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2018-06-28 07:50:38.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-09-18 03:52:01.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102203774",
           "_tpen_line_id" : "line/102203774",
@@ -61420,12 +61420,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<p/><note>Թ<hi rend=\"red\">ագա<abbr>ւ</abbr>րն յօհաննէս․ աբաս և ա</hi>"
+            "cnt:chars" : "<p/><mod rend=\"red\">Թագա<abbr>ւ</abbr>րն յօհաննէս․ աբաս և ա"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220272#xywh=52,492,415,14",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2018-09-04 08:23:55.0"
+          "modified" : "2018-09-18 03:52:50.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102218405",
           "_tpen_line_id" : "line/102218405",
@@ -61433,12 +61433,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"red\">շոտ․ եղբարք էին։ Եւ գագիկ թ<abbr>գր</abbr>ն</hi> "
+            "cnt:chars" : "շոտ․ եղբարք էին։ Եւ գագիկ թ<abbr>գր</abbr>ն  "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220272#xywh=52,506,415,16",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2018-06-28 12:37:51.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-09-18 03:52:59.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102218406",
           "_tpen_line_id" : "line/102218406",
@@ -61446,12 +61446,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"red\">յանւոյ ք<abbr>ղք</abbr>ին․ որդի աշոտոյ․ և գագ</hi>"
+            "cnt:chars" : "յանւոյ ք<abbr>ղք</abbr>ին․ որդի աշոտոյ․ և գագ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220272#xywh=52,522,415,21",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2017-02-20 01:37:03.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-09-18 03:53:12.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102218407",
           "_tpen_line_id" : "line/102218407",
@@ -61459,12 +61459,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"red\">իկ որդի աբասա եղբօր որդիք էին։</hi></note> "
+            "cnt:chars" : "իկ որդի աբասա եղբօր որդիք էին։</mod> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220272#xywh=52,543,415,18",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2018-06-28 12:42:16.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-09-18 03:53:27.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102218408",
           "_tpen_line_id" : "line/102218408",

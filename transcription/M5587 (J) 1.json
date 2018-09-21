@@ -135,12 +135,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "գերեաց. և իրօարար: <hi rend=\"red\">Յայսմ</hi> աւուրքս եղև "
+            "cnt:chars" : "գերեաց. և իրօարար: <p/><hi rend=\"red\">Յայսմ</hi> աւուրքս եղև "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13201995#xywh=69,225,613,29",
-          "_tpen_note" : "",
-          "_tpen_creator" : 1932,
-          "modified" : "2017-06-08 16:07:34.0"
+          "_tpen_note" : "Needs paragraphs marked after this point!",
+          "_tpen_creator" : 281,
+          "modified" : "2018-09-18 01:34:00.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102152979",
           "_tpen_line_id" : "line/102152979",
@@ -1483,12 +1483,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"red\"><num value=\"427\">դ՟ճ՟. և. ի՟է՟.</num> վաղջանեցաւ անանիայ.  ի</hi> "
+            "cnt:chars" : "<mod rend=\"red\"><num value=\"427\">դ՟ճ՟. և. ի՟է՟.</num> վաղջանեցաւ անանիայ. ի "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202004#xywh=101,66,600,74",
           "_tpen_note" : "",
-          "_tpen_creator" : 1932,
-          "modified" : "2017-06-08 16:31:13.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-09-18 01:50:24.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102153873",
           "_tpen_line_id" : "line/102153873",
@@ -1496,12 +1496,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"red\">թագաւորու<abbr><g ref=\"\">թե</g>ն</abbr> աշոտոյ</hi>  "
+            "cnt:chars" : "թագաւորու<abbr><g ref=\"\">թե</g>ն</abbr> աշոտոյ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202004#xywh=101,140,600,30",
           "_tpen_note" : "",
-          "_tpen_creator" : 1932,
-          "modified" : "2017-02-06 15:02:04.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2018-09-18 01:50:13.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102153874",
           "_tpen_line_id" : "line/102153874",
@@ -1509,12 +1509,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<hi rend=\"red\"> որդի աբասայ:</hi> "
+            "cnt:chars" : "որդի աբասայ:</mod> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202004#xywh=101,170,600,30",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-12-20 03:08:39.0"
+          "modified" : "2018-09-18 01:50:31.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102153875",
           "_tpen_line_id" : "line/102153875",
