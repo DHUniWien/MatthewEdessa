@@ -3,7 +3,7 @@
 
 import os
 import re
-from lxml.etree import fromstring
+from lxml.etree import fromstring, tostring
 
 metadata = {
     'title': 'Ժամանակագրութիւն',
@@ -93,23 +93,6 @@ def transcription_filter(line):
         '<p/>', '</p><p>').replace( # fix paragraph milestones
         '<subst><del rend="overwrite"', '<subst rend="overwrite"><del').replace(
         ',', '.')  # MSS have no difference between comma & dot
-
-
-def tokenise(textnode):
-    """Returns a list of tokens from a given text string. In this case,
-    punctuation becomes its own token."""
-    tokens = []
-    words = re.split('\s', textnode)
-    punct = re.compile(r"([.,։]+)?(\w+)([.,։]+)?")
-    for w in words:
-        match = punct.fullmatch(w)
-        if match is not None:
-            for bit in match.groups():
-                if bit is not None:
-                    tokens.append(bit)
-        else:
-            tokens.append(w)
-    return tokens
 
 
 def punctuation():
@@ -207,13 +190,28 @@ def postprocess(root):
     for block in root.xpath('//t:body/t:p', namespaces=ns):
         parent = block.getparent()
         idx = parent.index(block)
-        try:
-            last_el = block.xpath('./child::*[last()]', namespaces=ns)[0]
-        except IndexError:
-            continue
-        tag = last_el.tag.replace('{http://www.tei-c.org/ns/1.0}', '')
-        if last_el.tail is None and re.match(r'[lcp]b', tag):
-            parent.insert(idx+1, last_el)
+        children = list(block)
+        if len(children) > 0:
+            children.reverse()
+            # Move a final line break
+            if children[0].tag == '{http://www.tei-c.org/ns/1.0}lb' and children[0].tail is None:
+                lb_el = children.pop(0)
+                parent.insert(idx+1, lb_el)
+                # Now check for page or column breaks
+                while len(children) > 0 and re.search(r'\}[cp]b', children[0].tag):
+                    br_el = children.pop(0)
+                    parent.insert(idx+1, br_el)
+                # Now move the remaining trailing newline where it belongs
+                if len(children):
+                    penultimate = children[0]
+                    if penultimate.tail is not None:
+                        penultimate.tail = penultimate.tail.rstrip()
+                    else:
+                        print("Penultimate was %s" % tostring(penultimate, encoding="utf-8").decode("utf-8"))
+                else:
+                    block.text = block.text.rstrip()
+                block.tail = "\n"
+
 
 def milestones():
     # Where are we?
