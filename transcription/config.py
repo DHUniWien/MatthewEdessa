@@ -3,6 +3,7 @@
 
 import os
 import re
+import requests
 from lxml.etree import fromstring, tostring
 
 metadata = {
@@ -49,6 +50,9 @@ special_chars = {
     'յ': ('yabove', 'ARMENIAN YI SUPERSCRIPT VARIANT'),
     'ր': ('rabove', 'ARMENIAN REH SUPERSCRIPT VARIANT')
 }
+
+# This is a big ugly hack to deal with slowdowns
+abbreviation_lookup = {}
 
 
 def numeric_parser(val):
@@ -99,6 +103,17 @@ def punctuation():
     return [".", "։", "՜", "՝", "՞"]
 
 
+def comparator(tokenstr):
+    st = tokenstr.lower().replace(
+        'եւ', 'և').replace(
+        'աւ', 'օ').replace(
+        'է', 'ե').replace(
+        'վ', 'ւ')
+    if re.search(r'\w', st) is not None:
+        st = re.sub(r'[\W]', '', st)
+    return st
+
+
 def normalise(token):
     # Remove all the punctuation that is irrelevant for collation
     token['t'] = _strip_noise(token['t'])
@@ -107,30 +122,47 @@ def normalise(token):
 
     # Do some orthographic simplification for Armenian string matching
     if token.get('n') == token.get('t'):
-        st = token.get('n').lower().replace(
-            'եւ', 'և').replace(
-            'աւ', 'օ').replace(
-            'է', 'ե').replace(
-            'վ', 'ւ')
-        if re.search(r'\w', st) is not None:
-            st = re.sub(r'[\W]', '', st)
-        token['n'] = st
+        token['n'] = comparator(token.get('t'))
 
     # Parse the word's XML literal form
     word = fromstring('<word>%s</word>' % token['lit'])
     token_is_number = 'num' in token.get('context', '')
+    token_is_abbreviated = 'abbr' in token.get('context', '')
 
     # Make a regex for matching any abbreviated words
-    if token.get('lit').find('abbr') > -1:
+    token_re = None
+    if token_is_abbreviated:
+        token_re = '.*%s.*' % '.*'.join(_strip_nonalpha(word.text))
+    elif token.get('lit').find('abbr') > -1:
         # Get the first part of the word
-        token['re'] = _strip_nonalpha(word.text)
+        token_re = _strip_nonalpha(word.text)
         # Wildcard the abbreviation bit of the word
         for ch in word:
             if ch.tag == 'abbr':  # Join all letters with wildcards
-                token['re'] += '.*%s.*' % '.*'.join(_strip_nonalpha(ch.text))
-            token['re'] += _strip_nonalpha(ch.tail)
+                token_re += '.*%s.*' % '.*'.join(_strip_nonalpha(ch.text))
+            token_re += _strip_nonalpha(ch.tail)
         # Recognise that 'վ' and 'ւ' are used a bit interchangeably e.g. in թվականութիւն
-        token['re'] = re.sub(r'\Bվ', '[վւ]', token.get('re'))
+        token_re = re.sub(r'\Bվ', '[վւ]', token_re)
+
+    # Set the normal form where we can
+    if token_re is not None:
+        nf = abbreviation_lookup.get(token_re, None)
+        if nf is None:
+            abbrurl = 'http://tom.stemmaweb.net:3000/lookup/%s' % token_re
+            r = requests.get(abbrurl)
+            if r.status_code == requests.codes.ok:
+                expansion = r.json()
+                if len(expansion) > 0:
+                    # Add normal form, remove regex
+                    nf = expansion[0].get('a_expansion')
+                else:
+                    nf = 'UNDEF'
+            else:
+                nf = 'ERROR %d' % r.status_code
+        if not nf.startswith('ERROR') and nf is not 'UNDEF':
+            token['normal_form'] = nf
+            token['n'] = comparator(nf)
+        abbreviation_lookup[token_re] = nf
 
     # Make a Graphviz HTML display field for abbreviations, gaps, hilights, etc.
     display = word.text or ''
@@ -183,6 +215,7 @@ def _strip_nonalpha(token):
 def _number_orth(st):
     return re.sub(r'[^\w\s]', '', st).upper().replace('ԵՒ', 'և')
 
+
 def postprocess(root):
     """Find all pb/lb/cb milestone elements that occur last in a
     paragraph, and move them outside that paragraph."""
@@ -225,4 +258,4 @@ def milestones():
             for line in fh:
                 for m in re.finditer(r'milestone unit="section" n="([\w.]+)"', line):
                     milestonelist.append(m.group(1))
-    return milestonelist
+    return ['401', '407', '410']
