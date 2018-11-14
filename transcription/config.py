@@ -51,7 +51,8 @@ special_chars = {
     'ր': ('rabove', 'ARMENIAN REH SUPERSCRIPT VARIANT')
 }
 
-# This is a big ugly hack to deal with slowdowns
+# This is a big ugly hack to prevent thousands of repetitive database API calls.
+# Assuming that memory is cheaper than network access.
 abbreviation_lookup = {}
 
 
@@ -135,6 +136,7 @@ def normalise(token):
         token_re = '.*%s.*' % '.*'.join(_strip_nonalpha(word.text))
     elif token.get('lit').find('abbr') > -1:
         # Get the first part of the word
+        token_is_abbreviated = True
         token_re = _strip_nonalpha(word.text)
         # Wildcard the abbreviation bit of the word
         for ch in word:
@@ -163,15 +165,25 @@ def normalise(token):
             token['normal_form'] = nf
             token['n'] = comparator(nf)
         abbreviation_lookup[token_re] = nf
+    if token_is_number:
+        # Get the numeric value out of the normal form
+        nmatch = re.search(r'\d+', token.get('n'))
+        if nmatch is not None:
+            north = _number_norm(int(nmatch.group(0)))
+            token['normal_form'] = token.get('n').replace(
+                nmatch.group(0), north)
 
     # Make a Graphviz HTML display field for abbreviations, gaps, hilights, etc.
     display = word.text or ''
     if token_is_number:
-        display = _number_orth(display)
+        # display = _number_orth(display)
+        display = token.get('normal_form', display)
+    if token_is_abbreviated:  # Put a line over it
+        display = '<O>%s</O>' % token.get('t')
     for ch in word:
-        if ch.tag == 'abbr':  # Put a line over it
-            display += '<O>%s</O>' % ch.text
-        elif ch.tag == 'hi':  # Make it red
+        # if ch.tag == 'abbr':    # For more pedantic placement of lines
+        #     display += '<O>%s</O>' % ch.text
+        if ch.tag == 'hi':  # Make it red
             display += '<FONT COLOR="red">%s</FONT>' % ch.text
         elif ch.tag == 'gap':  # Replace it with stars
             glen = 1
@@ -180,10 +192,10 @@ def normalise(token):
             except (ValueError, TypeError):
                 pass
             display += '*' * glen
-        elif ch.tag == 'damage':
-            display += '[%s]' % ch.text
-        elif ch.tag == 'supplied':
-            display += '&lt;%s&gt;' % ch.text
+        # elif ch.tag == 'damage':
+        #     display += '[%s]' % ch.text
+        # elif ch.tag == 'supplied':
+        #    display += '&lt;%s&gt;' % ch.text
         elif ch.tag == 'num':
             token_is_number = True
             display += _number_orth(ch.text)
@@ -214,6 +226,29 @@ def _strip_nonalpha(token):
 
 def _number_orth(st):
     return re.sub(r'[^\w\s]', '', st).upper().replace('ԵՒ', 'և')
+
+
+def _number_norm(val):
+    '''Return the standard Armenian orthography for a given number value'''
+    num = ''
+    groups = [ val % 1000, int(val / 1000) ]
+    thou = 0
+    for g in groups:
+        if g > 0:
+            single = g < 10
+            gn = ''
+            power = 0
+            while g > 0:
+                if g % 10 > 0:
+                    gn = chr(g % 10 + 1328 + 9 * power) + gn
+                power += 1
+                g = int(g / 10)
+            if single:
+                num = chr(ord(gn) + 27 * thou) + num
+            elif len(gn) > 0:
+                num = gn + 'Ռ' * thou + num
+        thou += 1
+    return num
 
 
 def postprocess(root):
@@ -259,3 +294,4 @@ def milestones():
                 for m in re.finditer(r'milestone unit="section" n="([\w.]+)"', line):
                     milestonelist.append(m.group(1))
     return milestonelist
+    # return ['401', '407', '408']
