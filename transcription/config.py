@@ -178,8 +178,6 @@ def normalise(token):
     if token_is_number:
         # display = _number_orth(display)
         display = token.get('normal_form', display)
-    if token_is_abbreviated:  # Put a line over it
-        display = '<O>%s</O>' % token.get('t')
     for ch in word:
         # if ch.tag == 'abbr':    # For more pedantic placement of lines
         #     display += '<O>%s</O>' % ch.text
@@ -204,9 +202,13 @@ def normalise(token):
         else:
             display += ch.text or ''
         display += ch.tail or ''
+    # Add abbreviation marks over the whole
+    if token_is_abbreviated:
+        display = '<O>%s</O>' % display
     # Clean up orthographic noise of numbers by replacing the 't' value
     if token_is_number:
         token['t'] = display
+    # Add the display form to the token, if it is different from the t form
     if display != token['t']:
         token['display'] = display
     return token
