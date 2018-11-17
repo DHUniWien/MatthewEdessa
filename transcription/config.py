@@ -2,8 +2,10 @@
 """Configuration routines for tpen2tei and friends"""
 
 import os
+import random
 import re
 import requests
+import string
 from lxml.etree import fromstring, tostring
 
 metadata = {
@@ -124,6 +126,11 @@ def normalise(token):
     # Do some orthographic simplification for Armenian string matching
     if token.get('n') == token.get('t'):
         token['n'] = comparator(token.get('t'))
+
+    # If the token is punctuation, or the words 'և' or 'ի', put a random
+    # string in the 'n' field to prevent spurious alignment
+    if re.match(r'^(\W+|և|ի)$', token.get('t')):
+        token['n'] = ''.join(random.choices(string.ascii_uppercase, k=8))
 
     # Parse the word's XML literal form
     word = fromstring('<word>%s</word>' % token['lit'])

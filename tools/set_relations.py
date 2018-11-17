@@ -11,17 +11,20 @@ def make_obvious_relations(options, auth=None):
     the readings, and tries to make relationships based on normal form,
     case folding, and a few other custom parameters."""
     url = "%s/tradition/%s" % (options.repository, options.tradition_id)
+    for section in get_sections(url, options.section, auth):
+        print("Working on section %s" % section.get('name'))
+        apply_relations(url, section.get('id'), auth=auth, verbose=options.verbose)
+
+
+def get_sections(url, requested, auth=None):
     if auth is not None:
         r = requests.get("%s/sections" % url, auth=auth)
     else:
         r = requests.get("%s/sections" % url)
     r.raise_for_status()
-    for section in r.json():
-        if options.section is not None:
-            if section.get('name') != options.section:
-                continue
-        print("Working on section %s" % section.get('name'))
-        apply_relations(url, section.get('id'), auth=auth, verbose=options.verbose)
+    if requested is not None:
+        return [s for s in r.json() if s.get('name') == requested]
+    return r.json()
 
 
 def apply_relations(url, sectid, auth=None, verbose=False):
@@ -61,11 +64,10 @@ def sort_by_rank(rdglist):
 def test_equiv(rdg1, rdg2):
     equiv = rdg1.get('normal_form') == rdg2.get('normal_form') or \
             rdg1.get('normal_form') == rdg2.get('text') or \
-            rdg1.get('text') == rdg2.get('normal_form') or \
-            rdg1.get('text').lower() == rdg2.get('text').lower()
+            rdg1.get('text') == rdg2.get('normal_form')
     # Some experimental spelling assumptions
-    t1 = rdg1.get('text')
-    t2 = rdg2.get('text')
+    t1 = rdg1.get('text').lower()
+    t2 = rdg2.get('text').lower()
     if re.sub(r'\W+', '', t1) == re.sub(r'\W+', '', t2) \
         and re.search(r'\w+', t1) is not None:
         return True
@@ -73,7 +75,11 @@ def test_equiv(rdg1, rdg2):
         return True
     if re.sub('աւ', 'օ', t1) == re.sub('աւ', 'օ', t2):
         return True
-    if re.sub(r'(?:[աո])՛$', 'յ', t1) == re.sub(r'(?:[աո])՛$', 'յ', t2):
+    if re.sub('է', 'ե', t1) == re.sub('է', 'ե', t2):
+        return True
+    if re.sub('եւ', 'և', t1) == re.sub('եւ', 'և', t2):
+        return True
+    if re.sub(r'(?:[աո])՛?$', 'յ', t1) == re.sub(r'(?:[աո])՛?$', 'յ', t2):
         return True
     # If none of these matter, return the formal equivalence
     return equiv
@@ -109,6 +115,69 @@ def make_relations(url, stack, auth=None, verbose=False):
             print("Linked readings %s" % prettyprint)
 
 
+def merge_identical_across_ranks(options, auth=None):
+    url = "%s/tradition/%s" % (options.repository, options.tradition_id)
+    for section in get_sections(url, options.section, auth):
+        print("Checking mergeable readings in section %s" % section.get('name'))
+        murl = "%s/section/%s/mergeablereadings/1/%s" % \
+            (url, section.get('id'), section.get('endRank'))
+        r = requests.get(murl, auth=auth)
+        r.raise_for_status()
+
+        # We have a list of mergeable readings. Do two passes; first for
+        # function words and then for punctuation.
+        mergetargets = {}
+        punct = []
+        for pair in r.json():
+            (r1, r2) = pair
+            if _mergeable(*pair):
+                if re.search(r'\w', r1.get('text')):
+                    r1 = mergetargets.get(r1.get('id'), r1)
+                    r2 = mergetargets.get(r2.get('id'), r2)
+                    mgurl = "%s/reading/%s/merge/%s" % \
+                        (options.repository, r1.get('id'), r2.get('id'))
+                    if _attempt_merge(mgurl, r1, r2, auth=auth, verbose=options.verbose):
+                        mergetargets[r2.get('id')] = r1
+                else:
+                    punct.append(pair)
+
+        # Now for the punctuation.
+        for pair in punct:
+            (r1, r2) = pair
+            if _mergeable(*pair):
+                r1 = mergetargets.get(r1.get('id'), r1)
+                r2 = mergetargets.get(r2.get('id'), r2)
+                mgurl = "%s/reading/%s/merge/%s" % \
+                    (options.repository, r1.get('id'), r2.get('id'))
+                if _attempt_merge(mgurl, r1, r2, auth=auth, verbose=options.verbose):
+                    mergetargets[r2.get('id')] = r1
+
+
+
+def _mergeable(r1, r2):
+    a = "%s|%s|%s" % (r1.get('text'), r1.get('normal_form'), r1.get('display'))
+    b = "%s|%s|%s" % (r2.get('text'), r2.get('normal_form'), r2.get('display'))
+    return a == b
+
+
+
+def _attempt_merge(url, r1, r2, auth=None, verbose=False):
+    if verbose:
+        print("Attempting merge of %s/%s and %s/%s" % \
+              (r1.get('id'), r1.get('text'),
+               r2.get('id'), r2.get('text')), end='', flush=True)
+    r = requests.post(url, auth=auth)
+    try:
+        r.raise_for_status()
+    except HTTPError as e:
+        if verbose:
+            print("failed: %s" % e.response.text)
+        return False
+    if verbose:
+        print("...succeeded")
+    return True
+
+
 # Do the work
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -142,6 +211,12 @@ if __name__ == '__main__':
         help="Restrict processing to given section"
     )
     parser.add_argument(
+        "-m",
+        "--do-merge",
+        action="store_true",
+        help="Merge readings that look identical"
+    )
+    parser.add_argument(
         "-v",
         "--verbose",
         action="store_true",
@@ -155,5 +230,7 @@ if __name__ == '__main__':
         authobj = HTTPBasicAuth(args.username, args.password)
 
     # Go do the work.
+    if args.do_merge:
+        merge_identical_across_ranks(args, auth=authobj)
     make_obvious_relations(args, auth=authobj)
     print("Done!")
