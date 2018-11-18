@@ -81,6 +81,17 @@ def test_equiv(rdg1, rdg2):
         return True
     if re.sub(r'(?:[աո])՛?$', 'յ', t1) == re.sub(r'(?:[աո])՛?$', 'յ', t2):
         return True
+    if re.sub('[բփ]', 'պ', t1) == re.sub('[բփ]', 'պ', t2):
+       return True
+    if re.sub('[գք]', 'կ', t1) == re.sub('[գք]', 'կ', t2):
+       return True
+    if re.sub('[դթ]', 'տ', t1) == re.sub('[դթ]', 'տ', t2):
+       return True
+    if re.sub('ցձ', 'ծ', t1) == re.sub('ցձ', 'ծ', t2):
+       return True
+    if re.sub('փ', 'ֆ', t1) == re.sub('փ', 'ֆ', t2):
+       return True
+
     # If none of these matter, return the formal equivalence
     return equiv
 
