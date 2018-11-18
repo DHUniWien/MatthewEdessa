@@ -65,41 +65,30 @@ def test_equiv(rdg1, rdg2):
     equiv = rdg1.get('normal_form') == rdg2.get('normal_form') or \
             rdg1.get('normal_form') == rdg2.get('text') or \
             rdg1.get('text') == rdg2.get('normal_form')
-    # Some experimental spelling assumptions
-    t1 = rdg1.get('text').lower()
-    t2 = rdg2.get('text').lower()
-    if re.sub(r'\W+', '', t1) == re.sub(r'\W+', '', t2) \
-        and re.search(r'\w+', t1) is not None:
-        return True
-    if re.sub('ը', '', t1) == re.sub('ը', '', t2):
-        return True
-    if re.sub('աւ', 'օ', t1) == re.sub('աւ', 'օ', t2):
-        return True
-    if re.sub('է', 'ե', t1) == re.sub('է', 'ե', t2):
-        return True
-    if re.sub('եւ', 'և', t1) == re.sub('եւ', 'և', t2):
-        return True
-    if re.sub(r'(?<=[աո])՛?', 'յ', t1) == re.sub(r'(?<=[աո])՛?', 'յ', t2):
-        return True
-    if re.sub('[բփ]', 'պ', t1) == re.sub('[բփ]', 'պ', t2):
-       return True
-    if re.sub('[գք]', 'կ', t1) == re.sub('[գք]', 'կ', t2):
-       return True
-    if re.sub('[դթ]', 'տ', t1) == re.sub('[դթ]', 'տ', t2):
-       return True
-    if re.sub('ցձ', 'ծ', t1) == re.sub('ցձ', 'ծ', t2):
-       return True
-    if re.sub('փ', 'ֆ', t1) == re.sub('փ', 'ֆ', t2):
-       return True
-    if re.sub('[ւվ]', 'ու', t1) == re.sub('[ւվ]', 'ու', t2):
-       return True
-    if re.sub('ո', 'օ', t1) == re.sub('ո', 'օ', t2):
-       return True
-    if re.sub('ր', 'ռ', t1) == re.sub('ր', 'ռ', t2):
-       return True
+    t1 = _make_cmp_string(rdg1.get('text').lower())
+    t2 = _make_cmp_string(rdg2.get('text').lower())
+    n1 = _make_cmp_string(rdg1.get('normal_form').lower())
+    n2 = _make_cmp_string(rdg2.get('normal_form').lower())
+    return t1 != '' and t2 != '' and (t1 == t2 or t1 == n2 or t2 == n1)
 
-    # If none of these matter, return the formal equivalence
-    return equiv
+
+def _make_cmp_string(s):
+    """Some experimental spelling assumptions"""
+    s = re.sub('ը', '', s)   # same except for ը
+    s = re.sub('աւ', 'օ', s) # same except for spelling of long o
+    s = re.sub('է', 'ե', s)  # same except for long/short e
+    s = re.sub('եւ', 'և', s)  # same except for ew ligature-or-not
+    s = re.sub(r'(?<=[աո])՛?$', 'յ', s)  # same except for ՛ instead of յ
+    s = re.sub(r'(?<=[աո])$', 'յ', s)   # same except for omitted terminal յ
+    s = re.sub('[բփ]', 'պ', s)   # same except for labial plosives
+    s = re.sub('[գք]', 'կ', s)   # same except for velar plosives
+    s = re.sub('[դթ]', 'տ', s)   # same except for dental plosives
+    s = re.sub('ցձ', 'ծ', s)   # same except for alveolar affricates
+    s = re.sub('փ', 'ֆ', s)   # same exceot for 'f' forms
+    s = re.sub('[ւվ]', 'ու', s)   # same except for v/w forms
+    s = re.sub('ո', 'օ', s)   # same except for long/short o
+    s = re.sub('ր', 'ռ', s)   # same except for r forms
+    return s
 
 
 def make_relations(url, stack, auth=None, verbose=False):
