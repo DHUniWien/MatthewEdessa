@@ -91,6 +91,8 @@ def test_equiv(rdg1, rdg2):
        return True
     if re.sub('փ', 'ֆ', t1) == re.sub('փ', 'ֆ', t2):
        return True
+    if re.sub('[ւվ]', 'ու', t1) == re.sub('[ւվ]', 'ու', t2):
+       return True
 
     # If none of these matter, return the formal equivalence
     return equiv
