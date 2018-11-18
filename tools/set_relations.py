@@ -95,6 +95,8 @@ def test_equiv(rdg1, rdg2):
        return True
     if re.sub('ո', 'օ', t1) == re.sub('ո', 'օ', t2):
        return True
+    if re.sub('ր', 'ռ', t1) == re.sub('ր', 'ռ', t2):
+       return True
 
     # If none of these matter, return the formal equivalence
     return equiv
