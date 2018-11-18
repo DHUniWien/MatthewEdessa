@@ -79,7 +79,7 @@ def test_equiv(rdg1, rdg2):
         return True
     if re.sub('եւ', 'և', t1) == re.sub('եւ', 'և', t2):
         return True
-    if re.sub(r'(?:[աո])՛?$', 'յ', t1) == re.sub(r'(?:[աո])՛?$', 'յ', t2):
+    if re.sub(r'(?<=[աո])՛?', 'յ', t1) == re.sub(r'(?<=[աո])՛?', 'յ', t2):
         return True
     if re.sub('[բփ]', 'պ', t1) == re.sub('[բփ]', 'պ', t2):
        return True
