@@ -151,20 +151,23 @@ def normalise(token):
         nf = abbreviation_lookup.get(token_re, None)
         if nf is None:
             abbrurl = 'http://tom.stemmaweb.net:3000/lookup/%s' % token_re
-            r = requests.get(abbrurl)
-            if r.status_code == requests.codes.ok:
-                expansion = r.json()
-                if len(expansion) > 0:
-                    # Add normal form, remove regex
-                    nf = expansion[0].get('a_expansion')
+            try:
+                r = requests.get(abbrurl)
+                if r.status_code == requests.codes.ok:
+                    expansion = r.json()
+                    if len(expansion) > 0:
+                        # Add normal form, remove regex
+                        nf = expansion[0].get('a_expansion')
+                    else:
+                        nf = 'UNDEF'
                 else:
-                    nf = 'UNDEF'
-            else:
-                nf = 'ERROR %d' % r.status_code
+                    nf = 'ERROR %d' % r.status_code
+            except requests.exceptions.ConnectionError:
+                nf = 'ERROR connection'
         if not nf.startswith('ERROR') and nf is not 'UNDEF':
             token['normal_form'] = nf
             token['n'] = comparator(nf)
-        abbreviation_lookup[token_re] = nf
+            abbreviation_lookup[token_re] = nf
     if token_is_number:
         # Get the numeric value out of the normal form
         nmatch = re.search(r'\d+', token.get('n'))
