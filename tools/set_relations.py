@@ -83,7 +83,7 @@ def _make_cmp_string(s):
     s = re.sub('[բփ]', 'պ', s)   # same except for labial plosives
     s = re.sub('[գք]', 'կ', s)   # same except for velar plosives
     s = re.sub('[դթ]', 'տ', s)   # same except for dental plosives
-    s = re.sub('ցձ', 'ծ', s)   # same except for alveolar affricates
+    s = re.sub('[ցձ]', 'ծ', s)   # same except for alveolar affricates
     s = re.sub('փ', 'ֆ', s)   # same exceot for 'f' forms
     s = re.sub('[ւվ]', 'ու', s)   # same except for v/w forms
     s = re.sub('ո', 'օ', s)   # same except for long/short o
