@@ -39374,12 +39374,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "լին և է ապուքապայ որդ<subst rend=\"overwrite\"><del>ո</del><add >ի</add></subst><del type=\"erase\">յ</del>ն այր բարի, "
+            "cnt:chars" : "լին <add place=\"above\">և</add> էր ապուքապայ որդ<subst rend=\"overwrite\"><del>ո</del><add >ի</add></subst><del type=\"erase\">յ</del>ն այր բարի, "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202226#xywh=126,427,657,36",
           "_tpen_note" : "",
-          "_tpen_creator" : 1932,
-          "modified" : "2018-03-03 19:24:52.0"
+          "_tpen_creator" : 1923,
+          "modified" : "2019-02-13 08:09:56.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102237155",
           "_tpen_line_id" : "line/102237155",
