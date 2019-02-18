@@ -44,8 +44,12 @@ def apply_relations(url, sectid, auth=None, verbose=False):
                 if re.fullmatch(r'\W+', thisrdg.get('text')) \
                     and re.fullmatch(r'\W+', otherrdg.get('text')):
                     relation_stack.append((thisrdg, otherrdg, 'punctuation'))
-                elif test_equiv(thisrdg, otherrdg):
+                elif test_equiv(thisrdg, otherrdg, _spelling_cmp_string):
                     relation_stack.append((thisrdg, otherrdg, 'spelling'))
+                elif test_equiv(thisrdg, otherrdg, _punct_cmp_string):
+                    relation_stack.append((thisrdg, otherrdg, 'punctuation'))
+                elif test_equiv(thisrdg, otherrdg, _grammar_cmp_string):
+                    relation_stack.append((thisrdg, otherrdg, 'grammatical'))
 
     make_relations("%s/relation" % url, relation_stack, auth=auth, verbose=verbose)
 
@@ -61,18 +65,22 @@ def sort_by_rank(rdglist):
     return rankdict
 
 
-def test_equiv(rdg1, rdg2):
+def test_equiv(rdg1, rdg2, subr):
     equiv = rdg1.get('normal_form') == rdg2.get('normal_form') or \
             rdg1.get('normal_form') == rdg2.get('text') or \
             rdg1.get('text') == rdg2.get('normal_form')
-    t1 = _make_cmp_string(rdg1.get('text').lower())
-    t2 = _make_cmp_string(rdg2.get('text').lower())
-    n1 = _make_cmp_string(rdg1.get('normal_form').lower())
-    n2 = _make_cmp_string(rdg2.get('normal_form').lower())
+    print(rdg1)
+    print(rdg2)
+    t1 = subr(rdg1.get('text').lower())
+    t2 = subr(rdg2.get('text').lower())
+    # Use the modified 'text' attribute if 'normal_form' doesn't exist
+
+    n1 = subr((rdg1.get('normal_form') or t1).lower())
+    n2 = subr((rdg2.get('normal_form') or t2).lower())
     return t1 != '' and t2 != '' and (t1 == t2 or t1 == n2 or t2 == n1)
 
 
-def _make_cmp_string(s):
+def _spelling_cmp_string(s):
     """Some experimental spelling assumptions"""
     s = re.sub('ը', '', s)   # same except for ը
     s = re.sub('աւ', 'օ', s) # same except for spelling of long o
@@ -90,6 +98,17 @@ def _make_cmp_string(s):
     s = re.sub('ր', 'ռ', s)   # same except for r forms
     return s
 
+def _punct_cmp_string(s):
+    """Remove any punctuation from the strings"""
+    s = re.sub('\W+', '', s)
+    return s
+
+def _grammar_cmp_string(s):
+    """Some experimental grammatical form assumptions"""
+    s = re.sub('եսցին', 'եսցեն', s)
+    s = re.sub('^յ', '', s)
+    s = re.sub('[նսք]$', '', s)
+    return s
 
 def make_relations(url, stack, auth=None, verbose=False):
     for rtuple in stack:
