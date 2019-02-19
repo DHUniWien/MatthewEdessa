@@ -3373,6 +3373,33 @@
         "on" : "http://t-pen.org/TPEN/canvas/13195050"
       } ]
     }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246431",
+      "@type" : "sc:Canvas",
+      "label" : "page_007r_006v.jpg",
+      "width" : 1632,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/4603/annotations/13246431",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246431 List",
+        "proj" : 4603,
+        "on" : "http://t-pen.org/TPEN/canvas/13246431",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246431&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 3265
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246431"
+      } ]
+    }, {
       "@id" : "http://t-pen.org/TPEN/canvas/13195064",
       "@type" : "sc:Canvas",
       "label" : "page_008r_007v.jpg",
