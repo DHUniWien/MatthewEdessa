@@ -119,9 +119,9 @@ def comparator(tokenstr):
 
 def normalise(token):
     # Remove all the punctuation that is irrelevant for collation
-    token['t'] = _strip_noise(token['t'])
-    token['n'] = _strip_noise(token['n'])
-    token['lit'] = _strip_noise(token['lit'])
+    token['t'] = _fix_encoding(_strip_noise(token.get('t')))
+    token['n'] = _fix_encoding(_strip_noise(token.get('n')))
+    token['lit'] = _strip_noise(token.get('lit'))
 
     # Do some orthographic simplification for Armenian string matching
     if token.get('n') == token.get('t'):
@@ -229,6 +229,11 @@ def _strip_noise(st):
         '֊', '').replace(
         '՛', '')
 
+def _fix_encoding(st):
+    return st.replace(
+        'եւ', 'և').replace(
+        'h', 'հ').replace(
+        'o', 'օ')
 
 def _strip_nonalpha(token):
     if token is not None:
