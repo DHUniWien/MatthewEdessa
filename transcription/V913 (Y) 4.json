@@ -6263,7 +6263,423 @@
         "proj" : 6828,
         "on" : "http://t-pen.org/TPEN/canvas/13246663",
         "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "resources" : [ ]
+        "resources" : [ {
+          "@id" : "http://t-pen.org/TPEN/line/104477605",
+          "_tpen_line_id" : "line/104477605",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "թորոսն տիրանայր ուռհայոյ, և եղև իշխ<abbr>նւի</abbr> ալփիրա՛ զոր եկ<abbr>ց</abbr> "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,46,702,47",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:52:37.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477606",
+          "_tpen_line_id" : "line/104477606",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "ի յուրհայ․ զաւուրս <num value=\"33\">․լ՟գ՟</num>։ ֊ "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,93,702,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:54:06.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477607",
+          "_tpen_line_id" : "line/104477607",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "<p/><note place=\"margin\"><hi rend=\"red\"><num value=\"176\">ճհզ</num></hi></note> <hi rend=\"red\">Յ</hi>այսմ ամի մեծ երաժիշտն, և սիւնն սրբոյ եկեղեցւոյ "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,114,702,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:56:24.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477608",
+          "_tpen_line_id" : "line/104477608",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "տէ՛ր թորոս<abbr> կթղկ</abbr>սն հայոց, և թաղեցաւ ի հոնին մօտ․ "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,144,702,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:57:07.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477609",
+          "_tpen_line_id" : "line/104477609",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "ի տէ՛ր Սարգիսի։ ֊ "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,173,702,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:57:37.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477610",
+          "_tpen_line_id" : "line/104477610",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "<p/><note place=\"margin\"><hi rend=\"red\"><num value=\"177\">ճհէ</num></hi></note> <milestone unit=\"section\" n=\"545\"/><hi rend=\"red\">Դ</hi><abbr>ձլ</abbr> ի թ<abbr>վկ</abbr>նու<abbr><g ref=\"\">թե</g></abbr>ն հայոց <num value=\"545\">․շ՟խ՟ե՟․</num> զօրաժ<abbr>ղ</abbr>վ եղև սուլ<abbr>տ</abbr>նն <abbr>յր</abbr>և"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,202,702,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:00:14.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477611",
+          "_tpen_line_id" : "line/104477611",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "մտից, որ ասի խլիճասլան, որդի սուլիմանայ․ որդոյ դդլմշոյ․ "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,223,702,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:00:49.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477612",
+          "_tpen_line_id" : "line/104477612",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "և գայր անթիւ բզ<abbr>մ</abbr>ւ<abbr>բ</abbr> ի վ<abbr>ր</abbr> մելտենո՛ ք<abbr>ղք</abbr>ի, և ելից զօրօք առ հ<abbr>սր</abbr>կ "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,251,702,33",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:01:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477613",
+          "_tpen_line_id" : "line/104477613",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "զ<abbr>ա</abbr>մ դաշտսն, և յ<abbr>րւց</abbr>նէր <abbr>սս</abbr><add place=\"above\">տ</add>իկ պ<abbr>տրզ</abbr>մ ի վ<abbr>ր</abbr> <abbr>քղք</abbr>ին մելտենոյ․ և "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,284,702,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:03:18.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477614",
+          "_tpen_line_id" : "line/104477614",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "եդեալ բաբանս նեղէր զքաղաքն։ Իսկ իշխան քաղաքին․ որ ասէին "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,313,702,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:03:30.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477615",
+          "_tpen_line_id" : "line/104477615",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "խօրիլ․ որ է՛ր աներ թորոսի․ կուրապաղատին․ ուռհայոյ․ սա՛ "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,339,702,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:04:14.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477616",
+          "_tpen_line_id" : "line/104477616",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "<abbr>ա</abbr>մ քջ<abbr>ւբ</abbr> կ<abbr>ցլ</abbr> <g ref=\"\">ընդ</g>դէմ սուլտանին, և <abbr>ա</abbr>մ կ<abbr>ղմ</abbr>նց ամրաց<abbr>ւց</abbr>նէր ըզ"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,369,702,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:05:13.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477617",
+          "_tpen_line_id" : "line/104477617",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "քաղաքն․ և կ<abbr>ցլ</abbr> անդ սուլտանին զաւուրս բ<abbr>զւ</abbr>մս․ և ոչինչ կ<abbr>րց</abbr> "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,391,702,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:06:46.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477618",
+          "_tpen_line_id" : "line/104477618",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "առնել, դ<abbr>րձւ</abbr> ամօթով և գն<abbr>ց</abbr> յ<g ref=\"\">աշխարհ</g>ն իւր։ ֊ "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,419,702,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:07:39.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477619",
+          "_tpen_line_id" : "line/104477619",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "<p/><note place=\"margin\"><hi rend=\"red\"><num value=\"178\">ճհը</num></hi></note> <hi rend=\"red\">Յայսմ ժ<abbr>մկի</abbr>ս կ<abbr>տ</abbr>արեցաւ մ<abbr>րգ</abbr>րէո<abbr>ւի</abbr>ն ս<abbr>բ</abbr>յն Ներսէսի հայ</hi>"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,442,702,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:12:01.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477620",
+          "_tpen_line_id" : "line/104477620",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "ոց  հայ<abbr>ր<g ref=\"\">պտ</g></abbr>ի, զոր <abbr>վս</abbr> հռոմայեցոցն ելիցն խօսեցաւ <g ref=\"\">ընդ</g> նախ"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,472,702,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:16:04.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477621",
+          "_tpen_line_id" : "line/104477621",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "արարսն, և <g ref=\"\">ընդ</g> իշխանսն հայոց <g ref=\"\">աշխարհ</g>ին․ և զոր նա՛ յ<abbr>ռ</abbr>ջ խօսեցաւ․ "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,499,702,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:17:08.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477622",
+          "_tpen_line_id" : "line/104477622",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "յայսմ ժ<abbr>մկի</abbr>ս տեսաք աչօք մերօք զայն որ ի ժամ մահուանն, "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,523,702,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:17:33.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477623",
+          "_tpen_line_id" : "line/104477623",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "մր<abbr>գր</abbr>էացաւ <abbr>ս</abbr>բ և ս<abbr>քնչլգ</abbr>ծ այրն <abbr>այ</abbr> մեծն Ներսէս։ Եւ այս էր "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,546,702,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:20:18.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477624",
+          "_tpen_line_id" : "line/104477624",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "մարգարէու<abbr>ի</abbr> <abbr>սբ</abbr>յն դանիէլի․ զոր տեսանէր ի բաբելոն ի կեր<abbr>պրնս</abbr>ն "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,576,702,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:21:46.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477625",
+          "_tpen_line_id" : "line/104477625",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "զայլակերպ գ<abbr>զն</abbr>ին, և յն<abbr>տպս</abbr> տեսեալ և ցուցանէր․ աս<abbr>լ</abbr>վ․ զուտ"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,602,702,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:22:53.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477626",
+          "_tpen_line_id" : "line/104477626",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "ելն, և զմանտրելն․ և զառ ոտս հարկանելն զմն<abbr>ցլս</abbr>ն։ Իսկ ի ժ<abbr>մկ</abbr>իս "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,628,702,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:23:38.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477627",
+          "_tpen_line_id" : "line/104477627",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "եղև հռ<abbr>մյց</abbr>ց․ և լատինաց<abbr>ո</abbr>ց ազգին․ վ<abbr>ս</abbr> զի սոքօք կամեցաւ <abbr>տր</abbr> "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,657,702,20",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:25:00.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477628",
+          "_tpen_line_id" : "line/104477628",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "պ<abbr>տրզ</abbr>մել <g ref=\"\">ընդ</g> տունս պարսից։ և դր<abbr>ձլ</abbr> եղև <abbr>տր</abbr> ի բ<abbr>րկւէ</abbr> քումմէ "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,677,702,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:26:54.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477629",
+          "_tpen_line_id" : "line/104477629",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "<g ref=\"\">ըստ</g> բանէ՛ դ<abbr>ւ</abbr>թի մ<abbr>գր</abbr>էին․ <abbr>ըմ</abbr> զոր ասաց, եթէ՛ զարթիր <g ref=\"\">ընդ</g>էր ննջես "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,705,702,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:28:15.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477630",
+          "_tpen_line_id" : "line/104477630",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "<abbr>տր</abbr>, արի և մի մերժեր զմեզ իսպ<abbr>ռ</abbr>։ և <g ref=\"\">թէ</g> զարթեաւ <g ref=\"\">որպէս</g> ի <abbr>ք</abbr>նոյ <abbr>տր</abbr> "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,731,702,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:29:14.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477631",
+          "_tpen_line_id" : "line/104477631",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "<g ref=\"\">որպէս</g> հզօր զի թափեսցէ զգինի իւր, և եհար զյետս թշնամիս իւր "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,761,702,17",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:30:01.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477632",
+          "_tpen_line_id" : "line/104477632",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "նախատինս յ<abbr>ւտ</abbr>նից արար զն<abbr>ս</abbr>։ Եւ ահա՛ յայսմ <abbr>ամ</abbr>ի շարժ<abbr>ել</abbr> "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,778,702,31",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:31:19.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477633",
+          "_tpen_line_id" : "line/104477633",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "եղև յ<abbr>ա</abbr>մ իտալիա՛․ և ապանիա՛․ <abbr>մչ</abbr>և ի յափրիկէս, և խորին ազգն "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,809,702,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:32:21.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477634",
+          "_tpen_line_id" : "line/104477634",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "ֆռանկաց, և գռոհեալ անթիւ՛ և անհամար, և ահագին բ<abbr>զմւբ</abbr> "
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,833,702,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:33:14.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477635",
+          "_tpen_line_id" : "line/104477635",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "և անհամար դասապետու<abbr>բ</abbr> <g ref=\"\">որպէս</g> զմարախ որ ոչ թուի, և կամ <g ref=\"\">որպէս</g> զաւ"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,857,702,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:33:45.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477636",
+          "_tpen_line_id" : "line/104477636",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : "ազ ծովու․ որ ոչ քննի մտաց․ և ահաւ<abbr>ր</abbr> մեծ<abbr>ւ</abbr>բ․ և բարձրագահ <fw type=\"catch\" place=\"bottom\">իշխա֊</fw>"
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246663#xywh=46,879,702,43",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 13:34:42.0"
+        } ]
       } ],
       "images" : [ {
         "@type" : "oa:Annotation",
@@ -6295,12 +6711,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "իշխանու<abbr>բ</abbr> ելեալ գային իշխանքն ֆռանգաց. և իւրա<abbr>քն</abbr>չ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,41,607,43",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:54:46.0"
+          "modified" : "2019-03-18 13:36:29.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450449",
           "_tpen_line_id" : "line/104450449",
@@ -6308,12 +6724,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "իւր զօրօք գային յօգնու<abbr>ի</abbr> քրիստոնէից․ և առ ի փրկել այլազգ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,84,607,20",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:54:47.0"
+          "modified" : "2019-03-18 13:37:13.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450450",
           "_tpen_line_id" : "line/104450450",
@@ -6321,12 +6737,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "եաց զ<abbr>ս</abbr>բ ք<abbr>ղք</abbr>ն յ<abbr>էմ</abbr>․ և ազատել ի տ<abbr>ճկ</abbr>ց զ<abbr>սբ</abbr> գե<abbr>րզ</abbr>մնն <abbr>ա</abbr>ծընկալ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,104,607,34",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:54:49.0"
+          "modified" : "2019-03-18 13:38:20.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450451",
           "_tpen_line_id" : "line/104450451",
@@ -6334,12 +6750,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "արք փ<abbr>ռր</abbr>ք և թ<abbr>գ</abbr>րազունք․ հաւատով և <abbr>ա</abbr>մ <abbr>ա</abbr>ծպաշտու<abbr>թբ</abbr>․ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,138,607,22",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:54:50.0"
+          "modified" : "2019-03-18 13:39:21.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450452",
           "_tpen_line_id" : "line/104450452",
@@ -6347,12 +6763,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "զարդարեալք․ և էին սնեալք․ ի գ<abbr>րծ</abbr>ս բարու<abbr>ե</abbr>․ որոց էին ան<abbr>ւ</abbr>նքս "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,160,607,26",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:54:52.0"
+          "modified" : "2019-03-18 13:40:05.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450453",
           "_tpen_line_id" : "line/104450453",
@@ -6360,12 +6776,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "այսոքիկ։ Կոնդոփրէ․ այր հզօր․ որ է՛ ազգէ թ<abbr>գր</abbr>ցն հ<abbr>ռմյց</abbr>ցն "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,186,607,24",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:54:53.0"
+          "modified" : "2019-03-18 13:41:17.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450454",
           "_tpen_line_id" : "line/104450454",
@@ -6373,12 +6789,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "և նորին եղբայրն պաղտինն․ այս կոնդոփրէ էր որ ունէր զհետ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,210,607,28",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:54:54.0"
+          "modified" : "2019-03-18 13:41:47.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450455",
           "_tpen_line_id" : "line/104450455",
@@ -6386,12 +6802,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "իւր զթագն, և զթուրն․ վեսպիանի․ թ<abbr>գր</abbr>ին որ կոտորե<abbr>ց</abbr> նովաւ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,238,607,28",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:54:55.0"
+          "modified" : "2019-03-18 13:43:29.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450456",
           "_tpen_line_id" : "line/104450456",
@@ -6399,12 +6815,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "զ<abbr>է</abbr>մ․ է՛ր և մեծ կոմսն որ ասէին պէմունդ․ և տանգրի քուրորդ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,266,607,27",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:54:56.0"
+          "modified" : "2019-03-18 13:43:56.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450457",
           "_tpen_line_id" : "line/104450457",
@@ -6412,12 +6828,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ին ն<abbr>ր</abbr>, և կոմսն որ ասի զնճիլ այր ահարկու, և փ<abbr>ռ</abbr>ր․ և ռուպեր"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,293,607,29",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:54:57.0"
+          "modified" : "2019-03-18 13:44:42.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450458",
           "_tpen_line_id" : "line/104450458",
@@ -6425,12 +6841,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "թն որմնդաց կոմսն, և միւս այլ պաղտինն գայր․ և յետոյ կոմսն որ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,322,607,27",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:54:58.0"
+          "modified" : "2019-03-18 13:45:02.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450459",
           "_tpen_line_id" : "line/104450459",
@@ -6438,12 +6854,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ասի․ ճօսլին, այր քաջ և հզօր, արդ այսքան արք հզօրք և պա֊"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,349,607,26",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:54:59.0"
+          "modified" : "2019-03-18 13:45:46.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450460",
           "_tpen_line_id" : "line/104450460",
@@ -6451,12 +6867,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "տերազմողք․ գային սոքա՛ ահագին բազ<abbr>մւբ</abbr> <g ref=\"\">որպէ</g>ս զաստեղս յերկնից, "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,375,607,26",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:00.0"
+          "modified" : "2019-03-18 13:46:20.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450461",
           "_tpen_line_id" : "line/104450461",
@@ -6464,12 +6880,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "և զհետ <abbr>սց</abbr> բ<abbr>զւ</abbr>մ ե<abbr>պս</abbr>ունք ք<abbr>յն</abbr>ք և ս<abbr>րկւգ</abbr>ունք․ և մեծ<abbr>ւ</abbr> աշխա֊"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,401,607,26",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:01.0"
+          "modified" : "2019-03-18 13:47:24.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450462",
           "_tpen_line_id" : "line/104450462",
@@ -6477,12 +6893,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "տու<abbr>բ</abbr> ճ<abbr>պ</abbr>հորդել <g ref=\"\">ընդ</g> հեռաձիգ <g ref=\"\">աշխարհ</g>ն հռ<abbr>մյց</abbr>ց․ և չարաչար նեղ<abbr>ւբ</abbr> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,427,607,33",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:02.0"
+          "modified" : "2019-03-18 13:48:39.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450463",
           "_tpen_line_id" : "line/104450463",
@@ -6490,12 +6906,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "անցանէին <g ref=\"\">ընդ</g> <g ref=\"\">աշխարհ</g>ն ունգռաց․ <g ref=\"\">ընդ</g> նեղ և դժար կապանսն լե<abbr>րն</abbr>ց "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,460,607,22",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:03.0"
+          "modified" : "2019-03-18 13:49:21.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450464",
           "_tpen_line_id" : "line/104450464",
@@ -6503,12 +6919,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ն<abbr>ց</abbr>․ և ժ<abbr>մնե</abbr>լ հասանէին <g ref=\"\">ընդ</g> <g ref=\"\">աշխարհ</g>ին սահմանս բուլխրաց․ որ էր ընդ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,482,607,22",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:04.0"
+          "modified" : "2019-03-18 13:50:19.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450465",
           "_tpen_line_id" : "line/104450465",
@@ -6516,12 +6932,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "իշխանու<abbr>բ</abbr> ալէքսի յունաց թ<abbr>գ</abbr>րին․ և այսպիս ճան<abbr>պ</abbr>հր<abbr>դւբ</abbr> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,504,607,29",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:05.0"
+          "modified" : "2019-03-18 13:51:12.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450466",
           "_tpen_line_id" : "line/104450466",
@@ -6529,12 +6945,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "հասանէին ի մեծն կո<add place=\"above\">ս</add>տն<abbr>դնպ</abbr>լս․ և լուեալ զգալն ն<abbr>ց</abbr> թ<abbr>գր</abbr>ն <add place=\"above\">ա</add>լէքսն "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,533,607,29",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:06.0"
+          "modified" : "2019-03-18 13:52:44.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450467",
           "_tpen_line_id" : "line/104450467",
@@ -6542,12 +6958,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "առաքէր զօրս ընդդէմ ն<abbr>ց</abbr> ի պ<abbr>տրզ</abbr>մ, և եղև ահագին կոտորածս "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,562,607,26",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:07.0"
+          "modified" : "2019-03-18 13:53:09.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450468",
           "_tpen_line_id" : "line/104450468",
@@ -6555,12 +6971,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "երկոցունց կողմանց, և ա<abbr>րր</abbr> ֆռանկն փախս<abbr>տկն</abbr>  զզօրսն յուն<abbr>ց</abbr>․ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,588,607,27",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:10.0"
+          "modified" : "2019-03-18 13:53:54.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450469",
           "_tpen_line_id" : "line/104450469",
@@ -6568,12 +6984,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "և յայնմ աւուր եղև բ<abbr>զւ</abbr>մ արեանց հեղումն, և այ<abbr>պս</abbr>ի օրին<abbr>կւ</abbr> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,615,607,27",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:11.0"
+          "modified" : "2019-03-18 13:54:33.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450470",
           "_tpen_line_id" : "line/104450470",
@@ -6581,12 +6997,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ընդ որ անցանէին գային <abbr>ա</abbr>մ <g ref=\"\">աշխարհ</g>ք ի <abbr>վր</abbr> ն<abbr>ց</abbr> պ<abbr>տրզ</abbr>մ․ և նեղէին զն<abbr>ս</abbr> բ<abbr>զ</abbr>մ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,642,607,28",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:13.0"
+          "modified" : "2019-03-18 13:55:24.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450471",
           "_tpen_line_id" : "line/104450471",
@@ -6594,12 +7010,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "չարչարանօք․ և լուեալ զայս <abbr>ա</abbr>մ թ<abbr>գր</abbr>ն ալէքսան, և վերացոյց զ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,670,607,27",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:14.0"
+          "modified" : "2019-03-18 13:56:01.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450472",
           "_tpen_line_id" : "line/104450472",
@@ -6607,12 +7023,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "սուրն, և ոչ ետ այլ պ<abbr>տրզ</abbr>մ <g ref=\"\">ընդ</g> նոսա՛․ և <abbr>ա</abbr>մ բանակն առհ<abbr>սր</abbr>կ եկ<abbr>լ</abbr> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,697,607,18",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:15.0"
+          "modified" : "2019-03-18 13:56:58.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450473",
           "_tpen_line_id" : "line/104450473",
@@ -6620,12 +7036,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "իջաւ ի դուռն կոստն<abbr>դնպլ</abbr>ս․ և խնդրէին <g ref=\"\">ընդ</g> ծովն ովկիանոս անցա֊"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,715,607,29",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:16.0"
+          "modified" : "2019-03-18 13:57:58.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450474",
           "_tpen_line_id" : "line/104450474",
@@ -6633,12 +7049,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "նել․ և <abbr>թգ</abbr>րն ալէքսի արար սէր և միաբանու<abbr>ի</abbr> <g ref=\"\">ընդ</g> <abbr>ա</abbr>մ իշխանսն "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,744,607,31",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:17.0"
+          "modified" : "2019-03-18 13:58:39.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450475",
           "_tpen_line_id" : "line/104450475",
@@ -6646,12 +7062,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "ֆռանգաց․ և տարաւ զն<abbr>ս</abbr> ի <abbr>ս</abbr>բ սոփի․ և ետ ն<abbr>ց</abbr> բ<abbr>զւ</abbr>մ տուրս ոս"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,775,607,26",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:18.0"
+          "modified" : "2019-03-18 13:59:14.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450476",
           "_tpen_line_id" : "line/104450476",
@@ -6659,12 +7075,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "կոյ․ և արծաթոյ․ և <abbr>նք</abbr> երդուան ն<abbr>մյ</abbr> զի զ<abbr>ա</abbr>մ գ<abbr>ւռ</abbr>սն որ <abbr>յռ</abbr>ջ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,801,607,29",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:20.0"
+          "modified" : "2019-03-18 14:00:03.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450477",
           "_tpen_line_id" : "line/104450477",
@@ -6672,12 +7088,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "լեալ էր հոռոմոց․ թափեն ի պարսից․ և արապկաց եղիցին․ ազգին "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,830,607,26",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:21.0"
+          "modified" : "2019-03-18 14:00:34.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450478",
           "_tpen_line_id" : "line/104450478",
@@ -6685,12 +7101,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "հոռոմոց. և այս<abbr>պս</abbr>ի դաւանու<abbr>բս</abbr> խաչով և աւետարանով կա֊"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,856,607,26",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:22.0"
+          "modified" : "2019-03-18 14:01:41.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450479",
           "_tpen_line_id" : "line/104450479",
@@ -6698,12 +7114,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "պեցին զերդումն անլուծանելի կ<abbr>պ</abbr>նօք, և առե<abbr>լ</abbr> զօրս և իշխանս <fw type=\"catch\" place=\"bottom\">ի</fw> "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246683#xywh=27,882,607,45",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:55:22.0"
+          "modified" : "2019-03-18 14:02:33.0"
         } ]
       } ],
       "images" : [ {
@@ -6736,12 +7152,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : ""
+            "cnt:chars" : "թագաւորէն և նաւէին ընդ մեծն յՈվկիանոս և հասեալ բազութեամբ բանակաւն ի քաղաքն, որ կոչի նիկիա, մօտ ի ծովն յՈվկիանէ։  "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246667#xywh=73,30,639,46",
           "_tpen_note" : "",
           "_tpen_creator" : 1903,
-          "modified" : "2019-03-05 06:56:25.0"
+          "modified" : "2019-03-18 14:02:46.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104450513",
           "_tpen_line_id" : "line/104450513",
@@ -10283,7 +10699,410 @@
         "proj" : 6828,
         "on" : "http://t-pen.org/TPEN/canvas/13246677",
         "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "resources" : [ ]
+        "resources" : [ {
+          "@id" : "http://t-pen.org/TPEN/line/104477670",
+          "_tpen_line_id" : "line/104477670",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,43,605,46",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:24:51.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477671",
+          "_tpen_line_id" : "line/104477671",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,89,605,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:24:52.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477672",
+          "_tpen_line_id" : "line/104477672",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,110,605,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:24:54.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477673",
+          "_tpen_line_id" : "line/104477673",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,139,605,19",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:24:55.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477674",
+          "_tpen_line_id" : "line/104477674",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,158,605,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:24:56.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477675",
+          "_tpen_line_id" : "line/104477675",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,182,605,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:24:57.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477676",
+          "_tpen_line_id" : "line/104477676",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,211,605,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:24:58.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477677",
+          "_tpen_line_id" : "line/104477677",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,235,605,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:24:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477678",
+          "_tpen_line_id" : "line/104477678",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,262,605,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:00.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477679",
+          "_tpen_line_id" : "line/104477679",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,285,605,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:01.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477680",
+          "_tpen_line_id" : "line/104477680",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,314,605,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:04.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477681",
+          "_tpen_line_id" : "line/104477681",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,338,605,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:06.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477682",
+          "_tpen_line_id" : "line/104477682",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,361,605,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:07.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477683",
+          "_tpen_line_id" : "line/104477683",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,388,605,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:08.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477684",
+          "_tpen_line_id" : "line/104477684",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,411,605,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:09.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477685",
+          "_tpen_line_id" : "line/104477685",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,438,605,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:10.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477686",
+          "_tpen_line_id" : "line/104477686",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,466,605,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:12.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477687",
+          "_tpen_line_id" : "line/104477687",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,494,605,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:13.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477688",
+          "_tpen_line_id" : "line/104477688",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,523,605,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:14.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477689",
+          "_tpen_line_id" : "line/104477689",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,547,605,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:15.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477690",
+          "_tpen_line_id" : "line/104477690",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,574,605,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:17.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477691",
+          "_tpen_line_id" : "line/104477691",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,601,605,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:17.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477692",
+          "_tpen_line_id" : "line/104477692",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,629,605,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:18.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477693",
+          "_tpen_line_id" : "line/104477693",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,656,605,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:19.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477694",
+          "_tpen_line_id" : "line/104477694",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,679,605,34",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:20.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477695",
+          "_tpen_line_id" : "line/104477695",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,713,605,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:21.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477696",
+          "_tpen_line_id" : "line/104477696",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,739,605,32",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:23.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477697",
+          "_tpen_line_id" : "line/104477697",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,771,605,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:24.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477698",
+          "_tpen_line_id" : "line/104477698",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,798,605,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:25.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477699",
+          "_tpen_line_id" : "line/104477699",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,826,605,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:26.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477700",
+          "_tpen_line_id" : "line/104477700",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246677#xywh=31,852,605,44",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:25:26.0"
+        } ]
       } ],
       "images" : [ {
         "@type" : "oa:Annotation",
@@ -10308,7 +11127,423 @@
         "proj" : 6828,
         "on" : "http://t-pen.org/TPEN/canvas/13246665",
         "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "resources" : [ ]
+        "resources" : [ {
+          "@id" : "http://t-pen.org/TPEN/line/104477734",
+          "_tpen_line_id" : "line/104477734",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,50,586,49",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:16.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477735",
+          "_tpen_line_id" : "line/104477735",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,99,586,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:17.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477736",
+          "_tpen_line_id" : "line/104477736",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,121,586,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:19.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477737",
+          "_tpen_line_id" : "line/104477737",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,150,586,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:20.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477738",
+          "_tpen_line_id" : "line/104477738",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,173,586,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:22.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477739",
+          "_tpen_line_id" : "line/104477739",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,200,586,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:24.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477740",
+          "_tpen_line_id" : "line/104477740",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,222,586,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:25.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477741",
+          "_tpen_line_id" : "line/104477741",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,252,586,19",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:27.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477742",
+          "_tpen_line_id" : "line/104477742",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,271,586,34",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:28.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477743",
+          "_tpen_line_id" : "line/104477743",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,305,586,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:30.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477744",
+          "_tpen_line_id" : "line/104477744",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,333,586,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:30.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477745",
+          "_tpen_line_id" : "line/104477745",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,355,586,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:33.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477746",
+          "_tpen_line_id" : "line/104477746",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,383,586,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:34.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477747",
+          "_tpen_line_id" : "line/104477747",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,410,586,20",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:35.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477748",
+          "_tpen_line_id" : "line/104477748",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,430,586,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:36.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477749",
+          "_tpen_line_id" : "line/104477749",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,459,586,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:37.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477750",
+          "_tpen_line_id" : "line/104477750",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,488,586,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:39.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477751",
+          "_tpen_line_id" : "line/104477751",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,514,586,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:40.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477752",
+          "_tpen_line_id" : "line/104477752",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,537,586,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:41.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477753",
+          "_tpen_line_id" : "line/104477753",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,559,586,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:42.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477754",
+          "_tpen_line_id" : "line/104477754",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,585,586,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:45.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477755",
+          "_tpen_line_id" : "line/104477755",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,613,586,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:46.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477756",
+          "_tpen_line_id" : "line/104477756",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,637,586,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:47.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477757",
+          "_tpen_line_id" : "line/104477757",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,664,586,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:48.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477758",
+          "_tpen_line_id" : "line/104477758",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,685,586,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:49.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477759",
+          "_tpen_line_id" : "line/104477759",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,711,586,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:50.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477760",
+          "_tpen_line_id" : "line/104477760",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,741,586,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:51.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477761",
+          "_tpen_line_id" : "line/104477761",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,763,586,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:52.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477762",
+          "_tpen_line_id" : "line/104477762",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,790,586,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:53.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477763",
+          "_tpen_line_id" : "line/104477763",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,818,586,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:54.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477764",
+          "_tpen_line_id" : "line/104477764",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,840,586,31",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:56.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477765",
+          "_tpen_line_id" : "line/104477765",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246665#xywh=46,871,586,37",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:27:56.0"
+        } ]
       } ],
       "images" : [ {
         "@type" : "oa:Annotation",
@@ -10333,7 +11568,423 @@
         "proj" : 6828,
         "on" : "http://t-pen.org/TPEN/canvas/13246681",
         "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "resources" : [ ]
+        "resources" : [ {
+          "@id" : "http://t-pen.org/TPEN/line/104477798",
+          "_tpen_line_id" : "line/104477798",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,45,662,38",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:40:47.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477799",
+          "_tpen_line_id" : "line/104477799",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,83,662,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:40:48.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477800",
+          "_tpen_line_id" : "line/104477800",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,112,662,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:40:49.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477801",
+          "_tpen_line_id" : "line/104477801",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,138,662,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:40:50.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477802",
+          "_tpen_line_id" : "line/104477802",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,165,662,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:40:51.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477803",
+          "_tpen_line_id" : "line/104477803",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,187,662,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:40:52.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477804",
+          "_tpen_line_id" : "line/104477804",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,217,662,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:40:54.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477805",
+          "_tpen_line_id" : "line/104477805",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,240,662,32",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:40:55.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477806",
+          "_tpen_line_id" : "line/104477806",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,272,662,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:40:57.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477807",
+          "_tpen_line_id" : "line/104477807",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,299,662,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:40:58.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477808",
+          "_tpen_line_id" : "line/104477808",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,324,662,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:40:58.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477809",
+          "_tpen_line_id" : "line/104477809",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,350,662,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:00.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477810",
+          "_tpen_line_id" : "line/104477810",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,377,662,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:00.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477811",
+          "_tpen_line_id" : "line/104477811",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,403,662,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:02.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477812",
+          "_tpen_line_id" : "line/104477812",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,430,662,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:03.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477813",
+          "_tpen_line_id" : "line/104477813",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,456,662,32",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:04.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477814",
+          "_tpen_line_id" : "line/104477814",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,488,662,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:06.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477815",
+          "_tpen_line_id" : "line/104477815",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,511,662,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:07.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477816",
+          "_tpen_line_id" : "line/104477816",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,541,662,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:08.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477817",
+          "_tpen_line_id" : "line/104477817",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,566,662,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:10.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477818",
+          "_tpen_line_id" : "line/104477818",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,593,662,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:11.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477819",
+          "_tpen_line_id" : "line/104477819",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,616,662,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:12.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477820",
+          "_tpen_line_id" : "line/104477820",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,642,662,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:13.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477821",
+          "_tpen_line_id" : "line/104477821",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,669,662,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:14.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477822",
+          "_tpen_line_id" : "line/104477822",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,697,662,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:15.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477823",
+          "_tpen_line_id" : "line/104477823",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,725,662,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:17.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477824",
+          "_tpen_line_id" : "line/104477824",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,751,662,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:19.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477825",
+          "_tpen_line_id" : "line/104477825",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,779,662,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:20.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477826",
+          "_tpen_line_id" : "line/104477826",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,802,662,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:21.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477827",
+          "_tpen_line_id" : "line/104477827",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,832,662,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:22.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477828",
+          "_tpen_line_id" : "line/104477828",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,857,662,31",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:24.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477829",
+          "_tpen_line_id" : "line/104477829",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246681#xywh=23,888,662,66",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:41:24.0"
+        } ]
       } ],
       "images" : [ {
         "@type" : "oa:Annotation",
@@ -10358,7 +12009,436 @@
         "proj" : 6828,
         "on" : "http://t-pen.org/TPEN/canvas/13246713",
         "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "resources" : [ ]
+        "resources" : [ {
+          "@id" : "http://t-pen.org/TPEN/line/104477864",
+          "_tpen_line_id" : "line/104477864",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,36,609,43",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:44:43.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477865",
+          "_tpen_line_id" : "line/104477865",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,79,609,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:44:46.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477866",
+          "_tpen_line_id" : "line/104477866",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,102,609,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:44:47.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477867",
+          "_tpen_line_id" : "line/104477867",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,132,609,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:44:49.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477868",
+          "_tpen_line_id" : "line/104477868",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,155,609,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:44:51.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477869",
+          "_tpen_line_id" : "line/104477869",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,176,609,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:44:53.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477870",
+          "_tpen_line_id" : "line/104477870",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,205,609,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:44:54.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477871",
+          "_tpen_line_id" : "line/104477871",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,232,609,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:44:55.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477872",
+          "_tpen_line_id" : "line/104477872",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,261,609,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:44:56.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477873",
+          "_tpen_line_id" : "line/104477873",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,287,609,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:44:57.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477874",
+          "_tpen_line_id" : "line/104477874",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,316,609,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:44:58.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477875",
+          "_tpen_line_id" : "line/104477875",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,342,609,19",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:44:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477876",
+          "_tpen_line_id" : "line/104477876",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,361,609,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:00.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477877",
+          "_tpen_line_id" : "line/104477877",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,389,609,31",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:02.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477878",
+          "_tpen_line_id" : "line/104477878",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,420,609,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:03.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477879",
+          "_tpen_line_id" : "line/104477879",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,443,609,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:11.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477880",
+          "_tpen_line_id" : "line/104477880",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,471,609,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:12.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477881",
+          "_tpen_line_id" : "line/104477881",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,492,609,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:14.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477882",
+          "_tpen_line_id" : "line/104477882",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,521,609,32",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:15.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477883",
+          "_tpen_line_id" : "line/104477883",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,553,609,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:16.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477884",
+          "_tpen_line_id" : "line/104477884",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,574,609,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:17.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477885",
+          "_tpen_line_id" : "line/104477885",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,601,609,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:18.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477886",
+          "_tpen_line_id" : "line/104477886",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,625,609,31",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:21.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477887",
+          "_tpen_line_id" : "line/104477887",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,656,609,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:25.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477888",
+          "_tpen_line_id" : "line/104477888",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,683,609,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:26.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477889",
+          "_tpen_line_id" : "line/104477889",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,710,609,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:27.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477890",
+          "_tpen_line_id" : "line/104477890",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,734,609,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:28.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477891",
+          "_tpen_line_id" : "line/104477891",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,756,609,34",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:30.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477892",
+          "_tpen_line_id" : "line/104477892",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,790,609,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:31.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477893",
+          "_tpen_line_id" : "line/104477893",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,816,609,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:32.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477894",
+          "_tpen_line_id" : "line/104477894",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,840,609,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:33.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477895",
+          "_tpen_line_id" : "line/104477895",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,866,609,32",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:35.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477896",
+          "_tpen_line_id" : "line/104477896",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246713#xywh=6,898,609,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:45:35.0"
+        } ]
       } ],
       "images" : [ {
         "@type" : "oa:Annotation",
@@ -10383,7 +12463,423 @@
         "proj" : 6828,
         "on" : "http://t-pen.org/TPEN/canvas/13246700",
         "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "resources" : [ ]
+        "resources" : [ {
+          "@id" : "http://t-pen.org/TPEN/line/104477930",
+          "_tpen_line_id" : "line/104477930",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,51,679,52",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:06.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477931",
+          "_tpen_line_id" : "line/104477931",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,103,679,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:08.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477932",
+          "_tpen_line_id" : "line/104477932",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,125,679,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:09.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477933",
+          "_tpen_line_id" : "line/104477933",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,153,679,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:13.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477934",
+          "_tpen_line_id" : "line/104477934",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,177,679,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:15.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477935",
+          "_tpen_line_id" : "line/104477935",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,203,679,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:16.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477936",
+          "_tpen_line_id" : "line/104477936",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,230,679,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:17.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477937",
+          "_tpen_line_id" : "line/104477937",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,259,679,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:18.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477938",
+          "_tpen_line_id" : "line/104477938",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,282,679,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:20.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477939",
+          "_tpen_line_id" : "line/104477939",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,309,679,32",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:21.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477940",
+          "_tpen_line_id" : "line/104477940",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,341,679,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:23.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477941",
+          "_tpen_line_id" : "line/104477941",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,364,679,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:24.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477942",
+          "_tpen_line_id" : "line/104477942",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,390,679,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:25.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477943",
+          "_tpen_line_id" : "line/104477943",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,419,679,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:27.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477944",
+          "_tpen_line_id" : "line/104477944",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,442,679,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:29.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477945",
+          "_tpen_line_id" : "line/104477945",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,469,679,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:31.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477946",
+          "_tpen_line_id" : "line/104477946",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,496,679,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:33.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477947",
+          "_tpen_line_id" : "line/104477947",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,522,679,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:34.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477948",
+          "_tpen_line_id" : "line/104477948",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,548,679,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:35.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477949",
+          "_tpen_line_id" : "line/104477949",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,572,679,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:37.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477950",
+          "_tpen_line_id" : "line/104477950",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,600,679,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:48:23.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477962",
+          "_tpen_line_id" : "line/104477962",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,626,679,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:48:24.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477963",
+          "_tpen_line_id" : "line/104477963",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,652,679,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:48:24.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477952",
+          "_tpen_line_id" : "line/104477952",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,675,679,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:42.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477954",
+          "_tpen_line_id" : "line/104477954",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,704,679,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:45.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477955",
+          "_tpen_line_id" : "line/104477955",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,727,679,31",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:48.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477956",
+          "_tpen_line_id" : "line/104477956",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,758,679,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:50.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477957",
+          "_tpen_line_id" : "line/104477957",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,780,679,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:51.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477958",
+          "_tpen_line_id" : "line/104477958",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,807,679,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:52.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477959",
+          "_tpen_line_id" : "line/104477959",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,836,679,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:53.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477960",
+          "_tpen_line_id" : "line/104477960",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,860,679,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:55.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104477961",
+          "_tpen_line_id" : "line/104477961",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246700#xywh=87,890,679,59",
+          "_tpen_note" : "",
+          "_tpen_creator" : 1903,
+          "modified" : "2019-03-18 12:47:55.0"
+        } ]
       } ],
       "images" : [ {
         "@type" : "oa:Annotation",
