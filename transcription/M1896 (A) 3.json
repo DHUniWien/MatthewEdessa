@@ -50828,12 +50828,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "զպաղտատ քա<abbr>ղք</abbr>. և <abbr>.գ՟</abbr> պա"
+            "cnt:chars" : "զպաղտատ քա<abbr>ղք</abbr>. և <num value=\"3\">.գ՟</num> պա"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13196787#xywh=127,676,262,24",
           "_tpen_note" : "",
           "_tpen_creator" : 281,
-          "modified" : "2016-11-23 07:33:24.0"
+          "modified" : "2019-03-20 16:19:26.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102065562",
           "_tpen_line_id" : "line/102065562",
