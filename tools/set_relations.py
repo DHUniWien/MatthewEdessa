@@ -69,8 +69,6 @@ def test_equiv(rdg1, rdg2, subr):
     equiv = rdg1.get('normal_form') == rdg2.get('normal_form') or \
             rdg1.get('normal_form') == rdg2.get('text') or \
             rdg1.get('text') == rdg2.get('normal_form')
-    print(rdg1)
-    print(rdg2)
     t1 = subr(rdg1.get('text').lower())
     t2 = subr(rdg2.get('text').lower())
     # Use the modified 'text' attribute if 'normal_form' doesn't exist
@@ -144,38 +142,25 @@ def merge_identical_across_ranks(options, auth=None):
     url = "%s/tradition/%s" % (options.repository, options.tradition_id)
     for section in get_sections(url, options.section, auth):
         print("Checking mergeable readings in section %s" % section.get('name'))
-        murl = "%s/section/%s/mergeablereadings/1/%s" % \
-            (url, section.get('id'), section.get('endRank'))
-        r = requests.get(murl, auth=auth)
-        r.raise_for_status()
+        for word in ['ի', 'և', '']:  # the last is for punctuation
+            param = {'text': word}
+            murl = "%s/section/%s/mergeablereadings/1/%s" % \
+                (url, section.get('id'), section.get('endRank'))
+            r = requests.get(murl, params=param, auth=auth)
+            r.raise_for_status()
 
-        # We have a list of mergeable readings. Do two passes; first for
-        # function words and then for punctuation.
-        mergetargets = {}
-        punct = []
-        for pair in r.json():
-            (r1, r2) = pair
-            if _mergeable(*pair):
-                if re.search(r'\w', r1.get('text')):
+            # We have a list of mergeable readings. Do two passes; first for
+            # function words and then for punctuation.
+            mergetargets = {}
+            for pair in r.json():
+                (r1, r2) = pair
+                if _mergeable(*pair):
                     r1 = mergetargets.get(r1.get('id'), r1)
                     r2 = mergetargets.get(r2.get('id'), r2)
                     mgurl = "%s/reading/%s/merge/%s" % \
                         (options.repository, r1.get('id'), r2.get('id'))
                     if _attempt_merge(mgurl, r1, r2, auth=auth, verbose=options.verbose):
                         mergetargets[r2.get('id')] = r1
-                else:
-                    punct.append(pair)
-
-        # Now for the punctuation.
-        for pair in punct:
-            (r1, r2) = pair
-            if _mergeable(*pair):
-                r1 = mergetargets.get(r1.get('id'), r1)
-                r2 = mergetargets.get(r2.get('id'), r2)
-                mgurl = "%s/reading/%s/merge/%s" % \
-                    (options.repository, r1.get('id'), r2.get('id'))
-                if _attempt_merge(mgurl, r1, r2, auth=auth, verbose=options.verbose):
-                    mergetargets[r2.get('id')] = r1
 
 
 
@@ -251,6 +236,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # Make an authentication object if we need to
+    authobj = None
     if args.username is not None:
         authobj = HTTPBasicAuth(args.username, args.password)
 
