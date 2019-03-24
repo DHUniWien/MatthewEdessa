@@ -134,14 +134,15 @@ def normalise(token):
 
     # Parse the word's XML literal form
     word = fromstring('<word>%s</word>' % token['lit'])
-    token_is_number = 'num' in token.get('context', '')
+    token_is_number = 'num' in token.get('context', '') or \
+        '<num value=' in token.get('lit')
     token_is_abbreviated = 'abbr' in token.get('context', '')
 
     # Make a regex for matching any abbreviated words
     token_re = None
     if token_is_abbreviated:
         token_re = '.*%s.*' % '.*'.join(_strip_nonalpha(word.text))
-    elif token.get('lit').find('abbr') > -1:
+    elif '<abbr>' in token.get('lit'):
         # Get the first part of the word
         token_is_abbreviated = True
         token_re = _strip_nonalpha(word.text)
@@ -149,6 +150,8 @@ def normalise(token):
         for ch in word:
             if ch.tag == 'abbr':  # Join all letters with wildcards
                 token_re += '.*%s.*' % '.*'.join(_strip_nonalpha(ch.text))
+            elif ch.text is not None:
+                token_re += ch.text
             token_re += _strip_nonalpha(ch.tail)
         # Recognise that 'վ' and 'ւ' are used a bit interchangeably e.g. in թվականութիւն
         token_re = re.sub(r'\Bվ', '[վւ]', token_re)
@@ -183,51 +186,60 @@ def normalise(token):
             token['normal_form'] = token.get('n').replace(
                 nmatch.group(0), north)
 
-    # Make a Graphviz HTML display field for abbreviations, gaps, hilights, etc.
-    display = word.text or ''
-    if token_is_number:
-        # display = _number_orth(display)
-        display = token.get('normal_form', display)
-    for ch in word:
-        # if ch.tag == 'abbr':    # For more pedantic placement of lines
-        #     display += '<O>%s</O>' % ch.text
-        if ch.tag == 'hi':  # Make it red
-            display += '<FONT COLOR="red">%s</FONT>' % ch.text
-        elif ch.tag == 'gap':  # Replace it with stars
-            glen = 1
-            try:
-                glen = int(ch.get('extent'))
-            except (ValueError, TypeError):
-                pass
-            display += '*' * glen
-        # elif ch.tag == 'damage':
-        #     display += '[%s]' % ch.text
-        # elif ch.tag == 'supplied':
-        #    display += '&lt;%s&gt;' % ch.text
-        elif ch.tag == 'num':
-            token_is_number = True
-            display += _number_orth(ch.text)
-        # elif ch.tag == 'lb':
-        #     display += ' | '
-        else:
-            display += ch.text or ''
-        display += ch.tail or ''
-    # Add abbreviation marks over the whole
+    # Make a Graphviz HTML display field for numbers, gaps, hilights, etc.
+    display = _make_display(word, is_number=token_is_number)
+    # Add abbreviation marks over the whole if applicable
     if token_is_abbreviated:
         display = '<O>%s</O>' % display
-    # Clean up orthographic noise of numbers by replacing the 't' value
-    if token_is_number:
-        token['t'] = display
     # Add the display form to the token, if it is different from the t form
     if display != token['t']:
         token['display'] = display
     return token
 
 
+def _make_display(el, is_number=False):
+    display = el.text or ''
+
+    # Handle tags that modify the text itself
+    if el.tag == 'num':
+        is_number = True
+    if is_number:
+        display = _number_orth(display)
+    elif el.tag == 'gap':  # Replace it with stars
+        glen = 1
+        try:
+            glen = int(el.get('extent'))
+        except (ValueError, TypeError):
+            pass
+        display += '*' * glen
+
+    # Recurse to handle the children
+    for ch in el:
+        display += _make_display(ch, is_number=is_number)
+
+    # Now handle tags that wrap the text
+    if el.tag == 'hi':
+        display = '<FONT COLOR="red">%s</FONT>' % display
+    elif el.tag == 'damage':
+        display = '[%s]' % display
+    elif el.tag == 'supplied':
+        display = '&lt;%s&gt;' % display
+
+    # Finally, add on the tail
+    if el.tail is not None:
+        if is_number:
+            display += _number_orth(el.tail)
+        else:
+            display += el.tail
+
+    return display
+
+
 def _strip_noise(st):
     return st.replace(
         '֊', '').replace(
-        '՛', '')
+        '՛', '').replace(
+        "\n", "")
 
 def _fix_encoding(st):
     return st.replace(
@@ -240,10 +252,15 @@ def _strip_nonalpha(token):
         return re.sub(r"\W", "", token)
     return ""
 
+def upper(matchobj):
+    return matchobj.group(0).upper()
 
 def _number_orth(st):
-    return re.sub(r'[^\w\s]', '', st).upper().replace('ԵՒ', 'և')
-
+    """Return a more orthographically normalised form of the tagged number"""
+    num = re.sub(r'(\w)՟', upper, st)
+    # if num != st:
+    #     num = num.replace('և', '').replace('ի', '')
+    return re.sub(r'[^\w\s]', '', num)
 
 def _number_norm(val):
     '''Return the standard Armenian orthography for a given number value'''
@@ -266,7 +283,6 @@ def _number_norm(val):
                 num = gn + 'Ռ' * thou + num
         thou += 1
     return num
-
 
 def postprocess(root):
     """Find all pb/lb/cb milestone elements that occur last in a
@@ -310,5 +326,5 @@ def milestones():
             for line in fh:
                 for m in re.finditer(r'milestone unit="section" n="([\w.]+)"', line):
                     milestonelist.append(m.group(1))
-    return milestonelist
-    # return ['401', '407', '408']
+    # return milestonelist
+    return ['410', '407', '408']
