@@ -191,6 +191,10 @@ def normalise(token):
     # Add abbreviation marks over the whole if applicable
     if token_is_abbreviated:
         display = '<O>%s</O>' % display
+    # If we are dealing with a number, run the base reading text separately
+    # through number_orth, to get the less noisy form without HTML tags
+    if token_is_number:
+        token['t'] = _number_orth(token.get('t'))
     # Add the display form to the token, if it is different from the t form
     if display != token['t']:
         token['display'] = display
