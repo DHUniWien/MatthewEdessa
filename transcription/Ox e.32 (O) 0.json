@@ -3444,12 +3444,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ա<subst rend=\"overwrite\"><del type=\"\">ռ</del><add place=\"\"></subst>ւ</add>առս և իշխանութ<abbr>իս</abbr>։ <hi rend=\"red\">Յայսմ</hi> ժամանակիս "
+            "cnt:chars" : "ա<subst rend=\"overwrite\"><del>ռ</del><add>ւ</add></subst>առս և իշխանութ<abbr>իս</abbr>։ <hi rend=\"red\">Յայսմ</hi> ժամանակիս "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13246431#xywh=123,206,630,31",
           "_tpen_note" : "",
-          "_tpen_creator" : 281,
-          "modified" : "2019-02-22 13:39:01.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2019-03-28 14:11:06.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/104422952",
           "_tpen_line_id" : "line/104422952",
