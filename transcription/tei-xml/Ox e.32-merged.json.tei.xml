@@ -79,6 +79,10 @@
           <glyphName>ARMENIAN EST SYMBOL</glyphName>
           <mapping>ըստ</mapping>
         </glyph>
+        <glyph xml:id="yabove">
+          <glyphName>ARMENIAN YI SUPERSCRIPT VARIANT</glyphName>
+          <mapping>յ</mapping>
+        </glyph>
         <glyph xml:id="zmlig">
           <glyphName>ARMENIAN ZA-MEN LIGATURE</glyphName>
           <mapping>զմ</mapping>
@@ -146,10 +150,10 @@
 <lb xml:id="l101399492" n="9" resp="#u281"/>կղզին որ ասի կրիտ. և սաստիկ պատերազմաւ առ
 <lb xml:id="l101399493" n="10" resp="#u281" break="no"/>եալ զնայ ի զաւրացն եգիպտոսի. վասն զի զ<abbr>ա</abbr>մ կղզի
 <lb xml:id="l101399378" n="11" resp="#u281" break="no"/>քն. և զ<abbr>ամ</abbr> ծովեզերաց աշխարհն արապկաց ազգքն 
-<lb xml:id="l101399379" n="12" resp="#u1923"/>ունէին զամս <num value="400">դ՟ճ՟</num>։ <note place="margin" type="scribal" anchored="false">ի <num value="401">դ՟ճ՟ա՟</num> նստաւ աշոտ թ<abbr>գ</abbr>ր. որդի աբասայ. ամս <num value="27">ի՟է՟.</num> աշոտ որ ո<abbr>ղր</abbr>մածն կոչիւր որդի աբասայ որդի սմպատայ որդի աշոտոյ. առաջին թա<supplied>գ</supplied>ա<abbr>ւր</abbr>է բագր<supplied>ա</supplied>տունեաց <supplied>ա</supplied>զգէն. յետ <supplied>ա</supplied>շոտոյ սմ<supplied>պ</supplied>ատ. ամս <num value="13"><supplied>ժ</supplied>գ՟</num> ի <abbr>թվ</abbr>ին <num value="429"><supplied>դ</supplied>ճ՟ի՟թ՟.</num> և <supplied>գ</supplied>ագիկ որ<supplied>դ</supplied>ի աշոտոյ <supplied>ե</supplied>ղբայր սմպատայ ամս <num value="29"><supplied>ի</supplied>՟թ</num> և ապա <supplied>յ</supplied>ոհաննէս և աշոտ <supplied>ա</supplied>մս <num value="20">.ի՟.</num></note> </p><p><hi rend="red">Յայսմ</hi> ամի կոտորեցին զաւրքն 
+<lb xml:id="l101399379" n="12" resp="#u1923"/>ունէին զամս <num value="400">դ՟ճ՟</num>։ <add place="margin">ի <num value="401">դ՟ճ՟ա՟</num> նստաւ աշոտ թ<abbr>գ</abbr>ր. որդի աբասայ. ամս <num value="27">ի՟է՟.</num> աշոտ որ ո<abbr>ղր</abbr>մածն կոչիւր որդի աբասայ որդի սմպատայ որդի աշոտոյ. առաջին թա<supplied>գ</supplied>ա<abbr>ւր</abbr>է բագր<supplied>ա</supplied>տունեաց <supplied>ա</supplied>զգէն. յետ <supplied>ա</supplied>շոտոյ սմ<supplied>պ</supplied>ատ. ամս <num value="13"><supplied>ժ</supplied>գ՟</num> ի <abbr>թվ</abbr>ին <num value="429"><supplied>դ</supplied>ճ՟ի՟թ՟.</num> և <supplied>գ</supplied>ագիկ որ<supplied>դ</supplied>ի աշոտոյ <supplied>ե</supplied>ղբայր սմպատայ ամս <num value="29"><supplied>ի</supplied>՟թ</num> և ապա <supplied>յ</supplied>ոհաննէս և աշոտ <supplied>ա</supplied>մս <num value="20">.ի՟.</num></add> </p><p><hi rend="red">Յայսմ</hi> ամի կոտորեցին զաւրքն 
 <lb xml:id="l101399500" n="13" resp="#u281"/>հայոց զհամտուն զաւրապետն տաճկաց. <milestone unit="section" n="410"/>յամի և ի 
 <lb xml:id="l101399382" n="14" resp="#u281"/>թուականութ<abbr>ես</abbr> հայոց ի <num value="410">ն՟ ու ժ՟.</num> զտնաւարզայ և 
-<lb xml:id="l101399383" n="15" resp="#u281"/>զհալպէ առ արապիկն ի թ<abbr>գո</abbr>րէն մսրայ. և անթիւ. 
+<lb xml:id="l101399383" n="15" resp="#u1923"/>զհալպէ առ արապիկն ի թ<abbr>գո</abbr>րէն մսրայ. և անթիւ. 
 <lb xml:id="l101399494" n="16" resp="#u281"/>արար զկոտորածն ի քրիստոնէիցն քան իւրեանց ազ
 <lb xml:id="l101399501" n="17" resp="#u1923" break="no"/>գին։ </p><p><hi rend="red">Յայսմ ամի</hi> զաւրայ ժողով արար զաւրա՛պետն 
 <lb xml:id="l101399389" n="18" resp="#u281"/>հայոց զմարզպետական գունդն. <num value="45000">խ՟. և ե՟. ռ՟.</num> արանց ք
@@ -166,7 +170,7 @@
 <lb xml:id="l101399505" n="3" resp="#u281"/>կոչեցին զփիլիպպոս թագաւորն աղուանից զա
 <lb xml:id="l101399506" n="4" resp="#u281" break="no"/>յր <abbr>ա</abbr>ծային. և զ<abbr>սբ</abbr> զորդին գոշազգդակայ որդոյ 
 <lb xml:id="l101399507" n="5" resp="#u281"/>վաչականայ. որք էին թ<abbr>գւր</abbr>ք աղուանից աշխարհ
-<lb xml:id="l101399509" n="6" resp="#u281" break="no"/>աց. և յայնմ աւուր եղև ժողով ահագին մեծի քա
+<lb xml:id="l101399509" n="6" resp="#u1923" break="no"/>աց. և յայնմ աւուր եղև ժողով ահագին մեծ ի քա
 <lb xml:id="l101399510" n="7" resp="#u281" break="no"/>ղաքն յանի. որ եղև այժմու ժամանակիս. թագ
 <lb xml:id="l101399511" n="8" resp="#u281" break="no"/>աւորա՛նիստ քաղաք հայոց. և յայսմ ամի աւծաւ 
 <lb xml:id="l101399512" n="9" resp="#u281"/>արքա՛ աշոտ ի յաւծումն հարցն իւրոց. և նստաւ 
@@ -345,9 +349,62 @@
 <lb xml:id="l101401805" n="22" resp="#u281"/>սարի անուն որ էր զաւրավարն մեծի իշխան
 <lb xml:id="l101401647" n="23" resp="#u281" break="no"/>ին ապիրատին. առեալ զկինն և զորդիս ն<abbr>որ</abbr>. 
 <lb xml:id="l101401648" n="24" resp="#u281"/>և զհեծելագունդ զաւրսն. և գնաց ի քաղաքն 
+<pb n="page_007r_006v.jpg"/>
+<cb n="1"/>
+<lb xml:id="l104422946" n="1" resp="#u281"/>անի և թ<abbr>գո</abbr>րն յոհաննէս կարի յոյժ ապաշաւ
+<lb xml:id="l104422948" n="2" resp="#u281" break="no"/>էր զանիրաւ մահն ապիրատին. հայոց իշխա
+<lb xml:id="l104422949" n="3" resp="#u281" break="no"/>նին որդեանցն ն<abbr>որ</abbr> ապլջահապայ և վասակ
+<lb xml:id="l104422950" n="4" resp="#u281" break="no"/>այ. սարէ և <abbr>ամ</abbr> զաւրացն տայր թ<abbr>գո</abbr>րն հայոց գ
+<lb xml:id="l104422951" n="5" resp="#u1548" break="no"/>ա<subst rend="overwrite"><del>ռ</del><add>ւ</add></subst>առս և իշխանութ<abbr>իս</abbr>։ <hi rend="red">Յայսմ</hi> ժամանակիս 
+<lb xml:id="l104422952" n="6" resp="#u281"/>զաւրայ ժողով արարեալ թգ<abbr>օո</abbr>րն դելումնաց 
+<lb xml:id="l104422953" n="7" resp="#u281"/>և յանկասկածս գայր հասանէր ի նիգս գաւ
+<lb xml:id="l104422954" n="8" resp="#u281" break="no"/>առին հայոց՝ մերձ ի յամուրն բջնի. և վասակ ա
+<lb xml:id="l104422955" n="9" resp="#u281" break="no"/>սպարապետն հայոց սիրեցեալ որդովն իւր
+<lb xml:id="l104422956" n="10" resp="#u281" break="no"/>ով գրիգորիւ և այլ փառաւոր ազատաւքն 
+<lb xml:id="l104422957" n="11" resp="#u281"/>նստեալ կայր ի մեծ ուրախութ<abbr>ե</abbr>. և հայեցաւ 
+<lb xml:id="l104422958" n="12" resp="#u281"/>վասակ ի յառապարս ճանապա<add place="above">ր</add>հին և ահա<g ref="#yabove">յ</g> 
+<lb xml:id="l104422959" n="13" resp="#u281"/>գայր մի իշտապս ընդ հետևակա<g ref="#yabove">յ</g>գնացս ճ
+<lb xml:id="l104422960" n="14" resp="#u281" break="no"/>անապարհին և տեսեալ վասակայ ասէր գուժ
+<lb xml:id="l104422961" n="15" resp="#u281" break="no"/>աբեր է այրն. և հասանէր այրն ի դուռն բ
+<lb xml:id="l104422962" n="16" resp="#u281" break="no"/>երդին բջնոյ ձայն աղաղակի բարձեալ ասէր գ
+<lb xml:id="l104422963" n="17" resp="#u281" break="no"/>երեցաւ <abbr>ամ</abbr> գաւառն նգաց։ <hi rend="red">յայն ժամ</hi> <abbr>որպ</abbr> զառ
+<lb xml:id="l104422964" n="18" resp="#u281" break="no"/>իւծ<del rend="erase">ծ</del> գոչեաց քաջ զաւրա<g ref="#yabove">յ</g>վարն վասակ. և յարու
+<lb xml:id="l104422965" n="19" resp="#u281" break="no"/>ցեալ զգենոյր զգեստ երկաթապատ. և զկնի ն<abbr>որ</abbr> 
+<lb xml:id="l104422966" n="20" resp="#u281"/><num value="7">է՟</num> ազատ. և ըստ պատ<add place="above">ահ</add>ելոյ ժամուն այլ հեծելա<g ref="#yabove">յ</g>
+<lb xml:id="l104422967" n="21" resp="#u281" break="no"/>զաւրք զկնի ն<abbr>ոց</abbr>. և կազմեցան ազ<abbr>տք</abbr>ն զկնի վա
+<lb xml:id="l104422968" n="22" resp="#u281" break="no"/>սակայ. և սրանայր քաջ և աղեկ անունն փիլիպէ 
+<lb xml:id="l104422969" n="23" resp="#u281"/>և գորգ չորտուանէլն և այլք ոմանք. և այս արք ք
+<lb xml:id="l104422970" n="24" resp="#u281" break="no"/>աջք և յաղթողք ի պատերազմունս և ոչ կարա
+<lb xml:id="l104422973" n="25" resp="#u281" break="no"/>ց վասակ համբերել սրտին. մինչև զաւրքն 
+<cb n="2"/>
+<lb xml:id="l104422947" n="1" resp="#u281"/>ժողովեսցին վասն զի կային ընդ ձեռամբ ն<abbr>որ</abbr> 
+<lb xml:id="l104422976" n="2" resp="#u281"/>այրս իբրև <num value="5000">.ե՟ռ՟</num>ս. և առ հպարտութ<abbr>ե</abbr> զաւրութ<abbr>ե</abbr> 
+<lb xml:id="l104422977" n="3" resp="#u281"/>իւր. <num value="500">ե՟.ճ՟.</num> արամբ յառաջ ելեալ հասանէր <add place="margin-right"><abbr>պ</abbr> առիւծ ի նգաց գաւառին. և յա<damage>նձ</damage>ն արարեալ զտունն և զամուրն բջ<damage>նի</damage> որդոյ իւր<damage>ո</damage>ւմ գրիգոր<damage>ի</damage> և հասան</add> վա
+<lb xml:id="l104422978" n="4" resp="#u281" break="no"/>սակ ի վանք <add place="inline">մի</add> հաղորդեցան ինքն և <abbr>ամ</abbr> զաւրքն. 
+<lb xml:id="l104422979" n="5" resp="#u281"/>խոստովանեցան զմեղս իւրեանց բարի խոստովա
+<lb xml:id="l104422980" n="6" resp="#u1923" break="no"/>նութ<abbr>բ</abbr> որ ի <abbr>քս</abbr> <abbr>յս</abbr> և ի ճանապարհին հանդիպեալ ի գու
+<lb xml:id="l104422981" n="7" resp="#u281" break="no"/>ղ մի. և տեսին զի այլազգիքն առ հասարակ կոտ
+<lb xml:id="l104422982" n="8" resp="#u281" break="no"/>որեալ էին զ<abbr>ամ</abbr> գևղն և զաւրք այլազգեացն պա
+<lb xml:id="l104422983" n="9" resp="#u1923" break="no"/>տեալ էին շուրջ զեկեղեցաւն <add place="inline">և</add> զըհաւատացեալս 
+<lb xml:id="l104422984" n="10" resp="#u281"/><add place="above">որ ի ներք</add> կային և կոտորեցին յանխնայ սրով և տեսեալ զայ
+<lb xml:id="l104422985" n="11" resp="#u281" break="no"/>ն քաջ<add place="above">ին</add> վասակայ ձայնիւ գոչեաց որ<abbr>պ</abbr> զառիւծ. և 
+<lb xml:id="l104422986" n="12" resp="#u281"/>յարձակեցաւ <abbr>իվ</abbr> զաւրաց այլազգեացն և կոտոր
+<lb xml:id="l104422987" n="13" resp="#u281" break="no"/>եցին զն<abbr>ոս</abbr> այրս <num value="300">.գ՟.ճ՟.</num> և մնացեալքն փախըստակ
+<lb xml:id="l104422988" n="14" resp="#u281" break="no"/>անք անկանէին ի զաւրսն այլազգեացն։ <hi rend="red">Եւ</hi> շարժեա
+<lb xml:id="l104422989" n="15" resp="#u281" break="no"/>լ գային բազմութի<abbr>ք</abbr> բանակին <abbr>իվ</abbr> զաւրացն ք<abbr>սո</abbr>նից 
+<lb xml:id="l104422990" n="16" resp="#u281"/>և իբրև այնչափ անթիւ տեսանէին զբազմութ<abbr>ի</abbr> զա
+<lb xml:id="l104422991" n="17" resp="#u281" break="no"/>ւրաց այլազգեացն. և յայնժամ միաբան զմահ ա
+<lb xml:id="l104422992" n="18" resp="#u281" break="no"/>ռաջի եդին և սկսան առաքիկանալ ի պատերազմին. 
+<lb xml:id="l104422993" n="19" resp="#u281"/>և <abbr>որպ</abbr> զգայլս ի մէջ այծեաց և կամ <abbr>որպ</abbr> զարծուիս 
+<lb xml:id="l104422994" n="20" resp="#u281"/>ի յերամս ձագուց. այնպէս արիաբար ընթանային 
+<lb xml:id="l104422995" n="21" resp="#u281"/>ի մէջ պատերազմին. և զբազումս խոցեալ դիաթ<add place="above">աւ</add>ալ յեր
+<lb xml:id="l104422996" n="22" resp="#u281" break="no"/>կիր ձգէին. <hi rend="red">Յայն</hi> ժամ ախոյեան մի եղեալ ի զաւրաց 
+<lb xml:id="l104422999" n="23" resp="#u281"/>այլազգեացն. սեաւ խափշիկ և այր քաջ որ և <num value="7">է՟.</num> գայ
+<lb xml:id="l104423002" n="24" resp="#u281" break="no"/>լ կոչէին զնայ վասն զի զինչ <del rend="erase">է</del> <num value="7">է՟.</num> գայլն ի ջոկս ոչխ
+<lb xml:id="l104423005" n="25" resp="#u281" break="no"/>արացն գործէր սայ ևս առաւել ի մէջ պատերա
 <pb n="page_008r_007v.jpg"/>
 <cb n="1"/>
-<lb xml:id="l101400164" n="1" resp="#u281"/>ազմին. և ահայ գայր խափշիկն իբրև զսևեաւամբ 
+<lb xml:id="l101400164" n="1" resp="#u281" break="no"/>ազմին. և ահայ գայր խափշիկն իբրև զսևեաւամբ 
 <lb xml:id="l101400230" n="2" resp="#u281"/>որոտալով որբոց հատանէր ի զրեհաց ն<abbr>որ</abbr>. և ձայն 
 <lb xml:id="l101400232" n="3" resp="#u281"/>տուեալ և յանուանէ յուզէր զվասակ. հայեցօ 
 <lb xml:id="l101400268" n="4" resp="#u281"/>քաջն եմրան և ետես զնայ. զի ահայ գայր որպէս 
@@ -2157,7 +2214,7 @@
 <lb xml:id="l102188364" n="2" resp="#u1923" break="no"/>ցին առ հասա<abbr>րկ</abbr> զ<abbr>ամ</abbr> բա<abbr>նկ</abbr>ն ն<abbr>ց</abbr>. և <abbr>դր</abbr>ձան զաւրքն հայոց. ի ք
 <lb xml:id="l102188365" n="3" resp="#u1923" break="no"/>աղ<abbr>ք</abbr>ն անի մեծաւ յա<abbr>ղթ</abbr>բ. և գնացին զաւրքն հոռ<abbr>մ</abbr>ց ամօթով. 
 <lb xml:id="l102188366" n="4" resp="#u1923"/>յաշ<abbr>խհ</abbr>րն իւ<abbr>ր</abbr>ց։ Եւ պառակամանոսն ձմերեաց յաւղթի՛քն. և ի
-<lb xml:id="l102188367" n="5" resp="#u1923" break="no"/>իբ<add place="below">ր</add>և իմացան զաւրքն հայոց. թէ թ<abbr>գ</abbr>ն հայոց այլ ո՛չ է ելանելոցէ 
+<lb xml:id="l102188367" n="5" resp="#u1923" break="no"/>իբ<add place="below">ր</add>և իմացան զաւրքն հայոց. թէ թ<abbr>գ</abbr>ն հայոց այլ ո՛չ ելանելոց է 
 <lb xml:id="l102188368" n="6" resp="#u1923"/>յարևելս. և ծանեան զնենգաւոու<abbr>թի</abbr> նախարարա՛ցն հա<abbr>յց</abbr> 
 <lb xml:id="l102188369" n="7" resp="#u1923"/><add place="above">լալին առ հասարակ <abbr>ա</abbr>մ տունն հայոց.</add> և արարին <abbr>ամ</abbr> քղ<abbr>ք</abbr>ն ժողով ուր էին գերեզմանքն հայոց <abbr>ամ</abbr> 
 <lb xml:id="l102188370" n="8" resp="#u1923"/><abbr>թգ</abbr>ցն ա<abbr>ռ</abbr>ջնոց. և անդ լացին զանտիրանալն ազգին հայոց. 
@@ -2505,7 +2562,7 @@
 <lb xml:id="l102210547" n="11" resp="#u1923" break="no"/>ուցանել զն<abbr>ոս</abbr> ի ղզի. զդօիթ. և զլևոն և զկոստան
 <lb xml:id="l102210548" n="12" resp="#u1923" break="no"/>դին. զայր քաջք և զհզաւրք և երևելի իշխանք հայ
 <lb xml:id="l102210549" n="13" resp="#u1923" break="no"/>ոց։ <milestone unit="section" n="500prologue"/>Արդ ահայ մինչև ցայս վայրս բազմաջան և 
-<lb xml:id="l102210550" n="14" resp="#u1923"/>և աշխատաւ որ քննու<abbr>բ</abbr> գտեալ գրեցաք զշարա
+<lb xml:id="l102210550" n="14" resp="#u1923"/>և աշխատաւոր քննու<abbr>բ</abbr> գտեալ գրեցաք զշարա
 <lb xml:id="l102210551" n="15" resp="#u1923" break="no"/>գրական գրեալս զ<num value="100">ճ</num>ից ամաց. զորս ի բազում ժա
 <lb xml:id="l102210552" n="16" resp="#u1923" break="no"/>մանակաց հետաքննեալ հասու եղաք. ընդ այն
 <lb xml:id="l102210553" n="17" resp="#u1923" break="no"/>քանեացս տեսողացն և լսողացն. որք էին ի հին ամ<abbr>ց</abbr> 
@@ -2520,8 +2577,8 @@
 <pb n="049r"/>
 <lb xml:id="l102218186" n="1" resp="#u1923"/>ի<abbr>ւր</abbr>ց հոռոմոց. և վ<abbr>ս</abbr> ա<abbr>յ</abbr>սկ հարկ եղև ի մտաց խորհր
 <lb xml:id="l102218187" n="2" resp="#u1923" break="no"/>դոյս իմոյ. անդադար յուզմ<abbr>բ</abbr> իբրև զմեծ իմն համա
-<lb xml:id="l102218188" n="3" resp="#u1923" break="no"/>րելով գտանել զայս գործս կատար<subst><del rend="scribble">ելով</del><add place="after">ածի</add></subst>. և վ<abbr>ս</abbr>կ զօրս 
-<lb xml:id="l102218189" n="4" resp="#u1923"/>ժողով արարի և գրեցի. մինչև ցայս վայր. զ<num value="3">գ՟.</num> ազգացս. 
+<lb xml:id="l102218188" n="3" resp="#u1923" break="no"/>րելով գտանել զայս գործս կատար<subst><del rend="scribble">ելով</del><add place="after">ածի</add></subst>. և վ<abbr>ս</abbr>կ զօրա
+<lb xml:id="l102218189" n="4" resp="#u1923" break="no"/>ժողով արարի և գրեցի. մինչև ցայս վայր. զ<num value="3">գ՟.</num> ազգացս. 
 <lb xml:id="l102218190" n="5" resp="#u1923"/>և զհայրապետացս. և զայլ <abbr>պս</abbr><abbr>պս </abbr> քնննու<abbr>թ</abbr>եց զազգաց 
 <lb xml:id="l102218191" n="6" resp="#u1923"/>և զթագաւորաց զորս յառաջ ասացաք. և որ զկնի դ
 <lb xml:id="l102218192" n="7" resp="#u1923" break="no"/>եռևս ասասցուք. զսգիզբն կատարածիս զոր ինչ 
@@ -5002,7 +5059,7 @@
 <lb xml:id="l102470318" n="8" resp="#u1923"/>ժամանակաց հետէ խափանեալ էր մախանաւք և նեն
 <lb xml:id="l102470319" n="9" resp="#u1923" break="no"/>գաւորու<abbr>բ</abbr> չար և դառնացեալ ազգին հոռոմոց և ելեալ 
 <lb xml:id="l102470320" n="10" resp="#u1923"/>գայր բարսեղ կ<abbr>թկ</abbr>ոս հայոց ի թ<abbr>գոր</abbr>աբնակ քաղաքն 
-<lb xml:id="l102470321" n="11" resp="#u1923"/>անի և ելեալ <abbr>ամ</abbr> տունն շիրակակալ ընդ յառաջ ն<abbr>որ</abbr> և 
+<lb xml:id="l102470321" n="11" resp="#u1923"/>անի և ելեալ <abbr>ամ</abbr> տունն շիրակա կալ ընդ յառաջ ն<abbr>որ</abbr> և 
 <lb xml:id="l102470322" n="12" resp="#u1923"/>ահայ գայր վասակ հայրն <abbr>տր</abbr> բարսղի և եղբարք ն<abbr>որ</abbr> հա
 <lb xml:id="l102470323" n="13" resp="#u1923" break="no"/>սան և գրիգոր և ապլջակապ արք քաջք և հզաւրք հանդ
 <lb xml:id="l102470324" n="14" resp="#u1923" break="no"/>երձ ե<abbr>պ</abbr>կոսիւք նստուցին զ<abbr>տր</abbr> բարսեղ յաթոռ <abbr>տ</abbr>ն պետր
@@ -8403,7 +8460,7 @@
 <lb xml:id="l102703316" n="12" resp="#u1923" break="no"/>անէր. վասն զի մի արասցէ իւր այր զեղբայրն 
 <lb xml:id="l102703317" n="13" resp="#u1923"/>իւր. զայն որ նստեալ էր սուլտանն ի խորին աշխ
 <lb xml:id="l102703318" n="14" resp="#u1923" break="no"/>արհն պարսից ի յաւզկան ք<abbr>ղ</abbr>աք և ի խզնէ որ է երիս 
-<lb xml:id="l102703319" n="15" resp="#u1923"/><num value="3">գ՟.</num>ամսոց գնացք. ի խոր քան զասպ<add place="above">հ</add><abbr>ա</abbr>ն և զկնի այս
+<lb xml:id="l102703319" n="15" resp="#u1923"/><num value="3">գ՟.</num> ամսոց գնացք. ի խոր քան զասպ<add place="above">հ</add><abbr>ա</abbr>ն և զկնի այս
 <lb xml:id="l102703320" n="16" resp="#u1923" break="no"/>որիկ դնէր տափարն յաթոռ <abbr>թգ</abbr>որութ<abbr>ե</abbr> իւրոյ զաւա
 <lb xml:id="l102703322" n="17" resp="#u1923" break="no"/>գ որդին իւր զմահմուտն և տայր զ<abbr>ա</abbr>մ պարսիկս. 
 <lb xml:id="l102703323" n="18" resp="#u1923"/>ի ձեռս ն<abbr>ո</abbr>ր և զկ<add place="above">ր</add>սեր որդին զմելիքն դնէր սուլտան ի 
@@ -8451,7 +8508,7 @@
 <lb xml:id="l102703418" n="14" resp="#u1923" break="no"/>է էին ամիրային թուրքաց որդոյ արթուխին. և մռ
 <lb xml:id="l102703419" n="15" resp="#u1923" break="no"/>մռայր խազի ի սրտի իւրում։ <milestone unit="section" n="568"/>Իսկ ի հասանել թու
 <lb xml:id="l102703420" n="16" resp="#u1923" break="no"/>ականու<abbr>թ</abbr>ե հայոց. ի յամս <num value="568">.ե՟.ճ՟.կ՟ և ութ</num> զաւրա
-<lb xml:id="l102703421" n="17" resp="#u1923" break="no"/>ժողով արարեալ ամիրայն խազի որդի արթուխին ահ
+<lb xml:id="l102703421" n="17" resp="#u1923" break="no"/>ժողով արար ամիրայն խազի որդի արթուխին ահ
 <lb xml:id="l102703422" n="18" resp="#u1923" break="no"/>ագին բազմու<abbr>թի</abbr>ս. վ<abbr>ս</abbr> զի ո<abbr>պ</abbr> զնահապետ էր ի վերա 
 <lb xml:id="l102703423" n="19" resp="#u1923"/>թուրքաց զաւրացն իւրով ազգովն. և վ<abbr>ս</abbr> այսորիկ 
 <lb xml:id="l102703424" n="20" resp="#u1923"/>ժողովեցան ի կոչ նորա. և յայսմ ամի խաղաղաց 
@@ -9298,7 +9355,7 @@
 <lb xml:id="l102716299" n="23" resp="#u1923" break="no"/>նտիոքու որդւոյ պէտևին որ էր ի տիս մանկու<add place="below">թ<abbr>ե</abbr></add> 
 <pb n="191r"/>
 <lb xml:id="l102725776" n="1" resp="#u1923"/>սակազաւր և ուժեղ այլ ոչ խելանի իմաստս 
-<lb xml:id="l102725777" n="2" resp="#u1923"/>յարութ<abbr>ե</abbr> իշխանութ<abbr>ե</abbr>նն պաղտոյնին որ էր տ
+<lb xml:id="l102725777" n="2" resp="#u1923"/>յարութ<abbr>ե</abbr> իշխանութ<abbr>ե</abbr>նն պաղտոյնին <add place="margin">այս պաղտինս ասաց ողբ պարզեց վ<abbr>դպ</abbr>ն</add> որ էր տ
 <lb xml:id="l102725778" n="3" resp="#u1923" break="no"/>էր քէսնոյ և մարշայ և գաւառաց ն<abbr>ոց</abbr> ի սնօ
 <lb xml:id="l102725779" n="4" resp="#u1923" break="no"/>ռէն մելտենոյ մինչև ի դուռն անտիոքու. 
 <lb xml:id="l102725780" n="5" resp="#u1923"/><del rend="cancel">այս պա</del> որ էր տղայ տիաւք և ծեր մտօք <abbr>ա</abbr>ծ
@@ -9306,7 +9363,7 @@
 <lb xml:id="l102725782" n="7" resp="#u1923"/>ճաւսլինն փոքու որդին մեծի քաջ զօրական
 <lb xml:id="l102725783" n="8" resp="#u1923" break="no"/>ին ճաւսլին ի հր<abbr>պ</abbr>տութ<abbr>ե</abbr>նն <abbr>տ</abbr>ն գ<abbr>ր</abbr>գիսի հյ<abbr>ո</abbr>ց 
 <lb xml:id="l102725784" n="9" resp="#u1923"/>վ<abbr>ր</abbr>դիտողի ի տանն թորքոմայ յաւուրս <abbr>սց</abbr> 
-<lb xml:id="l102725785" n="10" resp="#u1923"/>և յ<abbr>ռ</abbr>ջասացեալ թու<abbr>յ</abbr>բերութե<abbr>ս</abbr> ի տօնի <abbr>սբ</abbr>ոյն 
+<lb xml:id="l102725785" n="10" resp="#u1923"/>և յ<abbr>ռ</abbr>ջ ասացեալ թու<abbr>յ</abbr>բերութե<abbr>ս</abbr> ի տօնի <abbr>սբ</abbr>ոյն 
 <lb xml:id="l102725787" n="11" resp="#u1923"/>նախավկային անտես եղեալ <abbr>քղ</abbr><abbr>ք</abbr>ն ուռհ<abbr>յ</abbr> 
 <lb xml:id="l102725788" n="12" resp="#u1923"/>ի քաղցր <abbr>կմ</abbr>աց արարչին որ և առաւ բռնու
 <lb xml:id="l102725789" n="13" resp="#u1923" break="no"/><abbr>բ</abbr> յորդ<abbr>ո</abbr>ցն հագարոյ որոյ <del rend="cancel">յ</del>անուն գլխաւորին 
@@ -9319,7 +9376,7 @@
 <lb xml:id="l102725797" n="20" resp="#u1923"/>հոգայր և ոչ hայր զորդի ոչ գթասէր մաւր ի 
 <lb xml:id="l102725798" n="21" resp="#u1923"/>դուստր իւր և ոչ մերձաւոր բարէկամ առ սիրե
 <lb xml:id="l102725799" n="22" resp="#u1923" break="no"/>լիս իւր նայելով յաղագս ծանր և դառն լուս
-<lb xml:id="l102725800" n="23" resp="#u1923" break="no"/>ոյն այնորիկ ոչ ժամանել փախուստելոցն. <note place="margin">այս պաղտինս ասաց ողբ պարզեց վ<abbr>դպ</abbr>ն</note> 
+<lb xml:id="l102725800" n="23" resp="#u1923" break="no"/>ոյն այնորիկ ոչ ժամանել փախուստելոցն. 
 <pb n="191v"/>
 <lb xml:id="l102725566" n="1" resp="#u1923"/>մտանել յամուրն իւրեանց խեղդամահ եղե
 <lb xml:id="l102725567" n="2" resp="#u1923" break="no"/>ալ մեռան  <del rend="cancel">ի ձե</del> ի դուռն ամրոցին ոգիք իբրև <num value="2000">բ՟ռ՟</num> 
@@ -10914,7 +10971,7 @@
 <lb xml:id="l102766457" n="11" resp="#u1923"/>յունաց կիւռմանիլն տանելով ընդ իւր զամիր 
 <lb xml:id="l102766458" n="12" resp="#u1923"/>միրան զեղբայրն նաւրաւտնին և <abbr>դ</abbr>ձաւ անտի 
 <lb xml:id="l102766459" n="13" resp="#u1923"/>բ<abbr>զ</abbr>մ ընծայիւք եդե<abbr>լ</abbr> առ իրար դաշինս երդմամ
-<lb xml:id="l102766460" n="14" resp="#u1923" break="no"/>բ կալ ի հնազանդութ<abbr>ի</abbr> թ<abbr>գ</abbr>որին մինչև յսւր մ<abbr>հ</abbr>ո
+<lb xml:id="l102766460" n="14" resp="#u1923" break="no"/>բ կալ ի հնազանդութ<abbr>ի</abbr> թ<abbr>գ</abbr>որին մինչև յաւր մ<abbr>հ</abbr>ո
 <lb xml:id="l102766461" n="15" resp="#u1923" break="no"/>ւան իւրոյ առե<abbr>լ</abbr> ի նմանէ գանձս ոսկոյ և արծ
 <lb xml:id="l102766462" n="16" resp="#u1923" break="no"/>աթոյ և եկեալ ի <abbr>քղ</abbr>աքն իւր <milestone unit="section" n="611"/>իսկ ի փոխել թ<abbr>ո</abbr>կանիս 
 <lb xml:id="l102766463" n="17" resp="#u1923"/><num value="611">ո՟ժ՟ա՟.</num> <del rend="cancel">մեծաւ</del> մեռաւ <abbr>ամ</abbr>յգովելին բարսեղ վ<abbr>դ</abbr>
