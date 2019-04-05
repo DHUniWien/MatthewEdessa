@@ -1,0 +1,3266 @@
+{
+  "@context" : "http://www.shared-canvas.org/ns/context.json",
+  "@id" : "http://t-pen.org/TPEN/manifest/6839/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "V913 (Y) 5",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "V913 (Y) 5"
+  }, {
+    "label" : "subtitle",
+    "value" : " "
+  }, {
+    "label" : "msIdentifier",
+    "value" : " Y"
+  }, {
+    "label" : "msSettlement",
+    "value" : " Venice"
+  }, {
+    "label" : "msRepository",
+    "value" : " Mekhitarist Library"
+  }, {
+    "label" : "msIdNumber",
+    "value" : " 913"
+  }, {
+    "label" : "subject",
+    "value" : " "
+  }, {
+    "label" : "date",
+    "value" : "17th c."
+  }, {
+    "label" : "language",
+    "value" : ""
+  }, {
+    "label" : "author",
+    "value" : ""
+  }, {
+    "label" : "description",
+    "value" : " "
+  }, {
+    "label" : "location",
+    "value" : ""
+  }, {
+    "label" : "msCollection",
+    "value" : " "
+  } ],
+  "service" : [ {
+    "@context" : "http://iiif.io/api/auth/1/context.json",
+    "@id" : "http://t-pen.org/TPEN/login.jsp",
+    "profile" : "http://iiif.io/api/auth/1/login",
+    "label" : "T-PEN Login",
+    "header" : "Login for image access",
+    "description" : "Agreement requires an open T-PEN session to view images",
+    "confirmLabel" : "Login",
+    "failureHeader" : "T-PEN Login Failed",
+    "failureDescription" : "<a href=\"http://t-pen.org/TPEN/about.jsp\">Read Agreement</a>",
+    "service" : [ {
+      "@id" : "http://t-pen.org/TPEN/login.jsp",
+      "profile" : "http://iiif.io/api/auth/1/logout",
+      "label" : "End T-PEN Session"
+    } ]
+  } ],
+  "sequences" : [ {
+    "@id" : "http://t-pen.org/TPEN/manifest/6839/sequence/normal",
+    "@type" : "sc:Sequence",
+    "label" : "Current Page Order",
+    "canvases" : [ {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246823",
+      "@type" : "sc:Canvas",
+      "label" : "262.jpg",
+      "width" : 701,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246823",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246823 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246823",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ {
+          "@id" : "http://t-pen.org/TPEN/line/104526108",
+          "_tpen_line_id" : "line/104526108",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,0,241,95",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526181",
+          "_tpen_line_id" : "line/104526181",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,0,241,95",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526109",
+          "_tpen_line_id" : "line/104526109",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,95,241,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526182",
+          "_tpen_line_id" : "line/104526182",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,95,241,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526110",
+          "_tpen_line_id" : "line/104526110",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,124,241,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526183",
+          "_tpen_line_id" : "line/104526183",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,124,241,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526184",
+          "_tpen_line_id" : "line/104526184",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,153,241,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526111",
+          "_tpen_line_id" : "line/104526111",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,153,241,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526185",
+          "_tpen_line_id" : "line/104526185",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,179,241,12",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526112",
+          "_tpen_line_id" : "line/104526112",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,179,241,12",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526186",
+          "_tpen_line_id" : "line/104526186",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,191,241,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526113",
+          "_tpen_line_id" : "line/104526113",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,191,241,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526114",
+          "_tpen_line_id" : "line/104526114",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,216,241,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526187",
+          "_tpen_line_id" : "line/104526187",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,216,241,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526188",
+          "_tpen_line_id" : "line/104526188",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,246,241,20",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526115",
+          "_tpen_line_id" : "line/104526115",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,246,241,20",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526189",
+          "_tpen_line_id" : "line/104526189",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,266,241,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526116",
+          "_tpen_line_id" : "line/104526116",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,266,241,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526117",
+          "_tpen_line_id" : "line/104526117",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,290,241,13",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526190",
+          "_tpen_line_id" : "line/104526190",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,290,241,13",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526191",
+          "_tpen_line_id" : "line/104526191",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,303,241,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526118",
+          "_tpen_line_id" : "line/104526118",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,303,241,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526192",
+          "_tpen_line_id" : "line/104526192",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,328,241,10",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526119",
+          "_tpen_line_id" : "line/104526119",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,328,241,10",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526193",
+          "_tpen_line_id" : "line/104526193",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,338,241,15",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526120",
+          "_tpen_line_id" : "line/104526120",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,338,241,15",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526194",
+          "_tpen_line_id" : "line/104526194",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,353,241,10",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526121",
+          "_tpen_line_id" : "line/104526121",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,353,241,10",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526122",
+          "_tpen_line_id" : "line/104526122",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,363,241,20",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526195",
+          "_tpen_line_id" : "line/104526195",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,363,241,20",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526123",
+          "_tpen_line_id" : "line/104526123",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,383,241,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526196",
+          "_tpen_line_id" : "line/104526196",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,383,241,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526197",
+          "_tpen_line_id" : "line/104526197",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,405,241,37",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526124",
+          "_tpen_line_id" : "line/104526124",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,405,241,37",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526125",
+          "_tpen_line_id" : "line/104526125",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,442,241,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526198",
+          "_tpen_line_id" : "line/104526198",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,442,241,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526199",
+          "_tpen_line_id" : "line/104526199",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,463,241,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526126",
+          "_tpen_line_id" : "line/104526126",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,463,241,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526200",
+          "_tpen_line_id" : "line/104526200",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,484,241,14",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526127",
+          "_tpen_line_id" : "line/104526127",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,484,241,14",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526128",
+          "_tpen_line_id" : "line/104526128",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,498,241,12",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526201",
+          "_tpen_line_id" : "line/104526201",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,498,241,12",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526129",
+          "_tpen_line_id" : "line/104526129",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,510,241,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526202",
+          "_tpen_line_id" : "line/104526202",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,510,241,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526130",
+          "_tpen_line_id" : "line/104526130",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,536,241,9",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526203",
+          "_tpen_line_id" : "line/104526203",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,536,241,9",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526204",
+          "_tpen_line_id" : "line/104526204",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,545,241,18",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526131",
+          "_tpen_line_id" : "line/104526131",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,545,241,18",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526132",
+          "_tpen_line_id" : "line/104526132",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,563,241,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526205",
+          "_tpen_line_id" : "line/104526205",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,563,241,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526206",
+          "_tpen_line_id" : "line/104526206",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,591,241,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526133",
+          "_tpen_line_id" : "line/104526133",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,591,241,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526207",
+          "_tpen_line_id" : "line/104526207",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,612,241,13",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526134",
+          "_tpen_line_id" : "line/104526134",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,612,241,13",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526135",
+          "_tpen_line_id" : "line/104526135",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,625,241,11",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526208",
+          "_tpen_line_id" : "line/104526208",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,625,241,11",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526209",
+          "_tpen_line_id" : "line/104526209",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,636,241,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526136",
+          "_tpen_line_id" : "line/104526136",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,636,241,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526137",
+          "_tpen_line_id" : "line/104526137",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,662,241,20",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526210",
+          "_tpen_line_id" : "line/104526210",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,662,241,20",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526211",
+          "_tpen_line_id" : "line/104526211",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,682,241,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526138",
+          "_tpen_line_id" : "line/104526138",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,682,241,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526139",
+          "_tpen_line_id" : "line/104526139",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,705,241,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526212",
+          "_tpen_line_id" : "line/104526212",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,705,241,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526140",
+          "_tpen_line_id" : "line/104526140",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,735,241,20",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526213",
+          "_tpen_line_id" : "line/104526213",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,735,241,20",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526141",
+          "_tpen_line_id" : "line/104526141",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,755,241,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526214",
+          "_tpen_line_id" : "line/104526214",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,755,241,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526215",
+          "_tpen_line_id" : "line/104526215",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,778,241,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526142",
+          "_tpen_line_id" : "line/104526142",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,778,241,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526216",
+          "_tpen_line_id" : "line/104526216",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,801,241,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526143",
+          "_tpen_line_id" : "line/104526143",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,801,241,28",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526217",
+          "_tpen_line_id" : "line/104526217",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,829,241,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526144",
+          "_tpen_line_id" : "line/104526144",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,829,241,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526145",
+          "_tpen_line_id" : "line/104526145",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,851,241,19",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526218",
+          "_tpen_line_id" : "line/104526218",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,851,241,19",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526146",
+          "_tpen_line_id" : "line/104526146",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,870,241,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526219",
+          "_tpen_line_id" : "line/104526219",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=76,870,241,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526147",
+          "_tpen_line_id" : "line/104526147",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,0,325,10",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526220",
+          "_tpen_line_id" : "line/104526220",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,0,325,10",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526148",
+          "_tpen_line_id" : "line/104526148",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,10,325,95",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526221",
+          "_tpen_line_id" : "line/104526221",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,10,325,95",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526222",
+          "_tpen_line_id" : "line/104526222",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,105,325,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526149",
+          "_tpen_line_id" : "line/104526149",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,105,325,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526150",
+          "_tpen_line_id" : "line/104526150",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,129,325,33",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526223",
+          "_tpen_line_id" : "line/104526223",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,129,325,33",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526151",
+          "_tpen_line_id" : "line/104526151",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,162,325,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526224",
+          "_tpen_line_id" : "line/104526224",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,162,325,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526225",
+          "_tpen_line_id" : "line/104526225",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,185,325,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526152",
+          "_tpen_line_id" : "line/104526152",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,185,325,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526226",
+          "_tpen_line_id" : "line/104526226",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,211,325,38",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526153",
+          "_tpen_line_id" : "line/104526153",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,211,325,38",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526227",
+          "_tpen_line_id" : "line/104526227",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,249,325,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526154",
+          "_tpen_line_id" : "line/104526154",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,249,325,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526155",
+          "_tpen_line_id" : "line/104526155",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,270,325,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526228",
+          "_tpen_line_id" : "line/104526228",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,270,325,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526156",
+          "_tpen_line_id" : "line/104526156",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,296,325,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526229",
+          "_tpen_line_id" : "line/104526229",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,296,325,30",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526230",
+          "_tpen_line_id" : "line/104526230",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,326,325,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526157",
+          "_tpen_line_id" : "line/104526157",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,326,325,22",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526231",
+          "_tpen_line_id" : "line/104526231",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,348,325,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526158",
+          "_tpen_line_id" : "line/104526158",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,348,325,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526159",
+          "_tpen_line_id" : "line/104526159",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,373,325,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526232",
+          "_tpen_line_id" : "line/104526232",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,373,325,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526160",
+          "_tpen_line_id" : "line/104526160",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,400,325,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526233",
+          "_tpen_line_id" : "line/104526233",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,400,325,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526161",
+          "_tpen_line_id" : "line/104526161",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,426,325,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526234",
+          "_tpen_line_id" : "line/104526234",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,426,325,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526162",
+          "_tpen_line_id" : "line/104526162",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,452,325,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526235",
+          "_tpen_line_id" : "line/104526235",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,452,325,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526163",
+          "_tpen_line_id" : "line/104526163",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,477,325,15",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526236",
+          "_tpen_line_id" : "line/104526236",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,477,325,15",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526164",
+          "_tpen_line_id" : "line/104526164",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,492,325,12",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526237",
+          "_tpen_line_id" : "line/104526237",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,492,325,12",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526165",
+          "_tpen_line_id" : "line/104526165",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,504,325,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526238",
+          "_tpen_line_id" : "line/104526238",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,504,325,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526166",
+          "_tpen_line_id" : "line/104526166",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,529,325,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526239",
+          "_tpen_line_id" : "line/104526239",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,529,325,29",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526240",
+          "_tpen_line_id" : "line/104526240",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,558,325,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526167",
+          "_tpen_line_id" : "line/104526167",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,558,325,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526241",
+          "_tpen_line_id" : "line/104526241",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,581,325,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526168",
+          "_tpen_line_id" : "line/104526168",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,581,325,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526242",
+          "_tpen_line_id" : "line/104526242",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,608,325,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526169",
+          "_tpen_line_id" : "line/104526169",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,608,325,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526170",
+          "_tpen_line_id" : "line/104526170",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,631,325,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526243",
+          "_tpen_line_id" : "line/104526243",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,631,325,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526171",
+          "_tpen_line_id" : "line/104526171",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,658,325,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526244",
+          "_tpen_line_id" : "line/104526244",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,658,325,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526245",
+          "_tpen_line_id" : "line/104526245",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,683,325,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526172",
+          "_tpen_line_id" : "line/104526172",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,683,325,21",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526246",
+          "_tpen_line_id" : "line/104526246",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,704,325,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526173",
+          "_tpen_line_id" : "line/104526173",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,704,325,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526247",
+          "_tpen_line_id" : "line/104526247",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,730,325,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526174",
+          "_tpen_line_id" : "line/104526174",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,730,325,25",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526175",
+          "_tpen_line_id" : "line/104526175",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,755,325,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526248",
+          "_tpen_line_id" : "line/104526248",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,755,325,27",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526249",
+          "_tpen_line_id" : "line/104526249",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,782,325,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526176",
+          "_tpen_line_id" : "line/104526176",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,782,325,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526250",
+          "_tpen_line_id" : "line/104526250",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,805,325,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526177",
+          "_tpen_line_id" : "line/104526177",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,805,325,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526251",
+          "_tpen_line_id" : "line/104526251",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,828,325,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526178",
+          "_tpen_line_id" : "line/104526178",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,828,325,23",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526252",
+          "_tpen_line_id" : "line/104526252",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,851,325,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526179",
+          "_tpen_line_id" : "line/104526179",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,851,325,24",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526180",
+          "_tpen_line_id" : "line/104526180",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,875,325,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        }, {
+          "@id" : "http://t-pen.org/TPEN/line/104526253",
+          "_tpen_line_id" : "line/104526253",
+          "@type" : "oa:Annotation",
+          "motivation" : "oad:transcribing",
+          "resource" : {
+            "@type" : "cnt:ContentAsText",
+            "cnt:chars" : ""
+          },
+          "on" : "http://t-pen.org/TPEN/canvas/13246823#xywh=322,875,325,26",
+          "_tpen_note" : "",
+          "_tpen_creator" : 0,
+          "modified" : "2019-04-04 05:14:59.0"
+        } ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246823&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246823"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246861",
+      "@type" : "sc:Canvas",
+      "label" : "263.jpg",
+      "width" : 706,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246861",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246861 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246861",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246861&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246861"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246836",
+      "@type" : "sc:Canvas",
+      "label" : "264.jpg",
+      "width" : 681,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246836",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246836 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246836",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246836&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246836"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246835",
+      "@type" : "sc:Canvas",
+      "label" : "265.jpg",
+      "width" : 632,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246835",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246835 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246835",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246835&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246835"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246852",
+      "@type" : "sc:Canvas",
+      "label" : "266.jpg",
+      "width" : 736,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246852",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246852 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246852",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246852&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246852"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246851",
+      "@type" : "sc:Canvas",
+      "label" : "267.jpg",
+      "width" : 664,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246851",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246851 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246851",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246851&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246851"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246849",
+      "@type" : "sc:Canvas",
+      "label" : "268.jpg",
+      "width" : 761,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246849",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246849 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246849",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246849&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246849"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246843",
+      "@type" : "sc:Canvas",
+      "label" : "269.jpg",
+      "width" : 642,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246843",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246843 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246843",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246843&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246843"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246825",
+      "@type" : "sc:Canvas",
+      "label" : "270.jpg",
+      "width" : 715,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246825",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246825 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246825",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246825&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246825"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246857",
+      "@type" : "sc:Canvas",
+      "label" : "271.jpg",
+      "width" : 663,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246857",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246857 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246857",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246857&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246857"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246838",
+      "@type" : "sc:Canvas",
+      "label" : "272.jpg",
+      "width" : 752,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246838",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246838 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246838",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246838&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246838"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246850",
+      "@type" : "sc:Canvas",
+      "label" : "273.jpg",
+      "width" : 603,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246850",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246850 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246850",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246850&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246850"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246828",
+      "@type" : "sc:Canvas",
+      "label" : "274.jpg",
+      "width" : 751,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246828",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246828 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246828",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246828&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246828"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246829",
+      "@type" : "sc:Canvas",
+      "label" : "275.jpg",
+      "width" : 710,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246829",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246829 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246829",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246829&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246829"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246864",
+      "@type" : "sc:Canvas",
+      "label" : "276.jpg",
+      "width" : 720,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246864",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246864 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246864",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246864&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246864"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246854",
+      "@type" : "sc:Canvas",
+      "label" : "277.jpg",
+      "width" : 721,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246854",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246854 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246854",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246854&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246854"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246842",
+      "@type" : "sc:Canvas",
+      "label" : "278.jpg",
+      "width" : 765,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246842",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246842 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246842",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246842&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246842"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246865",
+      "@type" : "sc:Canvas",
+      "label" : "279.jpg",
+      "width" : 721,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246865",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246865 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246865",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246865&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246865"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246860",
+      "@type" : "sc:Canvas",
+      "label" : "280.jpg",
+      "width" : 721,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246860",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246860 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246860",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246860&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246860"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246834",
+      "@type" : "sc:Canvas",
+      "label" : "281.jpg",
+      "width" : 672,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246834",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246834 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246834",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246834&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246834"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246858",
+      "@type" : "sc:Canvas",
+      "label" : "282.jpg",
+      "width" : 764,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246858",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246858 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246858",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246858&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246858"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246822",
+      "@type" : "sc:Canvas",
+      "label" : "283.jpg",
+      "width" : 637,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246822",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246822 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246822",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246822&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246822"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246832",
+      "@type" : "sc:Canvas",
+      "label" : "284.jpg",
+      "width" : 712,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246832",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246832 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246832",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246832&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246832"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246819",
+      "@type" : "sc:Canvas",
+      "label" : "285.jpg",
+      "width" : 620,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246819",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246819 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246819",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246819&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246819"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246821",
+      "@type" : "sc:Canvas",
+      "label" : "286.jpg",
+      "width" : 725,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246821",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246821 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246821",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246821&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246821"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246840",
+      "@type" : "sc:Canvas",
+      "label" : "287.jpg",
+      "width" : 605,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246840",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246840 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246840",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246840&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246840"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246837",
+      "@type" : "sc:Canvas",
+      "label" : "288.jpg",
+      "width" : 701,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246837",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246837 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246837",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246837&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246837"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246830",
+      "@type" : "sc:Canvas",
+      "label" : "289.jpg",
+      "width" : 649,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246830",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246830 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246830",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246830&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246830"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246848",
+      "@type" : "sc:Canvas",
+      "label" : "290.jpg",
+      "width" : 637,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246848",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246848 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246848",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246848&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246848"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246847",
+      "@type" : "sc:Canvas",
+      "label" : "291.jpg",
+      "width" : 611,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246847",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246847 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246847",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246847&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246847"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246839",
+      "@type" : "sc:Canvas",
+      "label" : "292.jpg",
+      "width" : 730,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246839",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246839 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246839",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246839&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246839"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246856",
+      "@type" : "sc:Canvas",
+      "label" : "293.jpg",
+      "width" : 751,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246856",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246856 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246856",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246856&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246856"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246824",
+      "@type" : "sc:Canvas",
+      "label" : "294.jpg",
+      "width" : 721,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246824",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246824 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246824",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246824&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246824"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246844",
+      "@type" : "sc:Canvas",
+      "label" : "295.jpg",
+      "width" : 789,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246844",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246844 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246844",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246844&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246844"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246833",
+      "@type" : "sc:Canvas",
+      "label" : "296.jpg",
+      "width" : 799,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246833",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246833 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246833",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246833&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246833"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246855",
+      "@type" : "sc:Canvas",
+      "label" : "297.jpg",
+      "width" : 686,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246855",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246855 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246855",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246855&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246855"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246846",
+      "@type" : "sc:Canvas",
+      "label" : "298.jpg",
+      "width" : 678,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246846",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246846 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246846",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246846&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246846"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246845",
+      "@type" : "sc:Canvas",
+      "label" : "299.jpg",
+      "width" : 640,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246845",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246845 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246845",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246845&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246845"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246820",
+      "@type" : "sc:Canvas",
+      "label" : "300.jpg",
+      "width" : 738,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246820",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246820 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246820",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246820&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246820"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246831",
+      "@type" : "sc:Canvas",
+      "label" : "301.jpg",
+      "width" : 646,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246831",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246831 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246831",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246831&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246831"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246817",
+      "@type" : "sc:Canvas",
+      "label" : "302.jpg",
+      "width" : 730,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246817",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246817 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246817",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246817&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246817"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246841",
+      "@type" : "sc:Canvas",
+      "label" : "303.jpg",
+      "width" : 668,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246841",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246841 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246841",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246841&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246841"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246863",
+      "@type" : "sc:Canvas",
+      "label" : "304.jpg",
+      "width" : 755,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246863",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246863 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246863",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246863&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246863"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246814",
+      "@type" : "sc:Canvas",
+      "label" : "305.jpg",
+      "width" : 635,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246814",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246814 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246814",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246814&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246814"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246853",
+      "@type" : "sc:Canvas",
+      "label" : "306.jpg",
+      "width" : 796,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246853",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246853 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246853",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246853&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246853"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246827",
+      "@type" : "sc:Canvas",
+      "label" : "307.jpg",
+      "width" : 743,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246827",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246827 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246827",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246827&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246827"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246818",
+      "@type" : "sc:Canvas",
+      "label" : "308.jpg",
+      "width" : 778,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246818",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246818 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246818",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246818&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246818"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246862",
+      "@type" : "sc:Canvas",
+      "label" : "309.jpg",
+      "width" : 735,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246862",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246862 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246862",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246862&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246862"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246815",
+      "@type" : "sc:Canvas",
+      "label" : "310.jpg",
+      "width" : 714,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246815",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246815 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246815",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246815&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246815"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246816",
+      "@type" : "sc:Canvas",
+      "label" : "311.jpg",
+      "width" : 632,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246816",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246816 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246816",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246816&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246816"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246826",
+      "@type" : "sc:Canvas",
+      "label" : "312.jpg",
+      "width" : 733,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246826",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246826 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246826",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246826&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246826"
+      } ]
+    }, {
+      "@id" : "http://t-pen.org/TPEN/canvas/13246859",
+      "@type" : "sc:Canvas",
+      "label" : "313.jpg",
+      "width" : 704,
+      "height" : 1000,
+      "otherContent" : [ {
+        "@id" : "http://t-pen.org/TPEN/project/6839/annotations/13246859",
+        "@type" : "sc:AnnotationList",
+        "label" : "http://t-pen.org/TPEN/canvas/13246859 List",
+        "proj" : 6839,
+        "on" : "http://t-pen.org/TPEN/canvas/13246859",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resources" : [ ]
+      } ],
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246859&height=2000&user=null",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        },
+        "on" : "http://t-pen.org/TPEN/canvas/13246859"
+      } ]
+    } ]
+  } ]
+}
