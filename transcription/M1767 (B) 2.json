@@ -8781,12 +8781,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "շիշ նըքատ. դը"
+            "cnt:chars" : "շիշ նը<subst rend=\"overwritten\"><del>ք</del><add>ֆ</add></subst>ատ. դը"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13197078#xywh=406,732,220,35",
           "_tpen_note" : "ք-ֆ",
           "_tpen_creator" : 1548,
-          "modified" : "2017-09-14 10:42:05.0"
+          "modified" : "2019-04-09 07:06:38.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101944732",
           "_tpen_line_id" : "line/101944732",

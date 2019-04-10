@@ -42315,12 +42315,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "եաց ի ծայր ըռըմբին․ և <num value=\"3\">գ՟․</num> շիշ ն<subst><del type=\"scribble\" extent=\"1\">unclear</del><add place=\"above\">ա</add></subst>ֆ <del type=\"scribble\">դա</del> դրեալ "
+            "cnt:chars" : "եաց ի ծայր ըռըմբին․ և <num value=\"3\">գ՟․</num> շիշ ն<subst><del type=\"scribble\"></gap></del><add place=\"above\">ա</add></subst>ֆ <subst rend=\"overwritten\"><del>ա</del><add>դ</add></subst> դրեալ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220571#xywh=133,630,480,28",
           "_tpen_note" : "",
-          "_tpen_creator" : 1923,
-          "modified" : "2018-04-17 13:49:13.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2019-04-09 06:56:40.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103206480",
           "_tpen_line_id" : "line/103206480",
