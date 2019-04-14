@@ -1,6 +1,6 @@
 {
   "@context" : "http://www.shared-canvas.org/ns/context.json",
-  "@id" : "http://t-pen.org/TPEN/manifest/6811/manifest.json",
+  "@id" : "http://t-pen.org/TPEN/manifest/6810/manifest.json",
   "@type" : "sc:Manifest",
   "label" : "Oxford, Bodleain Library Arm e.32",
   "metadata" : [ {
@@ -60,34 +60,9 @@
     } ]
   } ],
   "sequences" : [ {
-    "@id" : "http://t-pen.org/TPEN/manifest/6811/sequence/normal",
+    "@id" : "http://t-pen.org/TPEN/manifest/6810/sequence/normal",
     "@type" : "sc:Sequence",
     "label" : "Current Page Order",
-    "canvases" : [ {
-      "@id" : "http://t-pen.org/TPEN/canvas/13246432",
-      "@type" : "sc:Canvas",
-      "label" : "page_007r_006v.jpg",
-      "width" : 1632,
-      "height" : 1000,
-      "otherContent" : [ {
-        "@id" : "http://t-pen.org/TPEN/project/6811/annotations/13246432",
-        "@type" : "sc:AnnotationList",
-        "label" : "http://t-pen.org/TPEN/canvas/13246432 List",
-        "proj" : 6811,
-        "on" : "http://t-pen.org/TPEN/canvas/13246432",
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "resources" : [ ]
-      } ],
-      "images" : [ {
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246432&height=2000&user=null",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
-        },
-        "on" : "http://t-pen.org/TPEN/canvas/13246432"
-      } ]
-    } ]
+    "canvases" : [ ]
   } ]
 }
