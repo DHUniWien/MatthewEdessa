@@ -1367,12 +1367,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "պ<abbr>տզ</abbr>մ<subst><del>ա</del><add place=\"overwrite\">ի</add></subst>ց անուանեաց և քաջ կորովեաց. "
+            "cnt:chars" : "պ<abbr>տզ</abbr>մ<subst><del rend=\"cancel\">աց</del><add place=\"overwrite\">ի</add></subst> անուանեաց և քաջ կորովեաց. "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13193093#xywh=251,607,496,24",
           "_tpen_note" : "",
           "_tpen_creator" : 281,
-          "modified" : "2014-11-30 12:01:41.0"
+          "modified" : "2019-04-25 10:28:05.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101276971",
           "_tpen_line_id" : "line/101276971",
