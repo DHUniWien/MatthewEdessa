@@ -38341,12 +38341,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "<abbr>թե </abbr> զգործ իմ ոչինչ համարեցաւս այլ թողի զայս յիշ"
+            "cnt:chars" : "<abbr>թե </abbr> զգործ իմ ոչինչ համարեցա<subst rend=\"overwrite\"><del type=\"erase\">ն</del><add>ւ</add></subst> այլ թողի զայս յիշ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13220223#xywh=29,524,473,18",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2018-06-27 11:10:53.0"
+          "_tpen_creator" : 281,
+          "modified" : "2019-04-29 06:45:35.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102183475",
           "_tpen_line_id" : "line/102183475",
