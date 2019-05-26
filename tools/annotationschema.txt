@@ -1,0 +1,63 @@
+### People
+
+PERSONREF
+* comment: String
+* authority: String
+* READING <- BEGIN,END
+
+PERSON
+* identifier: String
+* datasource: String
+* href: String
+* comment: String
+* PERSONREF <- REFERENCED,POSSIBLY,NAMED
+
+GROUP
+* identifier: String
+* comment: String
+* PERSON <- HAS_MEMBER
+
+### Dates
+
+DATEREF
+* authority: String
+* comment: String
+* READING <- BEGIN,END
+
+DATING
+* comment: String
+* internal: Boolean
+* authority: String
+* READING <- BEGIN,END
+
+DATE
+* identifier: String
+* notBefore: LocalDate
+* notAfter: LocalDate
+* comment: String
+* DATING <- REFERENCED
+* DATEREF <- REFERENCED
+
+### Places
+
+PLACEREF
+* authority: String
+* comment: String
+* READING <- BEGIN,END
+
+PLACE
+* identifier: String
+* locatable: Boolean
+* datasource: String
+* href: String
+* comment: String
+* PLACEREF <- REFERENCED
+
+### Textual things
+
+TRANSLATION
+* language: String
+* text: String
+* by: String
+* comment: String
+* READING <- BEGIN,END
