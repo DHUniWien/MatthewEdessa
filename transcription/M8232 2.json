@@ -62591,12 +62591,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "բորբոք<del type=\"cancel\">եցեալ</del>եալ լինէր ի գոյ"
+            "cnt:chars" : "բորբոք<subst><del type=\"cancel\">եցաւ</del><add place=\"inline_after\">եալ</add></subst> լինէր ի գոյ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13230437#xywh=196,382,259,35",
           "_tpen_note" : "",
-          "_tpen_creator" : 1903,
-          "modified" : "2017-12-29 04:01:51.0"
+          "_tpen_creator" : 281,
+          "modified" : "2019-06-03 07:48:19.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103700736",
           "_tpen_line_id" : "line/103700736",
