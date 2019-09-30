@@ -1368,12 +1368,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "և յառաջ քան զնուազիլ լուսոյն եղև "
+            "cnt:chars" : "և յառաջ քան զնուա<subst><del>զ</del><add place=\"margin-left>ղ</add></subst>ել լուսոյն եղև "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202704#xywh=148,856,508,53",
           "_tpen_note" : "",
           "_tpen_creator" : 281,
-          "modified" : "2015-12-16 11:06:12.0"
+          "modified" : "2019-09-29 13:54:12.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101765442",
           "_tpen_line_id" : "line/101765442",
@@ -1537,12 +1537,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "զի կայր ի վերայ երեսաց իւրոց ի խո՛րս տրտ"
+            "cnt:chars" : "զի կայր ի վերայ երեսաց իւրոց ի խո՛ր<subst rend=\"rearrange\"><del> սրտ</del><add>ս տրտ</add></subst>"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202704#xywh=667,579,530,49",
           "_tpen_note" : "",
           "_tpen_creator" : 281,
-          "modified" : "2015-12-16 17:18:48.0"
+          "modified" : "2019-09-29 13:22:53.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101765473",
           "_tpen_line_id" : "line/101765473",
@@ -1550,12 +1550,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "մ*ու<abbr>թե</abbr> Եւ իբրև հարցինցնա, նա լալո"
+            "cnt:chars" : "մ<del rend=\"erase\">տ</del>ու<abbr>թե</abbr>։ Եւ իբրև հարցինցնա, նա լալո"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202704#xywh=667,628,504,46",
           "_tpen_note" : "",
           "_tpen_creator" : 281,
-          "modified" : "2015-12-16 17:20:27.0"
+          "modified" : "2019-09-29 13:25:20.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101765474",
           "_tpen_line_id" : "line/101765474",
@@ -1576,12 +1576,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "սե. Ով որդեակք, լուարուք ինձ. զի ահա այս"
+            "cnt:chars" : "սէ. Ով որդեակք, լուարուք ինձ. զի ահա այս"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13202704#xywh=667,715,511,44",
           "_tpen_note" : "",
           "_tpen_creator" : 281,
-          "modified" : "2015-12-16 17:21:42.0"
+          "modified" : "2019-09-29 13:25:50.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/101765476",
           "_tpen_line_id" : "line/101765476",
