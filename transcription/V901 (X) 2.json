@@ -31172,12 +31172,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "ւելուն ի խատ<del type=\"erase\">ավան</del>ու<abbr>ի</abbr> սրտից իւր<abbr>եց</abbr> ընդդէմ խը"
+            "cnt:chars" : "ւելուն ի խ<subst rend=\"partialerase\"><del type=\"\">ա</del><add place=\"\">ս</add></subst>տ<del type=\"erase\">ավան</del>ու<abbr>ի</abbr> սրտից իւր<abbr>եց</abbr> ընդդէմ խը"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13228388#xywh=148,610,459,27",
           "_tpen_note" : "",
-          "_tpen_creator" : 1932,
-          "modified" : "2017-07-01 14:02:45.0"
+          "_tpen_creator" : 281,
+          "modified" : "2019-12-07 14:03:18.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103270971",
           "_tpen_line_id" : "line/103270971",
