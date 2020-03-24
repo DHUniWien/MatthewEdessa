@@ -498,7 +498,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246872&height=2000&user=null",
+          "@id" : "http://t-pen.org/TPEN/pageImage?folio=13246872",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg"
         },
@@ -939,7 +939,7 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "http://t-pen.org/TPEN/imageResize?folioNum=13246871&height=2000&user=null",
+          "@id" : "http://t-pen.org/TPEN/pageImage?folio=13246871",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg"
         },
