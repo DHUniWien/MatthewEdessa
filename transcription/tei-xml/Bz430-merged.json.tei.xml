@@ -50,544 +50,1082 @@
       </charDecl>
     </encodingDesc>
   </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="1402" lry="1000">
+      <graphic url="bzan00430_292r_291v.jpg"/>
+      <zone xml:id="z101665176" ulx="167" uly="45" lrx="668" lry="99"/>
+      <zone xml:id="z101665177" ulx="167" uly="99" lrx="668" lry="134"/>
+      <zone xml:id="z101665226" ulx="167" uly="134" lrx="668" lry="174"/>
+      <zone xml:id="z101665179" ulx="167" uly="174" lrx="668" lry="226"/>
+      <zone xml:id="z101665182" ulx="167" uly="226" lrx="668" lry="270"/>
+      <zone xml:id="z101665184" ulx="167" uly="270" lrx="668" lry="313"/>
+      <zone xml:id="z101665186" ulx="167" uly="313" lrx="668" lry="354"/>
+      <zone xml:id="z101665188" ulx="167" uly="354" lrx="668" lry="407"/>
+      <zone xml:id="z101665189" ulx="167" uly="407" lrx="668" lry="456"/>
+      <zone xml:id="z101665191" ulx="167" uly="456" lrx="668" lry="502"/>
+      <zone xml:id="z101665193" ulx="167" uly="502" lrx="668" lry="544"/>
+      <zone xml:id="z101665195" ulx="167" uly="544" lrx="668" lry="592"/>
+      <zone xml:id="z101665196" ulx="167" uly="592" lrx="668" lry="648"/>
+      <zone xml:id="z101665197" ulx="167" uly="648" lrx="668" lry="688"/>
+      <zone xml:id="z101665198" ulx="167" uly="688" lrx="668" lry="735"/>
+      <zone xml:id="z101665199" ulx="167" uly="735" lrx="668" lry="784"/>
+      <zone xml:id="z101665200" ulx="167" uly="784" lrx="668" lry="823"/>
+      <zone xml:id="z101665201" ulx="167" uly="823" lrx="668" lry="850"/>
+      <zone xml:id="z101665227" ulx="167" uly="850" lrx="668" lry="894"/>
+      <zone xml:id="z101665202" ulx="666" uly="35" lrx="1175" lry="76"/>
+      <zone xml:id="z101665228" ulx="666" uly="76" lrx="1175" lry="124"/>
+      <zone xml:id="z101665229" ulx="666" uly="124" lrx="1175" lry="164"/>
+      <zone xml:id="z101665206" ulx="666" uly="164" lrx="1175" lry="209"/>
+      <zone xml:id="z101665209" ulx="666" uly="209" lrx="1175" lry="260"/>
+      <zone xml:id="z101665230" ulx="666" uly="260" lrx="1175" lry="308"/>
+      <zone xml:id="z101665231" ulx="666" uly="308" lrx="1175" lry="359"/>
+      <zone xml:id="z101665232" ulx="666" uly="359" lrx="1175" lry="403"/>
+      <zone xml:id="z101665213" ulx="666" uly="403" lrx="1175" lry="449"/>
+      <zone xml:id="z101665214" ulx="666" uly="449" lrx="1175" lry="489"/>
+      <zone xml:id="z101665216" ulx="666" uly="489" lrx="1175" lry="536"/>
+      <zone xml:id="z101665217" ulx="666" uly="536" lrx="1175" lry="578"/>
+      <zone xml:id="z101665218" ulx="666" uly="578" lrx="1175" lry="634"/>
+      <zone xml:id="z101665219" ulx="666" uly="634" lrx="1175" lry="672"/>
+      <zone xml:id="z101665220" ulx="666" uly="672" lrx="1175" lry="718"/>
+      <zone xml:id="z101665222" ulx="666" uly="718" lrx="1175" lry="769"/>
+      <zone xml:id="z101665223" ulx="666" uly="769" lrx="1175" lry="809"/>
+      <zone xml:id="z101665224" ulx="666" uly="809" lrx="1175" lry="854"/>
+      <zone xml:id="z101665225" ulx="666" uly="854" lrx="1175" lry="887"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="1402" lry="1000">
+      <graphic url="bzan00430_293r_292v.jpg"/>
+      <zone xml:id="z101758762" ulx="156" uly="36" lrx="652" lry="81"/>
+      <zone xml:id="z101758808" ulx="156" uly="81" lrx="652" lry="134"/>
+      <zone xml:id="z101758809" ulx="156" uly="134" lrx="652" lry="174"/>
+      <zone xml:id="z101758810" ulx="156" uly="174" lrx="652" lry="223"/>
+      <zone xml:id="z101758811" ulx="156" uly="223" lrx="652" lry="269"/>
+      <zone xml:id="z101758812" ulx="156" uly="269" lrx="652" lry="320"/>
+      <zone xml:id="z101758813" ulx="156" uly="320" lrx="652" lry="367"/>
+      <zone xml:id="z101758814" ulx="156" uly="367" lrx="652" lry="411"/>
+      <zone xml:id="z101758815" ulx="156" uly="411" lrx="652" lry="452"/>
+      <zone xml:id="z101758771" ulx="156" uly="452" lrx="652" lry="497"/>
+      <zone xml:id="z101758772" ulx="156" uly="497" lrx="665" lry="541"/>
+      <zone xml:id="z101758816" ulx="156" uly="541" lrx="652" lry="587"/>
+      <zone xml:id="z101758817" ulx="156" uly="587" lrx="661" lry="642"/>
+      <zone xml:id="z101758776" ulx="156" uly="642" lrx="659" lry="686"/>
+      <zone xml:id="z101758777" ulx="156" uly="686" lrx="661" lry="721"/>
+      <zone xml:id="z101758778" ulx="156" uly="721" lrx="660" lry="766"/>
+      <zone xml:id="z101758780" ulx="156" uly="766" lrx="663" lry="811"/>
+      <zone xml:id="z101758781" ulx="156" uly="811" lrx="652" lry="852"/>
+      <zone xml:id="z101758818" ulx="156" uly="852" lrx="664" lry="895"/>
+      <zone xml:id="z101758784" ulx="669" uly="32" lrx="1180" lry="83"/>
+      <zone xml:id="z101758819" ulx="669" uly="83" lrx="1180" lry="130"/>
+      <zone xml:id="z101758820" ulx="669" uly="130" lrx="1180" lry="177"/>
+      <zone xml:id="z101758821" ulx="669" uly="177" lrx="1180" lry="221"/>
+      <zone xml:id="z101758822" ulx="669" uly="221" lrx="1180" lry="269"/>
+      <zone xml:id="z101758823" ulx="669" uly="269" lrx="1180" lry="315"/>
+      <zone xml:id="z101758824" ulx="669" uly="315" lrx="1180" lry="364"/>
+      <zone xml:id="z101758825" ulx="669" uly="364" lrx="1180" lry="402"/>
+      <zone xml:id="z101758795" ulx="669" uly="402" lrx="1180" lry="449"/>
+      <zone xml:id="z101758828" ulx="669" uly="494" lrx="1180" lry="535"/>
+      <zone xml:id="z101758827" ulx="669" uly="494" lrx="1180" lry="536"/>
+      <zone xml:id="z101758830" ulx="669" uly="536" lrx="1180" lry="581"/>
+      <zone xml:id="z101758831" ulx="669" uly="581" lrx="1180" lry="625"/>
+      <zone xml:id="z101758829" ulx="669" uly="625" lrx="1180" lry="668"/>
+      <zone xml:id="z101758803" ulx="669" uly="668" lrx="1180" lry="713"/>
+      <zone xml:id="z101758804" ulx="669" uly="713" lrx="1180" lry="754"/>
+      <zone xml:id="z101758805" ulx="669" uly="754" lrx="1180" lry="797"/>
+      <zone xml:id="z101758806" ulx="669" uly="797" lrx="1180" lry="848"/>
+      <zone xml:id="z101758807" ulx="669" uly="848" lrx="1180" lry="898"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="1402" lry="1000">
+      <graphic url="bzan00430_294r_293v.jpg"/>
+      <zone xml:id="z101756567" ulx="148" uly="44" lrx="656" lry="90"/>
+      <zone xml:id="z101765443" ulx="148" uly="90" lrx="656" lry="132"/>
+      <zone xml:id="z101765444" ulx="148" uly="132" lrx="656" lry="180"/>
+      <zone xml:id="z101765445" ulx="148" uly="180" lrx="656" lry="229"/>
+      <zone xml:id="z101765446" ulx="148" uly="229" lrx="656" lry="275"/>
+      <zone xml:id="z101765447" ulx="148" uly="275" lrx="656" lry="327"/>
+      <zone xml:id="z101765448" ulx="148" uly="327" lrx="656" lry="372"/>
+      <zone xml:id="z101765449" ulx="148" uly="372" lrx="656" lry="416"/>
+      <zone xml:id="z101765450" ulx="148" uly="416" lrx="656" lry="464"/>
+      <zone xml:id="z101765451" ulx="148" uly="464" lrx="656" lry="510"/>
+      <zone xml:id="z101765452" ulx="148" uly="510" lrx="656" lry="555"/>
+      <zone xml:id="z101765453" ulx="148" uly="555" lrx="656" lry="599"/>
+      <zone xml:id="z101765454" ulx="148" uly="599" lrx="656" lry="646"/>
+      <zone xml:id="z101765455" ulx="148" uly="646" lrx="656" lry="687"/>
+      <zone xml:id="z101765456" ulx="148" uly="687" lrx="656" lry="727"/>
+      <zone xml:id="z101765457" ulx="148" uly="727" lrx="656" lry="772"/>
+      <zone xml:id="z101765458" ulx="148" uly="772" lrx="656" lry="816"/>
+      <zone xml:id="z101765459" ulx="148" uly="816" lrx="656" lry="856"/>
+      <zone xml:id="z101765460" ulx="148" uly="856" lrx="656" lry="909"/>
+      <zone xml:id="z101765442" ulx="667" uly="24" lrx="1171" lry="87"/>
+      <zone xml:id="z101765461" ulx="667" uly="87" lrx="1171" lry="133"/>
+      <zone xml:id="z101765462" ulx="667" uly="133" lrx="1171" lry="176"/>
+      <zone xml:id="z101765463" ulx="667" uly="176" lrx="1171" lry="219"/>
+      <zone xml:id="z101765464" ulx="667" uly="219" lrx="1171" lry="269"/>
+      <zone xml:id="z101765465" ulx="667" uly="269" lrx="1171" lry="316"/>
+      <zone xml:id="z101765466" ulx="667" uly="316" lrx="1171" lry="360"/>
+      <zone xml:id="z101765467" ulx="667" uly="360" lrx="1171" lry="409"/>
+      <zone xml:id="z101765468" ulx="667" uly="409" lrx="1171" lry="450"/>
+      <zone xml:id="z101765469" ulx="667" uly="450" lrx="1171" lry="494"/>
+      <zone xml:id="z101765470" ulx="667" uly="494" lrx="1171" lry="540"/>
+      <zone xml:id="z101765471" ulx="667" uly="540" lrx="1171" lry="579"/>
+      <zone xml:id="z101765472" ulx="667" uly="579" lrx="1197" lry="628"/>
+      <zone xml:id="z101765473" ulx="667" uly="628" lrx="1171" lry="674"/>
+      <zone xml:id="z101765474" ulx="667" uly="674" lrx="1171" lry="715"/>
+      <zone xml:id="z101765475" ulx="667" uly="715" lrx="1178" lry="759"/>
+      <zone xml:id="z101765476" ulx="667" uly="759" lrx="1180" lry="803"/>
+      <zone xml:id="z101765477" ulx="667" uly="803" lrx="1171" lry="849"/>
+      <zone xml:id="z101765478" ulx="667" uly="849" lrx="1171" lry="898"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="1402" lry="1000">
+      <graphic url="bzan00430_295r_294v.jpg"/>
+      <zone xml:id="z101758759" ulx="156" uly="44" lrx="651" lry="76"/>
+      <zone xml:id="z101765502" ulx="156" uly="76" lrx="651" lry="128"/>
+      <zone xml:id="z101765503" ulx="156" uly="128" lrx="651" lry="173"/>
+      <zone xml:id="z101765486" ulx="156" uly="173" lrx="651" lry="222"/>
+      <zone xml:id="z101765487" ulx="156" uly="222" lrx="651" lry="269"/>
+      <zone xml:id="z101765504" ulx="156" uly="269" lrx="651" lry="318"/>
+      <zone xml:id="z101765489" ulx="156" uly="318" lrx="651" lry="361"/>
+      <zone xml:id="z101765490" ulx="156" uly="361" lrx="651" lry="411"/>
+      <zone xml:id="z101765491" ulx="156" uly="411" lrx="651" lry="449"/>
+      <zone xml:id="z101765492" ulx="156" uly="449" lrx="651" lry="495"/>
+      <zone xml:id="z101765493" ulx="156" uly="495" lrx="651" lry="541"/>
+      <zone xml:id="z101765494" ulx="156" uly="541" lrx="651" lry="585"/>
+      <zone xml:id="z101765495" ulx="156" uly="585" lrx="651" lry="631"/>
+      <zone xml:id="z101765496" ulx="156" uly="631" lrx="651" lry="680"/>
+      <zone xml:id="z101765497" ulx="156" uly="680" lrx="651" lry="721"/>
+      <zone xml:id="z101765498" ulx="156" uly="721" lrx="651" lry="764"/>
+      <zone xml:id="z101765499" ulx="156" uly="764" lrx="651" lry="811"/>
+      <zone xml:id="z101765500" ulx="156" uly="811" lrx="651" lry="857"/>
+      <zone xml:id="z101765501" ulx="156" uly="857" lrx="651" lry="897"/>
+      <zone xml:id="z101765483" ulx="657" uly="47" lrx="1164" lry="87"/>
+      <zone xml:id="z101765505" ulx="657" uly="87" lrx="1164" lry="133"/>
+      <zone xml:id="z101765506" ulx="657" uly="133" lrx="1164" lry="183"/>
+      <zone xml:id="z101765507" ulx="657" uly="183" lrx="1164" lry="226"/>
+      <zone xml:id="z101765508" ulx="657" uly="226" lrx="1164" lry="269"/>
+      <zone xml:id="z101765509" ulx="657" uly="269" lrx="1164" lry="324"/>
+      <zone xml:id="z101765510" ulx="657" uly="324" lrx="1164" lry="368"/>
+      <zone xml:id="z101765511" ulx="657" uly="368" lrx="1164" lry="411"/>
+      <zone xml:id="z101765512" ulx="657" uly="411" lrx="1164" lry="454"/>
+      <zone xml:id="z101765513" ulx="657" uly="454" lrx="1164" lry="498"/>
+      <zone xml:id="z101765514" ulx="657" uly="498" lrx="1164" lry="545"/>
+      <zone xml:id="z101765515" ulx="657" uly="545" lrx="1164" lry="588"/>
+      <zone xml:id="z101765516" ulx="657" uly="588" lrx="1164" lry="632"/>
+      <zone xml:id="z101765517" ulx="657" uly="632" lrx="1164" lry="676"/>
+      <zone xml:id="z101765518" ulx="657" uly="676" lrx="1164" lry="719"/>
+      <zone xml:id="z101765519" ulx="657" uly="719" lrx="1178" lry="760"/>
+      <zone xml:id="z101765520" ulx="657" uly="760" lrx="1164" lry="804"/>
+      <zone xml:id="z101765940" ulx="657" uly="804" lrx="1164" lry="853"/>
+      <zone xml:id="z101765941" ulx="657" uly="853" lrx="1164" lry="899"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="1402" lry="1000">
+      <graphic url="bzan00430_296r_295v.jpg"/>
+      <zone xml:id="z101758758" ulx="151" uly="49" lrx="659" lry="90"/>
+      <zone xml:id="z101765527" ulx="151" uly="90" lrx="659" lry="131"/>
+      <zone xml:id="z101765528" ulx="151" uly="131" lrx="659" lry="175"/>
+      <zone xml:id="z101765529" ulx="151" uly="175" lrx="659" lry="224"/>
+      <zone xml:id="z101765530" ulx="151" uly="224" lrx="659" lry="267"/>
+      <zone xml:id="z101765531" ulx="151" uly="267" lrx="659" lry="320"/>
+      <zone xml:id="z101765532" ulx="151" uly="320" lrx="659" lry="363"/>
+      <zone xml:id="z101765533" ulx="151" uly="363" lrx="659" lry="410"/>
+      <zone xml:id="z101765534" ulx="151" uly="410" lrx="659" lry="456"/>
+      <zone xml:id="z101765535" ulx="151" uly="456" lrx="659" lry="500"/>
+      <zone xml:id="z101765536" ulx="151" uly="500" lrx="659" lry="541"/>
+      <zone xml:id="z101765537" ulx="151" uly="541" lrx="659" lry="584"/>
+      <zone xml:id="z101765538" ulx="151" uly="584" lrx="659" lry="631"/>
+      <zone xml:id="z101765539" ulx="151" uly="631" lrx="659" lry="678"/>
+      <zone xml:id="z101765540" ulx="151" uly="678" lrx="659" lry="718"/>
+      <zone xml:id="z101765541" ulx="151" uly="718" lrx="659" lry="762"/>
+      <zone xml:id="z101765542" ulx="151" uly="762" lrx="659" lry="808"/>
+      <zone xml:id="z101765543" ulx="151" uly="808" lrx="659" lry="857"/>
+      <zone xml:id="z101765544" ulx="151" uly="857" lrx="659" lry="910"/>
+      <zone xml:id="z101765525" ulx="675" uly="57" lrx="1174" lry="87"/>
+      <zone xml:id="z101765545" ulx="675" uly="87" lrx="1174" lry="131"/>
+      <zone xml:id="z101765546" ulx="675" uly="131" lrx="1174" lry="180"/>
+      <zone xml:id="z101765547" ulx="675" uly="180" lrx="1174" lry="224"/>
+      <zone xml:id="z101765548" ulx="675" uly="224" lrx="1174" lry="270"/>
+      <zone xml:id="z101765549" ulx="675" uly="270" lrx="1174" lry="316"/>
+      <zone xml:id="z101765550" ulx="675" uly="316" lrx="1174" lry="359"/>
+      <zone xml:id="z101765551" ulx="675" uly="359" lrx="1174" lry="414"/>
+      <zone xml:id="z101765552" ulx="675" uly="414" lrx="1174" lry="455"/>
+      <zone xml:id="z101765553" ulx="675" uly="455" lrx="1174" lry="498"/>
+      <zone xml:id="z101765554" ulx="675" uly="498" lrx="1174" lry="542"/>
+      <zone xml:id="z101765555" ulx="675" uly="542" lrx="1184" lry="583"/>
+      <zone xml:id="z101765556" ulx="675" uly="583" lrx="1174" lry="633"/>
+      <zone xml:id="z101765557" ulx="675" uly="633" lrx="1174" lry="679"/>
+      <zone xml:id="z101765558" ulx="675" uly="679" lrx="1174" lry="723"/>
+      <zone xml:id="z101765559" ulx="675" uly="723" lrx="1209" lry="766"/>
+      <zone xml:id="z101765560" ulx="675" uly="766" lrx="1174" lry="813"/>
+      <zone xml:id="z101765561" ulx="675" uly="813" lrx="1208" lry="856"/>
+      <zone xml:id="z101765562" ulx="675" uly="856" lrx="1174" lry="916"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="1402" lry="1000">
+      <graphic url="bzan00430_297r_296v.jpg"/>
+      <zone xml:id="z101758757" ulx="144" uly="56" lrx="656" lry="86"/>
+      <zone xml:id="z101765904" ulx="144" uly="86" lrx="656" lry="129"/>
+      <zone xml:id="z101765905" ulx="144" uly="129" lrx="656" lry="176"/>
+      <zone xml:id="z101765906" ulx="144" uly="176" lrx="656" lry="225"/>
+      <zone xml:id="z101765907" ulx="144" uly="225" lrx="656" lry="269"/>
+      <zone xml:id="z101765908" ulx="144" uly="269" lrx="656" lry="319"/>
+      <zone xml:id="z101765909" ulx="144" uly="319" lrx="656" lry="365"/>
+      <zone xml:id="z101765910" ulx="144" uly="365" lrx="656" lry="411"/>
+      <zone xml:id="z101765911" ulx="144" uly="411" lrx="656" lry="455"/>
+      <zone xml:id="z101765912" ulx="144" uly="455" lrx="656" lry="501"/>
+      <zone xml:id="z101765913" ulx="144" uly="501" lrx="656" lry="543"/>
+      <zone xml:id="z101765914" ulx="144" uly="543" lrx="656" lry="586"/>
+      <zone xml:id="z101765915" ulx="144" uly="586" lrx="656" lry="634"/>
+      <zone xml:id="z101765916" ulx="144" uly="634" lrx="656" lry="680"/>
+      <zone xml:id="z101765917" ulx="144" uly="680" lrx="656" lry="721"/>
+      <zone xml:id="z101765918" ulx="144" uly="721" lrx="656" lry="763"/>
+      <zone xml:id="z101765919" ulx="144" uly="763" lrx="656" lry="812"/>
+      <zone xml:id="z101765920" ulx="144" uly="812" lrx="656" lry="859"/>
+      <zone xml:id="z101765921" ulx="144" uly="859" lrx="656" lry="909"/>
+      <zone xml:id="z101765903" ulx="673" uly="50" lrx="1180" lry="90"/>
+      <zone xml:id="z101765922" ulx="673" uly="90" lrx="1180" lry="132"/>
+      <zone xml:id="z101765923" ulx="673" uly="132" lrx="1180" lry="178"/>
+      <zone xml:id="z101765924" ulx="673" uly="178" lrx="1180" lry="220"/>
+      <zone xml:id="z101765925" ulx="673" uly="220" lrx="1180" lry="267"/>
+      <zone xml:id="z101765926" ulx="673" uly="267" lrx="1180" lry="315"/>
+      <zone xml:id="z101765927" ulx="673" uly="315" lrx="1180" lry="358"/>
+      <zone xml:id="z101765928" ulx="673" uly="358" lrx="1180" lry="408"/>
+      <zone xml:id="z101765929" ulx="673" uly="408" lrx="1180" lry="450"/>
+      <zone xml:id="z101765930" ulx="673" uly="450" lrx="1180" lry="496"/>
+      <zone xml:id="z101765931" ulx="673" uly="496" lrx="1180" lry="538"/>
+      <zone xml:id="z101765932" ulx="673" uly="538" lrx="1180" lry="584"/>
+      <zone xml:id="z101765933" ulx="673" uly="584" lrx="1180" lry="631"/>
+      <zone xml:id="z101765934" ulx="673" uly="631" lrx="1180" lry="679"/>
+      <zone xml:id="z101765935" ulx="673" uly="679" lrx="1180" lry="719"/>
+      <zone xml:id="z101765936" ulx="673" uly="719" lrx="1180" lry="761"/>
+      <zone xml:id="z101765937" ulx="673" uly="761" lrx="1180" lry="807"/>
+      <zone xml:id="z101765938" ulx="673" uly="807" lrx="1180" lry="849"/>
+      <zone xml:id="z101765939" ulx="673" uly="849" lrx="1180" lry="909"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="1402" lry="1000">
+      <graphic url="bzan00430_298r_297v.jpg"/>
+      <zone xml:id="z101758755" ulx="150" uly="52" lrx="651" lry="85"/>
+      <zone xml:id="z101766232" ulx="150" uly="85" lrx="651" lry="128"/>
+      <zone xml:id="z101766233" ulx="150" uly="128" lrx="651" lry="176"/>
+      <zone xml:id="z101766234" ulx="150" uly="176" lrx="651" lry="226"/>
+      <zone xml:id="z101766235" ulx="150" uly="226" lrx="651" lry="275"/>
+      <zone xml:id="z101766236" ulx="150" uly="275" lrx="651" lry="323"/>
+      <zone xml:id="z101766237" ulx="150" uly="323" lrx="651" lry="369"/>
+      <zone xml:id="z101766238" ulx="150" uly="369" lrx="651" lry="415"/>
+      <zone xml:id="z101766239" ulx="150" uly="415" lrx="651" lry="461"/>
+      <zone xml:id="z101766240" ulx="150" uly="461" lrx="651" lry="504"/>
+      <zone xml:id="z101766241" ulx="150" uly="504" lrx="651" lry="548"/>
+      <zone xml:id="z101766242" ulx="150" uly="548" lrx="651" lry="591"/>
+      <zone xml:id="z101766243" ulx="150" uly="591" lrx="651" lry="637"/>
+      <zone xml:id="z101766244" ulx="150" uly="637" lrx="651" lry="685"/>
+      <zone xml:id="z101766245" ulx="150" uly="685" lrx="651" lry="725"/>
+      <zone xml:id="z101766246" ulx="150" uly="725" lrx="651" lry="765"/>
+      <zone xml:id="z101766247" ulx="150" uly="765" lrx="661" lry="815"/>
+      <zone xml:id="z101766248" ulx="150" uly="815" lrx="655" lry="860"/>
+      <zone xml:id="z101766249" ulx="150" uly="860" lrx="669" lry="910"/>
+      <zone xml:id="z101766231" ulx="671" uly="39" lrx="1162" lry="84"/>
+      <zone xml:id="z101766250" ulx="671" uly="84" lrx="1162" lry="125"/>
+      <zone xml:id="z101766251" ulx="671" uly="125" lrx="1162" lry="171"/>
+      <zone xml:id="z101766252" ulx="671" uly="171" lrx="1162" lry="212"/>
+      <zone xml:id="z101766253" ulx="671" uly="212" lrx="1162" lry="263"/>
+      <zone xml:id="z101766254" ulx="671" uly="263" lrx="1162" lry="312"/>
+      <zone xml:id="z101766255" ulx="671" uly="312" lrx="1177" lry="357"/>
+      <zone xml:id="z101766256" ulx="671" uly="357" lrx="1162" lry="405"/>
+      <zone xml:id="z101766257" ulx="671" uly="405" lrx="1189" lry="448"/>
+      <zone xml:id="z101766258" ulx="671" uly="448" lrx="1162" lry="492"/>
+      <zone xml:id="z101766259" ulx="671" uly="492" lrx="1162" lry="535"/>
+      <zone xml:id="z101766260" ulx="671" uly="535" lrx="1191" lry="580"/>
+      <zone xml:id="z101766261" ulx="671" uly="580" lrx="1162" lry="625"/>
+      <zone xml:id="z101766262" ulx="671" uly="625" lrx="1179" lry="675"/>
+      <zone xml:id="z101766263" ulx="671" uly="675" lrx="1162" lry="719"/>
+      <zone xml:id="z101766264" ulx="671" uly="719" lrx="1197" lry="758"/>
+      <zone xml:id="z101766265" ulx="671" uly="758" lrx="1162" lry="801"/>
+      <zone xml:id="z101766266" ulx="671" uly="801" lrx="1186" lry="846"/>
+      <zone xml:id="z101766267" ulx="671" uly="846" lrx="1162" lry="896"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="1402" lry="1000">
+      <graphic url="bzan00430_299r_298v.jpg"/>
+      <zone xml:id="z101758754" ulx="157" uly="49" lrx="649" lry="89"/>
+      <zone xml:id="z101766269" ulx="157" uly="89" lrx="649" lry="126"/>
+      <zone xml:id="z101766270" ulx="157" uly="126" lrx="649" lry="172"/>
+      <zone xml:id="z101766271" ulx="157" uly="172" lrx="649" lry="218"/>
+      <zone xml:id="z101766272" ulx="157" uly="218" lrx="649" lry="268"/>
+      <zone xml:id="z101766273" ulx="157" uly="268" lrx="649" lry="317"/>
+      <zone xml:id="z101766274" ulx="157" uly="317" lrx="649" lry="363"/>
+      <zone xml:id="z101766275" ulx="157" uly="363" lrx="649" lry="408"/>
+      <zone xml:id="z101766276" ulx="157" uly="408" lrx="649" lry="452"/>
+      <zone xml:id="z101766277" ulx="157" uly="452" lrx="649" lry="497"/>
+      <zone xml:id="z101766278" ulx="157" uly="497" lrx="649" lry="541"/>
+      <zone xml:id="z101766279" ulx="157" uly="541" lrx="658" lry="586"/>
+      <zone xml:id="z101766280" ulx="157" uly="586" lrx="649" lry="630"/>
+      <zone xml:id="z101766281" ulx="157" uly="630" lrx="649" lry="681"/>
+      <zone xml:id="z101766282" ulx="157" uly="681" lrx="649" lry="721"/>
+      <zone xml:id="z101766283" ulx="157" uly="721" lrx="649" lry="762"/>
+      <zone xml:id="z101766284" ulx="157" uly="762" lrx="649" lry="805"/>
+      <zone xml:id="z101766285" ulx="157" uly="805" lrx="649" lry="854"/>
+      <zone xml:id="z101766286" ulx="157" uly="854" lrx="665" lry="904"/>
+      <zone xml:id="z101766268" ulx="668" uly="52" lrx="1167" lry="84"/>
+      <zone xml:id="z101766287" ulx="668" uly="84" lrx="1167" lry="129"/>
+      <zone xml:id="z101766288" ulx="668" uly="129" lrx="1167" lry="175"/>
+      <zone xml:id="z101766289" ulx="668" uly="175" lrx="1167" lry="221"/>
+      <zone xml:id="z101766290" ulx="668" uly="221" lrx="1167" lry="269"/>
+      <zone xml:id="z101766291" ulx="668" uly="269" lrx="1167" lry="319"/>
+      <zone xml:id="z101766292" ulx="668" uly="319" lrx="1167" lry="364"/>
+      <zone xml:id="z101766293" ulx="668" uly="364" lrx="1167" lry="410"/>
+      <zone xml:id="z101766294" ulx="668" uly="410" lrx="1167" lry="451"/>
+      <zone xml:id="z101766295" ulx="668" uly="451" lrx="1167" lry="496"/>
+      <zone xml:id="z101766296" ulx="668" uly="496" lrx="1167" lry="542"/>
+      <zone xml:id="z101766297" ulx="668" uly="542" lrx="1167" lry="586"/>
+      <zone xml:id="z101766298" ulx="668" uly="586" lrx="1167" lry="629"/>
+      <zone xml:id="z101766299" ulx="668" uly="629" lrx="1167" lry="678"/>
+      <zone xml:id="z101766300" ulx="668" uly="678" lrx="1167" lry="719"/>
+      <zone xml:id="z101766301" ulx="668" uly="719" lrx="1167" lry="758"/>
+      <zone xml:id="z101766302" ulx="668" uly="758" lrx="1167" lry="806"/>
+      <zone xml:id="z101766303" ulx="668" uly="806" lrx="1167" lry="847"/>
+      <zone xml:id="z101766304" ulx="668" uly="847" lrx="1167" lry="905"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="1402" lry="1000">
+      <graphic url="bzan00430_300r_299v.jpg"/>
+      <zone xml:id="z101758756" ulx="164" uly="54" lrx="652" lry="89"/>
+      <zone xml:id="z101766875" ulx="164" uly="89" lrx="652" lry="135"/>
+      <zone xml:id="z101766876" ulx="164" uly="135" lrx="652" lry="185"/>
+      <zone xml:id="z101766877" ulx="164" uly="185" lrx="652" lry="231"/>
+      <zone xml:id="z101766878" ulx="164" uly="231" lrx="652" lry="280"/>
+      <zone xml:id="z101766879" ulx="164" uly="280" lrx="652" lry="330"/>
+      <zone xml:id="z101766880" ulx="164" uly="330" lrx="652" lry="374"/>
+      <zone xml:id="z101766881" ulx="164" uly="374" lrx="652" lry="419"/>
+      <zone xml:id="z101766882" ulx="164" uly="419" lrx="652" lry="463"/>
+      <zone xml:id="z101766883" ulx="164" uly="463" lrx="652" lry="507"/>
+      <zone xml:id="z101766884" ulx="164" uly="507" lrx="652" lry="551"/>
+      <zone xml:id="z101766885" ulx="164" uly="551" lrx="667" lry="594"/>
+      <zone xml:id="z101766886" ulx="164" uly="594" lrx="652" lry="642"/>
+      <zone xml:id="z101766887" ulx="164" uly="642" lrx="652" lry="687"/>
+      <zone xml:id="z101766888" ulx="164" uly="687" lrx="661" lry="731"/>
+      <zone xml:id="z101766889" ulx="164" uly="731" lrx="663" lry="769"/>
+      <zone xml:id="z101766890" ulx="164" uly="769" lrx="665" lry="815"/>
+      <zone xml:id="z101766891" ulx="164" uly="815" lrx="671" lry="865"/>
+      <zone xml:id="z101766892" ulx="164" uly="865" lrx="668" lry="905"/>
+      <zone xml:id="z101766874" ulx="667" uly="51" lrx="1146" lry="91"/>
+      <zone xml:id="z101766893" ulx="667" uly="91" lrx="1159" lry="141"/>
+      <zone xml:id="z101766894" ulx="667" uly="141" lrx="1155" lry="186"/>
+      <zone xml:id="z101766895" ulx="667" uly="186" lrx="1161" lry="223"/>
+      <zone xml:id="z101766896" ulx="667" uly="223" lrx="1151" lry="274"/>
+      <zone xml:id="z101766897" ulx="667" uly="274" lrx="1146" lry="319"/>
+      <zone xml:id="z101766898" ulx="667" uly="319" lrx="1164" lry="364"/>
+      <zone xml:id="z101766899" ulx="667" uly="364" lrx="1153" lry="409"/>
+      <zone xml:id="z101766900" ulx="667" uly="409" lrx="1159" lry="453"/>
+      <zone xml:id="z101766901" ulx="667" uly="453" lrx="1146" lry="499"/>
+      <zone xml:id="z101766902" ulx="667" uly="499" lrx="1166" lry="542"/>
+      <zone xml:id="z101766903" ulx="667" uly="542" lrx="1146" lry="586"/>
+      <zone xml:id="z101766904" ulx="667" uly="586" lrx="1146" lry="631"/>
+      <zone xml:id="z101766905" ulx="667" uly="631" lrx="1146" lry="677"/>
+      <zone xml:id="z101766906" ulx="667" uly="677" lrx="1146" lry="718"/>
+      <zone xml:id="z101766907" ulx="667" uly="718" lrx="1151" lry="759"/>
+      <zone xml:id="z101766908" ulx="667" uly="759" lrx="1146" lry="800"/>
+      <zone xml:id="z101766909" ulx="667" uly="800" lrx="1146" lry="844"/>
+      <zone xml:id="z101766910" ulx="667" uly="844" lrx="1146" lry="898"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="1402" lry="1000">
+      <graphic url="bzan00430_301r_300v.jpg"/>
+      <zone xml:id="z101766694" ulx="188" uly="58" lrx="665" lry="92"/>
+      <zone xml:id="z101766696" ulx="188" uly="92" lrx="665" lry="142"/>
+      <zone xml:id="z101766697" ulx="188" uly="142" lrx="665" lry="185"/>
+      <zone xml:id="z101766698" ulx="188" uly="185" lrx="665" lry="225"/>
+      <zone xml:id="z101766699" ulx="188" uly="225" lrx="665" lry="272"/>
+      <zone xml:id="z101766700" ulx="188" uly="272" lrx="665" lry="318"/>
+      <zone xml:id="z101766701" ulx="188" uly="318" lrx="665" lry="361"/>
+      <zone xml:id="z101766702" ulx="188" uly="361" lrx="665" lry="406"/>
+      <zone xml:id="z101766703" ulx="188" uly="406" lrx="665" lry="451"/>
+      <zone xml:id="z101766704" ulx="188" uly="451" lrx="665" lry="496"/>
+      <zone xml:id="z101766705" ulx="188" uly="496" lrx="665" lry="537"/>
+      <zone xml:id="z101766706" ulx="188" uly="537" lrx="665" lry="581"/>
+      <zone xml:id="z101766707" ulx="188" uly="581" lrx="665" lry="625"/>
+      <zone xml:id="z101766708" ulx="188" uly="625" lrx="665" lry="665"/>
+      <zone xml:id="z101766709" ulx="188" uly="665" lrx="665" lry="711"/>
+      <zone xml:id="z101766710" ulx="188" uly="711" lrx="665" lry="748"/>
+      <zone xml:id="z101766711" ulx="188" uly="748" lrx="665" lry="791"/>
+      <zone xml:id="z101766712" ulx="188" uly="791" lrx="665" lry="832"/>
+      <zone xml:id="z101766713" ulx="188" uly="832" lrx="665" lry="883"/>
+      <zone xml:id="z101766955" ulx="667" uly="52" lrx="1143" lry="92"/>
+      <zone xml:id="z101766956" ulx="667" uly="92" lrx="1160" lry="141"/>
+      <zone xml:id="z101766957" ulx="667" uly="141" lrx="1143" lry="186"/>
+      <zone xml:id="z101766958" ulx="667" uly="186" lrx="1143" lry="225"/>
+      <zone xml:id="z101766959" ulx="667" uly="225" lrx="1143" lry="273"/>
+      <zone xml:id="z101766960" ulx="667" uly="273" lrx="1143" lry="321"/>
+      <zone xml:id="z101766961" ulx="667" uly="321" lrx="1143" lry="362"/>
+      <zone xml:id="z101766962" ulx="667" uly="362" lrx="1143" lry="405"/>
+      <zone xml:id="z101766963" ulx="667" uly="405" lrx="1143" lry="449"/>
+      <zone xml:id="z101766964" ulx="667" uly="449" lrx="1143" lry="497"/>
+      <zone xml:id="z101766965" ulx="667" uly="497" lrx="1143" lry="537"/>
+      <zone xml:id="z101766966" ulx="667" uly="537" lrx="1143" lry="578"/>
+      <zone xml:id="z101766967" ulx="667" uly="578" lrx="1143" lry="623"/>
+      <zone xml:id="z101766968" ulx="667" uly="623" lrx="1143" lry="666"/>
+      <zone xml:id="z101766969" ulx="667" uly="666" lrx="1143" lry="711"/>
+      <zone xml:id="z101766970" ulx="667" uly="711" lrx="1143" lry="748"/>
+      <zone xml:id="z101766971" ulx="667" uly="748" lrx="1143" lry="792"/>
+      <zone xml:id="z101766972" ulx="667" uly="792" lrx="1143" lry="836"/>
+      <zone xml:id="z101766973" ulx="667" uly="836" lrx="1143" lry="883"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="1402" lry="1000">
+      <graphic url="bzan00430_302r_301v.jpg"/>
+      <zone xml:id="z101766933" ulx="194" uly="56" lrx="664" lry="96"/>
+      <zone xml:id="z101767023" ulx="194" uly="96" lrx="664" lry="144"/>
+      <zone xml:id="z101767024" ulx="194" uly="144" lrx="664" lry="185"/>
+      <zone xml:id="z101767025" ulx="194" uly="185" lrx="664" lry="230"/>
+      <zone xml:id="z101767026" ulx="194" uly="230" lrx="664" lry="271"/>
+      <zone xml:id="z101767027" ulx="194" uly="271" lrx="664" lry="316"/>
+      <zone xml:id="z101767028" ulx="194" uly="316" lrx="664" lry="362"/>
+      <zone xml:id="z101767029" ulx="194" uly="362" lrx="664" lry="406"/>
+      <zone xml:id="z101767030" ulx="194" uly="406" lrx="664" lry="450"/>
+      <zone xml:id="z101767031" ulx="194" uly="450" lrx="664" lry="496"/>
+      <zone xml:id="z101767032" ulx="194" uly="496" lrx="664" lry="537"/>
+      <zone xml:id="z101767033" ulx="194" uly="537" lrx="664" lry="578"/>
+      <zone xml:id="z101767034" ulx="194" uly="578" lrx="674" lry="619"/>
+      <zone xml:id="z101767035" ulx="194" uly="619" lrx="664" lry="663"/>
+      <zone xml:id="z101767036" ulx="194" uly="663" lrx="664" lry="704"/>
+      <zone xml:id="z101767037" ulx="194" uly="704" lrx="664" lry="747"/>
+      <zone xml:id="z101767038" ulx="194" uly="747" lrx="664" lry="791"/>
+      <zone xml:id="z101767039" ulx="194" uly="791" lrx="664" lry="834"/>
+      <zone xml:id="z101767040" ulx="194" uly="834" lrx="664" lry="882"/>
+      <zone xml:id="z101767022" ulx="673" uly="40" lrx="1150" lry="84"/>
+      <zone xml:id="z101767041" ulx="673" uly="84" lrx="1150" lry="134"/>
+      <zone xml:id="z101767042" ulx="673" uly="134" lrx="1150" lry="182"/>
+      <zone xml:id="z101767043" ulx="673" uly="182" lrx="1150" lry="222"/>
+      <zone xml:id="z101767044" ulx="673" uly="222" lrx="1150" lry="265"/>
+      <zone xml:id="z101767045" ulx="673" uly="265" lrx="1150" lry="311"/>
+      <zone xml:id="z101767046" ulx="673" uly="311" lrx="1150" lry="357"/>
+      <zone xml:id="z101767047" ulx="673" uly="357" lrx="1150" lry="402"/>
+      <zone xml:id="z101767048" ulx="673" uly="402" lrx="1169" lry="442"/>
+      <zone xml:id="z101767049" ulx="673" uly="442" lrx="1167" lry="486"/>
+      <zone xml:id="z101767050" ulx="673" uly="486" lrx="1150" lry="534"/>
+      <zone xml:id="z101767051" ulx="673" uly="534" lrx="1150" lry="573"/>
+      <zone xml:id="z101767052" ulx="673" uly="573" lrx="1150" lry="617"/>
+      <zone xml:id="z101767053" ulx="673" uly="617" lrx="1150" lry="658"/>
+      <zone xml:id="z101767054" ulx="673" uly="658" lrx="1168" lry="701"/>
+      <zone xml:id="z101767055" ulx="673" uly="701" lrx="1173" lry="741"/>
+      <zone xml:id="z101767056" ulx="673" uly="741" lrx="1178" lry="784"/>
+      <zone xml:id="z101767057" ulx="673" uly="784" lrx="1150" lry="825"/>
+      <zone xml:id="z101767058" ulx="673" uly="825" lrx="1150" lry="872"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="1402" lry="1000">
+      <graphic url="bzan00430_303r_302v.jpg"/>
+      <zone xml:id="z101766974" ulx="185" uly="45" lrx="665" lry="86"/>
+      <zone xml:id="z101767082" ulx="185" uly="86" lrx="665" lry="126"/>
+      <zone xml:id="z101767083" ulx="185" uly="126" lrx="665" lry="176"/>
+      <zone xml:id="z101767084" ulx="185" uly="176" lrx="665" lry="224"/>
+      <zone xml:id="z101767085" ulx="185" uly="224" lrx="665" lry="269"/>
+      <zone xml:id="z101767086" ulx="185" uly="269" lrx="665" lry="315"/>
+      <zone xml:id="z101767087" ulx="185" uly="315" lrx="665" lry="359"/>
+      <zone xml:id="z101767088" ulx="185" uly="359" lrx="665" lry="404"/>
+      <zone xml:id="z101767089" ulx="185" uly="404" lrx="665" lry="447"/>
+      <zone xml:id="z101767090" ulx="185" uly="447" lrx="665" lry="492"/>
+      <zone xml:id="z101767091" ulx="185" uly="492" lrx="665" lry="536"/>
+      <zone xml:id="z101767092" ulx="185" uly="536" lrx="665" lry="575"/>
+      <zone xml:id="z101767093" ulx="185" uly="575" lrx="665" lry="620"/>
+      <zone xml:id="z101767094" ulx="185" uly="620" lrx="665" lry="660"/>
+      <zone xml:id="z101767095" ulx="185" uly="660" lrx="665" lry="701"/>
+      <zone xml:id="z101767096" ulx="185" uly="701" lrx="665" lry="744"/>
+      <zone xml:id="z101767097" ulx="185" uly="744" lrx="665" lry="783"/>
+      <zone xml:id="z101767098" ulx="185" uly="783" lrx="665" lry="827"/>
+      <zone xml:id="z101767099" ulx="185" uly="827" lrx="665" lry="864"/>
+      <zone xml:id="z101767081" ulx="672" uly="46" lrx="1238" lry="95"/>
+      <zone xml:id="z101767100" ulx="672" uly="95" lrx="1165" lry="138"/>
+      <zone xml:id="z101767101" ulx="672" uly="138" lrx="1165" lry="187"/>
+      <zone xml:id="z101767102" ulx="672" uly="187" lrx="1165" lry="232"/>
+      <zone xml:id="z101767103" ulx="672" uly="232" lrx="1165" lry="275"/>
+      <zone xml:id="z101767104" ulx="672" uly="275" lrx="1165" lry="321"/>
+      <zone xml:id="z101767105" ulx="672" uly="321" lrx="1165" lry="367"/>
+      <zone xml:id="z101767106" ulx="672" uly="367" lrx="1165" lry="415"/>
+      <zone xml:id="z101767107" ulx="672" uly="415" lrx="1165" lry="455"/>
+      <zone xml:id="z101767108" ulx="672" uly="455" lrx="1165" lry="500"/>
+      <zone xml:id="z101767109" ulx="672" uly="500" lrx="1165" lry="545"/>
+      <zone xml:id="z101767110" ulx="672" uly="545" lrx="1177" lry="585"/>
+      <zone xml:id="z101767111" ulx="672" uly="585" lrx="1165" lry="628"/>
+      <zone xml:id="z101767112" ulx="672" uly="628" lrx="1165" lry="668"/>
+      <zone xml:id="z101767113" ulx="672" uly="668" lrx="1165" lry="712"/>
+      <zone xml:id="z101767114" ulx="672" uly="712" lrx="1165" lry="755"/>
+      <zone xml:id="z101767115" ulx="672" uly="755" lrx="1165" lry="794"/>
+      <zone xml:id="z101767116" ulx="672" uly="794" lrx="1176" lry="837"/>
+      <zone xml:id="z101767117" ulx="672" uly="837" lrx="1165" lry="882"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="1402" lry="1000">
+      <graphic url="bzan00430_304r_303v.jpg"/>
+      <zone xml:id="z101767059" ulx="185" uly="62" lrx="662" lry="94"/>
+      <zone xml:id="z101767119" ulx="185" uly="94" lrx="662" lry="138"/>
+      <zone xml:id="z101767120" ulx="185" uly="138" lrx="662" lry="188"/>
+      <zone xml:id="z101767063" ulx="185" uly="188" lrx="662" lry="231"/>
+      <zone xml:id="z101767064" ulx="185" uly="231" lrx="662" lry="271"/>
+      <zone xml:id="z101767065" ulx="185" uly="271" lrx="662" lry="315"/>
+      <zone xml:id="z101767066" ulx="185" uly="315" lrx="662" lry="365"/>
+      <zone xml:id="z101767067" ulx="185" uly="365" lrx="662" lry="411"/>
+      <zone xml:id="z101767068" ulx="185" uly="411" lrx="662" lry="453"/>
+      <zone xml:id="z101767069" ulx="185" uly="453" lrx="662" lry="497"/>
+      <zone xml:id="z101767070" ulx="185" uly="497" lrx="662" lry="543"/>
+      <zone xml:id="z101767071" ulx="185" uly="543" lrx="662" lry="583"/>
+      <zone xml:id="z101767072" ulx="185" uly="583" lrx="662" lry="625"/>
+      <zone xml:id="z101767073" ulx="185" uly="625" lrx="662" lry="664"/>
+      <zone xml:id="z101767074" ulx="185" uly="664" lrx="662" lry="709"/>
+      <zone xml:id="z101767075" ulx="185" uly="709" lrx="662" lry="749"/>
+      <zone xml:id="z101767076" ulx="185" uly="749" lrx="662" lry="790"/>
+      <zone xml:id="z101767077" ulx="185" uly="790" lrx="662" lry="837"/>
+      <zone xml:id="z101767078" ulx="185" uly="837" lrx="666" lry="879"/>
+      <zone xml:id="z101767118" ulx="680" uly="34" lrx="1171" lry="89"/>
+      <zone xml:id="z101767121" ulx="680" uly="89" lrx="1171" lry="135"/>
+      <zone xml:id="z101767122" ulx="680" uly="135" lrx="1171" lry="183"/>
+      <zone xml:id="z101767123" ulx="680" uly="183" lrx="1171" lry="226"/>
+      <zone xml:id="z101767124" ulx="680" uly="226" lrx="1171" lry="269"/>
+      <zone xml:id="z101767125" ulx="680" uly="269" lrx="1171" lry="314"/>
+      <zone xml:id="z101767126" ulx="680" uly="314" lrx="1171" lry="362"/>
+      <zone xml:id="z101767127" ulx="680" uly="362" lrx="1171" lry="412"/>
+      <zone xml:id="z101767128" ulx="680" uly="412" lrx="1264" lry="449"/>
+      <zone xml:id="z101767129" ulx="680" uly="449" lrx="1171" lry="495"/>
+      <zone xml:id="z101767130" ulx="680" uly="495" lrx="1171" lry="536"/>
+      <zone xml:id="z101767131" ulx="680" uly="536" lrx="1171" lry="580"/>
+      <zone xml:id="z101767132" ulx="680" uly="580" lrx="1171" lry="623"/>
+      <zone xml:id="z101767133" ulx="680" uly="623" lrx="1180" lry="668"/>
+      <zone xml:id="z101767134" ulx="680" uly="668" lrx="1171" lry="712"/>
+      <zone xml:id="z101767135" ulx="680" uly="712" lrx="1171" lry="752"/>
+      <zone xml:id="z101767136" ulx="680" uly="752" lrx="1180" lry="792"/>
+      <zone xml:id="z101767137" ulx="680" uly="792" lrx="1171" lry="841"/>
+      <zone xml:id="z101767138" ulx="680" uly="841" lrx="1171" lry="879"/>
+      <zone xml:id="z101767139" ulx="680" uly="879" lrx="1171" lry="913"/>
+      <zone xml:id="z101767140" ulx="680" uly="913" lrx="1171" lry="941"/>
+      <zone xml:id="z101767141" ulx="680" uly="941" lrx="1171" lry="974"/>
+    </surface>
+  </facsimile>
   <text>
     <body>
       <ab><pb n="bzan00430_292r_291v.jpg"/>
 <cb n="1"/>
-<lb xml:id="l101665176" n="1" resp="#u1548"/>ծեալք ի խաբէութենէ բանսարկուին 
-<lb xml:id="l101665177" n="2" resp="#u281"/>ընկալցուք զանթառ ամփառացպաս
-<lb xml:id="l101665226" n="3" resp="#u281" break="no"/>կնիքէ որում փառք յաւիտեան։ ամեն
-<lb xml:id="l101665179" n="4" resp="#u1923" break="no"/><note place="inline">Զհաւքն իմ. որ էն պապքն։ և զմամքն։ <damage>և</damage> 
-<lb xml:id="l101665182" n="5" resp="#u281"/>զողորմելի անարուեստ գծողիկս. զառ
-<lb xml:id="l101665184" n="6" resp="#u281" break="no"/>աքեալս. <add place="above">և զեղբայր սերոբէս</add> և զծնողսն մեր. և զեղբարսն. և զ
-<lb xml:id="l101665186" n="7" resp="#u281" break="no"/><abbr>ամ</abbr> երախտաւորսն մեր. և զվարդան ք<abbr>ահ</abbr>. 
-<lb xml:id="l101665188" n="8" resp="#u281"/>և զմայրիկն իւր զփոխեցեալքն. յիշ<damage>եց</damage>եք 
-<lb xml:id="l101665189" n="9" resp="#u1923"/>ի բարին <abbr>քս</abbr>. և <abbr>ած</abbr> զձեզ յիշեսցէ յիւր յող։</note> 
-<lb xml:id="l101665191" n="10" resp="#u1923"/><milestone unit="section" n="470"/>Տեսիլ <abbr>սբ</abbr> վարդապետին յոհանեսի. որ մականուն կոզ<lb/>եռն կոչի։ 
-<lb xml:id="l101665193" n="11" resp="#u1923"/><hi rend="red">Ի ժամանակին յորում էր թուա</hi>
-<lb xml:id="l101665195" n="12" resp="#u281" break="no"/>կանն հայ<add place="above">ո</add>ց <num value="470">.ն՟հ՟.</num> թագաւորն հոռոմո
-<lb xml:id="l101665196" n="13" resp="#u281" break="no"/>ց վասիլ ե՛լ յարևելս. և եկեալ յաշխարհ
-<lb xml:id="l101665197" n="14" resp="#u281" break="no"/>ն հայ<del rend="erase">ց</del>ոց. անթիւ բազմու<abbr>թբ</abbr> զաւրաւք 
-<lb xml:id="l101665198" n="15" resp="#u281"/>խուժադուժ ազգաց։ և խնդրեաց <damage>զ</damage><gap extent="4"/> 
-<lb xml:id="l101665199" n="16" resp="#u281"/>քաղաք և զ<abbr>ամ</abbr> տունն շիրակայ. ի յովանիսէ 
-<lb xml:id="l101665200" n="17" resp="#u281"/>որդոյ գագկա՛յ հայոց թագաւորին։ Իս
-<lb xml:id="l101665201" n="18" resp="#u281" break="no"/>կ յովանես յաղագս տկարութ<abbr>ե</abbr> մարմնոյ 
-<lb xml:id="l101665227" n="19" resp="#u281"/>իւրոյ. խոստացաւ տալ զան<damage>ի ի</damage> թ<abbr>ագ</abbr>ն հ
+<lb xml:id="l101665176" facs="#z101665176" n="1" resp="#u1548"/>ծեալք ի խաբէութենէ բանսարկուին 
+<lb xml:id="l101665177" facs="#z101665177" n="2" resp="#u281"/>ընկալցուք զանթառ ամփառացպաս
+<lb xml:id="l101665226" facs="#z101665226" n="3" resp="#u281" break="no"/>կնիքէ որում փառք յաւիտեան։ ամեն
+<lb xml:id="l101665179" facs="#z101665179" n="4" resp="#u1923" break="no"/><note place="inline">Զհաւքն իմ. որ էն պապքն։ և զմամքն։ <damage>և</damage> 
+<lb xml:id="l101665182" facs="#z101665182" n="5" resp="#u281"/>զողորմելի անարուեստ գծողիկս. զառ
+<lb xml:id="l101665184" facs="#z101665184" n="6" resp="#u281" break="no"/>աքեալս. <add place="above">և զեղբայր սերոբէս</add> և զծնողսն մեր. և զեղբարսն. և զ
+<lb xml:id="l101665186" facs="#z101665186" n="7" resp="#u281" break="no"/><abbr>ամ</abbr> երախտաւորսն մեր. և զվարդան ք<abbr>ահ</abbr>. 
+<lb xml:id="l101665188" facs="#z101665188" n="8" resp="#u281"/>և զմայրիկն իւր զփոխեցեալքն. յիշ<damage>եց</damage>եք 
+<lb xml:id="l101665189" facs="#z101665189" n="9" resp="#u1923"/>ի բարին <abbr>քս</abbr>. և <abbr>ած</abbr> զձեզ յիշեսցէ յիւր յող։</note> 
+<lb xml:id="l101665191" facs="#z101665191" n="10" resp="#u1923"/><milestone unit="section" n="470"/>Տեսիլ <abbr>սբ</abbr> վարդապետին յոհանեսի. որ մականուն կոզ<lb/>եռն կոչի։ 
+<lb xml:id="l101665193" facs="#z101665193" n="11" resp="#u1923"/><hi rend="red">Ի ժամանակին յորում էր թուա</hi>
+<lb xml:id="l101665195" facs="#z101665195" n="12" resp="#u281" break="no"/>կանն հայ<add place="above">ո</add>ց <num value="470">.ն՟հ՟.</num> թագաւորն հոռոմո
+<lb xml:id="l101665196" facs="#z101665196" n="13" resp="#u281" break="no"/>ց վասիլ ե՛լ յարևելս. և եկեալ յաշխարհ
+<lb xml:id="l101665197" facs="#z101665197" n="14" resp="#u281" break="no"/>ն հայ<del rend="erase">ց</del>ոց. անթիւ բազմու<abbr>թբ</abbr> զաւրաւք 
+<lb xml:id="l101665198" facs="#z101665198" n="15" resp="#u281"/>խուժադուժ ազգաց։ և խնդրեաց <damage>զ</damage><gap extent="4"/> 
+<lb xml:id="l101665199" facs="#z101665199" n="16" resp="#u281"/>քաղաք և զ<abbr>ամ</abbr> տունն շիրակայ. ի յովանիսէ 
+<lb xml:id="l101665200" facs="#z101665200" n="17" resp="#u281"/>որդոյ գագկա՛յ հայոց թագաւորին։ Իս
+<lb xml:id="l101665201" facs="#z101665201" n="18" resp="#u281" break="no"/>կ յովանես յաղագս տկարութ<abbr>ե</abbr> մարմնոյ 
+<lb xml:id="l101665227" facs="#z101665227" n="19" resp="#u281"/>իւրոյ. խոստացաւ տալ զան<damage>ի ի</damage> թ<abbr>ագ</abbr>ն հ
 <cb n="2"/>
-<lb xml:id="l101665202" n="1" resp="#u281" break="no"/>ռոմոց զկնի մահուան իւրոյ։ յայնժամ թ<abbr>ագ</abbr>ն. 
-<lb xml:id="l101665228" n="2" resp="#u281"/>վասիլ դարձաւ յաշխարհն վրաց. և առա
-<lb xml:id="l101665229" n="3" resp="#u281" break="no"/>քեաց դեսպանս առ գորգի թ<abbr>ագ</abbr>ն վրաց 
-<lb xml:id="l101665206" n="4" resp="#u281"/>գալ առ ինքն։ և թ<abbr>ագ</abbr>ն. վրաց ո՛չ էառ յան
-<lb xml:id="l101665209" n="5" resp="#u281" break="no"/>ձն գալ։ վ<abbr>ս</abbr> զի բազումք յիշխանացն հոռ
-<lb xml:id="l101665230" n="6" resp="#u281" break="no"/>ոմոց կորուսեա՛լ էր. և բարձեա՛լ էր զ<abbr>ամ</abbr> մե
-<lb xml:id="l101665231" n="7" resp="#u281" break="no"/>ծամեծս ի յունաց աշխարհէն։ յայնժամ 
-<lb xml:id="l101665232" n="8" resp="#u281"/>յ<damage>ար</damage>եաւ վասիլ թ<abbr>ագ</abbr>ն. ի պատերազմ ընդ 
-<lb xml:id="l101665213" n="9" resp="#u281"/>վրացի՛ զաւրացն։ և եկին հասին առ միմե
-<lb xml:id="l101665214" n="10" resp="#u281" break="no"/>անս ի շիրակայ դաշտին. և ճակատեցան 
-<lb xml:id="l101665216" n="11" resp="#u281"/>ընդ միմեանս ի պատերազմ։ Իսկ զաւրավա
-<lb xml:id="l101665217" n="12" resp="#u281" break="no"/>րքն վրաց. ըռա՛տն և զոյա՛տն արք զաւրա
-<lb xml:id="l101665218" n="13" resp="#u281" break="no"/>ւորք և քաջք. ուժգին բախեին զզաւրսն 
-<lb xml:id="l101665219" n="14" resp="#u281"/><damage>հոռ</damage>ոմոց. և առիւծաբար յարձակեալ խո
-<lb xml:id="l101665220" n="15" resp="#u281" break="no"/><damage>զխ</damage>ող էին։ յայնժամ երիւար ըռատին ի ջր
-<lb xml:id="l101665222" n="16" resp="#u281" break="no"/><gap extent="2"/>աց տեղի մի խրեցաւ ի մաւրատն. և ի նմի
-<lb xml:id="l101665223" n="17" resp="#u281" break="no"/><damage>ն</damage> տեղոջ սպանին զքաջն։ և պարտեցան 
-<lb xml:id="l101665224" n="18" resp="#u281"/><damage>զաւ</damage>րքն վ<damage>րա</damage>ց և եղեն փախստականք առա
-<lb xml:id="l101665225" n="19" resp="#u281" break="no"/>ջի զաւրացն հոռոմոց։ և եղև կոտորա
+<lb xml:id="l101665202" facs="#z101665202" n="1" resp="#u281" break="no"/>ռոմոց զկնի մահուան իւրոյ։ յայնժամ թ<abbr>ագ</abbr>ն. 
+<lb xml:id="l101665228" facs="#z101665228" n="2" resp="#u281"/>վասիլ դարձաւ յաշխարհն վրաց. և առա
+<lb xml:id="l101665229" facs="#z101665229" n="3" resp="#u281" break="no"/>քեաց դեսպանս առ գորգի թ<abbr>ագ</abbr>ն վրաց 
+<lb xml:id="l101665206" facs="#z101665206" n="4" resp="#u281"/>գալ առ ինքն։ և թ<abbr>ագ</abbr>ն. վրաց ո՛չ էառ յան
+<lb xml:id="l101665209" facs="#z101665209" n="5" resp="#u281" break="no"/>ձն գալ։ վ<abbr>ս</abbr> զի բազումք յիշխանացն հոռ
+<lb xml:id="l101665230" facs="#z101665230" n="6" resp="#u281" break="no"/>ոմոց կորուսեա՛լ էր. և բարձեա՛լ էր զ<abbr>ամ</abbr> մե
+<lb xml:id="l101665231" facs="#z101665231" n="7" resp="#u281" break="no"/>ծամեծս ի յունաց աշխարհէն։ յայնժամ 
+<lb xml:id="l101665232" facs="#z101665232" n="8" resp="#u281"/>յ<damage>ար</damage>եաւ վասիլ թ<abbr>ագ</abbr>ն. ի պատերազմ ընդ 
+<lb xml:id="l101665213" facs="#z101665213" n="9" resp="#u281"/>վրացի՛ զաւրացն։ և եկին հասին առ միմե
+<lb xml:id="l101665214" facs="#z101665214" n="10" resp="#u281" break="no"/>անս ի շիրակայ դաշտին. և ճակատեցան 
+<lb xml:id="l101665216" facs="#z101665216" n="11" resp="#u281"/>ընդ միմեանս ի պատերազմ։ Իսկ զաւրավա
+<lb xml:id="l101665217" facs="#z101665217" n="12" resp="#u281" break="no"/>րքն վրաց. ըռա՛տն և զոյա՛տն արք զաւրա
+<lb xml:id="l101665218" facs="#z101665218" n="13" resp="#u281" break="no"/>ւորք և քաջք. ուժգին բախեին զզաւրսն 
+<lb xml:id="l101665219" facs="#z101665219" n="14" resp="#u281"/><damage>հոռ</damage>ոմոց. և առիւծաբար յարձակեալ խո
+<lb xml:id="l101665220" facs="#z101665220" n="15" resp="#u281" break="no"/><damage>զխ</damage>ող էին։ յայնժամ երիւար ըռատին ի ջր
+<lb xml:id="l101665222" facs="#z101665222" n="16" resp="#u281" break="no"/><gap extent="2"/>աց տեղի մի խրեցաւ ի մաւրատն. և ի նմի
+<lb xml:id="l101665223" facs="#z101665223" n="17" resp="#u281" break="no"/><damage>ն</damage> տեղոջ սպանին զքաջն։ և պարտեցան 
+<lb xml:id="l101665224" facs="#z101665224" n="18" resp="#u281"/><damage>զաւ</damage>րքն վ<damage>րա</damage>ց և եղեն փախստականք առա
+<lb xml:id="l101665225" facs="#z101665225" n="19" resp="#u281" break="no"/>ջի զաւրացն հոռոմոց։ և եղև կոտորա
 <pb n="bzan00430_293r_292v.jpg"/>
 <cb n="1"/>
-<lb xml:id="l101758762" n="1" resp="#u281" break="no"/>ծ սաստիկ յոյժ։ Եւ կացեալ թ<abbr>ագ</abbr>ն վասի
-<lb xml:id="l101758808" n="2" resp="#u281" break="no"/>լ յայնմ աշխարհ ի ամիսս վեց. և հաւանե
-<lb xml:id="l101758809" n="3" resp="#u281" break="no"/>ցոյց նոսա. և ինքն դարձեալ ի տրապի
-<lb xml:id="l101758810" n="4" resp="#u281" break="no"/>զո՛ն ձմերեաց։ Յայնժամ եկն տէր պետ
-<lb xml:id="l101758811" n="5" resp="#u281" break="no"/>րոս կաթողիկոսն հայոց. առ թ<abbr>ագ</abbr>ն վաս
-<lb xml:id="l101758812" n="6" resp="#u281" break="no"/>իլ <abbr>վս</abbr> սիրոյ. հանդերձ երկոտասան եպիս
-<lb xml:id="l101758813" n="7" resp="#u281" break="no"/>կոպոսաւք. և եւթանասուն կրաւնաւ
-<lb xml:id="l101758814" n="8" resp="#u281" break="no"/>որ քահանայիւք. և վարդապետաւք։ յո
-<lb xml:id="l101758815" n="9" resp="#u281" break="no"/>վսէփ ընձուց. և <abbr>սբ</abbr> վարդապետն յոհանե
-<lb xml:id="l101758771" n="10" resp="#u281" break="no"/>ս կոզեռն։ և հեծեալք <num value="300">երեք Ճ՟</num> ի փառաւո
-<lb xml:id="l101758772" n="11" resp="#u281" break="no"/>րացն։ Եւ յորժամ ետես թ<abbr>ագ</abbr>ն զտեր պետ
-<lb xml:id="l101758816" n="12" resp="#u281" break="no"/>րոս. յո՛յժ մեծարեալ զնա քան զառաջն
-<lb xml:id="l101758817" n="13" resp="#u281" break="no"/>որդսն հոռոմոց։ և յայնժամ հանդիպե
-<lb xml:id="l101758776" n="14" resp="#u281" break="no"/>ցաւ աւրնայն մեծի յայտնու<abbr>թե</abbr> <abbr>տն</abbr> մեր
-<lb xml:id="l101758777" n="15" resp="#u281" break="no"/>ոյ <abbr>յի</abbr> <abbr>քի</abbr>։ և հրամայեաց թ<abbr>ագ</abbr>ն վասիլ. <damage>նա</damage>
-<lb xml:id="l101758778" n="16" resp="#u281" break="no"/>խ տէր պետրոսի աւրհնել զջուրն։ և յոր
-<lb xml:id="l101758780" n="17" resp="#u281" break="no"/>ժամ զնշան <abbr>սբ</abbr> խաչին էհա՛ր ի գետն. ևս 
-<lb xml:id="l101758781" n="18" resp="#u281"/><abbr>սբ</abbr> միւռոնն ա՛րկ ի ներս. նա հու՛ր սաս
-<lb xml:id="l101758818" n="19" resp="#u281" break="no"/>տիկ իբրև զփայլակն ցոլացեալ ի վերայ
+<lb xml:id="l101758762" facs="#z101758762" n="1" resp="#u281" break="no"/>ծ սաստիկ յոյժ։ Եւ կացեալ թ<abbr>ագ</abbr>ն վասի
+<lb xml:id="l101758808" facs="#z101758808" n="2" resp="#u281" break="no"/>լ յայնմ աշխարհ ի ամիսս վեց. և հաւանե
+<lb xml:id="l101758809" facs="#z101758809" n="3" resp="#u281" break="no"/>ցոյց նոսա. և ինքն դարձեալ ի տրապի
+<lb xml:id="l101758810" facs="#z101758810" n="4" resp="#u281" break="no"/>զո՛ն ձմերեաց։ Յայնժամ եկն տէր պետ
+<lb xml:id="l101758811" facs="#z101758811" n="5" resp="#u281" break="no"/>րոս կաթողիկոսն հայոց. առ թ<abbr>ագ</abbr>ն վաս
+<lb xml:id="l101758812" facs="#z101758812" n="6" resp="#u281" break="no"/>իլ <abbr>վս</abbr> սիրոյ. հանդերձ երկոտասան եպիս
+<lb xml:id="l101758813" facs="#z101758813" n="7" resp="#u281" break="no"/>կոպոսաւք. և եւթանասուն կրաւնաւ
+<lb xml:id="l101758814" facs="#z101758814" n="8" resp="#u281" break="no"/>որ քահանայիւք. և վարդապետաւք։ յո
+<lb xml:id="l101758815" facs="#z101758815" n="9" resp="#u281" break="no"/>վսէփ ընձուց. և <abbr>սբ</abbr> վարդապետն յոհանե
+<lb xml:id="l101758771" facs="#z101758771" n="10" resp="#u281" break="no"/>ս կոզեռն։ և հեծեալք <num value="300">երեք Ճ՟</num> ի փառաւո
+<lb xml:id="l101758772" facs="#z101758772" n="11" resp="#u281" break="no"/>րացն։ Եւ յորժամ ետես թ<abbr>ագ</abbr>ն զտեր պետ
+<lb xml:id="l101758816" facs="#z101758816" n="12" resp="#u281" break="no"/>րոս. յո՛յժ մեծարեալ զնա քան զառաջն
+<lb xml:id="l101758817" facs="#z101758817" n="13" resp="#u281" break="no"/>որդսն հոռոմոց։ և յայնժամ հանդիպե
+<lb xml:id="l101758776" facs="#z101758776" n="14" resp="#u281" break="no"/>ցաւ աւրնայն մեծի յայտնու<abbr>թե</abbr> <abbr>տն</abbr> մեր
+<lb xml:id="l101758777" facs="#z101758777" n="15" resp="#u281" break="no"/>ոյ <abbr>յի</abbr> <abbr>քի</abbr>։ և հրամայեաց թ<abbr>ագ</abbr>ն վասիլ. <damage>նա</damage>
+<lb xml:id="l101758778" facs="#z101758778" n="16" resp="#u281" break="no"/>խ տէր պետրոսի աւրհնել զջուրն։ և յոր
+<lb xml:id="l101758780" facs="#z101758780" n="17" resp="#u281" break="no"/>ժամ զնշան <abbr>սբ</abbr> խաչին էհա՛ր ի գետն. ևս 
+<lb xml:id="l101758781" facs="#z101758781" n="18" resp="#u281"/><abbr>սբ</abbr> միւռոնն ա՛րկ ի ներս. նա հու՛ր սաս
+<lb xml:id="l101758818" facs="#z101758818" n="19" resp="#u281" break="no"/>տիկ իբրև զփայլակն ցոլացեալ ի վերայ
 <cb n="2"/>
-<lb xml:id="l101758784" n="1" resp="#u281" break="no"/>գետոյն. և յետս դարձաւ առ վայր մի։ Եւ 
-<lb xml:id="l101758819" n="2" resp="#u281"/>տեսեալ թ<abbr>ագ</abbr>ն և <abbr>ամ</abbr> բազմու<abbr>թի</abbr>ն զսքանչե
-<lb xml:id="l101758820" n="3" resp="#u281" break="no"/>լիսն. և հիացեա՛լ զարհուրեցան յոյժ։ Եւ 
-<lb xml:id="l101758821" n="4" resp="#u281"/>խոնարհեալ թ<abbr>ագ</abbr>ն և արկաներ զաւրհնե
-<lb xml:id="l101758822" n="5" resp="#u281" break="no"/>ալ ջուրն ի վերայ գլխոյ իւրոյ աջովն տէ
-<lb xml:id="l101758823" n="6" resp="#u281" break="no"/>ր պետրոսի։ Եւ իբրև աւրհնեցին առա
-<lb xml:id="l101758824" n="7" resp="#u281" break="no"/>ջնորդքն հոռոմոց զջուրն. նա ոչ ինչ նշա
-<lb xml:id="l101758825" n="8" resp="#u281" break="no"/>ն է<damage>ր</damage>ևեցաւ։ և թողին ի վերայ գետոյն սպ
-<lb xml:id="l101758795" n="9" resp="#u281" break="no"/>իտակ աղաւն ի մի զի խաղասցէ։ և խոյա
-<lb xml:id="l101758828" n="10" resp="#u281" break="no"/>ցեալ արծիւ մի ա՛ռ զնա. և եղև հիացումն 
-<lb xml:id="l101758827" n="11" resp="#u281"/>մեծ։ և դարձաւ տէր պետրոս մեծաւ պա
-<lb xml:id="l101758830" n="12" resp="#u281" break="no"/>րգևաւք յաշխարհն հայոց։ Իսկ թ<abbr>ագ</abbr>ն վա
-<lb xml:id="l101758831" n="13" resp="#u281" break="no"/>սիլ մտախո՛հ լինէր <abbr>վս</abbr> նշանին որ երևեցաւ 
-<lb xml:id="l101758829" n="14" resp="#u281"/>ի վերայ ջուրցն. և յայնմհետէ հաւատաց 
-<lb xml:id="l101758803" n="15" resp="#u281"/>ճշմարիտ և ուղղափա՛ռ գոլ զհաւատս 
-<lb xml:id="l101758804" n="16" resp="#u281"/>հայոց։ և երկմտեցաւ ի հաւատոց իւրոց։ 
-<lb xml:id="l101758805" n="17" resp="#u281"/>Եւ յետ ժամանակաց գնաց թ<abbr>ագ</abbr>ն յաշխ
-<lb xml:id="l101758806" n="18" resp="#u281" break="no"/>արհն. անտիոքայ քաղաքին։ և գաղտա
-<lb xml:id="l101758807" n="19" resp="#u281" break="no"/>բա՛ր ի զաւրացն երեք հաւատարիմ արա
+<lb xml:id="l101758784" facs="#z101758784" n="1" resp="#u281" break="no"/>գետոյն. և յետս դարձաւ առ վայր մի։ Եւ 
+<lb xml:id="l101758819" facs="#z101758819" n="2" resp="#u281"/>տեսեալ թ<abbr>ագ</abbr>ն և <abbr>ամ</abbr> բազմու<abbr>թի</abbr>ն զսքանչե
+<lb xml:id="l101758820" facs="#z101758820" n="3" resp="#u281" break="no"/>լիսն. և հիացեա՛լ զարհուրեցան յոյժ։ Եւ 
+<lb xml:id="l101758821" facs="#z101758821" n="4" resp="#u281"/>խոնարհեալ թ<abbr>ագ</abbr>ն և արկաներ զաւրհնե
+<lb xml:id="l101758822" facs="#z101758822" n="5" resp="#u281" break="no"/>ալ ջուրն ի վերայ գլխոյ իւրոյ աջովն տէ
+<lb xml:id="l101758823" facs="#z101758823" n="6" resp="#u281" break="no"/>ր պետրոսի։ Եւ իբրև աւրհնեցին առա
+<lb xml:id="l101758824" facs="#z101758824" n="7" resp="#u281" break="no"/>ջնորդքն հոռոմոց զջուրն. նա ոչ ինչ նշա
+<lb xml:id="l101758825" facs="#z101758825" n="8" resp="#u281" break="no"/>ն է<damage>ր</damage>ևեցաւ։ և թողին ի վերայ գետոյն սպ
+<lb xml:id="l101758795" facs="#z101758795" n="9" resp="#u281" break="no"/>իտակ աղաւն ի մի զի խաղասցէ։ և խոյա
+<lb xml:id="l101758828" facs="#z101758828" n="10" resp="#u281" break="no"/>ցեալ արծիւ մի ա՛ռ զնա. և եղև հիացումն 
+<lb xml:id="l101758827" facs="#z101758827" n="11" resp="#u281"/>մեծ։ և դարձաւ տէր պետրոս մեծաւ պա
+<lb xml:id="l101758830" facs="#z101758830" n="12" resp="#u281" break="no"/>րգևաւք յաշխարհն հայոց։ Իսկ թ<abbr>ագ</abbr>ն վա
+<lb xml:id="l101758831" facs="#z101758831" n="13" resp="#u281" break="no"/>սիլ մտախո՛հ լինէր <abbr>վս</abbr> նշանին որ երևեցաւ 
+<lb xml:id="l101758829" facs="#z101758829" n="14" resp="#u281"/>ի վերայ ջուրցն. և յայնմհետէ հաւատաց 
+<lb xml:id="l101758803" facs="#z101758803" n="15" resp="#u281"/>ճշմարիտ և ուղղափա՛ռ գոլ զհաւատս 
+<lb xml:id="l101758804" facs="#z101758804" n="16" resp="#u281"/>հայոց։ և երկմտեցաւ ի հաւատոց իւրոց։ 
+<lb xml:id="l101758805" facs="#z101758805" n="17" resp="#u281"/>Եւ յետ ժամանակաց գնաց թ<abbr>ագ</abbr>ն յաշխ
+<lb xml:id="l101758806" facs="#z101758806" n="18" resp="#u281" break="no"/>արհն. անտիոքայ քաղաքին։ և գաղտա
+<lb xml:id="l101758807" facs="#z101758807" n="19" resp="#u281" break="no"/>բա՛ր ի զաւրացն երեք հաւատարիմ արա
 <pb n="bzan00430_294r_293v.jpg"/>
 <cb n="1"/>
-<lb xml:id="l101756567" n="1" resp="#u1923" break="no"/>մբք։ գնաց ի սև՛ լեառն. և եկն ի վանքն 
-<lb xml:id="l101765443" n="2" resp="#u281"/>որ կոչի. պաղակձիակ։ և ծածկաբար 
-<lb xml:id="l101765444" n="3" resp="#u281"/>առնոյր ի <abbr>սբ</abbr> հաւրէն զ<abbr>քս</abbr>ական կնիքն. <damage>և</damage> 
-<lb xml:id="l101765445" n="4" resp="#u1548"/>յայնմ հետէ եղև իբրև զհա՛յր հայոց ա
-<lb xml:id="l101765446" n="5" resp="#u281" break="no"/>զգիս։ և շնորհեաց վանացն <num value="12">.ժ՟բ՟։</num> գեղ։ 
-<lb xml:id="l101765447" n="6" resp="#u1923"/><milestone unit="section" n="471prophecy"/>Դարձեալ ի թուականու<abbr>թե</abbr>ն հայոց. 
-<lb xml:id="l101765448" n="7" resp="#u1923"/><num value="478">ն՟հ՟ը՟</num> և ի թ<abbr>ագ</abbr>ու<abbr>թե</abbr>ն հոռոմոց վասլի. 
-<lb xml:id="l101765449" n="8" resp="#u281"/>եղև ահաւոր նշան յերկինս և սոսկա
-<lb xml:id="l101765450" n="9" resp="#u281" break="no"/>լի. և բարկու<abbr>թի</abbr> ի վերայ <abbr>ամ</abbr> արարածո
-<lb xml:id="l101765451" n="10" resp="#u281" break="no"/>ց. ի հոկտեմբերի ամսոյ որ աւր երեք էր։ 
-<lb xml:id="l101765452" n="11" resp="#u1923"/>յեր որդժամուն. վերին հաստատու
-<lb xml:id="l101765453" n="12" resp="#u281" break="no"/><abbr>թի</abbr>ն երկնից. յարևելից կուսէ. մինչև 
-<lb xml:id="l101765454" n="13" resp="#u281"/>յարևմուտս. ընդ երկու՛ս հերձաւ ե
-<lb xml:id="l101765455" n="14" resp="#u281" break="no"/>րկինքն. և համատարած լոյսն սոսկա
-<lb xml:id="l101765456" n="15" resp="#u281" break="no"/>պես հոսեալ եղև ի յերկիր ի հիւսիսոյ 
-<lb xml:id="l101765457" n="16" resp="#u281"/>կողմանէ։ զոր այժմ մարդիկ ցոլացեա
-<lb xml:id="l101765458" n="17" resp="#u281" break="no"/>լ ա՛ստղ ասեն։ և յահէ բարկու<abbr>թե</abbr>ն եր ե
-<lb xml:id="l101765459" n="18" resp="#u281" break="no"/>րեալ դողմամբ. դողա՛ց <abbr>ամ</abbr> արարածք։ 
-<lb xml:id="l101765460" n="19" resp="#u281"/>և յառաջ քան զնուա<subst><del>զ</del><add place="margin-left">ղ</add></subst>ել լուսոյն եղև 
+<lb xml:id="l101756567" facs="#z101756567" n="1" resp="#u1923" break="no"/>մբք։ գնաց ի սև՛ լեառն. և եկն ի վանքն 
+<lb xml:id="l101765443" facs="#z101765443" n="2" resp="#u281"/>որ կոչի. պաղակձիակ։ և ծածկաբար 
+<lb xml:id="l101765444" facs="#z101765444" n="3" resp="#u281"/>առնոյր ի <abbr>սբ</abbr> հաւրէն զ<abbr>քս</abbr>ական կնիքն. <damage>և</damage> 
+<lb xml:id="l101765445" facs="#z101765445" n="4" resp="#u1548"/>յայնմ հետէ եղև իբրև զհա՛յր հայոց ա
+<lb xml:id="l101765446" facs="#z101765446" n="5" resp="#u281" break="no"/>զգիս։ և շնորհեաց վանացն <num value="12">.ժ՟բ՟։</num> գեղ։ 
+<lb xml:id="l101765447" facs="#z101765447" n="6" resp="#u1923"/><milestone unit="section" n="471prophecy"/>Դարձեալ ի թուականու<abbr>թե</abbr>ն հայոց. 
+<lb xml:id="l101765448" facs="#z101765448" n="7" resp="#u1923"/><num value="478">ն՟հ՟ը՟</num> և ի թ<abbr>ագ</abbr>ու<abbr>թե</abbr>ն հոռոմոց վասլի. 
+<lb xml:id="l101765449" facs="#z101765449" n="8" resp="#u281"/>եղև ահաւոր նշան յերկինս և սոսկա
+<lb xml:id="l101765450" facs="#z101765450" n="9" resp="#u281" break="no"/>լի. և բարկու<abbr>թի</abbr> ի վերայ <abbr>ամ</abbr> արարածո
+<lb xml:id="l101765451" facs="#z101765451" n="10" resp="#u281" break="no"/>ց. ի հոկտեմբերի ամսոյ որ աւր երեք էր։ 
+<lb xml:id="l101765452" facs="#z101765452" n="11" resp="#u1923"/>յեր որդժամուն. վերին հաստատու
+<lb xml:id="l101765453" facs="#z101765453" n="12" resp="#u281" break="no"/><abbr>թի</abbr>ն երկնից. յարևելից կուսէ. մինչև 
+<lb xml:id="l101765454" facs="#z101765454" n="13" resp="#u281"/>յարևմուտս. ընդ երկու՛ս հերձաւ ե
+<lb xml:id="l101765455" facs="#z101765455" n="14" resp="#u281" break="no"/>րկինքն. և համատարած լոյսն սոսկա
+<lb xml:id="l101765456" facs="#z101765456" n="15" resp="#u281" break="no"/>պես հոսեալ եղև ի յերկիր ի հիւսիսոյ 
+<lb xml:id="l101765457" facs="#z101765457" n="16" resp="#u281"/>կողմանէ։ զոր այժմ մարդիկ ցոլացեա
+<lb xml:id="l101765458" facs="#z101765458" n="17" resp="#u281" break="no"/>լ ա՛ստղ ասեն։ և յահէ բարկու<abbr>թե</abbr>ն եր ե
+<lb xml:id="l101765459" facs="#z101765459" n="18" resp="#u281" break="no"/>րեալ դողմամբ. դողա՛ց <abbr>ամ</abbr> արարածք։ 
+<lb xml:id="l101765460" facs="#z101765460" n="19" resp="#u281"/>և յառաջ քան զնուա<subst><del>զ</del><add place="margin-left">ղ</add></subst>ել լուսոյն եղև 
 <cb n="2"/>
-<lb xml:id="l101765442" n="1" resp="#u281"/>գոչիւն և թնդիւն ահաւոր ի վերայ <abbr>ամ</abbr> ա
-<lb xml:id="l101765461" n="2" resp="#u281" break="no"/>րարածոց։ և աստեղքն երևէին որպէս ի մէ
-<lb xml:id="l101765462" n="3" resp="#u281" break="no"/>ջ գիշերի. <abbr>վս</abbr> զի խաւա՛ր կալաւ զերկիր։ 
-<lb xml:id="l101765463" n="4" resp="#u281"/>Յայնժամ զկնի երեք աւուրն. ժողովեցա
-<lb xml:id="l101765464" n="5" resp="#u281" break="no"/>ն իշխանքն և ազատքն. և եկին առ յոհա
-<lb xml:id="l101765465" n="6" resp="#u281" break="no"/>նէս վարդապետն <abbr>սբ</abbr>. և հոգէտեսն զոր կո
-<lb xml:id="l101765466" n="7" resp="#u281" break="no"/>զեռն կոչեն։ այր <abbr>ած</abbr>ազգեաց. և հրեշտակ
-<lb xml:id="l101765467" n="8" resp="#u281" break="no"/>ակրաւն. և լի՛ իսկ առաքելական և մարգա
-<lb xml:id="l101765468" n="9" resp="#u281" break="no"/>րէական վարդապետու<abbr>թբ</abbr> լցեալ։ Եւ  իբր
-<lb xml:id="l101765469" n="10" resp="#u281" break="no"/>ևս՛ կին իշխանքն հայոց հարցանել ցնա 
-<lb xml:id="l101765470" n="11" resp="#u281"/>և իմանալ զմէկնու<abbr>թի</abbr> հրաշալի նշանին 
-<lb xml:id="l101765471" n="12" resp="#u281"/>որ եղև։ տեսին զ<abbr>սբ</abbr> վարդապետն հայոց.
-<lb xml:id="l101765472" n="13" resp="#u281" break="no"/>զի կայր ի վերայ երեսաց իւրոց ի խո՛ր<subst rend="rearrange"><del> սրտ</del><add>ս տրտ</add></subst>
-<lb xml:id="l101765473" n="14" resp="#u281" break="no"/>մ<del rend="erase">տ</del>ու<abbr>թե</abbr>։ Եւ իբրև հարցինցնա. նա լալո
-<lb xml:id="l101765474" n="15" resp="#u281" break="no"/>վ և հառաչելով պատասխանի տուեալ ա
-<lb xml:id="l101765475" n="16" resp="#u281" break="no"/>սէ. Ով որդեակք. լուարուք ինձ. զի ահա այս
-<lb xml:id="l101765476" n="17" resp="#u281" break="no"/>աւր <num value="1000">.ռ՟</num> ամ է կապանացն սատանայի զոր 
-<lb xml:id="l101765477" n="18" resp="#u281"/>կապեաց զնա <abbr>տր</abbr> մեր <abbr>յս</abbr> <abbr>քս</abbr> իւրով <abbr>սբ</abbr> մկրտ
-<lb xml:id="l101765478" n="19" resp="#u281" break="no"/>ու<abbr>թբ</abbr>ն ի յորդանաս գետ. և այռմ արձակե
+<lb xml:id="l101765442" facs="#z101765442" n="1" resp="#u281"/>գոչիւն և թնդիւն ահաւոր ի վերայ <abbr>ամ</abbr> ա
+<lb xml:id="l101765461" facs="#z101765461" n="2" resp="#u281" break="no"/>րարածոց։ և աստեղքն երևէին որպէս ի մէ
+<lb xml:id="l101765462" facs="#z101765462" n="3" resp="#u281" break="no"/>ջ գիշերի. <abbr>վս</abbr> զի խաւա՛ր կալաւ զերկիր։ 
+<lb xml:id="l101765463" facs="#z101765463" n="4" resp="#u281"/>Յայնժամ զկնի երեք աւուրն. ժողովեցա
+<lb xml:id="l101765464" facs="#z101765464" n="5" resp="#u281" break="no"/>ն իշխանքն և ազատքն. և եկին առ յոհա
+<lb xml:id="l101765465" facs="#z101765465" n="6" resp="#u281" break="no"/>նէս վարդապետն <abbr>սբ</abbr>. և հոգէտեսն զոր կո
+<lb xml:id="l101765466" facs="#z101765466" n="7" resp="#u281" break="no"/>զեռն կոչեն։ այր <abbr>ած</abbr>ազգեաց. և հրեշտակ
+<lb xml:id="l101765467" facs="#z101765467" n="8" resp="#u281" break="no"/>ակրաւն. և լի՛ իսկ առաքելական և մարգա
+<lb xml:id="l101765468" facs="#z101765468" n="9" resp="#u281" break="no"/>րէական վարդապետու<abbr>թբ</abbr> լցեալ։ Եւ  իբր
+<lb xml:id="l101765469" facs="#z101765469" n="10" resp="#u281" break="no"/>ևս՛ կին իշխանքն հայոց հարցանել ցնա 
+<lb xml:id="l101765470" facs="#z101765470" n="11" resp="#u281"/>և իմանալ զմէկնու<abbr>թի</abbr> հրաշալի նշանին 
+<lb xml:id="l101765471" facs="#z101765471" n="12" resp="#u281"/>որ եղև։ տեսին զ<abbr>սբ</abbr> վարդապետն հայոց.
+<lb xml:id="l101765472" facs="#z101765472" n="13" resp="#u281" break="no"/>զի կայր ի վերայ երեսաց իւրոց ի խո՛ր<subst rend="rearrange"><del> սրտ</del><add>ս տրտ</add></subst>
+<lb xml:id="l101765473" facs="#z101765473" n="14" resp="#u281" break="no"/>մ<del rend="erase">տ</del>ու<abbr>թե</abbr>։ Եւ իբրև հարցինցնա. նա լալո
+<lb xml:id="l101765474" facs="#z101765474" n="15" resp="#u281" break="no"/>վ և հառաչելով պատասխանի տուեալ ա
+<lb xml:id="l101765475" facs="#z101765475" n="16" resp="#u281" break="no"/>սէ. Ով որդեակք. լուարուք ինձ. զի ահա այս
+<lb xml:id="l101765476" facs="#z101765476" n="17" resp="#u281" break="no"/>աւր <num value="1000">.ռ՟</num> ամ է կապանացն սատանայի զոր 
+<lb xml:id="l101765477" facs="#z101765477" n="18" resp="#u281"/>կապեաց զնա <abbr>տր</abbr> մեր <abbr>յս</abbr> <abbr>քս</abbr> իւրով <abbr>սբ</abbr> մկրտ
+<lb xml:id="l101765478" facs="#z101765478" n="19" resp="#u281" break="no"/>ու<abbr>թբ</abbr>ն ի յորդանաս գետ. և այռմ արձակե
 <pb n="bzan00430_295r_294v.jpg"/>
 <cb n="1"/>
-<lb xml:id="l101758759" n="1" resp="#u281" break="no"/>ցաւ ի կապանաց. ըստ տեսլեանն <abbr>սբ</abbr> աւ
-<lb xml:id="l101765502" n="2" resp="#u281" break="no"/>ետարանչին յոհաննու։ որ ասաց ցնա 
-<lb xml:id="l101765503" n="3" resp="#u281"/>հրեշտակն <abbr>տն</abbr>. թէ <num value="1000">ռ՟</num> ամ կապեսցի բանս 
-<lb xml:id="l101765486" n="4" resp="#u281"/>արկուն սատանայ. և դարձեալ արձակե
-<lb xml:id="l101765487" n="5" resp="#u281" break="no"/>սցի ի կապանացն։ որդեակք իմ ահա այ
-<lb xml:id="l101765504" n="6" resp="#u281" break="no"/>սաւր. արձակեցաւ սատանայ ի վերայ 
-<lb xml:id="l101765489" n="7" resp="#u281"/>արա*ածոցս զոր մկրտու<abbr>թբ</abbr>ն իւր ով կա
-<lb xml:id="l101765490" n="8" resp="#u281" break="no"/>պեաց <abbr>քս</abbr>։ զի լցաւ <num value="1000">ռ՟</num> ամ նորա։ զի ահա 
-<lb xml:id="l101765491" n="9" resp="#u281"/>հայոց թուականս այսաւր <num value="478">.ն՟հ՟ը՟</num> է։ և 
-<lb xml:id="l101765492" n="10" resp="#u281"/>կալ զառաջինն <num value="552">.շ՟ծ՟բ՟</num>։ և համարեա զառ
-<lb xml:id="l101765493" n="11" resp="#u281" break="no"/>աջինն <num value="1000">.ռ՟</num> ամ և <num value="30">լ՟.</num> և զ<num value="30">լ՟.</num> տուր յառաջ քան 
-<lb xml:id="l101765494" n="12" resp="#u281"/>զմկրտու<abbr>թի</abbr>ն. և զ<num value="1000">ռ՟</num>ն ի մկրտութենէն 
-<lb xml:id="l101765495" n="13" resp="#u281"/>մինչև ցայսաւր։ Ո՛վ որդեակք իմ լալո
-<lb xml:id="l101765496" n="14" resp="#u281" break="no"/>վ ինչ ունիմ ասել ձեզ։ զի վ<abbr>ս</abbr> ա՛յսորիկ եղ
-<lb xml:id="l101765497" n="15" resp="#u281" break="no"/>և պատառումն երկնից։ և ահա զկնի 
-<lb xml:id="l101765498" n="16" resp="#u281"/>այսորիկ. ո՛չ ոք կարասցէ կալ հաստատ
-<lb xml:id="l101765499" n="17" resp="#u281" break="no"/>ուն ի պատուիրանս <abbr>այ</abbr>։ ո՛չ հայրապետ. 
-<lb xml:id="l101765500" n="18" resp="#u281"/>ո՛չ եպիսկոպոս. ո՛չ քահանայ. ո՛չ կրաւնա
-<lb xml:id="l101765501" n="19" resp="#u281" break="no"/>ւոր. ո՛չ իշխան։ և իշխանք յարենան ի գո՛ղս 
+<lb xml:id="l101758759" facs="#z101758759" n="1" resp="#u281" break="no"/>ցաւ ի կապանաց. ըստ տեսլեանն <abbr>սբ</abbr> աւ
+<lb xml:id="l101765502" facs="#z101765502" n="2" resp="#u281" break="no"/>ետարանչին յոհաննու։ որ ասաց ցնա 
+<lb xml:id="l101765503" facs="#z101765503" n="3" resp="#u281"/>հրեշտակն <abbr>տն</abbr>. թէ <num value="1000">ռ՟</num> ամ կապեսցի բանս 
+<lb xml:id="l101765486" facs="#z101765486" n="4" resp="#u281"/>արկուն սատանայ. և դարձեալ արձակե
+<lb xml:id="l101765487" facs="#z101765487" n="5" resp="#u281" break="no"/>սցի ի կապանացն։ որդեակք իմ ահա այ
+<lb xml:id="l101765504" facs="#z101765504" n="6" resp="#u281" break="no"/>սաւր. արձակեցաւ սատանայ ի վերայ 
+<lb xml:id="l101765489" facs="#z101765489" n="7" resp="#u281"/>արա*ածոցս զոր մկրտու<abbr>թբ</abbr>ն իւր ով կա
+<lb xml:id="l101765490" facs="#z101765490" n="8" resp="#u281" break="no"/>պեաց <abbr>քս</abbr>։ զի լցաւ <num value="1000">ռ՟</num> ամ նորա։ զի ահա 
+<lb xml:id="l101765491" facs="#z101765491" n="9" resp="#u281"/>հայոց թուականս այսաւր <num value="478">.ն՟հ՟ը՟</num> է։ և 
+<lb xml:id="l101765492" facs="#z101765492" n="10" resp="#u281"/>կալ զառաջինն <num value="552">.շ՟ծ՟բ՟</num>։ և համարեա զառ
+<lb xml:id="l101765493" facs="#z101765493" n="11" resp="#u281" break="no"/>աջինն <num value="1000">.ռ՟</num> ամ և <num value="30">լ՟.</num> և զ<num value="30">լ՟.</num> տուր յառաջ քան 
+<lb xml:id="l101765494" facs="#z101765494" n="12" resp="#u281"/>զմկրտու<abbr>թի</abbr>ն. և զ<num value="1000">ռ՟</num>ն ի մկրտութենէն 
+<lb xml:id="l101765495" facs="#z101765495" n="13" resp="#u281"/>մինչև ցայսաւր։ Ո՛վ որդեակք իմ լալո
+<lb xml:id="l101765496" facs="#z101765496" n="14" resp="#u281" break="no"/>վ ինչ ունիմ ասել ձեզ։ զի վ<abbr>ս</abbr> ա՛յսորիկ եղ
+<lb xml:id="l101765497" facs="#z101765497" n="15" resp="#u281" break="no"/>և պատառումն երկնից։ և ահա զկնի 
+<lb xml:id="l101765498" facs="#z101765498" n="16" resp="#u281"/>այսորիկ. ո՛չ ոք կարասցէ կալ հաստատ
+<lb xml:id="l101765499" facs="#z101765499" n="17" resp="#u281" break="no"/>ուն ի պատուիրանս <abbr>այ</abbr>։ ո՛չ հայրապետ. 
+<lb xml:id="l101765500" facs="#z101765500" n="18" resp="#u281"/>ո՛չ եպիսկոպոս. ո՛չ քահանայ. ո՛չ կրաւնա
+<lb xml:id="l101765501" facs="#z101765501" n="19" resp="#u281" break="no"/>ւոր. ո՛չ իշխան։ և իշխանք յարենան ի գո՛ղս 
 <cb n="2"/>
-<lb xml:id="l101765483" n="1" resp="#u281"/>և յանիրաւ դատաստանս։ կրաւնաւո
-<lb xml:id="l101765505" n="2" resp="#u281" break="no"/>րքն թողու՛ն զանապատսն և յաշխարհի 
-<lb xml:id="l101765506" n="3" resp="#u281"/>յարենան. և ատեն զկարգ կրաւնաւորու
-<lb xml:id="l101765507" n="4" resp="#u281" break="no"/><abbr>թե</abbr> իւրեանց. և սիրեն զցանկու<abbr>թի</abbr> պի
-<lb xml:id="l101765508" n="5" resp="#u281" break="no"/>ղծ կանանց։ Որդեակք իմ ահա յայսմհե
-<lb xml:id="l101765509" n="6" resp="#u281" break="no"/>տէ յ<abbr>ամ</abbr> արարածոցս խափանեսցի փա
-<lb xml:id="l101765510" n="7" resp="#u281" break="no"/>ռաբանու<abbr>թի</abbr>ն <abbr>այ</abbr>։ և դարձցին յետս ի ճշ
-<lb xml:id="l101765511" n="8" resp="#u281" break="no"/>մարտութէնէն։ և մոլորի՛ն աշխարհս 
-<lb xml:id="l101765512" n="9" resp="#u281"/>զհետերգոց դիւա<del rend="erase">յ</del>կանաց. և ատեն զա
-<lb xml:id="l101765513" n="10" resp="#u281" break="no"/>ղաւթս <abbr>այ</abbr>։ և իշխանքն պիղծ ախտիւ յա
-<lb xml:id="l101765514" n="11" resp="#u281" break="no"/>նդգնեալ մոլորին. միշտ և հանապազ ի գի
-<lb xml:id="l101765515" n="12" resp="#u281" break="no"/>նարբուսն մոլորեալ դեգերին. վ<abbr>ս</abbr> սիրոյ 
-<lb xml:id="l101765516" n="13" resp="#u281"/>և չար ախտին։ հայրապետք. և եպիսկո
-<lb xml:id="l101765517" n="14" resp="#u281" break="no"/>պոսք. և քահանայք. և կրաւնաւորք. լի
-<lb xml:id="l101765518" n="15" resp="#u281" break="no"/>նին արծաթասէ՛րք առաւել քան <abbr>ած</abbr>ա
-<lb xml:id="l101765519" n="16" resp="#u281" break="no"/>սէրք։ Որդեակք իմ ահա յայսմհետէ. սա
-<lb xml:id="l101765520" n="17" resp="#u281" break="no"/>տանայի կամքն առաւե՛լ ևս կատարես
-<lb xml:id="l101765940" n="18" resp="#u281" break="no"/>ցին յորդիս մարդկան քան <abbr>այ</abbr>ն։ և ի ձեռն 
-<lb xml:id="l101765941" n="19" resp="#u281"/>անարժան պատարագին որ յայսմ հետէ 
+<lb xml:id="l101765483" facs="#z101765483" n="1" resp="#u281"/>և յանիրաւ դատաստանս։ կրաւնաւո
+<lb xml:id="l101765505" facs="#z101765505" n="2" resp="#u281" break="no"/>րքն թողու՛ն զանապատսն և յաշխարհի 
+<lb xml:id="l101765506" facs="#z101765506" n="3" resp="#u281"/>յարենան. և ատեն զկարգ կրաւնաւորու
+<lb xml:id="l101765507" facs="#z101765507" n="4" resp="#u281" break="no"/><abbr>թե</abbr> իւրեանց. և սիրեն զցանկու<abbr>թի</abbr> պի
+<lb xml:id="l101765508" facs="#z101765508" n="5" resp="#u281" break="no"/>ղծ կանանց։ Որդեակք իմ ահա յայսմհե
+<lb xml:id="l101765509" facs="#z101765509" n="6" resp="#u281" break="no"/>տէ յ<abbr>ամ</abbr> արարածոցս խափանեսցի փա
+<lb xml:id="l101765510" facs="#z101765510" n="7" resp="#u281" break="no"/>ռաբանու<abbr>թի</abbr>ն <abbr>այ</abbr>։ և դարձցին յետս ի ճշ
+<lb xml:id="l101765511" facs="#z101765511" n="8" resp="#u281" break="no"/>մարտութէնէն։ և մոլորի՛ն աշխարհս 
+<lb xml:id="l101765512" facs="#z101765512" n="9" resp="#u281"/>զհետերգոց դիւա<del rend="erase">յ</del>կանաց. և ատեն զա
+<lb xml:id="l101765513" facs="#z101765513" n="10" resp="#u281" break="no"/>ղաւթս <abbr>այ</abbr>։ և իշխանքն պիղծ ախտիւ յա
+<lb xml:id="l101765514" facs="#z101765514" n="11" resp="#u281" break="no"/>նդգնեալ մոլորին. միշտ և հանապազ ի գի
+<lb xml:id="l101765515" facs="#z101765515" n="12" resp="#u281" break="no"/>նարբուսն մոլորեալ դեգերին. վ<abbr>ս</abbr> սիրոյ 
+<lb xml:id="l101765516" facs="#z101765516" n="13" resp="#u281"/>և չար ախտին։ հայրապետք. և եպիսկո
+<lb xml:id="l101765517" facs="#z101765517" n="14" resp="#u281" break="no"/>պոսք. և քահանայք. և կրաւնաւորք. լի
+<lb xml:id="l101765518" facs="#z101765518" n="15" resp="#u281" break="no"/>նին արծաթասէ՛րք առաւել քան <abbr>ած</abbr>ա
+<lb xml:id="l101765519" facs="#z101765519" n="16" resp="#u281" break="no"/>սէրք։ Որդեակք իմ ահա յայսմհետէ. սա
+<lb xml:id="l101765520" facs="#z101765520" n="17" resp="#u281" break="no"/>տանայի կամքն առաւե՛լ ևս կատարես
+<lb xml:id="l101765940" facs="#z101765940" n="18" resp="#u281" break="no"/>ցին յորդիս մարդկան քան <abbr>այ</abbr>ն։ և ի ձեռն 
+<lb xml:id="l101765941" facs="#z101765941" n="19" resp="#u281"/>անարժան պատարագին որ յայսմ հետէ 
 <pb n="bzan00430_296r_295v.jpg"/>
 <cb n="1"/>
-<lb xml:id="l101758758" n="1" resp="#u281"/>լինելոց է. բարկանայ <abbr>ած</abbr> ի վերայ արա
-<lb xml:id="l101765527" n="2" resp="#u281" break="no"/>րածոց. ևս առաւել ի վերայ մատուցող
-<lb xml:id="l101765528" n="3" resp="#u281" break="no"/>ի<add place="above">ն</add> զնա։ վ<abbr>ս</abbr> զի ահա յանարժանից պատա
-<lb xml:id="l101765529" n="4" resp="#u281" break="no"/>րագ<damage>ե</damage>լո՛ց է <abbr>քս</abbr> և յանարժանս բաշխի։ և 
-<lb xml:id="l101765530" n="5" resp="#u281"/>ա<damage>ռ</damage>աւել վիրաւորել<damage>ո</damage>՛ց է <abbr>քս</abbr> յանարժա՛
-<lb xml:id="l101765531" n="6" resp="#u281" break="no"/>ն <damage>ք</damage>ահանայից։ Եւ արդ՝ որդեակք իմ զա
-<lb xml:id="l101765532" n="7" resp="#u281" break="no"/>յս պատուիրեմ ձեզ հառաչանաւք 
-<lb xml:id="l101765533" n="8" resp="#u281"/>սրտիւ և լալով և ողբալով։ վ<abbr>ս</abbr> զի քակի
-<lb xml:id="l101765534" n="9" resp="#u281" break="no"/>ն բազումք <damage>ի հ</damage>աւատոց և պարծանաւք 
-<lb xml:id="l101765535" n="10" resp="#u281"/>ուրանա՛ն զ<abbr>քս</abbr>։ <abbr>վս</abbr> այնորիկ խաւա՛ր կա
-<lb xml:id="l101765536" n="11" resp="#u281" break="no"/>լաւ զ<abbr>ամ</abbr> արարածս։ զայս. ա՛յսպէս խա
-<lb xml:id="l101765537" n="12" resp="#u281" break="no"/>ւսեցաւ <abbr>սբ</abbr> վարդապետն յոհանէս վ<abbr>ս</abbr> 
-<lb xml:id="l101765538" n="13" resp="#u281"/>կատարածի նշանին։ և ա՛յլ ինչ ճառեա
-<lb xml:id="l101765539" n="14" resp="#u281" break="no"/>ց որ կատարելո՛ց է ի վերայ հաւատացե
-<lb xml:id="l101765540" n="15" resp="#u281" break="no"/>լոց։ և զոր ասաց <abbr>ամ</abbr> կատարեցաւ մի առ 
-<lb xml:id="l101765541" n="16" resp="#u281"/>մի. յելիցն կատաղի ազգին թուրքաց. 
-<lb xml:id="l101765542" n="17" resp="#u1923"/>անաւրէն որդոցն քամայ։ <milestone unit="section" n="485prophecy"/>Եւ դա<damage>ր</damage>ձեալ 
-<lb xml:id="l101765543" n="18" resp="#u1923"/>ի թուականու<abbr>թե</abbr>ս հայոց <num value="485">.ն՟ձ՟ե՟.</num> խաւա
-<lb xml:id="l101765544" n="19" resp="#u281" break="no"/>րեցաւ արեգակն ահաւոր և սոսկալի 
+<lb xml:id="l101758758" facs="#z101758758" n="1" resp="#u281"/>լինելոց է. բարկանայ <abbr>ած</abbr> ի վերայ արա
+<lb xml:id="l101765527" facs="#z101765527" n="2" resp="#u281" break="no"/>րածոց. ևս առաւել ի վերայ մատուցող
+<lb xml:id="l101765528" facs="#z101765528" n="3" resp="#u281" break="no"/>ի<add place="above">ն</add> զնա։ վ<abbr>ս</abbr> զի ահա յանարժանից պատա
+<lb xml:id="l101765529" facs="#z101765529" n="4" resp="#u281" break="no"/>րագ<damage>ե</damage>լո՛ց է <abbr>քս</abbr> և յանարժանս բաշխի։ և 
+<lb xml:id="l101765530" facs="#z101765530" n="5" resp="#u281"/>ա<damage>ռ</damage>աւել վիրաւորել<damage>ո</damage>՛ց է <abbr>քս</abbr> յանարժա՛
+<lb xml:id="l101765531" facs="#z101765531" n="6" resp="#u281" break="no"/>ն <damage>ք</damage>ահանայից։ Եւ արդ՝ որդեակք իմ զա
+<lb xml:id="l101765532" facs="#z101765532" n="7" resp="#u281" break="no"/>յս պատուիրեմ ձեզ հառաչանաւք 
+<lb xml:id="l101765533" facs="#z101765533" n="8" resp="#u281"/>սրտիւ և լալով և ողբալով։ վ<abbr>ս</abbr> զի քակի
+<lb xml:id="l101765534" facs="#z101765534" n="9" resp="#u281" break="no"/>ն բազումք <damage>ի հ</damage>աւատոց և պարծանաւք 
+<lb xml:id="l101765535" facs="#z101765535" n="10" resp="#u281"/>ուրանա՛ն զ<abbr>քս</abbr>։ <abbr>վս</abbr> այնորիկ խաւա՛ր կա
+<lb xml:id="l101765536" facs="#z101765536" n="11" resp="#u281" break="no"/>լաւ զ<abbr>ամ</abbr> արարածս։ զայս. ա՛յսպէս խա
+<lb xml:id="l101765537" facs="#z101765537" n="12" resp="#u281" break="no"/>ւսեցաւ <abbr>սբ</abbr> վարդապետն յոհանէս վ<abbr>ս</abbr> 
+<lb xml:id="l101765538" facs="#z101765538" n="13" resp="#u281"/>կատարածի նշանին։ և ա՛յլ ինչ ճառեա
+<lb xml:id="l101765539" facs="#z101765539" n="14" resp="#u281" break="no"/>ց որ կատարելո՛ց է ի վերայ հաւատացե
+<lb xml:id="l101765540" facs="#z101765540" n="15" resp="#u281" break="no"/>լոց։ և զոր ասաց <abbr>ամ</abbr> կատարեցաւ մի առ 
+<lb xml:id="l101765541" facs="#z101765541" n="16" resp="#u281"/>մի. յելիցն կատաղի ազգին թուրքաց. 
+<lb xml:id="l101765542" facs="#z101765542" n="17" resp="#u1923"/>անաւրէն որդոցն քամայ։ <milestone unit="section" n="485prophecy"/>Եւ դա<damage>ր</damage>ձեալ 
+<lb xml:id="l101765543" facs="#z101765543" n="18" resp="#u1923"/>ի թուականու<abbr>թե</abbr>ս հայոց <num value="485">.ն՟ձ՟ե՟.</num> խաւա
+<lb xml:id="l101765544" facs="#z101765544" n="19" resp="#u281" break="no"/>րեցաւ արեգակն ահաւոր և սոսկալի 
 <cb n="2"/>
-<lb xml:id="l101765525" n="1" resp="#u281"/>տեսլեամբ։ զի զոր աւրինակ խաւարե
-<lb xml:id="l101765545" n="2" resp="#u281" break="no"/>ցաւ ի խաչելու<abbr>թե</abbr>ն <abbr>քի</abbr>. նոյն աւրինակ
-<lb xml:id="l101765546" n="3" resp="#u281" break="no"/>աւ ծածկեաց զլոյս իւր արեգակն և խա
-<lb xml:id="l101765547" n="4" resp="#u281" break="no"/>ւարեցաւ։ և լ<damage>ուս</damage>աւորք երկնից ի մու՛
-<lb xml:id="l101765548" n="5" resp="#u281" break="no"/>թն և ի սև՛ դարձան։ և <abbr>ամ</abbr> երկինքն իբրև 
-<lb xml:id="l101765549" n="6" resp="#u281"/>զկամար կապեցան <damage>ա</damage>ռ հասարակ խա
-<lb xml:id="l101765550" n="7" resp="#u281" break="no"/>ւարաւն։ և եղև սև՛ արեգակն ի մեջաւ
-<lb xml:id="l101765551" n="8" resp="#u281" break="no"/>րէի։ և <abbr>ամ</abbr> աստեղքն երևէին առ հասա
-<lb xml:id="l101765552" n="9" resp="#u281" break="no"/>րակ որպէս ի մեջ գիշերի. և սաստկաց
-<lb xml:id="l101765553" n="10" resp="#u281" break="no"/>ա՛ւ խաւարն և մութն <damage>և</damage> գոչեաց առ հա
-<lb xml:id="l101765554" n="11" resp="#u281" break="no"/>սարակ <abbr>ամ</abbr> արարածք։ և հնչեցին լերին
-<lb xml:id="l101765555" n="12" resp="#u281" break="no"/>ք և բլ<damage>ուր</damage>ք. և դողաց սասանելով լերինք 
-<lb xml:id="l101765556" n="13" resp="#u281"/>և բլուրք և ապառաժք առ հասարակ։ 
-<lb xml:id="l101765557" n="14" resp="#u281"/>և էրէրալով և ծփելով ծփայր ծովն ով
-<lb xml:id="l101765558" n="15" resp="#u281" break="no"/>կիանոս. և սու՛գ առեալ լա՛յր զորդիս 
-<lb xml:id="l101765559" n="16" resp="#u281"/>մարդկան։ Եւ եղև ի տեսանել զայս <abbr>ամ</abbr> 
-<lb xml:id="l101765560" n="17" resp="#u281"/>որդոց մարդկան. ահաբեկեալ լինէին 
-<lb xml:id="l101765561" n="18" resp="#u281"/>որպէս զմեռեալս յերկեղէն։ Յայնժամ 
-<lb xml:id="l101765562" n="19" resp="#u281"/>լա՛յր որդի առ հայր. լայր և հայր ի վե<add place="above">ր</add>այ 
+<lb xml:id="l101765525" facs="#z101765525" n="1" resp="#u281"/>տեսլեամբ։ զի զոր աւրինակ խաւարե
+<lb xml:id="l101765545" facs="#z101765545" n="2" resp="#u281" break="no"/>ցաւ ի խաչելու<abbr>թե</abbr>ն <abbr>քի</abbr>. նոյն աւրինակ
+<lb xml:id="l101765546" facs="#z101765546" n="3" resp="#u281" break="no"/>աւ ծածկեաց զլոյս իւր արեգակն և խա
+<lb xml:id="l101765547" facs="#z101765547" n="4" resp="#u281" break="no"/>ւարեցաւ։ և լ<damage>ուս</damage>աւորք երկնից ի մու՛
+<lb xml:id="l101765548" facs="#z101765548" n="5" resp="#u281" break="no"/>թն և ի սև՛ դարձան։ և <abbr>ամ</abbr> երկինքն իբրև 
+<lb xml:id="l101765549" facs="#z101765549" n="6" resp="#u281"/>զկամար կապեցան <damage>ա</damage>ռ հասարակ խա
+<lb xml:id="l101765550" facs="#z101765550" n="7" resp="#u281" break="no"/>ւարաւն։ և եղև սև՛ արեգակն ի մեջաւ
+<lb xml:id="l101765551" facs="#z101765551" n="8" resp="#u281" break="no"/>րէի։ և <abbr>ամ</abbr> աստեղքն երևէին առ հասա
+<lb xml:id="l101765552" facs="#z101765552" n="9" resp="#u281" break="no"/>րակ որպէս ի մեջ գիշերի. և սաստկաց
+<lb xml:id="l101765553" facs="#z101765553" n="10" resp="#u281" break="no"/>ա՛ւ խաւարն և մութն <damage>և</damage> գոչեաց առ հա
+<lb xml:id="l101765554" facs="#z101765554" n="11" resp="#u281" break="no"/>սարակ <abbr>ամ</abbr> արարածք։ և հնչեցին լերին
+<lb xml:id="l101765555" facs="#z101765555" n="12" resp="#u281" break="no"/>ք և բլ<damage>ուր</damage>ք. և դողաց սասանելով լերինք 
+<lb xml:id="l101765556" facs="#z101765556" n="13" resp="#u281"/>և բլուրք և ապառաժք առ հասարակ։ 
+<lb xml:id="l101765557" facs="#z101765557" n="14" resp="#u281"/>և էրէրալով և ծփելով ծփայր ծովն ով
+<lb xml:id="l101765558" facs="#z101765558" n="15" resp="#u281" break="no"/>կիանոս. և սու՛գ առեալ լա՛յր զորդիս 
+<lb xml:id="l101765559" facs="#z101765559" n="16" resp="#u281"/>մարդկան։ Եւ եղև ի տեսանել զայս <abbr>ամ</abbr> 
+<lb xml:id="l101765560" facs="#z101765560" n="17" resp="#u281"/>որդոց մարդկան. ահաբեկեալ լինէին 
+<lb xml:id="l101765561" facs="#z101765561" n="18" resp="#u281"/>որպէս զմեռեալս յերկեղէն։ Յայնժամ 
+<lb xml:id="l101765562" facs="#z101765562" n="19" resp="#u281"/>լա՛յր որդի առ հայր. լայր և հայր ի վե<add place="above">ր</add>այ 
 <pb n="bzan00430_297r_296v.jpg"/>
 <cb n="1"/>
-<lb xml:id="l101758757" n="1" resp="#u281"/>որդոյ իւրոյ։ և տղայքն զարհուրեալք՝ 
-<lb xml:id="l101765904" n="2" resp="#u281"/>անգանէին ի գիրկս մարցն. և մայրքն ա
-<lb xml:id="l101765905" n="3" resp="#u281" break="no"/>ղե խարշեալք սաստիկ այրմամբ որպե
-<lb xml:id="l101765906" n="4" resp="#u281" break="no"/>ս հրով լային զորդիս իւրեանց։ և ա՛յսպէ
-<lb xml:id="l101765907" n="5" resp="#u281" break="no"/>ս ահաբեկեալ կային <abbr>ամ</abbr> մարդկային բը
-<lb xml:id="l101765908" n="6" resp="#u281" break="no"/>նու<abbr>թի</abbr>ս. և ե՛լս իրացն ոչ կարէին գտանե
-<lb xml:id="l101765909" n="7" resp="#u281" break="no"/>լ. լուր ընդ սոսկալի ձայնն զարհուրեալ 
-<lb xml:id="l101765910" n="8" resp="#u281"/>հիանային առ հասարակ։ Յայնժամ 
-<lb xml:id="l101765911" n="9" resp="#u281"/>տէր պետրոս կաթողիկոսն. և թ<abbr>ագ</abbr>ն հա
-<lb xml:id="l101765912" n="10" resp="#u281" break="no"/>յոց յովանէս. յուղարկեալ արք փառ<add place="above">աւ</add>որք 
-<lb xml:id="l101765913" n="11" resp="#u281"/>և պատուականք. առ <abbr>սբ</abbr> վարդապետն 
-<lb xml:id="l101765914" n="12" resp="#u281"/>յոհանէս որ կոչի կոզեռն. զի ի նմանէ գի
-<lb xml:id="l101765915" n="13" resp="#u281" break="no"/>տասցեն զմեկնու<abbr>թի</abbr> մեծի նշանին։ <abbr>վս</abbr> 
-<lb xml:id="l101765916" n="14" resp="#u281"/>զի էր այր <abbr>սբ</abbr> և սքանչելի ճգնու<abbr>թբ</abbr> զարդ
-<lb xml:id="l101765917" n="15" resp="#u281" break="no"/>արեալ։ և էր մեկնիչ հին և նոր կտակարա
-<lb xml:id="l101765918" n="16" resp="#u281" break="no"/>նացն <abbr>այ</abbr>։ և լցեալ վարդապետական շն<damage>ո</damage>ր
-<lb xml:id="l101765919" n="17" resp="#u281" break="no"/>հաւք։ Իսկ ո<damage>ր<supplied>ք</supplied></damage> եկին առ <abbr>սբ</abbr> վարդապետ
-<lb xml:id="l101765920" n="18" resp="#u281" break="no"/>ն հայոց յոհանէս։ գրիգոր մագիստրոսն. 
-<lb xml:id="l101765921" n="19" resp="#u281"/>որդին վասակայ։ և մեծն սարգիս հայկազ<add place="above">ն։</add> 
+<lb xml:id="l101758757" facs="#z101758757" n="1" resp="#u281"/>որդոյ իւրոյ։ և տղայքն զարհուրեալք՝ 
+<lb xml:id="l101765904" facs="#z101765904" n="2" resp="#u281"/>անգանէին ի գիրկս մարցն. և մայրքն ա
+<lb xml:id="l101765905" facs="#z101765905" n="3" resp="#u281" break="no"/>ղե խարշեալք սաստիկ այրմամբ որպե
+<lb xml:id="l101765906" facs="#z101765906" n="4" resp="#u281" break="no"/>ս հրով լային զորդիս իւրեանց։ և ա՛յսպէ
+<lb xml:id="l101765907" facs="#z101765907" n="5" resp="#u281" break="no"/>ս ահաբեկեալ կային <abbr>ամ</abbr> մարդկային բը
+<lb xml:id="l101765908" facs="#z101765908" n="6" resp="#u281" break="no"/>նու<abbr>թի</abbr>ս. և ե՛լս իրացն ոչ կարէին գտանե
+<lb xml:id="l101765909" facs="#z101765909" n="7" resp="#u281" break="no"/>լ. լուր ընդ սոսկալի ձայնն զարհուրեալ 
+<lb xml:id="l101765910" facs="#z101765910" n="8" resp="#u281"/>հիանային առ հասարակ։ Յայնժամ 
+<lb xml:id="l101765911" facs="#z101765911" n="9" resp="#u281"/>տէր պետրոս կաթողիկոսն. և թ<abbr>ագ</abbr>ն հա
+<lb xml:id="l101765912" facs="#z101765912" n="10" resp="#u281" break="no"/>յոց յովանէս. յուղարկեալ արք փառ<add place="above">աւ</add>որք 
+<lb xml:id="l101765913" facs="#z101765913" n="11" resp="#u281"/>և պատուականք. առ <abbr>սբ</abbr> վարդապետն 
+<lb xml:id="l101765914" facs="#z101765914" n="12" resp="#u281"/>յոհանէս որ կոչի կոզեռն. զի ի նմանէ գի
+<lb xml:id="l101765915" facs="#z101765915" n="13" resp="#u281" break="no"/>տասցեն զմեկնու<abbr>թի</abbr> մեծի նշանին։ <abbr>վս</abbr> 
+<lb xml:id="l101765916" facs="#z101765916" n="14" resp="#u281"/>զի էր այր <abbr>սբ</abbr> և սքանչելի ճգնու<abbr>թբ</abbr> զարդ
+<lb xml:id="l101765917" facs="#z101765917" n="15" resp="#u281" break="no"/>արեալ։ և էր մեկնիչ հին և նոր կտակարա
+<lb xml:id="l101765918" facs="#z101765918" n="16" resp="#u281" break="no"/>նացն <abbr>այ</abbr>։ և լցեալ վարդապետական շն<damage>ո</damage>ր
+<lb xml:id="l101765919" facs="#z101765919" n="17" resp="#u281" break="no"/>հաւք։ Իսկ ո<damage>ր<supplied>ք</supplied></damage> եկին առ <abbr>սբ</abbr> վարդապետ
+<lb xml:id="l101765920" facs="#z101765920" n="18" resp="#u281" break="no"/>ն հայոց յոհանէս։ գրիգոր մագիստրոսն. 
+<lb xml:id="l101765921" facs="#z101765921" n="19" resp="#u281"/>որդին վասակայ։ և մեծն սարգիս հայկազ<add place="above">ն։</add> 
 <cb n="2"/>
-<lb xml:id="l101765903" n="1" resp="#u281"/>և ա՛յլք յազատացն հայոց. և ի քահանա
-<lb xml:id="l101765922" n="2" resp="#u281" break="no"/>յից։ զի զերկրորդ ահաւոր նշանն գիտաս
-<lb xml:id="l101765923" n="3" resp="#u281" break="no"/>ցեն։ և իբրև էկին առ <abbr>սբ</abbr> վարդապետն. գը
-<lb xml:id="l101765924" n="4" resp="#u281" break="no"/>տին զնա զի անգեալ կայր ի վեր<damage>այ</damage> երես
-<lb xml:id="l101765925" n="5" resp="#u281" break="no"/>աց իւրոց ի յերկ<damage>իր</damage>. ի խո՛ր տրտմու<abbr><damage>թ</damage>ե</abbr>. և 
-<lb xml:id="l101765926" n="6" resp="#u281"/>թացեա՛լ էր արտասուաւք զգետինն ի սաս
-<lb xml:id="l101765927" n="7" resp="#u281" break="no"/>տիկ լալոյն և ի դառն հառաչանացն որ ե
-<lb xml:id="l101765928" n="8" resp="#u281" break="no"/>լանէր ի բերանոյ նորա։ և ո՛չ ոք իշխէր հա
-<lb xml:id="l101765929" n="9" resp="#u281" break="no"/>րցանել ցնա ինչ։ <abbr>վս</abbr> զի տեսանէին զնա ի 
-<lb xml:id="l101765930" n="10" resp="#u281"/>խո՛րս տրտմութիւնս և յահագին սուքս. որ 
-<lb xml:id="l101765931" n="11" resp="#u281"/>և անդադա՛ր հեղոյր զարտասուսն և կոծէ
-<lb xml:id="l101765932" n="12" resp="#u281" break="no"/>ր զկուրծսն իւր։ Յայնժամ նստ<damage>ան</damage> իշխա
-<lb xml:id="l101765933" n="13" resp="#u281" break="no"/>նքն հայոց մերձ ի <abbr>սբ</abbr> վ<abbr>արդ</abbr> յոհանէս մին
-<lb xml:id="l101765934" n="14" resp="#u281" break="no"/>չև ցվեց ժամ աւուրն. և ո՛չ համարձակե
-<lb xml:id="l101765935" n="15" resp="#u281" break="no"/>ցան հարցանել ցնա։և ապա փառաւորն 
-<lb xml:id="l101765936" n="16" resp="#u281"/>սարգիս. սկսաւ խաւսել և հարցանել <abbr>վս</abbr> 
-<lb xml:id="l101765937" n="17" resp="#u281"/>ահաւո՛ր նշանին. և լային <damage>առ</damage> հասարակ 
-<lb xml:id="l101765938" n="18" resp="#u281"/><abbr>ամ</abbr> եկեալքն առ նա. ոգիք իբրև <abbr>ճի</abbr>։ Յայն
-<lb xml:id="l101765939" n="19" resp="#u281" break="no"/>ժամ իբրև ետես <abbr>սբ</abbr> վ<abbr>արդ</abbr> զողբումն և զ
+<lb xml:id="l101765903" facs="#z101765903" n="1" resp="#u281"/>և ա՛յլք յազատացն հայոց. և ի քահանա
+<lb xml:id="l101765922" facs="#z101765922" n="2" resp="#u281" break="no"/>յից։ զի զերկրորդ ահաւոր նշանն գիտաս
+<lb xml:id="l101765923" facs="#z101765923" n="3" resp="#u281" break="no"/>ցեն։ և իբրև էկին առ <abbr>սբ</abbr> վարդապետն. գը
+<lb xml:id="l101765924" facs="#z101765924" n="4" resp="#u281" break="no"/>տին զնա զի անգեալ կայր ի վեր<damage>այ</damage> երես
+<lb xml:id="l101765925" facs="#z101765925" n="5" resp="#u281" break="no"/>աց իւրոց ի յերկ<damage>իր</damage>. ի խո՛ր տրտմու<abbr><damage>թ</damage>ե</abbr>. և 
+<lb xml:id="l101765926" facs="#z101765926" n="6" resp="#u281"/>թացեա՛լ էր արտասուաւք զգետինն ի սաս
+<lb xml:id="l101765927" facs="#z101765927" n="7" resp="#u281" break="no"/>տիկ լալոյն և ի դառն հառաչանացն որ ե
+<lb xml:id="l101765928" facs="#z101765928" n="8" resp="#u281" break="no"/>լանէր ի բերանոյ նորա։ և ո՛չ ոք իշխէր հա
+<lb xml:id="l101765929" facs="#z101765929" n="9" resp="#u281" break="no"/>րցանել ցնա ինչ։ <abbr>վս</abbr> զի տեսանէին զնա ի 
+<lb xml:id="l101765930" facs="#z101765930" n="10" resp="#u281"/>խո՛րս տրտմութիւնս և յահագին սուքս. որ 
+<lb xml:id="l101765931" facs="#z101765931" n="11" resp="#u281"/>և անդադա՛ր հեղոյր զարտասուսն և կոծէ
+<lb xml:id="l101765932" facs="#z101765932" n="12" resp="#u281" break="no"/>ր զկուրծսն իւր։ Յայնժամ նստ<damage>ան</damage> իշխա
+<lb xml:id="l101765933" facs="#z101765933" n="13" resp="#u281" break="no"/>նքն հայոց մերձ ի <abbr>սբ</abbr> վ<abbr>արդ</abbr> յոհանէս մին
+<lb xml:id="l101765934" facs="#z101765934" n="14" resp="#u281" break="no"/>չև ցվեց ժամ աւուրն. և ո՛չ համարձակե
+<lb xml:id="l101765935" facs="#z101765935" n="15" resp="#u281" break="no"/>ցան հարցանել ցնա։և ապա փառաւորն 
+<lb xml:id="l101765936" facs="#z101765936" n="16" resp="#u281"/>սարգիս. սկսաւ խաւսել և հարցանել <abbr>վս</abbr> 
+<lb xml:id="l101765937" facs="#z101765937" n="17" resp="#u281"/>ահաւո՛ր նշանին. և լային <damage>առ</damage> հասարակ 
+<lb xml:id="l101765938" facs="#z101765938" n="18" resp="#u281"/><abbr>ամ</abbr> եկեալքն առ նա. ոգիք իբրև <abbr>ճի</abbr>։ Յայն
+<lb xml:id="l101765939" facs="#z101765939" n="19" resp="#u281" break="no"/>ժամ իբրև ետես <abbr>սբ</abbr> վ<abbr>արդ</abbr> զողբումն և զ
 <pb n="bzan00430_298r_297v.jpg"/>
 <cb n="1"/>
-<lb xml:id="l101758755" n="1" resp="#u281" break="no"/>հառաչումն եկելոցն առ նա. բացեալ 
-<lb xml:id="l101766232" n="2" resp="#u281"/>զբերան իւր և սկսաւ խ<damage>աւ</damage>սել հառաչ
-<lb xml:id="l101766233" n="3" resp="#u281" break="no"/>անաւք և բազու՛մ արտասուաւք։ և սկ
-<lb xml:id="l101766234" n="4" resp="#u281" break="no"/>սաւ լ<damage>ա</damage>՛լ զ<abbr>ամ</abbr> ազգս հաւատացելոց։ լա՛յ
-<lb xml:id="l101766235" n="5" resp="#u281" break="no"/>ր և զկարգք քահանայ<damage>ու</damage><abbr>թե</abbr> և զեղծումն 
-<lb xml:id="l101766236" n="6" resp="#u281"/><abbr>սբ</abbr> խորհրդոյն։ լայր և զ<abbr>սբ</abbr> եկեղեցի <abbr>այ</abbr> 
-<lb xml:id="l101766237" n="7" resp="#u281"/>և զքակումն <abbr>սբ</abbr> պատուիրանաց նորա 
-<lb xml:id="l101766238" n="8" resp="#u281"/>որ կան յեկեղեցի <abbr>ած</abbr>եղէնք։ Եւ սկսաւ 
-<lb xml:id="l101766239" n="9" resp="#u281"/>ասել ընդ իշխանսն այսպէս։ Ո՛Վ փառ
-<lb xml:id="l101766240" n="10" resp="#u281" break="no"/>աւոր որդիք իմ. լուարու՛ք զբանս զայսո
-<lb xml:id="l101766241" n="11" resp="#u281" break="no"/>սիկ ի վ<damage>իր</damage>աւո՛ր և ի վշտացեալ հաւրէ ձե
-<lb xml:id="l101766242" n="12" resp="#u281" break="no"/>րմէ յովանեսէ. զի այսաւր լցաւ <num value="1000">ռ՟</num> <abbr>ամ</abbr> չար
-<lb xml:id="l101766243" n="13" resp="#u281" break="no"/>չարանաց խաչելու<abbr>թե</abbr>ն <abbr>քի</abbr> և համարձա
-<lb xml:id="l101766244" n="14" resp="#u281" break="no"/>կումն անիրաւ բելիարայ. զոր կապե
-<lb xml:id="l101766245" n="15" resp="#u281" break="no"/>աց փրկիչն ի յորդանան գետ. զոր յառա
-<lb xml:id="l101766246" n="16" resp="#u281" break="no"/>ջին նշանին ցուցաւ մեզ. յառաջ քան 
-<lb xml:id="l101766247" n="17" resp="#u281"/>զչորեքտասան ամ զոր ասացաք. և այ<damage>ժ</damage>մ 
-<lb xml:id="l101766248" n="18" resp="#u281"/>դարձեալ երկրորդեաց։ զի նախ երկի՛նքն 
-<lb xml:id="l101766249" n="19" resp="#u281"/>պատառեցաւ. և երկիրս մթնացաւ. և լու
+<lb xml:id="l101758755" facs="#z101758755" n="1" resp="#u281" break="no"/>հառաչումն եկելոցն առ նա. բացեալ 
+<lb xml:id="l101766232" facs="#z101766232" n="2" resp="#u281"/>զբերան իւր և սկսաւ խ<damage>աւ</damage>սել հառաչ
+<lb xml:id="l101766233" facs="#z101766233" n="3" resp="#u281" break="no"/>անաւք և բազու՛մ արտասուաւք։ և սկ
+<lb xml:id="l101766234" facs="#z101766234" n="4" resp="#u281" break="no"/>սաւ լ<damage>ա</damage>՛լ զ<abbr>ամ</abbr> ազգս հաւատացելոց։ լա՛յ
+<lb xml:id="l101766235" facs="#z101766235" n="5" resp="#u281" break="no"/>ր և զկարգք քահանայ<damage>ու</damage><abbr>թե</abbr> և զեղծումն 
+<lb xml:id="l101766236" facs="#z101766236" n="6" resp="#u281"/><abbr>սբ</abbr> խորհրդոյն։ լայր և զ<abbr>սբ</abbr> եկեղեցի <abbr>այ</abbr> 
+<lb xml:id="l101766237" facs="#z101766237" n="7" resp="#u281"/>և զքակումն <abbr>սբ</abbr> պատուիրանաց նորա 
+<lb xml:id="l101766238" facs="#z101766238" n="8" resp="#u281"/>որ կան յեկեղեցի <abbr>ած</abbr>եղէնք։ Եւ սկսաւ 
+<lb xml:id="l101766239" facs="#z101766239" n="9" resp="#u281"/>ասել ընդ իշխանսն այսպէս։ Ո՛Վ փառ
+<lb xml:id="l101766240" facs="#z101766240" n="10" resp="#u281" break="no"/>աւոր որդիք իմ. լուարու՛ք զբանս զայսո
+<lb xml:id="l101766241" facs="#z101766241" n="11" resp="#u281" break="no"/>սիկ ի վ<damage>իր</damage>աւո՛ր և ի վշտացեալ հաւրէ ձե
+<lb xml:id="l101766242" facs="#z101766242" n="12" resp="#u281" break="no"/>րմէ յովանեսէ. զի այսաւր լցաւ <num value="1000">ռ՟</num> <abbr>ամ</abbr> չար
+<lb xml:id="l101766243" facs="#z101766243" n="13" resp="#u281" break="no"/>չարանաց խաչելու<abbr>թե</abbr>ն <abbr>քի</abbr> և համարձա
+<lb xml:id="l101766244" facs="#z101766244" n="14" resp="#u281" break="no"/>կումն անիրաւ բելիարայ. զոր կապե
+<lb xml:id="l101766245" facs="#z101766245" n="15" resp="#u281" break="no"/>աց փրկիչն ի յորդանան գետ. զոր յառա
+<lb xml:id="l101766246" facs="#z101766246" n="16" resp="#u281" break="no"/>ջին նշանին ցուցաւ մեզ. յառաջ քան 
+<lb xml:id="l101766247" facs="#z101766247" n="17" resp="#u281"/>զչորեքտասան ամ զոր ասացաք. և այ<damage>ժ</damage>մ 
+<lb xml:id="l101766248" facs="#z101766248" n="18" resp="#u281"/>դարձեալ երկրորդեաց։ զի նախ երկի՛նքն 
+<lb xml:id="l101766249" facs="#z101766249" n="19" resp="#u281"/>պատառեցաւ. և երկիրս մթնացաւ. և լու
 <cb n="2"/>
-<lb xml:id="l101766231" n="1" resp="#u281" break="no"/>սաւորքն խաւարեցան յարարածս։ վ<abbr>ս</abbr> 
-<lb xml:id="l101766250" n="2" resp="#u281"/>զի ահա յայսմ հետէ <abbr>ամ</abbr> ազգ հաւատաց
-<lb xml:id="l101766251" n="3" resp="#u281" break="no"/>ելոց <abbr>քի</abbr> ի խաւարի շրջելոց են. զի այսու
-<lb xml:id="l101766252" n="4" resp="#u281" break="no"/>հետև խաւարին կարգք <abbr>սբ</abbr> եկեղեցեաց <abbr>քի</abbr> 
-<lb xml:id="l101766253" n="5" resp="#u281"/>յ<abbr>ամ</abbr> ազգաց հաւատացելոց։ Թուլանա
-<lb xml:id="l101766254" n="6" resp="#u281" break="no"/>ն ի պահոց և յաղաւթից. և պակասի յոյս 
-<lb xml:id="l101766255" n="7" resp="#u281"/>հաւատացելոց. և երկեղ մեծին <abbr>այ</abbr>։ արհա
-<lb xml:id="l101766256" n="8" resp="#u281" break="no"/>մարհի՛ն և բառնան ճշմարիտ հաւատք 
-<lb xml:id="l101766257" n="9" resp="#u281"/>յ<abbr>ամ</abbr> ազգաց։ տկարանա՛յ <abbr>ած</abbr>պաշտու<abbr>թի</abbr>ն. 
-<lb xml:id="l101766258" n="10" resp="#u281"/>և ատեն զպատուիրանս <abbr>այ</abbr>. և արհամար
-<lb xml:id="l101766259" n="11" resp="#u281" break="no"/>հեն զբանս <abbr>սբ</abbr> վարդապետացն. և <gap extent="5"/> <add place="margin" cert="low">արտմ</add>
-<lb xml:id="l101766260" n="12" resp="#u281" break="no"/>նեն և զհրամանս կանոնաց սրբոց հ<damage>այրապե
-<lb xml:id="l101766261" n="13" resp="#u281" break="no"/>տա</damage>ցն։ և այնու բազումք ա<damage>ն</damage>գանին ի 
-<lb xml:id="l101766262" n="14" resp="#u281"/><damage>բ</damage>արձրութենէ հաւատոցն։ ատեն զդրո
-<lb xml:id="l101766263" n="15" resp="#u281" break="no"/>ւնս <abbr>սբ</abbr> եկեղեցոյ. ի ծուլութենէ պահոց 
-<lb xml:id="l101766264" n="16" resp="#u281"/>և աղաւթից. կուրանան յ<abbr>ած</abbr>պաշտու<abbr>թե</abbr>ց։ 
-<lb xml:id="l101766265" n="17" resp="#u281"/>և բազումք մտանեն ընդ լծով ծառայու
-<lb xml:id="l101766266" n="18" resp="#u281" break="no"/><abbr>թե</abbr> անիծից։ վ<abbr>ս</abbr> զի ոչ հաւանին խրատու 
-<lb xml:id="l101766267" n="19" resp="#u281"/><abbr>ած</abbr>եղէն բանիցն սրբոց առաշնորդացն։ 
+<lb xml:id="l101766231" facs="#z101766231" n="1" resp="#u281" break="no"/>սաւորքն խաւարեցան յարարածս։ վ<abbr>ս</abbr> 
+<lb xml:id="l101766250" facs="#z101766250" n="2" resp="#u281"/>զի ահա յայսմ հետէ <abbr>ամ</abbr> ազգ հաւատաց
+<lb xml:id="l101766251" facs="#z101766251" n="3" resp="#u281" break="no"/>ելոց <abbr>քի</abbr> ի խաւարի շրջելոց են. զի այսու
+<lb xml:id="l101766252" facs="#z101766252" n="4" resp="#u281" break="no"/>հետև խաւարին կարգք <abbr>սբ</abbr> եկեղեցեաց <abbr>քի</abbr> 
+<lb xml:id="l101766253" facs="#z101766253" n="5" resp="#u281"/>յ<abbr>ամ</abbr> ազգաց հաւատացելոց։ Թուլանա
+<lb xml:id="l101766254" facs="#z101766254" n="6" resp="#u281" break="no"/>ն ի պահոց և յաղաւթից. և պակասի յոյս 
+<lb xml:id="l101766255" facs="#z101766255" n="7" resp="#u281"/>հաւատացելոց. և երկեղ մեծին <abbr>այ</abbr>։ արհա
+<lb xml:id="l101766256" facs="#z101766256" n="8" resp="#u281" break="no"/>մարհի՛ն և բառնան ճշմարիտ հաւատք 
+<lb xml:id="l101766257" facs="#z101766257" n="9" resp="#u281"/>յ<abbr>ամ</abbr> ազգաց։ տկարանա՛յ <abbr>ած</abbr>պաշտու<abbr>թի</abbr>ն. 
+<lb xml:id="l101766258" facs="#z101766258" n="10" resp="#u281"/>և ատեն զպատուիրանս <abbr>այ</abbr>. և արհամար
+<lb xml:id="l101766259" facs="#z101766259" n="11" resp="#u281" break="no"/>հեն զբանս <abbr>սբ</abbr> վարդապետացն. և <gap extent="5"/> <add place="margin" cert="low">արտմ</add>
+<lb xml:id="l101766260" facs="#z101766260" n="12" resp="#u281" break="no"/>նեն և զհրամանս կանոնաց սրբոց հ<damage>այրապե
+<lb xml:id="l101766261" facs="#z101766261" n="13" resp="#u281" break="no"/>տա</damage>ցն։ և այնու բազումք ա<damage>ն</damage>գանին ի 
+<lb xml:id="l101766262" facs="#z101766262" n="14" resp="#u281"/><damage>բ</damage>արձրութենէ հաւատոցն։ ատեն զդրո
+<lb xml:id="l101766263" facs="#z101766263" n="15" resp="#u281" break="no"/>ւնս <abbr>սբ</abbr> եկեղեցոյ. ի ծուլութենէ պահոց 
+<lb xml:id="l101766264" facs="#z101766264" n="16" resp="#u281"/>և աղաւթից. կուրանան յ<abbr>ած</abbr>պաշտու<abbr>թե</abbr>ց։ 
+<lb xml:id="l101766265" facs="#z101766265" n="17" resp="#u281"/>և բազումք մտանեն ընդ լծով ծառայու
+<lb xml:id="l101766266" facs="#z101766266" n="18" resp="#u281" break="no"/><abbr>թե</abbr> անիծից։ վ<abbr>ս</abbr> զի ոչ հաւանին խրատու 
+<lb xml:id="l101766267" facs="#z101766267" n="19" resp="#u281"/><abbr>ած</abbr>եղէն բանիցն սրբոց առաշնորդացն։ 
 <pb n="bzan00430_299r_298v.jpg"/>
 <cb n="1"/>
-<lb xml:id="l101758754" n="1" resp="#u281"/>որդիք. անիծին ի ծնողաց իւրեանց. ցա
-<lb xml:id="l101766269" n="2" resp="#u281" break="no"/>մաքի՛ գութ սիրոյ բարեկամաց։ և յայսմհե
-<lb xml:id="l101766270" n="3" resp="#u281" break="no"/>տէ բազու՛մ հերձուած մտանեն յեկեղեց
-<lb xml:id="l101766271" n="4" resp="#u281" break="no"/>ի <abbr>այ</abbr> ի ծուլութենէ հայրապետացն։ վ<abbr>ս</abbr> 
-<lb xml:id="l101766272" n="5" resp="#u281"/>զի թուլամորթի՛ն և տկարանան. և հաւ
-<lb xml:id="l101766273" n="6" resp="#u281" break="no"/>ատոյ քննու<abbr>թի</abbr> ոչ առնեն. և կան յիմարե
-<lb xml:id="l101766274" n="7" resp="#u281" break="no"/>ալք։ և յաղագս արծաթսիրու<abbr>թե</abbr>ն թողո
-<lb xml:id="l101766275" n="8" resp="#u281" break="no"/>ւն ի բա՛ց զհաւատն։ և իսկոյն պակասի
-<lb xml:id="l101766276" n="9" resp="#u281" break="no"/>ն աւրհնու<abbr>թի</abbr>ք տանն <abbr>այ</abbr>։ և ա՛հ երկեղ դա
-<lb xml:id="l101766277" n="10" resp="#u281" break="no"/>տաւորին <abbr>այ</abbr>. յաւուրն ահաւորի որ լինե
-<lb xml:id="l101766278" n="11" resp="#u281" break="no"/><damage>լոց է. փ</damage>արատեալ խափանի յ<abbr>ամ</abbr> մտաց։ 
-<lb xml:id="l101766279" n="12" resp="#u281"/>և <damage>մոռանա</damage>ն զհատուցումն արդարոց և մե
-<lb xml:id="l101766280" n="13" resp="#u281" break="no"/>ղաւորաց։ վ<abbr>ս</abbr> զի մեղսասէ՛րք և ցանկասէ՛
-<lb xml:id="l101766281" n="14" resp="#u281" break="no"/>րք լինելոց են ճանապարհաց չարեաց։ 
-<lb xml:id="l101766282" n="15" resp="#u281"/>փափաքանաւք ընթանան ի մեղաւորաց 
-<lb xml:id="l101766283" n="16" resp="#u281"/>ժողովարանն։ և ի թ<abbr>ագ</abbr>ա՛ց և յիշխանա՛ց և 
-<lb xml:id="l101766284" n="17" resp="#u281"/>յառաջնորդաց. ապականելո՛ց է երկի<damage>ր</damage> 
-<lb xml:id="l101766285" n="18" resp="#u281"/>առաջնորդքն և իշխանք լինելոց են կաշ
-<lb xml:id="l101766286" n="19" resp="#u281" break="no"/>առասէրք և ստախաւսք. և ստերդմունք։ 
+<lb xml:id="l101758754" facs="#z101758754" n="1" resp="#u281"/>որդիք. անիծին ի ծնողաց իւրեանց. ցա
+<lb xml:id="l101766269" facs="#z101766269" n="2" resp="#u281" break="no"/>մաքի՛ գութ սիրոյ բարեկամաց։ և յայսմհե
+<lb xml:id="l101766270" facs="#z101766270" n="3" resp="#u281" break="no"/>տէ բազու՛մ հերձուած մտանեն յեկեղեց
+<lb xml:id="l101766271" facs="#z101766271" n="4" resp="#u281" break="no"/>ի <abbr>այ</abbr> ի ծուլութենէ հայրապետացն։ վ<abbr>ս</abbr> 
+<lb xml:id="l101766272" facs="#z101766272" n="5" resp="#u281"/>զի թուլամորթի՛ն և տկարանան. և հաւ
+<lb xml:id="l101766273" facs="#z101766273" n="6" resp="#u281" break="no"/>ատոյ քննու<abbr>թի</abbr> ոչ առնեն. և կան յիմարե
+<lb xml:id="l101766274" facs="#z101766274" n="7" resp="#u281" break="no"/>ալք։ և յաղագս արծաթսիրու<abbr>թե</abbr>ն թողո
+<lb xml:id="l101766275" facs="#z101766275" n="8" resp="#u281" break="no"/>ւն ի բա՛ց զհաւատն։ և իսկոյն պակասի
+<lb xml:id="l101766276" facs="#z101766276" n="9" resp="#u281" break="no"/>ն աւրհնու<abbr>թի</abbr>ք տանն <abbr>այ</abbr>։ և ա՛հ երկեղ դա
+<lb xml:id="l101766277" facs="#z101766277" n="10" resp="#u281" break="no"/>տաւորին <abbr>այ</abbr>. յաւուրն ահաւորի որ լինե
+<lb xml:id="l101766278" facs="#z101766278" n="11" resp="#u281" break="no"/><damage>լոց է. փ</damage>արատեալ խափանի յ<abbr>ամ</abbr> մտաց։ 
+<lb xml:id="l101766279" facs="#z101766279" n="12" resp="#u281"/>և <damage>մոռանա</damage>ն զհատուցումն արդարոց և մե
+<lb xml:id="l101766280" facs="#z101766280" n="13" resp="#u281" break="no"/>ղաւորաց։ վ<abbr>ս</abbr> զի մեղսասէ՛րք և ցանկասէ՛
+<lb xml:id="l101766281" facs="#z101766281" n="14" resp="#u281" break="no"/>րք լինելոց են ճանապարհաց չարեաց։ 
+<lb xml:id="l101766282" facs="#z101766282" n="15" resp="#u281"/>փափաքանաւք ընթանան ի մեղաւորաց 
+<lb xml:id="l101766283" facs="#z101766283" n="16" resp="#u281"/>ժողովարանն։ և ի թ<abbr>ագ</abbr>ա՛ց և յիշխանա՛ց և 
+<lb xml:id="l101766284" facs="#z101766284" n="17" resp="#u281"/>յառաջնորդաց. ապականելո՛ց է երկի<damage>ր</damage> 
+<lb xml:id="l101766285" facs="#z101766285" n="18" resp="#u281"/>առաջնորդքն և իշխանք լինելոց են կաշ
+<lb xml:id="l101766286" facs="#z101766286" n="19" resp="#u281" break="no"/>առասէրք և ստախաւսք. և ստերդմունք։ 
 <cb n="2"/>
-<lb xml:id="l101766268" n="1" resp="#u281"/>և ի ձեռն կաշառացն թիւրե՛ն զդատաստանն 
-<lb xml:id="l101766287" n="2" resp="#u281"/>իրաւանց աղքատ<subst><del rend="cancel">աց</del><add place="margin">ին</add></subst>։ և յաղագս այնորի
-<lb xml:id="l101766288" n="3" resp="#u281" break="no"/>կ առաւե՛լ բարկանայ <abbr>ած</abbr> ի վերայ նոցա։ վ<abbr>ս</abbr> 
-<lb xml:id="l101766289" n="4" resp="#u281"/>զի զիշխանու<abbr>թի</abbr>ն և զառաջնորդու<abbr>թի</abbr>ն ըն
-<lb xml:id="l101766290" n="5" resp="#u281" break="no"/>դ երեսաց վարեն և ոչ ըստ <abbr>այ</abbr>։ տիրել ի վերայ 
-<lb xml:id="l101766291" n="6" resp="#u281"/>վիճակին իշխանաբար. և ո՛չ ահիւն <abbr>այ</abbr> 
-<lb xml:id="l101766292" n="7" resp="#u281"/>հովուել և ուսուցանել։ որպէս պատուի
-<lb xml:id="l101766293" n="8" resp="#u281" break="no"/>րեաց <abbr>սբ</abbr> առաքեալն պաւղոս իշխանք և 
-<lb xml:id="l101766294" n="9" resp="#u281"/>դատաւորք պոռնկասէ՛րք լինին քան <abbr>ած</abbr>
-<lb xml:id="l101766295" n="10" resp="#u281" break="no"/>ասէրք։ ատեցո՛ղք լինին <abbr>սբ</abbr> ամուսնու<abbr>թե</abbr>ն. 
-<lb xml:id="l101766296" n="11" resp="#u281"/>և փակին ընդ պոռնկու<abbr>թե</abbr> ախ<damage extent="5"><supplied>տին և </supplied></damage>սիրեն 
-<lb xml:id="l101766297" n="12" resp="#u281"/>զկորուստ նմանեաց իւրեանց։ և <damage><supplied>մեծա</supplied></damage>րեն 
-<lb xml:id="l101766298" n="13" resp="#u281"/>զմատնիչն և զգողն։ յափշտակեն անիր
-<lb xml:id="l101766299" n="14" resp="#u281" break="no"/><damage>աւ</damage>ու<abbr>թբ</abbr> զաշխատողաց զինչս։ և լինին 
-<lb xml:id="l101766300" n="15" resp="#u281"/>անողո՛րմ ի վերայ ուղիղ դատաստանա
-<lb xml:id="l101766301" n="16" resp="#u281" break="no"/>ցն։ Որդեակք. ահա յայսմհետէ. ի հակա
-<lb xml:id="l101766302" n="17" resp="#u281" break="no"/>ռակութենէ իշխանաց և յառաջնորդա
-<lb xml:id="l101766303" n="18" resp="#u281" break="no"/>ցն. փակելոց են դրունք <damage>ի</damage> եկեղեցեաց. և վե
-<lb xml:id="l101766304" n="19" resp="#u281" break="no"/>րանայ սրբու<abbr>թե</abbr> կարգք յ<abbr>ամ</abbr> եկեղեցեաց։ 
+<lb xml:id="l101766268" facs="#z101766268" n="1" resp="#u281"/>և ի ձեռն կաշառացն թիւրե՛ն զդատաստանն 
+<lb xml:id="l101766287" facs="#z101766287" n="2" resp="#u281"/>իրաւանց աղքատ<subst><del rend="cancel">աց</del><add place="margin">ին</add></subst>։ և յաղագս այնորի
+<lb xml:id="l101766288" facs="#z101766288" n="3" resp="#u281" break="no"/>կ առաւե՛լ բարկանայ <abbr>ած</abbr> ի վերայ նոցա։ վ<abbr>ս</abbr> 
+<lb xml:id="l101766289" facs="#z101766289" n="4" resp="#u281"/>զի զիշխանու<abbr>թի</abbr>ն և զառաջնորդու<abbr>թի</abbr>ն ըն
+<lb xml:id="l101766290" facs="#z101766290" n="5" resp="#u281" break="no"/>դ երեսաց վարեն և ոչ ըստ <abbr>այ</abbr>։ տիրել ի վերայ 
+<lb xml:id="l101766291" facs="#z101766291" n="6" resp="#u281"/>վիճակին իշխանաբար. և ո՛չ ահիւն <abbr>այ</abbr> 
+<lb xml:id="l101766292" facs="#z101766292" n="7" resp="#u281"/>հովուել և ուսուցանել։ որպէս պատուի
+<lb xml:id="l101766293" facs="#z101766293" n="8" resp="#u281" break="no"/>րեաց <abbr>սբ</abbr> առաքեալն պաւղոս իշխանք և 
+<lb xml:id="l101766294" facs="#z101766294" n="9" resp="#u281"/>դատաւորք պոռնկասէ՛րք լինին քան <abbr>ած</abbr>
+<lb xml:id="l101766295" facs="#z101766295" n="10" resp="#u281" break="no"/>ասէրք։ ատեցո՛ղք լինին <abbr>սբ</abbr> ամուսնու<abbr>թե</abbr>ն. 
+<lb xml:id="l101766296" facs="#z101766296" n="11" resp="#u281"/>և փակին ընդ պոռնկու<abbr>թե</abbr> ախ<damage extent="5"><supplied>տին և </supplied></damage>սիրեն 
+<lb xml:id="l101766297" facs="#z101766297" n="12" resp="#u281"/>զկորուստ նմանեաց իւրեանց։ և <damage><supplied>մեծա</supplied></damage>րեն 
+<lb xml:id="l101766298" facs="#z101766298" n="13" resp="#u281"/>զմատնիչն և զգողն։ յափշտակեն անիր
+<lb xml:id="l101766299" facs="#z101766299" n="14" resp="#u281" break="no"/><damage>աւ</damage>ու<abbr>թբ</abbr> զաշխատողաց զինչս։ և լինին 
+<lb xml:id="l101766300" facs="#z101766300" n="15" resp="#u281"/>անողո՛րմ ի վերայ ուղիղ դատաստանա
+<lb xml:id="l101766301" facs="#z101766301" n="16" resp="#u281" break="no"/>ցն։ Որդեակք. ահա յայսմհետէ. ի հակա
+<lb xml:id="l101766302" facs="#z101766302" n="17" resp="#u281" break="no"/>ռակութենէ իշխանաց և յառաջնորդա
+<lb xml:id="l101766303" facs="#z101766303" n="18" resp="#u281" break="no"/>ցն. փակելոց են դրունք <damage>ի</damage> եկեղեցեաց. և վե
+<lb xml:id="l101766304" facs="#z101766304" n="19" resp="#u281" break="no"/>րանայ սրբու<abbr>թե</abbr> կարգք յ<abbr>ամ</abbr> եկեղեցեաց։ 
 <pb n="bzan00430_300r_299v.jpg"/>
 <cb n="1"/>
-<lb xml:id="l101758756" n="1" resp="#u281"/>և յաղագս արծաթսիրու<g ref="#techlig">թե</g> տան ձեռնա
-<lb xml:id="l101766875" n="2" resp="#u281" break="no"/>դրու<abbr>թի</abbr> բազում անարժանից. և զ<abbr>ամ</abbr> պ
-<lb xml:id="l101766876" n="3" resp="#u281" break="no"/>իղծս ածեն ի կարգ քահանայու<abbr>թե</abbr>։ և յա
-<lb xml:id="l101766877" n="4" resp="#u281" break="no"/>յնժամ պատարագի <abbr>քս</abbr> ի ձեռն անարժա
-<lb xml:id="l101766878" n="5" resp="#u281" break="no"/>նից. և բազումք անարժանու<abbr>թբ</abbr> հաղոր
-<lb xml:id="l101766879" n="6" resp="#u281" break="no"/>դին ի նոցանէ։ ո՛չ եթէ ի փրկու<abbr>թի</abbr>. այլ ի դ
-<lb xml:id="l101766880" n="7" resp="#u281" break="no"/>ատապարտու<abbr>թի</abbr> և ի կորուստ հոգոց նո
-<lb xml:id="l101766881" n="8" resp="#u281" break="no"/>ցա։ և ու՛ր ուրեք գտանի ճշմարիտ պա
-<lb xml:id="l101766882" n="9" resp="#u281" break="no"/>տարագաւղ <abbr>քի</abbr> <abbr>սբ</abbr> խորհրդոյն յազգս ազ
-<lb xml:id="l101766883" n="10" resp="#u281" break="no"/>գս։ Որդեակք. զ<abbr>սբ</abbr>սն և զառաքինիսն վի
-<lb xml:id="l101766884" n="11" resp="#u281" break="no"/>րաւ<damage><add place="inline">որ</add></damage>են և ատեն. և զանարատսն դար
-<lb xml:id="l101766885" n="12" resp="#u281" break="no"/>ձուցանեն ի քահանայութենէ և ի չգոյէ 
-<lb xml:id="l101766886" n="13" resp="#u281"/>արծաթոյ ոչ տան զձեռնադրու<abbr>թի</abbr>։ Եւ որ
-<lb xml:id="l101766887" n="14" resp="#u281" break="no"/>պէս յառաջ ասացաք. յառաջ քան զչոր
-<lb xml:id="l101766888" n="15" resp="#u281" break="no"/>եքտասան ամ. ի լինել միւսում նշանին. 
-<lb xml:id="l101766889" n="16" resp="#u281"/>լինելոց են մարդիկ ցանկասէրք. և ախ
-<lb xml:id="l101766890" n="17" resp="#u281" break="no"/>տից փափաքողք։ որոճալով որոճեն <del rend="scribble">զ<gap extent="2"/></del> 
-<lb xml:id="l101766891" n="18" resp="#u281"/>զերգ դիւականս։ կրաւնաւորքն փախչին 
-<lb xml:id="l101766892" n="19" resp="#u281"/>յանապատէն և ատեն զերամս <abbr>սբ</abbr> ճգնա
+<lb xml:id="l101758756" facs="#z101758756" n="1" resp="#u281"/>և յաղագս արծաթսիրու<g ref="#techlig">թե</g> տան ձեռնա
+<lb xml:id="l101766875" facs="#z101766875" n="2" resp="#u281" break="no"/>դրու<abbr>թի</abbr> բազում անարժանից. և զ<abbr>ամ</abbr> պ
+<lb xml:id="l101766876" facs="#z101766876" n="3" resp="#u281" break="no"/>իղծս ածեն ի կարգ քահանայու<abbr>թե</abbr>։ և յա
+<lb xml:id="l101766877" facs="#z101766877" n="4" resp="#u281" break="no"/>յնժամ պատարագի <abbr>քս</abbr> ի ձեռն անարժա
+<lb xml:id="l101766878" facs="#z101766878" n="5" resp="#u281" break="no"/>նից. և բազումք անարժանու<abbr>թբ</abbr> հաղոր
+<lb xml:id="l101766879" facs="#z101766879" n="6" resp="#u281" break="no"/>դին ի նոցանէ։ ո՛չ եթէ ի փրկու<abbr>թի</abbr>. այլ ի դ
+<lb xml:id="l101766880" facs="#z101766880" n="7" resp="#u281" break="no"/>ատապարտու<abbr>թի</abbr> և ի կորուստ հոգոց նո
+<lb xml:id="l101766881" facs="#z101766881" n="8" resp="#u281" break="no"/>ցա։ և ու՛ր ուրեք գտանի ճշմարիտ պա
+<lb xml:id="l101766882" facs="#z101766882" n="9" resp="#u281" break="no"/>տարագաւղ <abbr>քի</abbr> <abbr>սբ</abbr> խորհրդոյն յազգս ազ
+<lb xml:id="l101766883" facs="#z101766883" n="10" resp="#u281" break="no"/>գս։ Որդեակք. զ<abbr>սբ</abbr>սն և զառաքինիսն վի
+<lb xml:id="l101766884" facs="#z101766884" n="11" resp="#u281" break="no"/>րաւ<damage><add place="inline">որ</add></damage>են և ատեն. և զանարատսն դար
+<lb xml:id="l101766885" facs="#z101766885" n="12" resp="#u281" break="no"/>ձուցանեն ի քահանայութենէ և ի չգոյէ 
+<lb xml:id="l101766886" facs="#z101766886" n="13" resp="#u281"/>արծաթոյ ոչ տան զձեռնադրու<abbr>թի</abbr>։ Եւ որ
+<lb xml:id="l101766887" facs="#z101766887" n="14" resp="#u281" break="no"/>պէս յառաջ ասացաք. յառաջ քան զչոր
+<lb xml:id="l101766888" facs="#z101766888" n="15" resp="#u281" break="no"/>եքտասան ամ. ի լինել միւսում նշանին. 
+<lb xml:id="l101766889" facs="#z101766889" n="16" resp="#u281"/>լինելոց են մարդիկ ցանկասէրք. և ախ
+<lb xml:id="l101766890" facs="#z101766890" n="17" resp="#u281" break="no"/>տից փափաքողք։ որոճալով որոճեն <del rend="scribble">զ<gap extent="2"/></del> 
+<lb xml:id="l101766891" facs="#z101766891" n="18" resp="#u281"/>զերգ դիւականս։ կրաւնաւորքն փախչին 
+<lb xml:id="l101766892" facs="#z101766892" n="19" resp="#u281"/>յանապատէն և ատեն զերամս <abbr>սբ</abbr> ճգնա
 <cb n="2"/>
-<lb xml:id="l101766874" n="1" resp="#u281" break="no"/>ւորացն։ և <add place="above">ը</add>զվարս առաջին կրաւնաւո
-<lb xml:id="l101766893" n="2" resp="#u281" break="no"/>րացն անարգեն. և լինին խանգարիչք կա
-<lb xml:id="l101766894" n="3" resp="#u281" break="no"/>րգաց և կրաւնից. և փախչին ի ձայնէ սա
-<lb xml:id="l101766895" n="4" resp="#u281" break="no"/>ղմոսերգու<abbr>թե</abbr>ցն <abbr>այ</abbr>։ Որդեակք. այս <abbr>ամ</abbr> 
-<lb xml:id="l101766896" n="5" resp="#u281"/>լինելոց էն յազգս ազգս։ յղփանան և ա
-<lb xml:id="l101766897" n="6" resp="#u281" break="no"/>ռաջնորդքն աշխարհի արծաթսիրու
-<lb xml:id="l101766898" n="7" resp="#u281" break="no"/><abbr>թբ</abbr>. և զ<abbr>ամ</abbr> անգեալսն և զորոշեալսն ի շնո
-<lb xml:id="l101766899" n="8" resp="#u281" break="no"/>րհաց որդոյն <abbr>այ</abbr>. յառա՛ջ կոչեն և ածեն ի 
-<lb xml:id="l101766900" n="9" resp="#u281"/>կարգ քահանայու<abbr>թե</abbr>։ և զ<abbr>ամ</abbr> մերժեալս. 
-<lb xml:id="l101766901" n="10" resp="#u281"/>գլուխ և առաջնորդ կացուցանեն ի վե
-<lb xml:id="l101766902" n="11" resp="#u281" break="no"/>րայ ժողովրդեանն <abbr>այ</abbr>. և ո՛չ գիտեն զինչ գոր
-<lb xml:id="l101766903" n="12" resp="#u281" break="no"/>ծեն։ վ<abbr>ս</abbr> զի կուրանա՛ն ի սաստկութենէ 
-<lb xml:id="l101766904" n="13" resp="#u281"/>արծաթսիրու<abbr>թե</abbr>ն։ զի ահա յայսմհետէ 
-<lb xml:id="l101766905" n="14" resp="#u281"/>մեծաւ խոցմամբ վ<del rend="erase">ր</del>իրաւորելո՛ց է <abbr>քս</abbr>. 
-<lb xml:id="l101766906" n="15" resp="#u281"/><supplied reason="binding">յ</supplied>անարժան քահանայից. քան զչարչար
-<lb xml:id="l101766907" n="16" resp="#u281" break="no"/>ելն և զմեռանելն ի հրէիցն։ <abbr>վս</abbr> զի պակա՛ս
-<lb xml:id="l101766908" n="17" resp="#u281" break="no"/>ն ի նոցանէ վճարելո՛ց է. և լսելո՛ց են. թէ 
-<lb xml:id="l101766909" n="18" resp="#u281"/>ընկեր. ընդ է՞ր մտեր այսրի հարսանիսս։ 
-<lb xml:id="l101766910" n="19" resp="#u281"/>և յայնժամ կապեալ ոտիւք և կապեալ 
+<lb xml:id="l101766874" facs="#z101766874" n="1" resp="#u281" break="no"/>ւորացն։ և <add place="above">ը</add>զվարս առաջին կրաւնաւո
+<lb xml:id="l101766893" facs="#z101766893" n="2" resp="#u281" break="no"/>րացն անարգեն. և լինին խանգարիչք կա
+<lb xml:id="l101766894" facs="#z101766894" n="3" resp="#u281" break="no"/>րգաց և կրաւնից. և փախչին ի ձայնէ սա
+<lb xml:id="l101766895" facs="#z101766895" n="4" resp="#u281" break="no"/>ղմոսերգու<abbr>թե</abbr>ցն <abbr>այ</abbr>։ Որդեակք. այս <abbr>ամ</abbr> 
+<lb xml:id="l101766896" facs="#z101766896" n="5" resp="#u281"/>լինելոց էն յազգս ազգս։ յղփանան և ա
+<lb xml:id="l101766897" facs="#z101766897" n="6" resp="#u281" break="no"/>ռաջնորդքն աշխարհի արծաթսիրու
+<lb xml:id="l101766898" facs="#z101766898" n="7" resp="#u281" break="no"/><abbr>թբ</abbr>. և զ<abbr>ամ</abbr> անգեալսն և զորոշեալսն ի շնո
+<lb xml:id="l101766899" facs="#z101766899" n="8" resp="#u281" break="no"/>րհաց որդոյն <abbr>այ</abbr>. յառա՛ջ կոչեն և ածեն ի 
+<lb xml:id="l101766900" facs="#z101766900" n="9" resp="#u281"/>կարգ քահանայու<abbr>թե</abbr>։ և զ<abbr>ամ</abbr> մերժեալս. 
+<lb xml:id="l101766901" facs="#z101766901" n="10" resp="#u281"/>գլուխ և առաջնորդ կացուցանեն ի վե
+<lb xml:id="l101766902" facs="#z101766902" n="11" resp="#u281" break="no"/>րայ ժողովրդեանն <abbr>այ</abbr>. և ո՛չ գիտեն զինչ գոր
+<lb xml:id="l101766903" facs="#z101766903" n="12" resp="#u281" break="no"/>ծեն։ վ<abbr>ս</abbr> զի կուրանա՛ն ի սաստկութենէ 
+<lb xml:id="l101766904" facs="#z101766904" n="13" resp="#u281"/>արծաթսիրու<abbr>թե</abbr>ն։ զի ահա յայսմհետէ 
+<lb xml:id="l101766905" facs="#z101766905" n="14" resp="#u281"/>մեծաւ խոցմամբ վ<del rend="erase">ր</del>իրաւորելո՛ց է <abbr>քս</abbr>. 
+<lb xml:id="l101766906" facs="#z101766906" n="15" resp="#u281"/><supplied reason="binding">յ</supplied>անարժան քահանայից. քան զչարչար
+<lb xml:id="l101766907" facs="#z101766907" n="16" resp="#u281" break="no"/>ելն և զմեռանելն ի հրէիցն։ <abbr>վս</abbr> զի պակա՛ս
+<lb xml:id="l101766908" facs="#z101766908" n="17" resp="#u281" break="no"/>ն ի նոցանէ վճարելո՛ց է. և լսելո՛ց են. թէ 
+<lb xml:id="l101766909" facs="#z101766909" n="18" resp="#u281"/>ընկեր. ընդ է՞ր մտեր այսրի հարսանիսս։ 
+<lb xml:id="l101766910" facs="#z101766910" n="19" resp="#u281"/>և յայնժամ կապեալ ոտիւք և կապեալ 
 <pb n="bzan00430_301r_300v.jpg"/>
 <cb n="1"/>
-<lb xml:id="l101766694" n="1" resp="#u281"/>ձեռաւք արկանեն զնա ի խաւարն արտ
-<lb xml:id="l101766696" n="2" resp="#u281" break="no"/>աքին։ և զոր ժողովեացն. կուտի կորստե
-<lb xml:id="l101766697" n="3" resp="#u281" break="no"/>ամբ ի վերայ նորա։ Որդեակք. այս <abbr>ամ</abbr> լին
-<lb xml:id="l101766698" n="4" resp="#u281" break="no"/>ելո՛ց է ի յետին ժամանակս. զի արձակե
-<lb xml:id="l101766699" n="5" resp="#u281" break="no"/>ցա՛ւ սատանայ ի <abbr>ռ</abbr> ամի կապանաց զո
-<lb xml:id="l101766700" n="6" resp="#u281" break="no"/>ր կապեաց <abbr>քս</abbr> խաչիւն իւրով։ և յայսմ
-<lb xml:id="l101766701" n="7" resp="#u281" break="no"/>հետէ երևեսցի<damage>ն</damage> ճշմարիտ հաւատաց
-<lb xml:id="l101766702" n="8" resp="#u281" break="no"/>եալքն <abbr>քի</abbr>. կալով ընդդէմ սատանայի 
-<lb xml:id="l101766703" n="9" resp="#u281"/>ի պատերազմ։ զոր ունի գալ պատերազ
-<lb xml:id="l101766704" n="10" resp="#u281" break="no"/>մել ընդ <abbr>սբ</abbr>սն որ ի պատուիրանն <abbr>այ</abbr> պահ
-<lb xml:id="l101766705" n="11" resp="#u281" break="no"/>եալ կան ի կարգս ճշմարիտ խոստովա
-<lb xml:id="l101766706" n="12" resp="#u281" break="no"/>նու<abbr>թբ</abbr> <abbr>քի</abbr> <abbr>այ</abbr> մերոյ որք կան յազգս ազգ<add place="above">ս</add>։ 
-<lb xml:id="l101766707" n="13" resp="#u281"/>Այսուհետև լինին արձակմունք այլ
-<lb xml:id="l101766708" n="14" resp="#u281" break="no"/>ազգեաց անիծեա՛լ որդոցն քամայ. պե
-<lb xml:id="l101766709" n="15" resp="#u281" break="no"/>ղծ զաւրքն թուրքաց ի վերայ քրիս<damage>տոն</damage>է
-<lb xml:id="l101766710" n="16" resp="#u281" break="no"/>ից։ և ի սու՛ր սուսերի մաշի <abbr>ամ</abbr> երկրի. ս
-<lb xml:id="l101766711" n="17" resp="#u281" break="no"/>րո՛վ և գերու<abbr>թբ</abbr> անգանի <abbr>ամ</abbr> ազգ <add place="above">ք</add>րիստ
-<lb xml:id="l101766712" n="18" resp="#u281" break="no"/>ոնեից։ և յանմա՛րդ դառնայ բազում գա
-<lb xml:id="l101766713" n="19" resp="#u281" break="no"/>ւառք։ Բառնալո՛ց են զաւրու<abbr>թի</abbr>ք սրբո
+<lb xml:id="l101766694" facs="#z101766694" n="1" resp="#u281"/>ձեռաւք արկանեն զնա ի խաւարն արտ
+<lb xml:id="l101766696" facs="#z101766696" n="2" resp="#u281" break="no"/>աքին։ և զոր ժողովեացն. կուտի կորստե
+<lb xml:id="l101766697" facs="#z101766697" n="3" resp="#u281" break="no"/>ամբ ի վերայ նորա։ Որդեակք. այս <abbr>ամ</abbr> լին
+<lb xml:id="l101766698" facs="#z101766698" n="4" resp="#u281" break="no"/>ելո՛ց է ի յետին ժամանակս. զի արձակե
+<lb xml:id="l101766699" facs="#z101766699" n="5" resp="#u281" break="no"/>ցա՛ւ սատանայ ի <abbr>ռ</abbr> ամի կապանաց զո
+<lb xml:id="l101766700" facs="#z101766700" n="6" resp="#u281" break="no"/>ր կապեաց <abbr>քս</abbr> խաչիւն իւրով։ և յայսմ
+<lb xml:id="l101766701" facs="#z101766701" n="7" resp="#u281" break="no"/>հետէ երևեսցի<damage>ն</damage> ճշմարիտ հաւատաց
+<lb xml:id="l101766702" facs="#z101766702" n="8" resp="#u281" break="no"/>եալքն <abbr>քի</abbr>. կալով ընդդէմ սատանայի 
+<lb xml:id="l101766703" facs="#z101766703" n="9" resp="#u281"/>ի պատերազմ։ զոր ունի գալ պատերազ
+<lb xml:id="l101766704" facs="#z101766704" n="10" resp="#u281" break="no"/>մել ընդ <abbr>սբ</abbr>սն որ ի պատուիրանն <abbr>այ</abbr> պահ
+<lb xml:id="l101766705" facs="#z101766705" n="11" resp="#u281" break="no"/>եալ կան ի կարգս ճշմարիտ խոստովա
+<lb xml:id="l101766706" facs="#z101766706" n="12" resp="#u281" break="no"/>նու<abbr>թբ</abbr> <abbr>քի</abbr> <abbr>այ</abbr> մերոյ որք կան յազգս ազգ<add place="above">ս</add>։ 
+<lb xml:id="l101766707" facs="#z101766707" n="13" resp="#u281"/>Այսուհետև լինին արձակմունք այլ
+<lb xml:id="l101766708" facs="#z101766708" n="14" resp="#u281" break="no"/>ազգեաց անիծեա՛լ որդոցն քամայ. պե
+<lb xml:id="l101766709" facs="#z101766709" n="15" resp="#u281" break="no"/>ղծ զաւրքն թուրքաց ի վերայ քրիս<damage>տոն</damage>է
+<lb xml:id="l101766710" facs="#z101766710" n="16" resp="#u281" break="no"/>ից։ և ի սու՛ր սուսերի մաշի <abbr>ամ</abbr> երկրի. ս
+<lb xml:id="l101766711" facs="#z101766711" n="17" resp="#u281" break="no"/>րո՛վ և գերու<abbr>թբ</abbr> անգանի <abbr>ամ</abbr> ազգ <add place="above">ք</add>րիստ
+<lb xml:id="l101766712" facs="#z101766712" n="18" resp="#u281" break="no"/>ոնեից։ և յանմա՛րդ դառնայ բազում գա
+<lb xml:id="l101766713" facs="#z101766713" n="19" resp="#u281" break="no"/>ւառք։ Բառնալո՛ց են զաւրու<abbr>թի</abbr>ք սրբո
 <cb n="2"/>
-<lb xml:id="l101766955" n="1" resp="#u281" break="no"/>ց յերկրէ. և քակի՛ն բազում եկեղեցիք ի 
-<lb xml:id="l101766956" n="2" resp="#u281"/>հիմանց։ խափանի խորհուրդ խաչին <abbr>քի</abbr>։ 
-<lb xml:id="l101766957" n="3" resp="#u281"/>և ի բազմանալ անաւրէնու<abbr>թե</abbr>ց. խափանի 
-<lb xml:id="l101766958" n="4" resp="#u281"/><damage>տ</damage>աւնախմբու<abbr>թի</abbr>ք սրբոցն։ գրգռին որդի
-<lb xml:id="l101766959" n="5" resp="#u281" break="no"/>ք ընդ հարս ատեցողք լինին հարք առ որ
-<lb xml:id="l101766960" n="6" resp="#u281" break="no"/>դիս։ յարիցեն եղբարք ի վերայ միմեանց 
-<lb xml:id="l101766961" n="7" resp="#u281"/><supplied reason="binding">ս</supplied>պանու<abbr>թբ</abbr> և արիւն հեղու<abbr>թբ</abbr>. և ջանան կո
-<lb xml:id="l101766962" n="8" resp="#u281" break="no"/><supplied reason="binding">ր</supplied>ուսանել զիրեարս։ ուրանա՛ն զգութ եղբ
-<lb xml:id="l101766963" n="9" resp="#u281" break="no"/>այրու<abbr>թե</abbr>. և ցամաքի՛ սէր նոցա։ և այս
-<lb xml:id="l101766964" n="10" resp="#u281" break="no"/>պիսի գործաւք. հաւասարակի՛ց լինին ա
-<lb xml:id="l101766965" n="11" resp="#u281" break="no"/><supplied reason="binding">ն</supplied>աւրինացն։ և յայլազգեաց սրոյ արեամբ 
-<lb xml:id="l101766966" n="12" resp="#u281"/><damage>փոց</damage> երկիր և ցաւղ արեան սգենուն բոյ 
-<lb xml:id="l101766967" n="13" resp="#u281"/>անդաստանաց։ և զամս վաթսուն սրո 
-<lb xml:id="l101766968" n="14" resp="#u281"/>և գերու<abbr>թբ</abbr> աւիրելո՛ց է երկիր. և ապա 
-<lb xml:id="l101766969" n="15" resp="#u281"/><damage>յայ</damage>նժամ ելանեն ազգն արի ականք բա
-<lb xml:id="l101766970" n="16" resp="#u281" break="no"/>զում զաւրաւք. և առցեն զ<abbr>սբ</abbr> քա
-<lb xml:id="l101766971" n="17" resp="#u281" break="no"/>ղաքն <abbr>էմ</abbr>։ և ազատի՛ ի ծառայութենէ տա
-<lb xml:id="l101766972" n="18" resp="#u281" break="no"/>ճկաց <abbr>սբ</abbr> գերեզմանն <abbr>ած</abbr>ընկալ։ և զկնի ա
-<lb xml:id="l101766973" n="19" resp="#u281" break="no"/><supplied reason="binding">յ</supplied>նորիկ. զամս յիսուն տագնապի՛ երկիր 
+<lb xml:id="l101766955" facs="#z101766955" n="1" resp="#u281" break="no"/>ց յերկրէ. և քակի՛ն բազում եկեղեցիք ի 
+<lb xml:id="l101766956" facs="#z101766956" n="2" resp="#u281"/>հիմանց։ խափանի խորհուրդ խաչին <abbr>քի</abbr>։ 
+<lb xml:id="l101766957" facs="#z101766957" n="3" resp="#u281"/>և ի բազմանալ անաւրէնու<abbr>թե</abbr>ց. խափանի 
+<lb xml:id="l101766958" facs="#z101766958" n="4" resp="#u281"/><damage>տ</damage>աւնախմբու<abbr>թի</abbr>ք սրբոցն։ գրգռին որդի
+<lb xml:id="l101766959" facs="#z101766959" n="5" resp="#u281" break="no"/>ք ընդ հարս ատեցողք լինին հարք առ որ
+<lb xml:id="l101766960" facs="#z101766960" n="6" resp="#u281" break="no"/>դիս։ յարիցեն եղբարք ի վերայ միմեանց 
+<lb xml:id="l101766961" facs="#z101766961" n="7" resp="#u281"/><supplied reason="binding">ս</supplied>պանու<abbr>թբ</abbr> և արիւն հեղու<abbr>թբ</abbr>. և ջանան կո
+<lb xml:id="l101766962" facs="#z101766962" n="8" resp="#u281" break="no"/><supplied reason="binding">ր</supplied>ուսանել զիրեարս։ ուրանա՛ն զգութ եղբ
+<lb xml:id="l101766963" facs="#z101766963" n="9" resp="#u281" break="no"/>այրու<abbr>թե</abbr>. և ցամաքի՛ սէր նոցա։ և այս
+<lb xml:id="l101766964" facs="#z101766964" n="10" resp="#u281" break="no"/>պիսի գործաւք. հաւասարակի՛ց լինին ա
+<lb xml:id="l101766965" facs="#z101766965" n="11" resp="#u281" break="no"/><supplied reason="binding">ն</supplied>աւրինացն։ և յայլազգեաց սրոյ արեամբ 
+<lb xml:id="l101766966" facs="#z101766966" n="12" resp="#u281"/><damage>փոց</damage> երկիր և ցաւղ արեան սգենուն բոյ 
+<lb xml:id="l101766967" facs="#z101766967" n="13" resp="#u281"/>անդաստանաց։ և զամս վաթսուն սրո 
+<lb xml:id="l101766968" facs="#z101766968" n="14" resp="#u281"/>և գերու<abbr>թբ</abbr> աւիրելո՛ց է երկիր. և ապա 
+<lb xml:id="l101766969" facs="#z101766969" n="15" resp="#u281"/><damage>յայ</damage>նժամ ելանեն ազգն արի ականք բա
+<lb xml:id="l101766970" facs="#z101766970" n="16" resp="#u281" break="no"/>զում զաւրաւք. և առցեն զ<abbr>սբ</abbr> քա
+<lb xml:id="l101766971" facs="#z101766971" n="17" resp="#u281" break="no"/>ղաքն <abbr>էմ</abbr>։ և ազատի՛ ի ծառայութենէ տա
+<lb xml:id="l101766972" facs="#z101766972" n="18" resp="#u281" break="no"/>ճկաց <abbr>սբ</abbr> գերեզմանն <abbr>ած</abbr>ընկալ։ և զկնի ա
+<lb xml:id="l101766973" facs="#z101766973" n="19" resp="#u281" break="no"/><supplied reason="binding">յ</supplied>նորիկ. զամս յիսուն տագնապի՛ երկիր 
 <pb n="bzan00430_302r_301v.jpg"/>
 <cb n="1"/>
-<lb xml:id="l101766933" n="1" resp="#u281"/>սրով և գերու<abbr>թբ</abbr>. ի զաւրացն պարսից 
-<lb xml:id="l101767023" n="2" resp="#u281"/>եւթնապատիկ առաւել քան զոր յառա
-<lb xml:id="l101767024" n="3" resp="#u281" break="no"/>ջն կրեցին։ և ահաբեկին <abbr>ամ</abbr> ազգ հաւ
-<lb xml:id="l101767025" n="4" resp="#u281" break="no"/>ատացելոց <abbr>քի</abbr>։ և ի բազում նեղու<abbr>թե</abbr>ց յո
-<lb xml:id="l101767026" n="5" resp="#u281" break="no"/>ւսահատին ազգն հռոմայեցոց։ զի բա
-<lb xml:id="l101767027" n="6" resp="#u281" break="no"/>զու՛մ նեղու<abbr>թի</abbr> և կոտորածս կրեն յանաւ
-<lb xml:id="l101767028" n="7" resp="#u281" break="no"/>րէն զաւրացն պարսից։ և <damage>զը</damage>նտիր ընտի
-<lb xml:id="l101767029" n="8" resp="#u281" break="no"/>ր քաջ զաւրականսն սրով խողխողեսցե
-<lb xml:id="l101767030" n="9" resp="#u281" break="no"/>ն և <add place="inline" hand="second">գե</add>րեսցեն. մինչև ի փրկութենէ յուսա
-<lb xml:id="l101767031" n="10" resp="#u281" break="no"/>հատին զաւրքն հռոմայեցոց ։ Եւ զկնի յի
-<lb xml:id="l101767032" n="11" resp="#u281" break="no"/>սուն ամաց սկիզբն առնուն ի զաւրանա
-<lb xml:id="l101767033" n="12" resp="#u281" break="no"/>լ առ սակաւ սակաւ։ և ու՛ր ուրեք մնացե
-<lb xml:id="l101767034" n="13" resp="#u281" break="no"/>ալ լինին յառաջին գնդէն։ ամ յամէ յառաջ 
-<lb xml:id="l101767035" n="14" resp="#u281"/>գան և հաստատին իբրև տեղապահք գոլ
-<lb xml:id="l101767036" n="15" resp="#u281" break="no"/>ով աշխ<subst><del><gap extent="5"/></del><add place="inline">արհ</add></subst>աց և գաւառաց։ Եւ ա
-<lb xml:id="l101767037" n="16" resp="#u281" break="no"/>պա որպէս ի քնոյ զա<gap extent="3"/>րթուցեալ լինի 
-<lb xml:id="l101767038" n="17" resp="#u281"/>թ<abbr>ագ</abbr>ն հռոմայեցոց. և հասանէ որպէս զա
-<lb xml:id="l101767039" n="18" resp="#u281" break="no"/>րծուի ի վերայ զաւրացն պարսից. ահագի
-<lb xml:id="l101767040" n="19" resp="#u281" break="no"/>ն բազմու<abbr>թբ</abbr> որպէս զաւազ ծովու. և ելցէ 
+<lb xml:id="l101766933" facs="#z101766933" n="1" resp="#u281"/>սրով և գերու<abbr>թբ</abbr>. ի զաւրացն պարսից 
+<lb xml:id="l101767023" facs="#z101767023" n="2" resp="#u281"/>եւթնապատիկ առաւել քան զոր յառա
+<lb xml:id="l101767024" facs="#z101767024" n="3" resp="#u281" break="no"/>ջն կրեցին։ և ահաբեկին <abbr>ամ</abbr> ազգ հաւ
+<lb xml:id="l101767025" facs="#z101767025" n="4" resp="#u281" break="no"/>ատացելոց <abbr>քի</abbr>։ և ի բազում նեղու<abbr>թե</abbr>ց յո
+<lb xml:id="l101767026" facs="#z101767026" n="5" resp="#u281" break="no"/>ւսահատին ազգն հռոմայեցոց։ զի բա
+<lb xml:id="l101767027" facs="#z101767027" n="6" resp="#u281" break="no"/>զու՛մ նեղու<abbr>թի</abbr> և կոտորածս կրեն յանաւ
+<lb xml:id="l101767028" facs="#z101767028" n="7" resp="#u281" break="no"/>րէն զաւրացն պարսից։ և <damage>զը</damage>նտիր ընտի
+<lb xml:id="l101767029" facs="#z101767029" n="8" resp="#u281" break="no"/>ր քաջ զաւրականսն սրով խողխողեսցե
+<lb xml:id="l101767030" facs="#z101767030" n="9" resp="#u281" break="no"/>ն և <add place="inline" hand="second">գե</add>րեսցեն. մինչև ի փրկութենէ յուսա
+<lb xml:id="l101767031" facs="#z101767031" n="10" resp="#u281" break="no"/>հատին զաւրքն հռոմայեցոց ։ Եւ զկնի յի
+<lb xml:id="l101767032" facs="#z101767032" n="11" resp="#u281" break="no"/>սուն ամաց սկիզբն առնուն ի զաւրանա
+<lb xml:id="l101767033" facs="#z101767033" n="12" resp="#u281" break="no"/>լ առ սակաւ սակաւ։ և ու՛ր ուրեք մնացե
+<lb xml:id="l101767034" facs="#z101767034" n="13" resp="#u281" break="no"/>ալ լինին յառաջին գնդէն։ ամ յամէ յառաջ 
+<lb xml:id="l101767035" facs="#z101767035" n="14" resp="#u281"/>գան և հաստատին իբրև տեղապահք գոլ
+<lb xml:id="l101767036" facs="#z101767036" n="15" resp="#u281" break="no"/>ով աշխ<subst><del><gap extent="5"/></del><add place="inline">արհ</add></subst>աց և գաւառաց։ Եւ ա
+<lb xml:id="l101767037" facs="#z101767037" n="16" resp="#u281" break="no"/>պա որպէս ի քնոյ զա<gap extent="3"/>րթուցեալ լինի 
+<lb xml:id="l101767038" facs="#z101767038" n="17" resp="#u281"/>թ<abbr>ագ</abbr>ն հռոմայեցոց. և հասանէ որպէս զա
+<lb xml:id="l101767039" facs="#z101767039" n="18" resp="#u281" break="no"/>րծուի ի վերայ զաւրացն պարսից. ահագի
+<lb xml:id="l101767040" facs="#z101767040" n="19" resp="#u281" break="no"/>ն բազմու<abbr>թբ</abbr> որպէս զաւազ ծովու. և ելցէ 
 <cb n="2"/>
-<lb xml:id="l101767022" n="1" resp="#u281"/>որպէս հուր բորբոքեալ. և յահէ նորա դո
-<lb xml:id="l101767041" n="2" resp="#u281" break="no"/>ղա՛ն <abbr>ամ</abbr> արարածք։ և տունն պարսից ի կո
-<lb xml:id="l101767042" n="3" resp="#u281" break="no"/>րուստ մատնէսցին և սրով մաշեսցին։ 
-<lb xml:id="l101767043" n="4" resp="#u281"/>և <abbr>ամ</abbr> ազգ և զաւրք այլազգեացն. արա<del rend="erase">ր</del>ս
-<lb xml:id="l101767044" n="5" resp="#u281" break="no"/>ցեն զփախուստ իւրեանց յայնկոյս 
-<lb xml:id="l101767045" n="6" resp="#u281"/>գետոյն ջահունա՛յ որ է գէհոն։ և յայն
-<lb xml:id="l101767046" n="7" resp="#u281" break="no"/>ժամ թ<abbr>ագ</abbr>ն հռոմայեցոց. տիրելով տի
-<lb xml:id="l101767047" n="8" resp="#u281" break="no"/>րէսցէ <abbr>ամ</abbr> աշխարհի զամս բազումս։ 
-<lb xml:id="l101767048" n="9" resp="#u281"/>և յայնժամ նորոգու՛մն առնու <abbr>ամ</abbr> երկիր. 
-<lb xml:id="l101767049" n="10" resp="#u281"/>և շինու<abbr>թե</abbr> հիմունս արկանեն. և այնպէ
-<lb xml:id="l101767050" n="11" resp="#u281" break="no"/>ս նորոգի երկիր որպէս յետ ջրհեղեղին։ 
-<lb xml:id="l101767051" n="12" resp="#u281"/>բազմանա՛ն ծնունդք մարդոյ և անասնոց. 
-<lb xml:id="l101767052" n="13" resp="#u281"/>բղխեսցեն աղբիւրք զջուրս գնացից իւր
-<lb xml:id="l101767053" n="14" resp="#u281" break="no"/>եանց. պտղաբերին անդաստանք առա
-<lb xml:id="l101767054" n="15" resp="#u281" break="no"/><damage>ւել</damage> քան զառաւել։ և այնուհետև անգա
-<lb xml:id="l101767055" n="16" resp="#u281" break="no"/>նի սո՛վ յաշխարհն պարսից բազու՛մ ամս. 
-<lb xml:id="l101767056" n="17" resp="#u281"/>մինչև զմիմեանս ուտիցեն։ և յահէ թ<abbr>ագ</abbr>ին 
-<lb xml:id="l101767057" n="18" resp="#u281"/>հռոմայեցոց բազու՛մ իշխանք ի պարսից. 
-<lb xml:id="l101767058" n="19" resp="#u281"/><add place="above">ե</add>լցեն ի քաղաքաց և ի գաւառաց իւրեա
+<lb xml:id="l101767022" facs="#z101767022" n="1" resp="#u281"/>որպէս հուր բորբոքեալ. և յահէ նորա դո
+<lb xml:id="l101767041" facs="#z101767041" n="2" resp="#u281" break="no"/>ղա՛ն <abbr>ամ</abbr> արարածք։ և տունն պարսից ի կո
+<lb xml:id="l101767042" facs="#z101767042" n="3" resp="#u281" break="no"/>րուստ մատնէսցին և սրով մաշեսցին։ 
+<lb xml:id="l101767043" facs="#z101767043" n="4" resp="#u281"/>և <abbr>ամ</abbr> ազգ և զաւրք այլազգեացն. արա<del rend="erase">ր</del>ս
+<lb xml:id="l101767044" facs="#z101767044" n="5" resp="#u281" break="no"/>ցեն զփախուստ իւրեանց յայնկոյս 
+<lb xml:id="l101767045" facs="#z101767045" n="6" resp="#u281"/>գետոյն ջահունա՛յ որ է գէհոն։ և յայն
+<lb xml:id="l101767046" facs="#z101767046" n="7" resp="#u281" break="no"/>ժամ թ<abbr>ագ</abbr>ն հռոմայեցոց. տիրելով տի
+<lb xml:id="l101767047" facs="#z101767047" n="8" resp="#u281" break="no"/>րէսցէ <abbr>ամ</abbr> աշխարհի զամս բազումս։ 
+<lb xml:id="l101767048" facs="#z101767048" n="9" resp="#u281"/>և յայնժամ նորոգու՛մն առնու <abbr>ամ</abbr> երկիր. 
+<lb xml:id="l101767049" facs="#z101767049" n="10" resp="#u281"/>և շինու<abbr>թե</abbr> հիմունս արկանեն. և այնպէ
+<lb xml:id="l101767050" facs="#z101767050" n="11" resp="#u281" break="no"/>ս նորոգի երկիր որպէս յետ ջրհեղեղին։ 
+<lb xml:id="l101767051" facs="#z101767051" n="12" resp="#u281"/>բազմանա՛ն ծնունդք մարդոյ և անասնոց. 
+<lb xml:id="l101767052" facs="#z101767052" n="13" resp="#u281"/>բղխեսցեն աղբիւրք զջուրս գնացից իւր
+<lb xml:id="l101767053" facs="#z101767053" n="14" resp="#u281" break="no"/>եանց. պտղաբերին անդաստանք առա
+<lb xml:id="l101767054" facs="#z101767054" n="15" resp="#u281" break="no"/><damage>ւել</damage> քան զառաւել։ և այնուհետև անգա
+<lb xml:id="l101767055" facs="#z101767055" n="16" resp="#u281" break="no"/>նի սո՛վ յաշխարհն պարսից բազու՛մ ամս. 
+<lb xml:id="l101767056" facs="#z101767056" n="17" resp="#u281"/>մինչև զմիմեանս ուտիցեն։ և յահէ թ<abbr>ագ</abbr>ին 
+<lb xml:id="l101767057" facs="#z101767057" n="18" resp="#u281"/>հռոմայեցոց բազու՛մ իշխանք ի պարսից. 
+<lb xml:id="l101767058" facs="#z101767058" n="19" resp="#u281"/><add place="above">ե</add>լցեն ի քաղաքաց և ի գաւառաց իւրեա
 <pb n="bzan00430_303r_302v.jpg"/>
 <cb n="1"/>
-<lb xml:id="l101766974" n="1" resp="#u281" break="no"/>նց առանց պատերազմի։ և զփախուս
-<lb xml:id="l101767082" n="2" resp="#u281" break="no"/>տն իւրեանց արասցեն յայնկոյս գետո
-<lb xml:id="l101767083" n="3" resp="#u281" break="no"/>յն ջահունայ։ և զ<abbr>ամ</abbr> ժողովս մթերից ըն
-<lb xml:id="l101767084" n="4" resp="#u281" break="no"/>չից իւրեանց զամաց բազմաց. զոսկո
-<lb xml:id="l101767085" n="5" resp="#u281" break="no"/>յ և զարծաթոյ. և զ<abbr>ամ</abbr> բազմու<abbr>թի</abbr>ս գան
-<lb xml:id="l101767086" n="6" resp="#u281" break="no"/>ձուց. որպէս զհող կամ զքարակոյտս. ա
-<lb xml:id="l101767087" n="7" resp="#u281" break="no"/>յնչափ համարեալ տարցեն յաշխար
-<lb xml:id="l101767088" n="8" resp="#u281" break="no"/>հէն պ<damage>ար</damage>սից յաշխարհն հռոմայեցո
-<lb xml:id="l101767089" n="9" resp="#u281" break="no"/>ց։ և զամենեսեան տարցեն ի գերու<abbr>թի</abbr>. 
-<lb xml:id="l101767090" n="10" resp="#u281"/>յաշխարհն հռոմայեցոց։ աւերա՛կ և ա
-<lb xml:id="l101767091" n="11" resp="#u281" break="no"/>նմարդ մնասցէ աշխարհն պարսից ի 
-<lb xml:id="l101767092" n="12" resp="#u281"/>զաւրացն հռոմայեցոց։ և հաստատի 
-<lb xml:id="l101767093" n="13" resp="#u281"/><abbr>ամ</abbr> երկիր ի ներքոյ ձեռին հռոմայեցոց 
-<lb xml:id="l101767094" n="14" resp="#u281"/>թ<abbr>ագ</abbr>ին։ Զայս ասաց և խաւսեցաւ 
-<lb xml:id="l101767095" n="15" resp="#u281"/><abbr>սբ</abbr> վարդապետն հայոց յոհանէս. <damage>որ</damage>
-<lb xml:id="l101767096" n="16" resp="#u281" break="no"/>ոյ յիշատակ նորա աւրհնու<abbr>թբ</abbr> եղիցի. 
-<lb xml:id="l101767097" n="17" resp="#u281"/>և աղաւթք նորա ի վերայ մեր հանգի
-<lb xml:id="l101767098" n="18" resp="#u281" break="no"/>ցէ։ Եւ արձակեալ յուղարկեաց զիշ
-<lb xml:id="l101767099" n="19" resp="#u281" break="no"/>խանսն հայոց. և խաղաղու<abbr>թբ</abbr> գնաց<add place="below">ին</add> 
+<lb xml:id="l101766974" facs="#z101766974" n="1" resp="#u281" break="no"/>նց առանց պատերազմի։ և զփախուս
+<lb xml:id="l101767082" facs="#z101767082" n="2" resp="#u281" break="no"/>տն իւրեանց արասցեն յայնկոյս գետո
+<lb xml:id="l101767083" facs="#z101767083" n="3" resp="#u281" break="no"/>յն ջահունայ։ և զ<abbr>ամ</abbr> ժողովս մթերից ըն
+<lb xml:id="l101767084" facs="#z101767084" n="4" resp="#u281" break="no"/>չից իւրեանց զամաց բազմաց. զոսկո
+<lb xml:id="l101767085" facs="#z101767085" n="5" resp="#u281" break="no"/>յ և զարծաթոյ. և զ<abbr>ամ</abbr> բազմու<abbr>թի</abbr>ս գան
+<lb xml:id="l101767086" facs="#z101767086" n="6" resp="#u281" break="no"/>ձուց. որպէս զհող կամ զքարակոյտս. ա
+<lb xml:id="l101767087" facs="#z101767087" n="7" resp="#u281" break="no"/>յնչափ համարեալ տարցեն յաշխար
+<lb xml:id="l101767088" facs="#z101767088" n="8" resp="#u281" break="no"/>հէն պ<damage>ար</damage>սից յաշխարհն հռոմայեցո
+<lb xml:id="l101767089" facs="#z101767089" n="9" resp="#u281" break="no"/>ց։ և զամենեսեան տարցեն ի գերու<abbr>թի</abbr>. 
+<lb xml:id="l101767090" facs="#z101767090" n="10" resp="#u281"/>յաշխարհն հռոմայեցոց։ աւերա՛կ և ա
+<lb xml:id="l101767091" facs="#z101767091" n="11" resp="#u281" break="no"/>նմարդ մնասցէ աշխարհն պարսից ի 
+<lb xml:id="l101767092" facs="#z101767092" n="12" resp="#u281"/>զաւրացն հռոմայեցոց։ և հաստատի 
+<lb xml:id="l101767093" facs="#z101767093" n="13" resp="#u281"/><abbr>ամ</abbr> երկիր ի ներքոյ ձեռին հռոմայեցոց 
+<lb xml:id="l101767094" facs="#z101767094" n="14" resp="#u281"/>թ<abbr>ագ</abbr>ին։ Զայս ասաց և խաւսեցաւ 
+<lb xml:id="l101767095" facs="#z101767095" n="15" resp="#u281"/><abbr>սբ</abbr> վարդապետն հայոց յոհանէս. <damage>որ</damage>
+<lb xml:id="l101767096" facs="#z101767096" n="16" resp="#u281" break="no"/>ոյ յիշատակ նորա աւրհնու<abbr>թբ</abbr> եղիցի. 
+<lb xml:id="l101767097" facs="#z101767097" n="17" resp="#u281"/>և աղաւթք նորա ի վերայ մեր հանգի
+<lb xml:id="l101767098" facs="#z101767098" n="18" resp="#u281" break="no"/>ցէ։ Եւ արձակեալ յուղարկեաց զիշ
+<lb xml:id="l101767099" facs="#z101767099" n="19" resp="#u281" break="no"/>խանսն հայոց. և խաղաղու<abbr>թբ</abbr> գնաց<add place="below">ին</add> 
 <cb n="2"/>
-<lb xml:id="l101767081" n="1" resp="#u281"/>յաշխարհն իւրեանց։ և <abbr>քի</abbr> <abbr>այ</abbr> մերոյ փառք յ<abbr>աւ</abbr> <lb/>ամէն։ 
-<lb xml:id="l101767100" n="2" resp="#u1923"/><note place="inline"><abbr>Քս</abbr> <abbr>ած</abbr> նջեսցէ զմեղս ձեր և զձերն նջե
-<lb xml:id="l101767101" n="3" resp="#u281" break="no"/>ցելոցն. որ ի սրտէ մեղաց թողու<abbr>թի</abbr> խնդ
-<lb xml:id="l101767102" n="4" resp="#u281" break="no"/>րէք յ<abbr>այ</abbr> վարդան վա<abbr>րդ</abbr>ին և որ զաւրինա
-<lb xml:id="l101767103" n="5" resp="#u281" break="no"/>կն էր գրել հայրապետ աբեղային. և յետո
-<lb xml:id="l101767104" n="6" resp="#u281" break="no"/>յ գրողիս ողորմելի և անարուեստ գրչի 
-<lb xml:id="l101767105" n="7" resp="#u281"/>առաքելի. և մեր ծնողացն պապերին և 
-<lb xml:id="l101767106" n="8" resp="#u281"/>վարդէ մաւրն. և եղբարցն հայ<damage>րպ</damage>ետին և 
-<lb xml:id="l101767107" n="9" resp="#u281"/>կարապետին. և վարդին և վարդապետ
-<lb xml:id="l101767108" n="10" resp="#u281" break="no"/>ին և գրիգորին և <abbr>ամ</abbr> զարմից մերոց. զի 
-<lb xml:id="l101767109" n="11" resp="#u281"/>փրկեսցուք ի դժոխոցն։ և <abbr>սբ</abbr> հոգին <abbr>այ</abbr> 
-<lb xml:id="l101767110" n="12" resp="#u281"/>փրկէ զայն քահանայն ի չարէ և ջնջէ զմե
-<lb xml:id="l101767111" n="13" resp="#u281" break="no"/>ղս նորա. որ ի <abbr>սբ</abbr> պատարագն <abbr>քի</abbr> յիշէ զո
-<lb xml:id="l101767112" n="14" resp="#u281" break="no"/>ղորմելիքս։ որ միայն ի սոսկալի տանջա
-<lb xml:id="l101767113" n="15" resp="#u281" break="no"/>նացն ազատիմք. զի անչափ մեղս գոր
-<lb xml:id="l101767114" n="16" resp="#u281" break="no"/>ծեցաք. և զ<abbr>այ</abbr> հոգին փախուցաք։ Վայ 
-<lb xml:id="l101767115" n="17" resp="#u281"/>զեղկելիս ով որդեակք իմ. <damage>զ</damage>ի որ զմեղս 
-<lb xml:id="l101767116" n="18" resp="#u281"/>պատէ և<damage>ս</damage> չխոստավանի. ստոյգ միաբան 
-<lb xml:id="l101767117" n="19" resp="#u281"/>և սիրելի է սատանայի. և գանձապահ <lb/>նորա։
+<lb xml:id="l101767081" facs="#z101767081" n="1" resp="#u281"/>յաշխարհն իւրեանց։ և <abbr>քի</abbr> <abbr>այ</abbr> մերոյ փառք յ<abbr>աւ</abbr> <lb/>ամէն։ 
+<lb xml:id="l101767100" facs="#z101767100" n="2" resp="#u1923"/><note place="inline"><abbr>Քս</abbr> <abbr>ած</abbr> նջեսցէ զմեղս ձեր և զձերն նջե
+<lb xml:id="l101767101" facs="#z101767101" n="3" resp="#u281" break="no"/>ցելոցն. որ ի սրտէ մեղաց թողու<abbr>թի</abbr> խնդ
+<lb xml:id="l101767102" facs="#z101767102" n="4" resp="#u281" break="no"/>րէք յ<abbr>այ</abbr> վարդան վա<abbr>րդ</abbr>ին և որ զաւրինա
+<lb xml:id="l101767103" facs="#z101767103" n="5" resp="#u281" break="no"/>կն էր գրել հայրապետ աբեղային. և յետո
+<lb xml:id="l101767104" facs="#z101767104" n="6" resp="#u281" break="no"/>յ գրողիս ողորմելի և անարուեստ գրչի 
+<lb xml:id="l101767105" facs="#z101767105" n="7" resp="#u281"/>առաքելի. և մեր ծնողացն պապերին և 
+<lb xml:id="l101767106" facs="#z101767106" n="8" resp="#u281"/>վարդէ մաւրն. և եղբարցն հայ<damage>րպ</damage>ետին և 
+<lb xml:id="l101767107" facs="#z101767107" n="9" resp="#u281"/>կարապետին. և վարդին և վարդապետ
+<lb xml:id="l101767108" facs="#z101767108" n="10" resp="#u281" break="no"/>ին և գրիգորին և <abbr>ամ</abbr> զարմից մերոց. զի 
+<lb xml:id="l101767109" facs="#z101767109" n="11" resp="#u281"/>փրկեսցուք ի դժոխոցն։ և <abbr>սբ</abbr> հոգին <abbr>այ</abbr> 
+<lb xml:id="l101767110" facs="#z101767110" n="12" resp="#u281"/>փրկէ զայն քահանայն ի չարէ և ջնջէ զմե
+<lb xml:id="l101767111" facs="#z101767111" n="13" resp="#u281" break="no"/>ղս նորա. որ ի <abbr>սբ</abbr> պատարագն <abbr>քի</abbr> յիշէ զո
+<lb xml:id="l101767112" facs="#z101767112" n="14" resp="#u281" break="no"/>ղորմելիքս։ որ միայն ի սոսկալի տանջա
+<lb xml:id="l101767113" facs="#z101767113" n="15" resp="#u281" break="no"/>նացն ազատիմք. զի անչափ մեղս գոր
+<lb xml:id="l101767114" facs="#z101767114" n="16" resp="#u281" break="no"/>ծեցաք. և զ<abbr>այ</abbr> հոգին փախուցաք։ Վայ 
+<lb xml:id="l101767115" facs="#z101767115" n="17" resp="#u281"/>զեղկելիս ով որդեակք իմ. <damage>զ</damage>ի որ զմեղս 
+<lb xml:id="l101767116" facs="#z101767116" n="18" resp="#u281"/>պատէ և<damage>ս</damage> չխոստավանի. ստոյգ միաբան 
+<lb xml:id="l101767117" facs="#z101767117" n="19" resp="#u281"/>և սիրելի է սատանայի. և գանձապահ <lb/>նորա։
 <pb n="bzan00430_304r_303v.jpg"/>
 <cb n="1"/>
-<lb xml:id="l101767059" n="1" resp="#u1548" break="no"/>և որ խոստովանի և ապաշխարէ. ստո
-<lb xml:id="l101767119" n="2" resp="#u281" break="no"/>յգ երանելի է։ զի <abbr>քս</abbr> ուրախանայ և տայ 
-<lb xml:id="l101767120" n="3" resp="#u281"/>նմա զբարիքն իւր զոր կորոյս մեղաւքն։ 
-<lb xml:id="l101767063" n="4" resp="#u281"/>Անաշխատ է պատուիրանքն <abbr>քի</abbr>. և վայ 
-<lb xml:id="l101767064" n="5" resp="#u281"/>մեզ որ ոչ առնեմք։ զի քեզ մեղս ընկերի
-<lb xml:id="l101767065" n="6" resp="#u281" break="no"/>ն թղուս զորմե<abbr>ց</abbr>աւ քեզ. նա <abbr>քս</abbr> զքոյն 
-<lb xml:id="l101767066" n="7" resp="#u281"/>թողու զոր մեղար նմա որպէս և ինքն ա
-<lb xml:id="l101767067" n="8" resp="#u281" break="no"/>սէ։ Եւ թէ խոնարհ լինիս և զքեզ խոտ
-<lb xml:id="l101767068" n="9" resp="#u281" break="no"/>ան համարիս քան զմեղաւորքն. դու հա
-<lb xml:id="l101767069" n="10" resp="#u281" break="no"/>ն<add place="below">գ</add>իստ լինիս <abbr>սբ</abbr> հոգոյն <abbr>այ</abbr>։ Եւ թէ խաղա
-<lb xml:id="l101767070" n="11" resp="#u281" break="no"/>ղ արար լինիս և հաշտիս. և հաշտեցուց
-<lb xml:id="l101767071" n="12" resp="#u281" break="no"/>անես։ <damage>Դ</damage>ու որդի <abbr>այ</abbr> լինիս <abbr>քի</abbr> վկայու<abbr>թբ</abbr>ն։ 
-<lb xml:id="l101767072" n="13" resp="#u281"/>Հպարտն. յանդունդս իջանէ. <abbr>քի</abbr> վկայ
-<lb xml:id="l101767073" n="14" resp="#u281" break="no"/>ու<abbr>թբ</abbr>։ Իսկ անողորմն. դև՛ կոչի և քա՛ր
-<lb xml:id="l101767074" n="15" resp="#u281" break="no"/>անպէտ։ Եւ ողորմած կարեկիցն. քաւէ՛ 
-<lb xml:id="l101767075" n="16" resp="#u281"/>զմեղս իւր. և ի <abbr>քէ</abbr>. ողորմու<abbr>թ</abbr>ի՛ գտցէ յա
-<lb xml:id="l101767076" n="17" resp="#u281" break="no"/>ւրն մեծ։ Յոյլն և ծոյլն. ի պահս և յաղաւ
-<lb xml:id="l101767077" n="18" resp="#u281" break="no"/>թքն. խո՛զ կոչի։ Նոյնպէս և որ զոր ով ա՛յն 
-<lb xml:id="l101767078" n="19" resp="#u281"/>պաշտ է. աւելի՛ քան զչափն։ Արբէ ցողն 
+<lb xml:id="l101767059" facs="#z101767059" n="1" resp="#u1548" break="no"/>և որ խոստովանի և ապաշխարէ. ստո
+<lb xml:id="l101767119" facs="#z101767119" n="2" resp="#u281" break="no"/>յգ երանելի է։ զի <abbr>քս</abbr> ուրախանայ և տայ 
+<lb xml:id="l101767120" facs="#z101767120" n="3" resp="#u281"/>նմա զբարիքն իւր զոր կորոյս մեղաւքն։ 
+<lb xml:id="l101767063" facs="#z101767063" n="4" resp="#u281"/>Անաշխատ է պատուիրանքն <abbr>քի</abbr>. և վայ 
+<lb xml:id="l101767064" facs="#z101767064" n="5" resp="#u281"/>մեզ որ ոչ առնեմք։ զի քեզ մեղս ընկերի
+<lb xml:id="l101767065" facs="#z101767065" n="6" resp="#u281" break="no"/>ն թղուս զորմե<abbr>ց</abbr>աւ քեզ. նա <abbr>քս</abbr> զքոյն 
+<lb xml:id="l101767066" facs="#z101767066" n="7" resp="#u281"/>թողու զոր մեղար նմա որպէս և ինքն ա
+<lb xml:id="l101767067" facs="#z101767067" n="8" resp="#u281" break="no"/>սէ։ Եւ թէ խոնարհ լինիս և զքեզ խոտ
+<lb xml:id="l101767068" facs="#z101767068" n="9" resp="#u281" break="no"/>ան համարիս քան զմեղաւորքն. դու հա
+<lb xml:id="l101767069" facs="#z101767069" n="10" resp="#u281" break="no"/>ն<add place="below">գ</add>իստ լինիս <abbr>սբ</abbr> հոգոյն <abbr>այ</abbr>։ Եւ թէ խաղա
+<lb xml:id="l101767070" facs="#z101767070" n="11" resp="#u281" break="no"/>ղ արար լինիս և հաշտիս. և հաշտեցուց
+<lb xml:id="l101767071" facs="#z101767071" n="12" resp="#u281" break="no"/>անես։ <damage>Դ</damage>ու որդի <abbr>այ</abbr> լինիս <abbr>քի</abbr> վկայու<abbr>թբ</abbr>ն։ 
+<lb xml:id="l101767072" facs="#z101767072" n="13" resp="#u281"/>Հպարտն. յանդունդս իջանէ. <abbr>քի</abbr> վկայ
+<lb xml:id="l101767073" facs="#z101767073" n="14" resp="#u281" break="no"/>ու<abbr>թբ</abbr>։ Իսկ անողորմն. դև՛ կոչի և քա՛ր
+<lb xml:id="l101767074" facs="#z101767074" n="15" resp="#u281" break="no"/>անպէտ։ Եւ ողորմած կարեկիցն. քաւէ՛ 
+<lb xml:id="l101767075" facs="#z101767075" n="16" resp="#u281"/>զմեղս իւր. և ի <abbr>քէ</abbr>. ողորմու<abbr>թ</abbr>ի՛ գտցէ յա
+<lb xml:id="l101767076" facs="#z101767076" n="17" resp="#u281" break="no"/>ւրն մեծ։ Յոյլն և ծոյլն. ի պահս և յաղաւ
+<lb xml:id="l101767077" facs="#z101767077" n="18" resp="#u281" break="no"/>թքն. խո՛զ կոչի։ Նոյնպէս և որ զոր ով ա՛յն 
+<lb xml:id="l101767078" facs="#z101767078" n="19" resp="#u281"/>պաշտ է. աւելի՛ քան զչափն։ Արբէ ցողն 
 <cb n="2"/>
-<lb xml:id="l101767118" n="1" resp="#u281"/>ընդ պոռնի՛կն դասի։ Եւ լեզուանին. ընդ 
-<lb xml:id="l101767121" n="2" resp="#u281"/>սպանողի՛ն տանջի. որպէս և պաւ՛ղոս վը
-<lb xml:id="l101767122" n="3" resp="#u281" break="no"/>կայէ։ Շնացողն. ատելի՛ է <abbr>քի</abbr>։ Եւ զրկողն. 
-<lb xml:id="l101767123" n="4" resp="#u281"/>թշնամի՛ է <abbr>սբ</abbr> հոգոյն. որպէս և գրե <abbr>ած</abbr>ա
-<lb xml:id="l101767124" n="5" resp="#u281" break="no"/>բան ի ճառն յայ<damage>տ</damage>նու<abbr>թե</abbr>. թէ աւազանն 
-<lb xml:id="l101767125" n="6" resp="#u281"/>ո՛չ բաւեզ զրկանքն։ Մարդասպանն կա
-<lb xml:id="l101767126" n="7" resp="#u281" break="no"/>յէ՛ն կոչի։ Եւ զուր մատնիչն. և անյա՛գար
-<lb xml:id="l101767127" n="8" resp="#u281" break="no"/>ծաթասէրն. ընկե՛րէ սատանայ<damage>ի</damage>։ յորմէ 
-<lb xml:id="l101767128" n="9" resp="#u281"/>փրկէ <abbr>քս</abbr> զմեզ և զ<abbr>ամ</abbr> մարդ և նմա փա՛ռք յ<abbr>աւ</abbr> ամեն 
-<lb xml:id="l101767129" n="10" resp="#u281"/>Ով քահանայք և ժողովուրդք աղաչեմ զ
-<lb xml:id="l101767130" n="11" resp="#u281" break="no"/>ձեզ յիշեցէք զվարդան կրաւնաւորն և զ
-<lb xml:id="l101767131" n="12" resp="#u281" break="no"/>մայր նորա. և զտիրապետն որ յա<damage>յ<add place="above">ս</add></damage>մ ամի վա
-<lb xml:id="l101767132" n="13" resp="#u281" break="no"/>խճանէցան. և զբանարգէս ռայիսն և զ
-<lb xml:id="l101767133" n="14" resp="#u281" break="no"/>պատուականն <add place="above">և</add> զյովանէսն <add place="above">և</add> զլէւոն էրէց 
-<lb xml:id="l101767134" n="15" resp="#u281"/>և զսոսթանէսն և զբարէ տեսիլ որդեակն 
-<lb xml:id="l101767135" n="16" resp="#u281"/>զսիոն։ զվառաւոր տանուտերքն որ մի
-<lb xml:id="l101767136" n="17" resp="#u281" break="no"/>աբան և պտղատուէին <abbr>սբ</abbr> <subst><del rend="erase">յ</del><add place="above">թ</add></subst>որոսոյ. յիշեց
-<lb xml:id="l101767137" n="18" resp="#u1923" break="no"/>եք <gap extent="4"/> <abbr>տր</abbr> ողորմայիւ։ ով եղբարք. հացն ի 
-<lb xml:id="l101767138" n="19" resp="#u1923"/><num value="100">ճ՟</num>։ դրա մեր ապա չկա՛յր. նա հոգևոր տան 
-<lb xml:id="l101767139" n="20" resp="#u281"/>տիկնայքն. տիրանց տիկին և զոհալն. և սիրա
-<lb xml:id="l101767140" n="21" resp="#u281" break="no"/>յն և տաւնազարդն մեզէ փած հաց յղրկեցին 
-<lb xml:id="l101767141" n="22" resp="#u1923"/><abbr>տր</abbr> և նոցա ողորմեսցիւ</note> 
+<lb xml:id="l101767118" facs="#z101767118" n="1" resp="#u281"/>ընդ պոռնի՛կն դասի։ Եւ լեզուանին. ընդ 
+<lb xml:id="l101767121" facs="#z101767121" n="2" resp="#u281"/>սպանողի՛ն տանջի. որպէս և պաւ՛ղոս վը
+<lb xml:id="l101767122" facs="#z101767122" n="3" resp="#u281" break="no"/>կայէ։ Շնացողն. ատելի՛ է <abbr>քի</abbr>։ Եւ զրկողն. 
+<lb xml:id="l101767123" facs="#z101767123" n="4" resp="#u281"/>թշնամի՛ է <abbr>սբ</abbr> հոգոյն. որպէս և գրե <abbr>ած</abbr>ա
+<lb xml:id="l101767124" facs="#z101767124" n="5" resp="#u281" break="no"/>բան ի ճառն յայ<damage>տ</damage>նու<abbr>թե</abbr>. թէ աւազանն 
+<lb xml:id="l101767125" facs="#z101767125" n="6" resp="#u281"/>ո՛չ բաւեզ զրկանքն։ Մարդասպանն կա
+<lb xml:id="l101767126" facs="#z101767126" n="7" resp="#u281" break="no"/>յէ՛ն կոչի։ Եւ զուր մատնիչն. և անյա՛գար
+<lb xml:id="l101767127" facs="#z101767127" n="8" resp="#u281" break="no"/>ծաթասէրն. ընկե՛րէ սատանայ<damage>ի</damage>։ յորմէ 
+<lb xml:id="l101767128" facs="#z101767128" n="9" resp="#u281"/>փրկէ <abbr>քս</abbr> զմեզ և զ<abbr>ամ</abbr> մարդ և նմա փա՛ռք յ<abbr>աւ</abbr> ամեն 
+<lb xml:id="l101767129" facs="#z101767129" n="10" resp="#u281"/>Ով քահանայք և ժողովուրդք աղաչեմ զ
+<lb xml:id="l101767130" facs="#z101767130" n="11" resp="#u281" break="no"/>ձեզ յիշեցէք զվարդան կրաւնաւորն և զ
+<lb xml:id="l101767131" facs="#z101767131" n="12" resp="#u281" break="no"/>մայր նորա. և զտիրապետն որ յա<damage>յ<add place="above">ս</add></damage>մ ամի վա
+<lb xml:id="l101767132" facs="#z101767132" n="13" resp="#u281" break="no"/>խճանէցան. և զբանարգէս ռայիսն և զ
+<lb xml:id="l101767133" facs="#z101767133" n="14" resp="#u281" break="no"/>պատուականն <add place="above">և</add> զյովանէսն <add place="above">և</add> զլէւոն էրէց 
+<lb xml:id="l101767134" facs="#z101767134" n="15" resp="#u281"/>և զսոսթանէսն և զբարէ տեսիլ որդեակն 
+<lb xml:id="l101767135" facs="#z101767135" n="16" resp="#u281"/>զսիոն։ զվառաւոր տանուտերքն որ մի
+<lb xml:id="l101767136" facs="#z101767136" n="17" resp="#u281" break="no"/>աբան և պտղատուէին <abbr>սբ</abbr> <subst><del rend="erase">յ</del><add place="above">թ</add></subst>որոսոյ. յիշեց
+<lb xml:id="l101767137" facs="#z101767137" n="18" resp="#u1923" break="no"/>եք <gap extent="4"/> <abbr>տր</abbr> ողորմայիւ։ ով եղբարք. հացն ի 
+<lb xml:id="l101767138" facs="#z101767138" n="19" resp="#u1923"/><num value="100">ճ՟</num>։ դրա մեր ապա չկա՛յր. նա հոգևոր տան 
+<lb xml:id="l101767139" facs="#z101767139" n="20" resp="#u281"/>տիկնայքն. տիրանց տիկին և զոհալն. և սիրա
+<lb xml:id="l101767140" facs="#z101767140" n="21" resp="#u281" break="no"/>յն և տաւնազարդն մեզէ փած հաց յղրկեցին 
+<lb xml:id="l101767141" facs="#z101767141" n="22" resp="#u1923"/><abbr>տր</abbr> և նոցա ողորմեսցիւ</note> 
 <note type="transcriptional" target="#l101665198" resp="#u281">city name is illegible, neither Ani nor Kars</note>
 <note type="transcriptional" target="#l101665222" resp="#u281">unspecified ջրգնաց in margin</note>
 <note type="transcriptional" target="#l101758810" resp="#u281">section mark</note>
