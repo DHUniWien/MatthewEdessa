@@ -61,3 +61,24 @@ TRANSLATION
 * by: String
 * comment: String
 * READING <- BEGIN,END
+
+COMMENT
+* text: String
+* by: String
+* READING <- BEGIN,END
+
+SOURCE
+* description: String
+* by: String
+* READING <- BEGIN,END
+
+TITLE
+* language: String
+* text: String
+* SECTION <- TITLED
+
+CHAPTER
+* language: String
+* title: String
+* description: String
+* SECTION <- CONTAINS
