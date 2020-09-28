@@ -2460,12 +2460,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "տովանիմ զ<abbr>ամ</abbr> զ<subst><del rend=\"erase\"><gap extent=\"4\"/>յ</del><add>մեղս</add></subst> իմ, ման<abbr>ւ</abbr>նդ "
+            "cnt:chars" : "տովանիմ զ<abbr>ամ</abbr> զմեղս <del rend=\"erase\">յ</del>իմ, ման<abbr>ւ</abbr>նդ "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13196859#xywh=333,399,254,21",
           "_tpen_note" : "",
           "_tpen_creator" : 281,
-          "modified" : "2016-12-01 13:07:56.0"
+          "modified" : "2020-09-27 05:53:33.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102074515",
           "_tpen_line_id" : "line/102074515",
