@@ -160,7 +160,7 @@ def normalise(token):
     if token_re is not None:
         nf = abbreviation_lookup.get(token_re, None)
         if nf is None:
-            abbrurl = 'http://test.stemmaweb.net:3000/lookup/%s' % token_re
+            abbrurl = 'http://monitor.stemmaweb.net:5000/lookup/%s' % token_re
             try:
                 r = requests.get(abbrurl)
                 if r.status_code == requests.codes.ok:
