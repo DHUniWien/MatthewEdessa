@@ -1,0 +1,167 @@
+# This is a basic workflow that is manually triggered
+
+name: Pull and upload test collation
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  schedule: 
+    - cron: '20 6 * * *'
+  workflow_dispatch:
+  
+# We need to specify a bunch of details for what we intend to upload.
+env:
+  API_TEST_BASE: https://api.editions.byzantini.st/ChronicleMETest/stemmarest
+  SW_USER: chronicle@stemmaweb.net
+  TRADITION_NAME: Ժամանակագրութիւն
+  TRADITION_LANG: Armenian
+  XMLSCHEMA: transcription/tei-xml/tei_all.rng
+  
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # T-PEN backup
+  tpen-backup:
+    runs-on: chrysaphi/edition-tools
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    - uses: actions/checkout@v3
+    - name: Fetch files from T-PEN
+      run: |
+        # Get the config file and add secrets
+        sed -e 's/TPENUSER/${{ secrets.TPEN_USER }}' -e 's/TPENPASS/${{ secrets.TPEN_PASS }}' backup.yml > /root/tpen/backup.yml
+       /root/tpen/backup.py .
+    - name: Convert from SC-JSON to TEI XML format
+      run: |
+        [ -d transcription/merged ] || mkdir transcription/merged
+        python3 /root/moe-data/merge-json.py transcription/ transcription/merged --verbose
+        if [ -f transcription/members.json ]; then
+          cp transcription/members.json transcription/merged
+        fi
+        JSON2XML_ARGS=
+        if [ -f transcription/config.py ]; then
+          JSON2XML_ARGS="-c transcription/config"
+        fi
+        [ -d transcription/tei-xml ] || mkdir transcription/tei-xml/
+        python3 /root/moe-data/json2xml.py -v $TRANSCRIPTION_DIR transcription/tei-xml/ $JSON2XML_ARGS  
+    - uses: EndBug/add-and-commit@v9
+      with:
+        add: 'transcription/*.json transcription/tei-xml/*.xml'
+        message: 'Daily T-PEN backup automagick'
+        
+  # XML validation. Do this as a separate job so that we can choose whether or not to make this a blocking failure
+  validate-tei-xml:
+    runs-on: chrysaphi/edition-tools
+    needs: tpen-backup
+    steps: 
+      - uses: actions/checkout@v3
+      - name: Validate committed XML files
+        run: |
+          # don't stop if a linter fails, instead make sure
+          # all files are checked by swallowing the return value
+          #
+          verr=0
+          for FILE in transcription/tei-xml/*.xml
+          do
+            echo === $FILE ===
+            xmllint --noout --relaxng "$XMLSCHEMA" "$FILE"
+            ret=$?
+            verr=$((verr + ret))
+          done
+          if [ $verr -ne 0 ]; then
+            echo "Some files failed to validate"
+          fi
+          exit $verr
+  
+  # Tokenize by section, run the collation, and upload the result.
+  collate-and-upload:
+    runs-on: chrysaphi/edition-tools
+    needs: validate-tei-xml   # Change this to 'tpen-backup' if you don't want validation to block
+    steps:
+      - uses: actions/checkout@v3
+      - name: Tokenize all sections
+        run: python3 /root/moe-data/teixml2collatex.py transcription/tei-xml/ tokenfiles -c transcription/config --verbose
+      - name: Collate section by section
+        run: |
+          # PUT new user on test server
+          curl \
+              --silent \
+              --user ${{ secrets.API_HTUSER }}:${{ secrets.API_HTPASS }} \
+              --request PUT \
+              --header "Content-Type: application/json" \
+              --data '{ "role":"user", "id":"$SW_USER", "email":"$SW_USER", "passphrase":"${{secrets.SW_PASS}}"}' \
+          $API_TEST_BASE/user/$SW_USER
+          if [ $? -ne 0 ]; then
+              exit $?
+          fi
+
+          # Make the new empty tradition
+          curl \
+              --silent \
+              --user ${{ secrets.API_HTUSER }}:${{ secrets.API_HTPASS }} \
+              --request POST \
+              --form "name=$TRADITION_NAME $(date "+%Y-%m-%d")" \
+              --form "language=$TRADITION_LANG" \
+              --form "public=no" \
+              --form "userId=$SW_USER" \
+              --form "empty=no" \
+          $API_TEST_BASE/tradition > create-tradition.response
+          TRADITION_ID=`jq ".tradId" create-tradition.response | sed s/\"//g`
+          if [ -z $TRADITION_ID ]; then
+              exit 1
+          fi
+          export TRADITION_ID
+
+          SECTION_ID=''
+
+          # Go through each milestone, collate it, and upload it
+          echo "Collating and uploading milestones ..."
+          for IN_FILE in tokenfiles/milestone-*.json
+          do
+              NAME=${IN_FILE##*/}  # strip directory
+              NAME=${NAME%.*}      # strip file ext.
+
+              OUT_FILE_JSON=collations/$NAME.json
+              CMD_TIMEOUT="timeout 1000 "
+
+              # run the collation
+              CMD_COLLATE_JSON="java -jar /root/collatex.jar --tokenized --format json $IN_FILE --output $OUT_FILE_JSON"
+
+              echo `date -R`: $CMD_COLLATE_JSON
+              # $CMD_TIMEOUT $CMD_COLLATE_JSON
+              $CMD_COLLATE_JSON
+
+              # upload it to the server
+              SECTION_ID_PREV=${SECTION_ID}
+              SECTION_ID=''
+
+              CMD_CURL="curl --silent --user ${{ secrets.API_HTUSER }}:${{ secrets.API_HTPASS }} --request POST"
+              CMD_CURL="${CMD_CURL} --form name=${NAME}"
+              CMD_CURL="${CMD_CURL} --form file=@${OUT_FILE_JSON}"
+              CMD_CURL="${CMD_CURL} --form filetype=cxjson"
+              CMD_CURL="${CMD_CURL} https://api.editions.byzantini.st/ChronicleMETest/stemmarest/tradition/${TRADITION_ID}/section"
+              echo $CMD_CURL
+
+              # Abort if we get five gateway errors in a row
+              SUCCESS=
+              for ((i=1; i < 6; i++)); do
+                  echo -n "`date -R`: Attempt $i: "
+                  $CMD_CURL > create-section.response
+                  if grep -q "50.*Gateway" create-section.response
+                  then
+                      echo Gateway error $i/3
+                  else
+                      cat create-section.response; echo
+                      SUCCESS=true
+                      break
+                  fi
+              done
+              if [ -z $SUCCESS ]
+              then
+                  echo "Too many gateway errors in a row; bailing out"
+                  exit 1
+              fi
+
+              SECTION_ID=`jq ".parentId" create-section.response | sed s/\"//g`
+          done

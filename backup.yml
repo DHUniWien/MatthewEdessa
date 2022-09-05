@@ -1,0 +1,43 @@
+# t-pen.org credentials
+username: TPENUSER
+password: TPENPASS
+
+# boolean
+debug: true
+
+# filename
+logfile: ./backup.log
+loglevel: DEBUG
+
+# timeout when accessing t-pen
+timeout: 120
+
+# give up after this many timeouts
+max_errors: 5
+
+# howto access T-PEN
+uri_index: http://t-pen.org/TPEN/index.jsp
+uri_login:  http://t-pen.org/TPEN/login.jsp
+uri_project: http://t-pen.org/TPEN/project/
+uri_user: http://t-pen.org/TPEN/geti?uid=
+
+# labels of T-PEN projects to exclude from the backup
+# best prepended by a comment about the exception
+blacklist:
+    # https://github.com/DHUniWien/MatthewEdessa/issues/2
+    - "MiSy V I 121r-130r"
+    - "MiSy V I 130v-150r"
+    - "MiSy V I 150v-162r"
+    - "MiSy V I 162v-181r"
+    - "MiSy V I 181v-208r"
+    - "MiSy V I 208v-244r"
+    - "Oxford, Bodleain Library Arm e.32"
+    - "Palaeography Practice"
+
+# keep these files in the repository even if they are not on T-PEN
+keeplist:
+    - "tei-xml"
+    - "collatex-out"
+    - "config.yaml"
+    # various settings for moe-data pipeline
+    - "config.py"
