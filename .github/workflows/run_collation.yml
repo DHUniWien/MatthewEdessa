@@ -6,8 +6,13 @@ name: Pull and upload test collation
 # or API.
 on:
   schedule: 
-    - cron: '20 6 * * *'
+   - cron: '20 6 * * *'
   workflow_dispatch:
+    inputs:
+      forceCollate:
+        description: "Force the full collation process to run"
+        required: true 
+        type: boolean
   
 # We need to specify a bunch of details for what we intend to upload.
 env:
@@ -22,9 +27,12 @@ env:
 jobs:
   # T-PEN backup
   tpen-backup:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux]
     container:
       image: chrysaphi/edition-tools
+    # Outputs are snippets of data that we can pass around the workflow
+    outputs:
+      filesChanged: ${{ steps.commitstep.committed }}
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Checkout the repo
@@ -32,8 +40,6 @@ jobs:
     - name: Fetch files from T-PEN
       run: |
         # Get the config file and add secrets
-        pwd
-        ls
         sed -e 's/TPENUSER/${{ secrets.TPEN_USER }}/' -e 's/TPENPASS/${{ secrets.TPEN_PASS }}/' backup.yml > /root/tpen/backup.yml
         /root/tpen/backup.py .
     - name: Convert from SC-JSON to TEI XML format
@@ -50,6 +56,7 @@ jobs:
         [ -d transcription/tei-xml ] || mkdir transcription/tei-xml
         python3 /root/moe-data/json2xml.py -v transcription/merged transcription/tei-xml $JSON2XML_ARGS  
     - name: Commit and push all updates
+      id: commitstep
       uses: EndBug/add-and-commit@v9
       with:
         add: 'transcription/*.json transcription/tei-xml/*.xml'
@@ -57,7 +64,8 @@ jobs:
         
   # XML validation. Do this as a separate job so that we can choose whether or not to make this a blocking failure
   validate-tei-xml:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux]
+    if: jobs.tpen-backup.filesChanged || inputs.forceCollate
     container:
       image: chrysaphi/edition-tools
     needs: tpen-backup
@@ -83,7 +91,8 @@ jobs:
   
   # Tokenize by section, run the collation, and upload the result.
   collate-and-upload:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux]
+    if: jobs.tpen-backup.filesChanged || inputs.forceCollate
     container:
       image: chrysaphi/edition-tools
     needs: validate-tei-xml   # Change this to 'tpen-backup' if you don't want validation to block
