@@ -174,7 +174,7 @@ def normalise(token):
                     nf = 'ERROR %d' % r.status_code
             except requests.exceptions.ConnectionError:
                 nf = 'ERROR connection'
-        if not nf.startswith('ERROR') and nf is not 'UNDEF':
+        if not nf.startswith('ERROR') and nf != 'UNDEF':
             token['normal_form'] = nf
             token['n'] = comparator(nf)
             abbreviation_lookup[token_re] = nf
