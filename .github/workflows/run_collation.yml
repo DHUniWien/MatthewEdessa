@@ -27,7 +27,7 @@ env:
 jobs:
   # T-PEN backup
   tpen-backup:
-    runs-on: [self-hosted, linux]
+    runs-on: [self-hosted, Linux]
     container:
       image: chrysaphi/edition-tools
     # Outputs are snippets of data that we can pass around the workflow
@@ -64,7 +64,7 @@ jobs:
         
   # XML validation. Do this as a separate job so that we can choose whether or not to make this a blocking failure
   validate-tei-xml:
-    runs-on: [self-hosted, linux]
+    runs-on: [self-hosted, Linux]
     if: needs.tpen-backup.outputs.filesChanged || inputs.forceCollate
     container:
       image: chrysaphi/edition-tools
@@ -91,7 +91,7 @@ jobs:
   
   # Tokenize by section, run the collation, and upload the result.
   collate-and-upload:
-    runs-on: [self-hosted, linux]
+    runs-on: [self-hosted, Linux]
     if: needs.tpen-backup.outputs.filesChanged || inputs.forceCollate
     container:
       image: chrysaphi/edition-tools
