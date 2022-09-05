@@ -47,8 +47,8 @@ jobs:
         if [ -f transcription/config.py ]; then
           JSON2XML_ARGS="-c transcription/config"
         fi
-        [ -d transcription/tei-xml ] || mkdir transcription/tei-xml/
-        python3 /root/moe-data/json2xml.py -v $TRANSCRIPTION_DIR transcription/tei-xml/ $JSON2XML_ARGS  
+        [ -d transcription/tei-xml ] || mkdir transcription/tei-xml
+        python3 /root/moe-data/json2xml.py -v transcription/merged transcription/tei-xml $JSON2XML_ARGS  
     - name: Commit and push all updates
       uses: EndBug/add-and-commit@v9
       with:
