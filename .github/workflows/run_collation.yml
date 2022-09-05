@@ -22,16 +22,18 @@ env:
 jobs:
   # T-PEN backup
   tpen-backup:
-    runs-on: chrysaphi/edition-tools
-
+    runs-on: ubuntu-latest
+    container:
+      image: chrysaphi/edition-tools
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout the repo
+      uses: actions/checkout@v3
     - name: Fetch files from T-PEN
       run: |
         # Get the config file and add secrets
         sed -e 's/TPENUSER/${{ secrets.TPEN_USER }}' -e 's/TPENPASS/${{ secrets.TPEN_PASS }}' backup.yml > /root/tpen/backup.yml
-       /root/tpen/backup.py .
+        /root/tpen/backup.py .
     - name: Convert from SC-JSON to TEI XML format
       run: |
         [ -d transcription/merged ] || mkdir transcription/merged
@@ -45,14 +47,17 @@ jobs:
         fi
         [ -d transcription/tei-xml ] || mkdir transcription/tei-xml/
         python3 /root/moe-data/json2xml.py -v $TRANSCRIPTION_DIR transcription/tei-xml/ $JSON2XML_ARGS  
-    - uses: EndBug/add-and-commit@v9
+    - name: Commit and push all updates
+      uses: EndBug/add-and-commit@v9
       with:
         add: 'transcription/*.json transcription/tei-xml/*.xml'
         message: 'Daily T-PEN backup automagick'
         
   # XML validation. Do this as a separate job so that we can choose whether or not to make this a blocking failure
   validate-tei-xml:
-    runs-on: chrysaphi/edition-tools
+    runs-on: ubuntu-latest
+    container:
+      image: chrysaphi/edition-tools
     needs: tpen-backup
     steps: 
       - uses: actions/checkout@v3
@@ -76,7 +81,9 @@ jobs:
   
   # Tokenize by section, run the collation, and upload the result.
   collate-and-upload:
-    runs-on: chrysaphi/edition-tools
+    runs-on: ubuntu-latest
+    container:
+      image: chrysaphi/edition-tools
     needs: validate-tei-xml   # Change this to 'tpen-backup' if you don't want validation to block
     steps:
       - uses: actions/checkout@v3
