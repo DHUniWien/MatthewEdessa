@@ -32,7 +32,9 @@ jobs:
     - name: Fetch files from T-PEN
       run: |
         # Get the config file and add secrets
-        sed -e 's/TPENUSER/${{ secrets.TPEN_USER }}' -e 's/TPENPASS/${{ secrets.TPEN_PASS }}' backup.yml > /root/tpen/backup.yml
+        pwd
+        ls
+        sed -e 's/TPENUSER/${{ secrets.TPEN_USER }}/' -e 's/TPENPASS/${{ secrets.TPEN_PASS }}/' backup.yml > /root/tpen/backup.yml
         /root/tpen/backup.py .
     - name: Convert from SC-JSON to TEI XML format
       run: |
