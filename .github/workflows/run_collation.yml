@@ -136,6 +136,9 @@ jobs:
 
           # Go through each milestone, collate it, and upload it
           echo "Collating and uploading milestones ..."
+          if [ ! -e collations ]; then
+              mkdir collations
+          fi
           for IN_FILE in tokenfiles/milestone-*.json
           do
               NAME=${IN_FILE##*/}  # strip directory
