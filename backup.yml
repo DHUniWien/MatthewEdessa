@@ -6,8 +6,7 @@ password: TPENPASS
 debug: true
 
 # filename
-logfile: ./backup.log
-loglevel: DEBUG
+loglevel: INFO
 
 # timeout when accessing t-pen
 timeout: 120

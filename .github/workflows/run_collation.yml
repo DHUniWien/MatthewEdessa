@@ -29,7 +29,7 @@ jobs:
   tpen-backup:
     runs-on: [self-hosted, Linux]
     container:
-      image: chrysaphi/edition-tools
+      image: ghcr.io/dhuniwien/edition-tools:master
     # Outputs are snippets of data that we can pass around the workflow
     outputs:
       filesChanged: ${{ steps.commitstep.committed }}
@@ -45,7 +45,7 @@ jobs:
     - name: Convert from SC-JSON to TEI XML format
       run: |
         [ -d transcription/merged ] || mkdir transcription/merged
-        python3 /root/moe-data/merge-json.py transcription/ transcription/merged --verbose
+        python3 /root/scripts/merge-json.py transcription/ transcription/merged --verbose
         if [ -f transcription/members.json ]; then
           cp transcription/members.json transcription/merged
         fi
@@ -54,7 +54,7 @@ jobs:
           JSON2XML_ARGS="-c transcription/config"
         fi
         [ -d transcription/tei-xml ] || mkdir transcription/tei-xml
-        python3 /root/moe-data/json2xml.py -v transcription/merged transcription/tei-xml $JSON2XML_ARGS  
+        python3 /root/scripts/json2xml.py -v transcription/merged transcription/tei-xml $JSON2XML_ARGS  
     - name: Commit and push all updates
       id: commitstep
       uses: EndBug/add-and-commit@v9
@@ -67,7 +67,7 @@ jobs:
     runs-on: [self-hosted, Linux]
     if: needs.tpen-backup.outputs.filesChanged || inputs.forceCollate
     container:
-      image: chrysaphi/edition-tools
+      image: ghcr.io/dhuniwien/edition-tools:master
     needs: tpen-backup
     steps: 
       - uses: actions/checkout@v3
@@ -92,14 +92,15 @@ jobs:
   # Tokenize by section, run the collation, and upload the result.
   collate-and-upload:
     runs-on: [self-hosted, Linux]
-    if: needs.tpen-backup.outputs.filesChanged || inputs.forceCollate
+    # We need this line if we aren't depending on validation
+    # if: needs.tpen-backup.outputs.filesChanged || inputs.forceCollate
     container:
-      image: chrysaphi/edition-tools
+      image: ghcr.io/dhuniwien/edition-tools:master
     needs: validate-tei-xml   # Change this to 'tpen-backup' if you don't want validation to block
     steps:
       - uses: actions/checkout@v3
       - name: Tokenize all sections
-        run: python3 /root/moe-data/teixml2collatex.py transcription/tei-xml/ tokenfiles -c transcription/config --verbose
+        run: python3 /root/scripts/teixml2collatex.py transcription/tei-xml/ tokenfiles -c transcription/config --verbose
       - name: Collate section by section
         run: |
           # PUT new user on test server
