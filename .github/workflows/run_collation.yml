@@ -32,7 +32,7 @@ jobs:
       image: ghcr.io/dhuniwien/edition-tools:master
     # Outputs are snippets of data that we can pass around the workflow
     outputs:
-      filesChanged: ${{ steps.commitstep.committed }}
+      filesChanged: ${{ steps.commitstep.outputs.committed }}
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Checkout the repo
