@@ -63,6 +63,7 @@ docs/_build/
 # PyBuilder
 target/
 
-# T-PEN backup creates temporary files (mainly for debugging purposes)
+# Collation pipeline creates some temp files; ignore these
 transcription/.*stdout
 transcription/.*stderr
+transcription/merged/

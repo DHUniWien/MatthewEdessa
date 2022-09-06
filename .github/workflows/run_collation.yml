@@ -164,12 +164,12 @@ jobs:
 
               # Abort if we get five gateway errors in a row
               SUCCESS=
-              for ((i=1; i < 6; i++)); do
+              for i in {1..5}; do
                   echo -n "`date -R`: Attempt $i: "
                   $CMD_CURL > create-section.response
                   if grep -q "50.*Gateway" create-section.response
                   then
-                      echo Gateway error $i/3
+                      echo Gateway error $i/5
                   else
                       cat create-section.response; echo
                       SUCCESS=true
