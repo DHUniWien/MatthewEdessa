@@ -2,37 +2,44 @@ import argparse
 import json
 import re
 import requests
-from requests.auth import HTTPBasicAuth
 from requests.exceptions import HTTPError
 
 
-def make_obvious_relations(options, auth=None):
+STEMMAWEB_URL = 'https://stemmaweb.net/stemmaweb'
+# STEMMAWEB_URL = 'http://localhost:3000'
+
+
+def stemmaweb_login(uname, pword, session):
+    """Try to log into Stemmaweb, and return the cookie we get"""
+    credentials = {
+        'username': uname, 
+        'password': pword 
+    }
+    r = session.post(STEMMAWEB_URL + "/login", data=credentials)
+    r.raise_for_status()
+
+
+def make_obvious_relations(options, session):
     """Connects to a Stemmarest URL, goes section by section through
     the readings, and tries to make relationships based on normal form,
     case folding, and a few other custom parameters."""
-    url = "%s/tradition/%s" % (options.repository, options.tradition_id)
-    for section in get_sections(url, options.section, auth):
+    url = "%s/api/%s" % (STEMMAWEB_URL, options.tradition_id)
+    for section in get_sections(url, options.section, session):
         print("Working on section %s" % section.get('name'))
-        apply_relations(url, section.get('id'), auth=auth, verbose=options.verbose)
+        apply_relations(url, section.get('id'), session, verbose=options.verbose)
 
 
-def get_sections(url, requested, auth=None):
-    if auth is not None:
-        r = requests.get("%s/sections" % url, auth=auth)
-    else:
-        r = requests.get("%s/sections" % url)
+def get_sections(url, requested, session):
+    r = session.get("%s/sections" % url)
     r.raise_for_status()
     if requested is not None:
         return [s for s in r.json() if s.get('name') == requested]
     return r.json()
 
 
-def apply_relations(url, sectid, auth=None, verbose=False):
+def apply_relations(url, sectid, session, verbose=False):
     rdgurl = "%s/section/%s/readings" % (url, sectid)
-    if auth is not None:
-        r = requests.get(rdgurl, auth=auth)
-    else:
-        r = requests.get(rdgurl)
+    r = session.get(rdgurl)
     r.raise_for_status()
     ranked_rdgs = sort_by_rank(r.json())
     relation_stack = []
@@ -51,7 +58,7 @@ def apply_relations(url, sectid, auth=None, verbose=False):
                 elif test_equiv(thisrdg, otherrdg, _grammar_cmp_string):
                     relation_stack.append((thisrdg, otherrdg, 'grammatical'))
 
-    make_relations("%s/relation" % url, relation_stack, auth=auth, verbose=verbose)
+    make_relations("%s/relation" % url, relation_stack, session, verbose=verbose)
 
 
 def sort_by_rank(rdglist):
@@ -108,7 +115,7 @@ def _grammar_cmp_string(s):
     s = re.sub('[նսք]$', '', s)
     return s
 
-def make_relations(url, stack, auth=None, verbose=False):
+def make_relations(url, stack, session, verbose=False):
     for rtuple in stack:
         relmodel = {
             'source': rtuple[0].get('id'),
@@ -117,14 +124,11 @@ def make_relations(url, stack, auth=None, verbose=False):
             'annotation': 'automatically created',
             'scope': 'local'
         }
-        headers={'Content-Type': 'application/json'}
-        if auth is not None:
-            r = requests.post(url, data=json.dumps(relmodel), headers=headers, auth=auth)
-        else:
-            r = requests.post(url, data=json.dumps(relmodel), headers=headers)
-
         prettyprint = "%s/%s and %s/%s (%s)" % \
                       (rtuple[0].get('rank'), rtuple[0].get('text'), rtuple[1].get('rank'), rtuple[1].get('text'), rtuple[2])
+        
+        headers={'Content-Type': 'application/json'}
+        r = session.post(url, data=json.dumps(relmodel), headers=headers)
         try:
             r.raise_for_status()
         except HTTPError as he:
@@ -138,29 +142,47 @@ def make_relations(url, stack, auth=None, verbose=False):
             print("Linked readings %s" % prettyprint)
 
 
-def merge_identical_across_ranks(options, auth=None):
-    url = "%s/tradition/%s" % (options.repository, options.tradition_id)
-    for section in get_sections(url, options.section, auth):
+def merge_identical_across_ranks(options, session):
+    url = "%s/api/%s" % (STEMMAWEB_URL, options.tradition_id)
+    for section in get_sections(url, options.section, session):
         print("Checking mergeable readings in section %s" % section.get('name'))
         for word in ['ի', 'և', '']:  # the last is for punctuation
             param = {'text': word}
-            murl = "%s/section/%s/mergeablereadings/1/%s" % \
-                (url, section.get('id'), section.get('endRank'))
-            r = requests.get(murl, params=param, auth=auth)
-            r.raise_for_status()
+            # Do this in moving windows in order to avoid massive requests
+            ws = 50  # window size
+            er = section.get('endRank')
+            st = 1 # window start
+            if options.verbose:
+                print("Window size %d, end rank %d" % (ws, er))
+            while st < er:
+                # Set the window end, never exceeding the end rank
+                e = st+ws if st+ws < er else er
+                murl = "%s/section/%s/mergeablereadings/%d/%d" % \
+                    (url, section.get('id'), st, e)
+                if options.verbose:
+                    print("Requesting %s" % murl)
+                r = session.get(murl, params=param)
+                r.raise_for_status()
+                # Move the window start to 10 less than the window end, 
+                # to allow for overlap
+                st += ws - 10
 
-            # We have a list of mergeable readings. Do two passes; first for
-            # function words and then for punctuation.
-            mergetargets = {}
-            for pair in r.json():
-                (r1, r2) = pair
-                if _mergeable(*pair):
-                    r1 = mergetargets.get(r1.get('id'), r1)
-                    r2 = mergetargets.get(r2.get('id'), r2)
-                    mgurl = "%s/reading/%s/merge/%s" % \
-                        (options.repository, r1.get('id'), r2.get('id'))
-                    if _attempt_merge(mgurl, r1, r2, auth=auth, verbose=options.verbose):
-                        mergetargets[r2.get('id')] = r1
+                # We have a list of mergeable readings. Do two passes; first for
+                # function words and then for punctuation.
+                mergetargets = {}
+                for pair in r.json():
+                    (r1, r2) = pair
+                    if _mergeable(*pair):
+                        # This is pretty hackish, and relies on _attempt_merge only needing ID and text
+                        rid1 = mergetargets.get(r1.get('id'), r1.get('id'))
+                        r1 = {'id': rid1, 'text': r1.get('text')}
+                        rid2 = mergetargets.get(r2.get('id'), r2.get('id'))
+                        r2 = {'id': rid2, 'text': r2.get('text')}
+                        # Attempt the merge and keep track of which readings no longer exist
+                        mgurl = "%s/reading/%s/merge/%s" % \
+                            (url, rid1, rid2)
+                        if _attempt_merge(mgurl, r1, r2, session, verbose=options.verbose):
+                            mergetargets[rid2] = rid1
 
 
 
@@ -171,17 +193,17 @@ def _mergeable(r1, r2):
 
 
 
-def _attempt_merge(url, r1, r2, auth=None, verbose=False):
+def _attempt_merge(url, r1, r2, session, verbose=False):
     if verbose:
         print("Attempting merge of %s/%s and %s/%s" % \
               (r1.get('id'), r1.get('text'),
                r2.get('id'), r2.get('text')), end='', flush=True)
-    r = requests.post(url, auth=auth)
+    r = session.post(url)
     try:
         r.raise_for_status()
     except HTTPError as e:
         if verbose:
-            print("failed: %s" % e.response.text)
+            print("...failed: %s" % e.response.text)
         return False
     if verbose:
         print("...succeeded")
@@ -191,13 +213,7 @@ def _attempt_merge(url, r1, r2, auth=None, verbose=False):
 # Do the work
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    server = parser.add_argument_group('Stemmarest server connection')
-    server.add_argument(
-        "-r",
-        "--repository",
-        required=True,
-        help="URL to tradition repository"
-    )
+    server = parser.add_argument_group('Stemmaweb server connection')
     server.add_argument(
         "-u",
         "--username",
@@ -235,13 +251,12 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    # Make an authentication object if we need to
-    authobj = None
-    if args.username is not None:
-        authobj = HTTPBasicAuth(args.username, args.password)
+    # Create a session and use it to log into Stemmaweb
+    s = requests.Session()
+    stemmaweb_login(args.username, args.password, s)
 
     # Go do the work.
     if args.do_merge:
-        merge_identical_across_ranks(args, auth=authobj)
-    make_obvious_relations(args, auth=authobj)
+        merge_identical_across_ranks(args, s)
+    make_obvious_relations(args, s)
     print("Done!")

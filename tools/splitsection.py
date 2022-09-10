@@ -16,17 +16,23 @@ def stemmaweb_login(uname, pword, session):
 
 
 # Make the request to split the reading
-def split_reading(session, options):
-    """Make the request to split the reading"""
+def split_section(session, options):
+    """Make the request to split the section"""
     BASEURL = STEMMAWEB_URL + "/api/" + options.tradition_id
-    headers = {'Content-Type': 'application/json'}
-    spec = {'character': options.character, 
-            'separate': options.separate, 
-            'isRegex': options.isRegex}
-    r = session.post(BASEURL + "/reading/%d/split/%d" 
-                        % (options.reading, options.index), 
-                      headers=headers, 
-                      data=json.dumps(spec))
+
+    # Were we called with a reading?
+    if args.reading:
+        r = session.get(BASEURL + "/reading/%d" % options.reading)
+        r.raise_for_status
+        rdg = r.json()
+        splitRank = rdg.get('rank')
+    else:
+        splitRank = options.rank
+
+    # headers = {'Content-Type': 'application/json'}
+    r = session.post(BASEURL + "/section/%d/splitAtRank/%d" 
+                        % (options.section_id, splitRank), 
+                      )
     if r.status_code > 399:
         print(r.text)
     else:
@@ -34,7 +40,7 @@ def split_reading(session, options):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description="Split a section on a reading or a rank")
     server = parser.add_argument_group('Stemmaweb server connection')
     server.add_argument(
         "-u",
@@ -52,39 +58,28 @@ if __name__ == '__main__':
         required=True,
         help="ID of tradition to be modified"
     )
+    server.add_argument(
+        "-s",
+        "--section-id",
+        required=True,
+        type=int,
+        help="ID of section to be split"
+    )
 
-    ops = parser.add_argument_group('Reading split operation')
+    ops = parser.add_mutually_exclusive_group(required=True)
     ops.add_argument(
-        "-r",
+        "-rdg",
         "--reading",
         type=int,
-        help="ID of reading to split"
+        help="ID of reading where the section should be split"
     )
     ops.add_argument(
-        "-i",
-        "--index",
+        "-rk",
+        "--rank",
         type=int,
-        default=0,
-        help="Index of the character where the reading should be split"
+        help="Rank where the section should be split"
     )
-    ops.add_argument(
-        "-c",
-        "--character",
-        default=" ",
-        help="Character to split on (default: space)"
-    )
-    ops.add_argument(
-        "-s",
-        "--separate",
-        action="store_true",
-        help="Specify this if the readings should be space separated"
-    )
-    parser.add_argument(
-        "-rx",
-        "--isRegex",
-        action="store_true",
-        help="Specify this if "
-    )
+
     parser.add_argument(
         "-v",
         "--verbose",
@@ -97,5 +92,5 @@ if __name__ == '__main__':
     # Log in to Stemmaweb
     s = requests.Session()
     stemmaweb_login(args.username, args.password, s)
-    split_reading(s, args)
+    split_section(s, args)
 
