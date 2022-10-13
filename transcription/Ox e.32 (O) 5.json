@@ -16191,12 +16191,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "հայոյ զի <abbr>ամ</abbr> ոք վայ կարդայր ի վ<abbr>ր</abbr> անձ <del  type=\"cancel\">անց</del>ինն իւ"
+            "cnt:chars" : "հայոյ զի <abbr>ամ</abbr> ոք վայ կարդայր ի վ<abbr>ր</abbr> անձ<del  type=\"cancel\">անց</del>ինն իւ"
           },
           "on" : "http://t-pen.org/TPEN/canvas/13222380#xywh=42,656,658,45",
           "_tpen_note" : "",
           "_tpen_creator" : 1923,
-          "modified" : "2017-11-09 07:30:05.0"
+          "modified" : "2022-10-12 09:48:35.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/102692976",
           "_tpen_line_id" : "line/102692976",
