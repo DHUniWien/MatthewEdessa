@@ -21,7 +21,7 @@ jobs:
       forceCollate: ${{ inputs.forceCollate == true }}
       blockOnValidation: ${{ false }}
       xml_schema: transcription/tei-xml/tei_all.rng
-      api_test_base: https://api.editions.byzantini.st/ChronicleMETest/stemmarest
+      api_test_base: https://test.stemmaweb.net/stemmarest
       stemmaweb_user: chronicle@stemmaweb.net
       tradition_name: Ժամանակագրութիւն
       tradition_lang: Armenian
