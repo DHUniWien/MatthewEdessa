@@ -19,7 +19,7 @@ jobs:
     uses: DHUniWien/edition-tools/.github/workflows/download-and-collate.yml@master
     with:
       forceCollate: ${{ inputs.forceCollate == true }}
-      blockOnValidation: false
+      blockOnValidation: ${{ false }}
       xml_schema: transcription/tei-xml/tei_all.rng
       api_test_base: https://test.stemmaweb.net/stemmarest
       stemmaweb_user: chronicle@stemmaweb.net
