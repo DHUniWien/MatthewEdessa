@@ -146,43 +146,46 @@ def merge_identical_across_ranks(options, session):
     url = "%s/api/%s" % (STEMMAWEB_URL, options.tradition_id)
     for section in get_sections(url, options.section, session):
         print("Checking mergeable readings in section %s" % section.get('name'))
-        for word in ['ի', 'և', '']:  # the last is for punctuation
-            param = {'text': word}
-            # Do this in moving windows in order to avoid massive requests
-            ws = 50  # window size
-            er = section.get('endRank')
-            st = 1 # window start
+        ws = 100  # window size
+        er = section.get('endRank')
+        st = 1 # window start
+        if options.verbose:
+            print("Window size %d, end rank %d" % (ws, er))
+        while st < er:
+            # Set the window end, never exceeding the end rank
+            e = st+ws if st+ws < er else er
+            murl = "%s/section/%s/mergeablereadings/%d/%d" % \
+                (url, section.get('id'), st, e)
             if options.verbose:
-                print("Window size %d, end rank %d" % (ws, er))
-            while st < er:
-                # Set the window end, never exceeding the end rank
-                e = st+ws if st+ws < er else er
-                murl = "%s/section/%s/mergeablereadings/%d/%d" % \
-                    (url, section.get('id'), st, e)
-                if options.verbose:
-                    print("Requesting %s" % murl)
-                r = session.get(murl, params=param)
-                r.raise_for_status()
-                # Move the window start to 10 less than the window end, 
-                # to allow for overlap
-                st += ws - 10
+                print("Requesting %s" % murl)
+            r = session.get(murl)
+            r.raise_for_status()
+            # Move the window start to 10 less than the window end, 
+            # to allow for overlap
+            st += ws - 10
 
-                # We have a list of mergeable readings. Do two passes; first for
-                # function words and then for punctuation.
-                mergetargets = {}
-                for pair in r.json():
-                    (r1, r2) = pair
-                    if _mergeable(*pair):
-                        # This is pretty hackish, and relies on _attempt_merge only needing ID and text
-                        rid1 = mergetargets.get(r1.get('id'), r1.get('id'))
-                        r1 = {'id': rid1, 'text': r1.get('text')}
-                        rid2 = mergetargets.get(r2.get('id'), r2.get('id'))
-                        r2 = {'id': rid2, 'text': r2.get('text')}
-                        # Attempt the merge and keep track of which readings no longer exist
-                        mgurl = "%s/reading/%s/merge/%s" % \
-                            (url, rid1, rid2)
-                        if _attempt_merge(mgurl, r1, r2, session, verbose=options.verbose):
-                            mergetargets[rid2] = rid1
+            # We have a list of mergeable readings. Do a best-attempt merge
+            # of what we can, and try to keep track when a reading has been
+            # merged away already
+            # TODO handle the case where A goes into B, B goes into C, but
+            # A is still pointing to B as its merge target
+            mergetargets = {}
+            for pair in r.json():
+                (or1, or2) = pair   # the original readings
+                if _mergeable(*pair):
+                    # This is pretty hackish, and relies on _attempt_merge only needing ID and text.
+                    # Make pseudo-readings out of the previous merge targets.
+                    rid1 = mergetargets.get(or1.get('id'), or1.get('id'))
+                    r1 = {'id': rid1, 'text': or1.get('text')}
+                    rid2 = mergetargets.get(or2.get('id'), or2.get('id'))
+                    r2 = {'id': rid2, 'text': or2.get('text')}
+                    if rid1 == rid2:
+                        continue
+                    # Attempt the merge and keep track of which readings no longer exist
+                    mgurl = "%s/reading/%s/merge/%s" % \
+                        (url, rid1, rid2)
+                    if _attempt_merge(mgurl, r1, r2, session, verbose=options.verbose):
+                        mergetargets[rid2] = rid1
 
 
 
