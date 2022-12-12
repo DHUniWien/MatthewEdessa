@@ -6254,12 +6254,12 @@
           "motivation" : "oad:transcribing",
           "resource" : {
             "@type" : "cnt:ContentAsText",
-            "cnt:chars" : "նա՛ զփառս գալստեանն ն<abbr>ր</abbr>, քանզի քարէ մարմին "
+            "cnt:chars" : "նա՛ զփառս գալստեանն ն<abbr>ր</abbr>, քանզի <subst><del>քա</del><add>ու</subst>ր է մարմին "
           },
           "on" : "http://t-pen.org/TPEN/canvas/13229570#xywh=161,631,503,29",
           "_tpen_note" : "",
-          "_tpen_creator" : 1932,
-          "modified" : "2017-11-16 07:37:15.0"
+          "_tpen_creator" : 1548,
+          "modified" : "2022-12-11 15:25:04.0"
         }, {
           "@id" : "http://t-pen.org/TPEN/line/103594137",
           "_tpen_line_id" : "line/103594137",
