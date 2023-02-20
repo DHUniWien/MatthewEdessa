@@ -1,29 +1,15 @@
-import argparse
 import json
 import re
 import requests
+import utils
 from requests.exceptions import HTTPError
 
 
-STEMMAWEB_URL = 'https://stemmaweb.net/stemmaweb'
-# STEMMAWEB_URL = 'http://localhost:3000'
-
-
-def stemmaweb_login(uname, pword, session):
-    """Try to log into Stemmaweb, and return the cookie we get"""
-    credentials = {
-        'username': uname, 
-        'password': pword 
-    }
-    r = session.post(STEMMAWEB_URL + "/login", data=credentials)
-    r.raise_for_status()
-
-
-def make_obvious_relations(options, session):
+def make_obvious_relations(options, session, endpoint):
     """Connects to a Stemmarest URL, goes section by section through
     the readings, and tries to make relationships based on normal form,
     case folding, and a few other custom parameters."""
-    url = "%s/api/%s" % (STEMMAWEB_URL, options.tradition_id)
+    url = "%s/%s" % (endpoint, options.tradition_id)
     for section in get_sections(url, options.section, session):
         print("Working on section %s" % section.get('name'))
         apply_relations(url, section.get('id'), session, verbose=options.verbose)
@@ -142,8 +128,8 @@ def make_relations(url, stack, session, verbose=False):
             print("Linked readings %s" % prettyprint)
 
 
-def merge_identical_across_ranks(options, session):
-    url = "%s/api/%s" % (STEMMAWEB_URL, options.tradition_id)
+def merge_identical_across_ranks(options, session, endpoint):
+    url = "%s/%s" % (endpoint, options.tradition_id)
     for section in get_sections(url, options.section, session):
         print("Checking mergeable readings in section %s" % section.get('name'))
         ws = 100  # window size
@@ -215,25 +201,7 @@ def _attempt_merge(url, r1, r2, session, verbose=False):
 
 # Do the work
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    server = parser.add_argument_group('Stemmaweb server connection')
-    server.add_argument(
-        "-u",
-        "--username",
-        help="HTTP basic auth username for tradition repository"
-    )
-    server.add_argument(
-        "-p",
-        "--password",
-        help="HTTP basic auth password for tradition repository"
-    )
-
-    parser.add_argument(
-        "-t",
-        "--tradition-id",
-        required=True,
-        help="ID of tradition to process"
-    )
+    parser = utils.arg_parser()
     parser.add_argument(
         "-s",
         "--section",
@@ -245,21 +213,15 @@ if __name__ == '__main__':
         action="store_true",
         help="Merge readings that look identical"
     )
-    parser.add_argument(
-        "-v",
-        "--verbose",
-        action="store_true",
-        help="turn on verbose output"
-    )
 
     args = parser.parse_args()
 
     # Create a session and use it to log into Stemmaweb
     s = requests.Session()
-    stemmaweb_login(args.username, args.password, s)
+    endpoint = utils.stemmaweb_login(args.username, args.password, s)
 
     # Go do the work.
     if args.do_merge:
-        merge_identical_across_ranks(args, s)
-    make_obvious_relations(args, s)
+        merge_identical_across_ranks(args, s, endpoint)
+    make_obvious_relations(args, s, endpoint)
     print("Done!")

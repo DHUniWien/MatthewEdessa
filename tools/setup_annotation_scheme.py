@@ -1,19 +1,27 @@
+import argparse
 import json
 import re
 import requests
 import sys
-import time
-from requests.auth import HTTPBasicAuth
+import utils
 
-ENDPOINT = "https://api.editions.byzantini.st/ChronicleME/stemmarest"
-TRADID = "4aaf8973-7ac9-402a-8df9-19a2a050e364"
-# TRADID = "7c650e59-4a6c-4075-b245-a395e27b474e"
-authobj = HTTPBasicAuth('tla', 'pi-fi-ghor')
+# Parse some arguments
+parser = utils.arg_parser()
+parser.add_argument(
+    '-f', '--file',
+    help='File that contains the annotation spec'
+)
+args = parser.parse_args()
+
+# Log in to Stemmaweb
+s = requests.Session()
+ENDPOINT = utils.stemmaweb_login(args.username, args.password, s)
+
 
 spec = []
 label = {}
 
-with open(sys.argv[1], encoding='utf-8') as f:
+with open(args.file, encoding='utf-8') as f:
     for l in f:
         ## If we start with a label name, start a new hash
         line = l.rstrip()
@@ -49,11 +57,10 @@ with open(sys.argv[1], encoding='utf-8') as f:
 if 'name' in label: spec.append(label)
 
 for item in spec:
-    url = ENDPOINT + '/tradition/' + TRADID + '/annotationlabel/' + item.get('name')
+    url = "%s/%s/annotationlabel/%s" % (ENDPOINT, args.tradition_id, item.get('name'))
     print("Input: " + json.dumps(item))
-    r = requests.put(url,
-                     data=json.dumps(item),
-                     headers={'Content-Type': 'application/json'},
-                     auth=authobj)
+    r = s.put(url,
+              data=json.dumps(item),
+              headers={'Content-Type': 'application/json'})
     print("Output: " + json.dumps(r.json()))
     r.raise_for_status()

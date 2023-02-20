@@ -1,15 +1,16 @@
 import json
-import locale
 import re
 import requests
 import sys
-from datetime import date, timedelta
-from requests.auth import HTTPBasicAuth
+import utils
 
-ENDPOINT = "https://api.editions.byzantini.st/ChronicleME/stemmarest"
-TRADID = "4aaf8973-7ac9-402a-8df9-19a2a050e364"
-# TRADID = "b5a790ea-4ea5-412a-af91-c82fa12ec4a1"
-authobj = HTTPBasicAuth('tla', 'pi-fi-ghor')
+# Parse some arguments
+parser = utils.arg_parser()
+args = parser.parse_args()
+
+# Log in to Stemmaweb
+s = requests.Session()
+ENDPOINT = utils.stemmaweb_login(args.username, args.password, s)
 
 
 def get_chapter(sectname):
@@ -41,21 +42,21 @@ def get_chapter(sectname):
 
 
 def post_annotation(anno):
-    url = "%s/tradition/%s/annotation" % (ENDPOINT, TRADID)
+    url = "%s/%s/annotation" % (ENDPOINT, args.tradition_id)
     # print(anno)
-    q = requests.post(url, data=json.dumps(anno), headers={'Content-Type': 'application/json'}, auth=authobj)
+    q = s.post(url, data=json.dumps(anno), headers={'Content-Type': 'application/json'})
     q.raise_for_status()
 
 
 if __name__ == '__main__':
     # Wipe out all the chapters if asked
     if len(sys.argv) > 1 and sys.argv[1] == "-d":
-        url = "%s/tradition/%s/annotations?label=CHAPTER" % (ENDPOINT, TRADID)
-        r = requests.get(url, headers={'Content-Type': 'application/json'}, auth=authobj)
+        url = "%s/tradition/%s/annotations?label=CHAPTER" % (ENDPOINT, args.tradition_id)
+        r = s.get(url, headers={'Content-Type': 'application/json'})
         r.raise_for_status()
         for oldanno in r.json():
-            url = "%s/tradition/%s/annotation/%s" % (ENDPOINT, TRADID, oldanno.get("id"))
-            d = requests.delete(url)
+            url = "%s/tradition/%s/annotation/%s" % (ENDPOINT, args.tradition_id, oldanno.get("id"))
+            d = s.delete(url)
             d.raise_for_status
             print("Deleted %s" % d.json())
 
@@ -80,8 +81,8 @@ if __name__ == '__main__':
     ]
 
     # Loop through the sections, adding them as links to the annotation JSON
-    url = ENDPOINT + "/tradition/" + TRADID + "/sections"
-    r = requests.get(url, headers={'Content-Type': 'application/json'}, auth=authobj)
+    url = "%s/%s/sections" % (ENDPOINT, args.tradition_id)
+    r = s.get(url, headers={'Content-Type': 'application/json'})
     r.raise_for_status()
     for section in r.json():
         # Find the right chapter

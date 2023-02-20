@@ -1,15 +1,17 @@
-import json
 import locale
 import re
 import requests
 import sys
+import utils
 from datetime import date, timedelta
-from requests.auth import HTTPBasicAuth
 
-ENDPOINT = "https://api.editions.byzantini.st/ChronicleME/stemmarest"
-TRADID = "4aaf8973-7ac9-402a-8df9-19a2a050e364"
-# TRADID = "7c650e59-4a6c-4075-b245-a395e27b474e"
-authobj = HTTPBasicAuth('tla', 'pi-fi-ghor')
+# Parse some arguments
+parser = utils.arg_parser()
+args = parser.parse_args()
+
+# Log in to Stemmaweb
+s = requests.Session()
+ENDPOINT = utils.stemmaweb_login(args.username, args.password, s)
 languages = ['hy_AM.UTF-8', 'en_US.UTF-8']
 
 
@@ -71,9 +73,9 @@ def get_title(sectname, lang):
 
 
 def post_annotation(anno):
-    url = "%s/tradition/%s/annotation" % (ENDPOINT, TRADID)
+    url = "%s/%s/annotation" % (ENDPOINT, args.tradition_id)
     print(anno)
-    q = requests.post(url, data=json.dumps(anno), headers={'Content-Type': 'application/json'}, auth=authobj)
+    q = s.post(url, json=anno)
     q.raise_for_status()
     ## print("Annotation ID: " + q.json().get("id"))
 
@@ -83,18 +85,18 @@ if __name__ == '__main__':
     # Wipe out all the titles if asked
     if len(sys.argv) > 1 and sys.argv[1] == "-d":
         # Delete any previous title annotation(s)
-        url = "%s/tradition/%s/annotations?label=TITLE" % (ENDPOINT, TRADID)
-        r = requests.get(url, headers={'Content-Type': 'application/json'}, auth=authobj)
+        url = "%s/%s/annotations?label=TITLE" % (ENDPOINT, args.tradition_id)
+        r = s.get(url)
         r.raise_for_status()
         for oldanno in r.json():
-            url = "%s/tradition/%s/annotation/%s" % (ENDPOINT, TRADID, oldanno.get("id"))
-            d = requests.delete(url)
+            url = "%s/%s/annotation/%s" % (ENDPOINT, args.tradition_id, oldanno.get("id"))
+            d = s.delete(url)
             d.raise_for_status
             print("Deleted %s" % d.json())
 
     # Loop through the sections
-    url = ENDPOINT + "/tradition/" + TRADID + "/sections"
-    r = requests.get(url, headers={'Content-Type': 'application/json'}, auth=authobj)
+    url = "%s/%s/sections" % (ENDPOINT, args.tradition_id)
+    r = s.get(url)
     r.raise_for_status()
     for section in r.json():
         # Get its name
