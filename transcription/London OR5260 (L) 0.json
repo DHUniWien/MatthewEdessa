@@ -43,22 +43,6 @@
     "label" : "msCollection",
     "value" : "Oriental"
   } ],
-  "service" : [ {
-    "@context" : "http://iiif.io/api/auth/1/context.json",
-    "@id" : "https://t-pen.org/TPEN/login.jsp",
-    "profile" : "http://iiif.io/api/auth/1/login",
-    "label" : "T-PEN Login",
-    "header" : "Login for image access",
-    "description" : "Agreement requires an open T-PEN session to view images",
-    "confirmLabel" : "Login",
-    "failureHeader" : "T-PEN Login Failed",
-    "failureDescription" : "<a href=\"https://t-pen.org/TPEN/about.jsp\">Read Agreement</a>",
-    "service" : [ {
-      "@id" : "https://t-pen.org/TPEN/login.jsp",
-      "profile" : "http://iiif.io/api/auth/1/logout",
-      "label" : "End T-PEN Session"
-    } ]
-  } ],
   "sequences" : [ {
     "@id" : "https://t-pen.org/TPEN/manifest/8960/sequence/normal",
     "@type" : "sc:Sequence",
@@ -67,6 +51,11 @@
       "@id" : "https://t-pen.org/TPEN/canvas/13258561",
       "@type" : "sc:Canvas",
       "label" : "OR_5260_0003.jpg",
+      "thumbnail" : {
+        "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258561",
+        "@type" : "dctypes:Image",
+        "format" : "image/jpeg"
+      },
       "width" : 730,
       "height" : 1000,
       "otherContent" : [ {
@@ -435,7 +424,9 @@
         "resource" : {
           "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258561",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1460
         },
         "on" : "https://t-pen.org/TPEN/canvas/13258561"
       } ]
@@ -443,6 +434,11 @@
       "@id" : "https://t-pen.org/TPEN/canvas/13258565",
       "@type" : "sc:Canvas",
       "label" : "OR_5260_0004.jpg",
+      "thumbnail" : {
+        "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258565",
+        "@type" : "dctypes:Image",
+        "format" : "image/jpeg"
+      },
       "width" : 722,
       "height" : 1000,
       "otherContent" : [ {
@@ -811,7 +807,9 @@
         "resource" : {
           "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258565",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1444
         },
         "on" : "https://t-pen.org/TPEN/canvas/13258565"
       } ]
@@ -819,6 +817,11 @@
       "@id" : "https://t-pen.org/TPEN/canvas/13258562",
       "@type" : "sc:Canvas",
       "label" : "OR_5260_0005.jpg",
+      "thumbnail" : {
+        "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258562",
+        "@type" : "dctypes:Image",
+        "format" : "image/jpeg"
+      },
       "width" : 729,
       "height" : 1000,
       "otherContent" : [ {
@@ -1187,7 +1190,9 @@
         "resource" : {
           "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258562",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1458
         },
         "on" : "https://t-pen.org/TPEN/canvas/13258562"
       } ]
@@ -1195,6 +1200,11 @@
       "@id" : "https://t-pen.org/TPEN/canvas/13258555",
       "@type" : "sc:Canvas",
       "label" : "OR_5260_0006.jpg",
+      "thumbnail" : {
+        "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258555",
+        "@type" : "dctypes:Image",
+        "format" : "image/jpeg"
+      },
       "width" : 724,
       "height" : 1000,
       "otherContent" : [ {
@@ -1563,7 +1573,9 @@
         "resource" : {
           "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258555",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1448
         },
         "on" : "https://t-pen.org/TPEN/canvas/13258555"
       } ]
@@ -1571,6 +1583,11 @@
       "@id" : "https://t-pen.org/TPEN/canvas/13258553",
       "@type" : "sc:Canvas",
       "label" : "OR_5260_0007.jpg",
+      "thumbnail" : {
+        "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258553",
+        "@type" : "dctypes:Image",
+        "format" : "image/jpeg"
+      },
       "width" : 721,
       "height" : 1000,
       "otherContent" : [ {
@@ -1939,7 +1956,9 @@
         "resource" : {
           "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258553",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1443
         },
         "on" : "https://t-pen.org/TPEN/canvas/13258553"
       } ]
@@ -1947,6 +1966,11 @@
       "@id" : "https://t-pen.org/TPEN/canvas/13258560",
       "@type" : "sc:Canvas",
       "label" : "OR_5260_0008.jpg",
+      "thumbnail" : {
+        "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258560",
+        "@type" : "dctypes:Image",
+        "format" : "image/jpeg"
+      },
       "width" : 727,
       "height" : 1000,
       "otherContent" : [ {
@@ -2315,7 +2339,9 @@
         "resource" : {
           "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258560",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1454
         },
         "on" : "https://t-pen.org/TPEN/canvas/13258560"
       } ]
@@ -2323,6 +2349,11 @@
       "@id" : "https://t-pen.org/TPEN/canvas/13258559",
       "@type" : "sc:Canvas",
       "label" : "OR_5260_0009.jpg",
+      "thumbnail" : {
+        "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258559",
+        "@type" : "dctypes:Image",
+        "format" : "image/jpeg"
+      },
       "width" : 733,
       "height" : 1000,
       "otherContent" : [ {
@@ -2691,7 +2722,9 @@
         "resource" : {
           "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258559",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1467
         },
         "on" : "https://t-pen.org/TPEN/canvas/13258559"
       } ]
@@ -2699,6 +2732,11 @@
       "@id" : "https://t-pen.org/TPEN/canvas/13258558",
       "@type" : "sc:Canvas",
       "label" : "OR_5260_0010.jpg",
+      "thumbnail" : {
+        "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258558",
+        "@type" : "dctypes:Image",
+        "format" : "image/jpeg"
+      },
       "width" : 723,
       "height" : 1000,
       "otherContent" : [ {
@@ -3067,7 +3105,9 @@
         "resource" : {
           "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258558",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1447
         },
         "on" : "https://t-pen.org/TPEN/canvas/13258558"
       } ]
@@ -3075,6 +3115,11 @@
       "@id" : "https://t-pen.org/TPEN/canvas/13258568",
       "@type" : "sc:Canvas",
       "label" : "OR_5260_0011.jpg",
+      "thumbnail" : {
+        "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258568",
+        "@type" : "dctypes:Image",
+        "format" : "image/jpeg"
+      },
       "width" : 735,
       "height" : 1000,
       "otherContent" : [ {
@@ -3443,7 +3488,9 @@
         "resource" : {
           "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258568",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1470
         },
         "on" : "https://t-pen.org/TPEN/canvas/13258568"
       } ]
@@ -3451,6 +3498,11 @@
       "@id" : "https://t-pen.org/TPEN/canvas/13258557",
       "@type" : "sc:Canvas",
       "label" : "OR_5260_0012.jpg",
+      "thumbnail" : {
+        "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258557",
+        "@type" : "dctypes:Image",
+        "format" : "image/jpeg"
+      },
       "width" : 718,
       "height" : 1000,
       "otherContent" : [ {
@@ -3819,7 +3871,9 @@
         "resource" : {
           "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258557",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1436
         },
         "on" : "https://t-pen.org/TPEN/canvas/13258557"
       } ]
@@ -3827,6 +3881,11 @@
       "@id" : "https://t-pen.org/TPEN/canvas/13258569",
       "@type" : "sc:Canvas",
       "label" : "OR_5260_0013.jpg",
+      "thumbnail" : {
+        "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258569",
+        "@type" : "dctypes:Image",
+        "format" : "image/jpeg"
+      },
       "width" : 730,
       "height" : 1000,
       "otherContent" : [ {
@@ -4195,7 +4254,9 @@
         "resource" : {
           "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258569",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1460
         },
         "on" : "https://t-pen.org/TPEN/canvas/13258569"
       } ]
@@ -4203,6 +4264,11 @@
       "@id" : "https://t-pen.org/TPEN/canvas/13258554",
       "@type" : "sc:Canvas",
       "label" : "OR_5260_0014.jpg",
+      "thumbnail" : {
+        "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258554",
+        "@type" : "dctypes:Image",
+        "format" : "image/jpeg"
+      },
       "width" : 717,
       "height" : 1000,
       "otherContent" : [ {
@@ -4571,7 +4637,9 @@
         "resource" : {
           "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258554",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1435
         },
         "on" : "https://t-pen.org/TPEN/canvas/13258554"
       } ]
@@ -4579,6 +4647,11 @@
       "@id" : "https://t-pen.org/TPEN/canvas/13258556",
       "@type" : "sc:Canvas",
       "label" : "OR_5260_0015.jpg",
+      "thumbnail" : {
+        "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258556",
+        "@type" : "dctypes:Image",
+        "format" : "image/jpeg"
+      },
       "width" : 717,
       "height" : 1000,
       "otherContent" : [ {
@@ -4947,7 +5020,9 @@
         "resource" : {
           "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258556",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1435
         },
         "on" : "https://t-pen.org/TPEN/canvas/13258556"
       } ]
@@ -4955,6 +5030,11 @@
       "@id" : "https://t-pen.org/TPEN/canvas/13258567",
       "@type" : "sc:Canvas",
       "label" : "OR_5260_0016.jpg",
+      "thumbnail" : {
+        "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258567",
+        "@type" : "dctypes:Image",
+        "format" : "image/jpeg"
+      },
       "width" : 717,
       "height" : 1000,
       "otherContent" : [ {
@@ -5323,7 +5403,9 @@
         "resource" : {
           "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258567",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1435
         },
         "on" : "https://t-pen.org/TPEN/canvas/13258567"
       } ]
@@ -5331,6 +5413,11 @@
       "@id" : "https://t-pen.org/TPEN/canvas/13258563",
       "@type" : "sc:Canvas",
       "label" : "OR_5260_0017.jpg",
+      "thumbnail" : {
+        "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258563",
+        "@type" : "dctypes:Image",
+        "format" : "image/jpeg"
+      },
       "width" : 710,
       "height" : 1000,
       "otherContent" : [ {
@@ -5699,7 +5786,9 @@
         "resource" : {
           "@id" : "https://t-pen.org/TPEN/pageImage?folio=13258563",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
+          "format" : "image/jpeg",
+          "height" : 2000,
+          "width" : 1421
         },
         "on" : "https://t-pen.org/TPEN/canvas/13258563"
       } ]
